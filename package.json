@@ -1,0 +1,21 @@
+{
+  "name": "radiation-rate",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olgierdfalat/radiation-rate.git"
+  },
+  "author": "Olgierd Fałat",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  }
+}
