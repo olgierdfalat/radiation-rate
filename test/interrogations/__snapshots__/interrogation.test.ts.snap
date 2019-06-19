@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`interrogation base class should load content from file 1`] = `
+"100Programmer Marketing NameMerlin
+2469RV Lead Serial Number
+390Shortest PVARP/VREF215ms
+2707Device Charging History Level 825
+409Activity Sensor: Recovery TimeMedium
+2754Total Number of AT/AF Episodes Since Last Cleared0
+309Ventricular Pace Refractory240ms
+2387VF Therapy 1 TypeATP While Charging
+2303ATP Pulse Width1.1ms
+2432Follow-up Physician
+2047Post-Shock Ventricular Pulse Width1.4ms
+2631Number of Fib Episodes with Therapy Aborted0
+2231Post-Sensed Ventricular Decay Delay50ms
+2393VF Therapy No. Stimuli8
+403Measured Average Sensor2.1
+2489Number of Notifications45
+354Rest RateOff
+2154Interval Stability SIH Count2intervals
+2329VT-1 Energy 335.0J
+2150MorphologyOn (60%, 7)
+2905V Sense PolarityBipolar
+2743Last Max Charge Date06/07/2015 15:54:15
+2302ATP Pulse Amplitude7.5V
+2442Implant Date: Device07/07/2012 00:00:00
+2632Number of Fib Episodes with Therapy Delivered0
+2120Post VF/VT-2 Detection IntervalSame as VT
+307Ventricular Sense ConfigurationBipolar
+2902CommittedFalse
+2430Patient NameANONYMOUS NAME
+2487Stimulus Duration7sec
+2390VF Therapy BCL ModeAdaptive
+321Magnet ResponseNormal
+2441Indications for Implant: ListAtrial Fibrillation (AF), AV Block, 3rd degree, Dilated Cardiomyopathy (CHF/DCM), Non-Ischemic Cardiomyopathy
+2323VT-1 Therapy 4 TypeCVRT x 2
+202Device Serial Number1111111
+2662Tach B Episodes Where ATP Delivered0
+874RV Lead Monitoring: Upper Limit2000Ohms
+2681Event Histogram Percent Paced In Ventricle90.0%
+2907V Pace PolarityBipolar
+2152Sudden Onset Delta ModeAdaptive
+2229Ventricular Pacemaker Max SensitivitySame as Defib
+301ModeVVI
+2388Max VF Interval for ATP240ms
+305RV Pulse Width0.5ms
+2161Interval Stability Window Size12intervals
+2706Device Charging History Level 75
+2322VT-1 Therapy 3 TypeCVRT
+105Session Timestamp07/07/2015 15:42:40
+2151Sudden OnsetOn
+2321VT-1 Therapy 2 TypeCVRT
+2153Sudden Onset Delta20%
+507RV Pacing Lead Impedance3297.5Ohm
+395Suspend Notification during RestOn
+2440Ejection Fraction20%
+2382VF Energy 131.0J
+2911VT-1 Therapy 1 SequenceDecrement
+2705Device Charging History Level 60
+2024Maximum Pacing Rate110bpm
+533Longevity Estimate7.0yrs
+2480Low Battery Notification ModeOn
+2742Charge Interval4months
+2483SOSD Notification ModeOn
+2331VT-1 Energy 420.0J
+209RV Lead TypeBipolar
+2485Ventricular PLI Notification ModeOff
+2745Last HV Cap Charge Duration8.275sec
+2265Shock ConfigurationRV to Can
+2105VT-1 No. of Intervals16intervals
+370Auto Intrinsic Conduction SearchOff
+2260WaveformBiphasic
+103Application Software Version Number3330 v18.2 rev 1
+2292VT-1 Therapy 1 BCL85%
+302Base Rate55bpm
+2766Right Ventricular Pacing Lead Impedance Notification Time Stamp (Time)20:23:48
+2661Tach A Episodes Where ATP Delivered0
+404Activity Sensor: Slope8
+2145Interval StabilityOn w/SIH
+2163SVT Discrimination in VT-1On
+389Rate Responsive PVARP/VREFLow
+2740Last Cap Maintenance Charge Duration8.4sec
+2481HV Charge Notification ModeOn
+2639Number Of MTD/MTT Episodes With Diagnosis Inhibited By BA0
+2704Device Charging History Level 50
+353RV AutoCaptureOff
+2004Ventricular Sensing ChamberRV
+2755Total Time in AT/AF Recent Week0
+203Device Last Interrogation Date and Time07/09/2015 15:42:40
+2765Right Ventricular Pacing Lead Impedance Notification Time Stamp (Date)10/30/2015
+2670Total Number of Aborted Shocks0
+104Application Build NumberIRU2.6.5_14.05.21
+2020Ventricular Noise Reversion ModePacing Off
+2633Number Of Tach B Episodes With All Diagnosis Inhibited0
+201Device Model Number1233-40Q
+2703Device Charging History Level 40
+2724Test Polarity of Ventricular Signal AmplitudeBipolar
+402Activity Sensor: ThresholdAuto (+0.0)
+2146Interval Stability Delta40ms
+873RV Lead MonitoringMonitor
+2200SVT Discrimination TimeoutOff
+2296VT-1 Therapy 1 Min. BCL200ms
+2100Zone ConfigurationDefib with Single Tach
+373Pre-Vent. Atrial Blanking (Pre-VAB)Off
+2405Episode Settings: Custom EGM 1 CathodeV tip
+2294VT-1 Therapy 1 Extrastimuli Per BurstOff
+2660Delivered Shocks For Episode Therapies0
+2101VF Detection Interval280ms
+2232Post-Sensed Ventricular  Threshold Start50%
+2408VT/VF EGM Max Duration1min
+2730HV Lead Impedance285.75Ohm
+2141SVT Upper LimitSame as VF
+306RV Pulse Amplitude2.5V
+406Maximum Sensor Rate110bpm
+2042Post-Shock Brady Pacing Pause2sec
+2386VF Energy 340.0J
+2121VT Redetection6intervals
+2180Morphology Template Auto Update1day
+2384VF Energy 240.0J
+2327VT-1 Energy 225.0J
+2103VT-1 Detection Interval350ms
+2008RV Pulse ConfigurationBipolar
+101Programmer Model Number3650
+2291VT-1 Therapy 1 No. Bursts3
+2394VF Therapy RampOff
+2300VT-1 Therapy 1 RampOff
+204Patient ID
+2488Re-Notification Frequency10hours
+2448Manufacturer: RV Lead<not set>
+2636Number Of Tach A Episodes With All Diagnoses Inhibited0
+2482Firmware ROM/RAM Reset Notification ModeOn
+875RV Lead Monitoring: Lower Limit200Ohms
+2122Post VT-1 Detection IntervalSame as VT
+2404Episode Settings: Custom EGM 1 AnodeCan
+2041Post-Shock Base Rate60bpm
+2702Device Charging History Level 30
+2140SVT Discrimination ModeVentricular Only
+2450Model Number: Other RV Lead
+2389VF Therapy BCL85%
+2123VF No. of Intervals12intervals
+2234Post-Paced Ventricular Threshold Start1.0mV
+2392VF Therapy No. Bursts1
+2304VT-1 Therapy 1 BCL ModeAdaptive
+102Programmer Serial Number11111111
+2062Arrhythmia Unhiding3intervals
+2106Therapy Enable/DisableEnabled
+2630Total Number of Episodes0
+2391VF Therapy Min. BCL170ms
+2320VT-1 Therapy 1 TypeATP
+407Reaction TimeFast
+2741Last Cap Maintenance Voltage845V
+2043Post-Shock Duration0.5min
+2298VT-1 Therapy 1 Scan Step Size10ms
+2295VT-1 Therapy 1 ReadaptiveOff
+200Device Model NameFortify VR
+2233Post-Paced Ventricular Decay Delay0ms
+2142Ventricular Only: VT Diagnosis CriteriaIf 2 of 3
+2722Ventricular Signal Amplitude11.7mV
+2221Ventricular Sense Refractory125ms
+2040Post-Shock ModeVVI
+2407VT/VF Pre-Trigger Max Duration14sec
+2709Ventricular Paced - Lifetime (RVP)71.0%
+2297VT-1 Therapy 1 Scan ModeOn (Dec)
+2203VT TimeoutOff
+2400Episode Settings: EGM 1 ConfigurationV Sense Amp
+2293VT-1 Therapy 1 No. Stimuli8
+2701Device Charging History Level 20
+2230Ventricular Defib Max Sensitivity0.5mV
+303Hysteresis RateOff
+106Programmer LanguageEnglish (UK)
+2700Device Charging History Level 10
+401Activity SensorPassive
+2046Post-Shock Ventricular Pulse Amplitude7.5V
+2266RV PolarityAnode(+)
+2267HV Output ModeTilt
+2262Defib Waveform 1st Phase Tilt65%
+2264Defib Waveform 2nd Phase Tilt65%
+2368CVRT Waveform 1st Phase TiltSame as Defib
+2369CVRT Waveform 2nd Phase TiltSame as Defib
+"
+`;

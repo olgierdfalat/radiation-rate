@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tslint": "tslint -c tslint.json -p tsconfig.json"
+    "start": "node dist/index.js",
+    "build": " npm run tslint && npm run build-ts",
+    "build-ts": "tsc",
+    "test": "jest --forceExit --coverage --verbose",
+    "tslint": "tslint --fix -c tslint.json -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -13,9 +16,12 @@
   "author": "Olgierd Fałat",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^10.9.0",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
     "tslint": "^5.17.0",
     "typescript": "^3.5.2"
-  }
+  },
+  "dependencies": {}
 }
