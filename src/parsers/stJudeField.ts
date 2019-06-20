@@ -1,31 +1,29 @@
+const SEPARATOR = String.fromCharCode(28);
 
 export class StJudeField {
-  getField(line: string, name: string) {
-    let id = '';
-    let value: string = null;
-    let type: string = 'string';
-    for (let i = 0; i < line.length; i++) {
-      let charAt = line.charAt(i);
-      if(isDigitCode(charAt.charCodeAt(0))) {
-        id += charAt;
+  getField(line: string, type = 'string') {
+    const fields = line.split(SEPARATOR);
+
+    if (fields.length < 3) {
+      throw new Error(`Line "${line}", should contain at least three elements.`);
+    }
+    let value: any = fields[2];
+    if (type == 'number') {
+      const number = Number(value);
+      if (isNaN(number)) {
+        throw new Error(`Value: "${value}" inside "${line}" is not a number.`);
       }
-      else {
-        value = line.replace(id, '').replace(name, '');
-        break;
-      }
+      value = number;
+    }
+
+    if(type == 'boolean') {
+      value = (value || '').toLowerCase() == 'true'
     }
     return {
-      id: parseInt(id),
-      name,
+      id: parseInt(fields[0]),
+      name: fields[1],
       type,
-      value      
+      value
     };
   }
-}
-
-let charCodeZero = '0'.charCodeAt(0);
-let charCodeNine = '9'.charCodeAt(0);
-
-function isDigitCode(n: number): boolean {
-   return(n >= charCodeZero && n <= charCodeNine);
 }
