@@ -17,14 +17,14 @@ Array [
   Object {
     "id": 390,
     "name": "Shortest PVARP/VREF",
-    "type": "string",
-    "value": "215",
+    "type": "numeric",
+    "value": 215,
   },
   Object {
     "id": 2707,
     "name": "Device Charging History Level 8",
-    "type": "string",
-    "value": "25",
+    "type": "numeric",
+    "value": 25,
   },
   Object {
     "id": 409,
@@ -35,14 +35,14 @@ Array [
   Object {
     "id": 2754,
     "name": "Total Number of AT/AF Episodes Since Last Cleared",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 309,
     "name": "Ventricular Pace Refractory",
-    "type": "string",
-    "value": "240",
+    "type": "numeric",
+    "value": 240,
   },
   Object {
     "id": 2387,
@@ -71,32 +71,32 @@ Array [
   Object {
     "id": 2631,
     "name": "Number of Fib Episodes with Therapy Aborted",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2231,
     "name": "Post-Sensed Ventricular Decay Delay",
-    "type": "string",
-    "value": "50",
+    "type": "numeric",
+    "value": 50,
   },
   Object {
     "id": 2393,
     "name": "VF Therapy No. Stimuli",
-    "type": "string",
-    "value": "8",
+    "type": "numeric",
+    "value": 8,
   },
   Object {
     "id": 403,
     "name": "Measured Average Sensor",
-    "type": "string",
-    "value": "2.1",
+    "type": "numeric",
+    "value": 2.1,
   },
   Object {
     "id": 2489,
     "name": "Number of Notifications",
-    "type": "string",
-    "value": "45",
+    "type": "numeric",
+    "value": 45,
   },
   Object {
     "id": 354,
@@ -107,14 +107,14 @@ Array [
   Object {
     "id": 2154,
     "name": "Interval Stability SIH Count",
-    "type": "string",
-    "value": "2",
+    "type": "numeric",
+    "value": 2,
   },
   Object {
     "id": 2329,
     "name": "VT-1 Energy 3",
-    "type": "string",
-    "value": "35.0",
+    "type": "numeric",
+    "value": 35,
   },
   Object {
     "id": 2150,
@@ -137,8 +137,8 @@ Array [
   Object {
     "id": 2302,
     "name": "ATP Pulse Amplitude",
-    "type": "string",
-    "value": "7.5",
+    "type": "numeric",
+    "value": 7.5,
   },
   Object {
     "id": 2442,
@@ -149,8 +149,8 @@ Array [
   Object {
     "id": 2632,
     "name": "Number of Fib Episodes with Therapy Delivered",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2120,
@@ -179,8 +179,8 @@ Array [
   Object {
     "id": 2487,
     "name": "Stimulus Duration",
-    "type": "string",
-    "value": "7",
+    "type": "numeric",
+    "value": 7,
   },
   Object {
     "id": 2390,
@@ -209,26 +209,26 @@ Array [
   Object {
     "id": 202,
     "name": "Device Serial Number",
-    "type": "string",
-    "value": "1111111",
+    "type": "numeric",
+    "value": 1111111,
   },
   Object {
     "id": 2662,
     "name": "Tach B Episodes Where ATP Delivered",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 874,
     "name": "RV Lead Monitoring: Upper Limit",
-    "type": "string",
-    "value": "2000",
+    "type": "numeric",
+    "value": 2000,
   },
   Object {
     "id": 2681,
     "name": "Event Histogram Percent Paced In Ventricle",
-    "type": "string",
-    "value": "90.0",
+    "type": "numeric",
+    "value": 90,
   },
   Object {
     "id": 2907,
@@ -257,20 +257,20 @@ Array [
   Object {
     "id": 2388,
     "name": "Max VF Interval for ATP",
-    "type": "string",
-    "value": "240",
+    "type": "numeric",
+    "value": 240,
   },
   Object {
     "id": 305,
     "name": "RV Pulse Width",
-    "type": "string",
-    "value": "0.5",
+    "type": "numeric",
+    "value": 0.5,
   },
   Object {
     "id": 2161,
     "name": "Interval Stability Window Size",
-    "type": "string",
-    "value": "12",
+    "type": "numeric",
+    "value": 12,
   },
   Object {
     "id": 2706,
@@ -305,14 +305,14 @@ Array [
   Object {
     "id": 2153,
     "name": "Sudden Onset Delta",
-    "type": "string",
-    "value": "20",
+    "type": "numeric",
+    "value": 20,
   },
   Object {
     "id": 507,
     "name": "RV Pacing Lead Impedance",
-    "type": "string",
-    "value": "3297.5",
+    "type": "numeric",
+    "value": 3297.5,
   },
   Object {
     "id": 395,
@@ -323,14 +323,14 @@ Array [
   Object {
     "id": 2440,
     "name": "Ejection Fraction",
-    "type": "string",
-    "value": "20",
+    "type": "numeric",
+    "value": 20,
   },
   Object {
     "id": 2382,
     "name": "VF Energy 1",
-    "type": "string",
-    "value": "31.0",
+    "type": "numeric",
+    "value": 31,
   },
   Object {
     "id": 2911,
@@ -341,20 +341,20 @@ Array [
   Object {
     "id": 2705,
     "name": "Device Charging History Level 6",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2024,
     "name": "Maximum Pacing Rate",
-    "type": "string",
-    "value": "110",
+    "type": "numeric",
+    "value": 110,
   },
   Object {
     "id": 533,
     "name": "Longevity Estimate",
-    "type": "string",
-    "value": "7.0",
+    "type": "numeric",
+    "value": 7,
   },
   Object {
     "id": 2480,
@@ -365,8 +365,8 @@ Array [
   Object {
     "id": 2742,
     "name": "Charge Interval",
-    "type": "string",
-    "value": "4",
+    "type": "numeric",
+    "value": 4,
   },
   Object {
     "id": 2483,
@@ -377,8 +377,8 @@ Array [
   Object {
     "id": 2331,
     "name": "VT-1 Energy 4",
-    "type": "string",
-    "value": "20.0",
+    "type": "numeric",
+    "value": 20,
   },
   Object {
     "id": 209,
@@ -395,8 +395,8 @@ Array [
   Object {
     "id": 2745,
     "name": "Last HV Cap Charge Duration",
-    "type": "string",
-    "value": "8.275",
+    "type": "numeric",
+    "value": 8.275,
   },
   Object {
     "id": 2265,
@@ -407,8 +407,8 @@ Array [
   Object {
     "id": 2105,
     "name": "VT-1 No. of Intervals",
-    "type": "string",
-    "value": "16",
+    "type": "numeric",
+    "value": 16,
   },
   Object {
     "id": 370,
@@ -431,14 +431,14 @@ Array [
   Object {
     "id": 2292,
     "name": "VT-1 Therapy 1 BCL",
-    "type": "string",
-    "value": "85",
+    "type": "numeric",
+    "value": 85,
   },
   Object {
     "id": 302,
     "name": "Base Rate",
-    "type": "string",
-    "value": "55",
+    "type": "numeric",
+    "value": 55,
   },
   Object {
     "id": 2766,
@@ -449,14 +449,14 @@ Array [
   Object {
     "id": 2661,
     "name": "Tach A Episodes Where ATP Delivered",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 404,
     "name": "Activity Sensor: Slope",
-    "type": "string",
-    "value": "8",
+    "type": "numeric",
+    "value": 8,
   },
   Object {
     "id": 2145,
@@ -479,8 +479,8 @@ Array [
   Object {
     "id": 2740,
     "name": "Last Cap Maintenance Charge Duration",
-    "type": "string",
-    "value": "8.4",
+    "type": "numeric",
+    "value": 8.4,
   },
   Object {
     "id": 2481,
@@ -491,14 +491,14 @@ Array [
   Object {
     "id": 2639,
     "name": "Number Of MTD/MTT Episodes With Diagnosis Inhibited By BA",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2704,
     "name": "Device Charging History Level 5",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 353,
@@ -515,8 +515,8 @@ Array [
   Object {
     "id": 2755,
     "name": "Total Time in AT/AF Recent Week",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 203,
@@ -533,8 +533,8 @@ Array [
   Object {
     "id": 2670,
     "name": "Total Number of Aborted Shocks",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 104,
@@ -551,8 +551,8 @@ Array [
   Object {
     "id": 2633,
     "name": "Number Of Tach B Episodes With All Diagnosis Inhibited",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 201,
@@ -563,8 +563,8 @@ Array [
   Object {
     "id": 2703,
     "name": "Device Charging History Level 4",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2724,
@@ -581,8 +581,8 @@ Array [
   Object {
     "id": 2146,
     "name": "Interval Stability Delta",
-    "type": "string",
-    "value": "40",
+    "type": "numeric",
+    "value": 40,
   },
   Object {
     "id": 873,
@@ -599,8 +599,8 @@ Array [
   Object {
     "id": 2296,
     "name": "VT-1 Therapy 1 Min. BCL",
-    "type": "string",
-    "value": "200",
+    "type": "numeric",
+    "value": 200,
   },
   Object {
     "id": 2100,
@@ -629,32 +629,32 @@ Array [
   Object {
     "id": 2660,
     "name": "Delivered Shocks For Episode Therapies",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2101,
     "name": "VF Detection Interval",
-    "type": "string",
-    "value": "280",
+    "type": "numeric",
+    "value": 280,
   },
   Object {
     "id": 2232,
     "name": "Post-Sensed Ventricular  Threshold Start",
-    "type": "string",
-    "value": "50",
+    "type": "numeric",
+    "value": 50,
   },
   Object {
     "id": 2408,
     "name": "VT/VF EGM Max Duration",
-    "type": "string",
-    "value": "1",
+    "type": "numeric",
+    "value": 1,
   },
   Object {
     "id": 2730,
     "name": "HV Lead Impedance",
-    "type": "string",
-    "value": "285.75",
+    "type": "numeric",
+    "value": 285.75,
   },
   Object {
     "id": 2141,
@@ -665,56 +665,56 @@ Array [
   Object {
     "id": 306,
     "name": "RV Pulse Amplitude",
-    "type": "string",
-    "value": "2.5",
+    "type": "numeric",
+    "value": 2.5,
   },
   Object {
     "id": 406,
     "name": "Maximum Sensor Rate",
-    "type": "string",
-    "value": "110",
+    "type": "numeric",
+    "value": 110,
   },
   Object {
     "id": 2042,
     "name": "Post-Shock Brady Pacing Pause",
-    "type": "string",
-    "value": "2",
+    "type": "numeric",
+    "value": 2,
   },
   Object {
     "id": 2386,
     "name": "VF Energy 3",
-    "type": "string",
-    "value": "40.0",
+    "type": "numeric",
+    "value": 40,
   },
   Object {
     "id": 2121,
     "name": "VT Redetection",
-    "type": "string",
-    "value": "6",
+    "type": "numeric",
+    "value": 6,
   },
   Object {
     "id": 2180,
     "name": "Morphology Template Auto Update",
-    "type": "string",
-    "value": "1",
+    "type": "numeric",
+    "value": 1,
   },
   Object {
     "id": 2384,
     "name": "VF Energy 2",
-    "type": "string",
-    "value": "40.0",
+    "type": "numeric",
+    "value": 40,
   },
   Object {
     "id": 2327,
     "name": "VT-1 Energy 2",
-    "type": "string",
-    "value": "25.0",
+    "type": "numeric",
+    "value": 25,
   },
   Object {
     "id": 2103,
     "name": "VT-1 Detection Interval",
-    "type": "string",
-    "value": "350",
+    "type": "numeric",
+    "value": 350,
   },
   Object {
     "id": 2008,
@@ -725,14 +725,14 @@ Array [
   Object {
     "id": 101,
     "name": "Programmer Model Number",
-    "type": "string",
-    "value": "3650",
+    "type": "numeric",
+    "value": 3650,
   },
   Object {
     "id": 2291,
     "name": "VT-1 Therapy 1 No. Bursts",
-    "type": "string",
-    "value": "3",
+    "type": "numeric",
+    "value": 3,
   },
   Object {
     "id": 2394,
@@ -755,8 +755,8 @@ Array [
   Object {
     "id": 2488,
     "name": "Re-Notification Frequency",
-    "type": "string",
-    "value": "10",
+    "type": "numeric",
+    "value": 10,
   },
   Object {
     "id": 2448,
@@ -767,8 +767,8 @@ Array [
   Object {
     "id": 2636,
     "name": "Number Of Tach A Episodes With All Diagnoses Inhibited",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2482,
@@ -779,8 +779,8 @@ Array [
   Object {
     "id": 875,
     "name": "RV Lead Monitoring: Lower Limit",
-    "type": "string",
-    "value": "200",
+    "type": "numeric",
+    "value": 200,
   },
   Object {
     "id": 2122,
@@ -797,14 +797,14 @@ Array [
   Object {
     "id": 2041,
     "name": "Post-Shock Base Rate",
-    "type": "string",
-    "value": "60",
+    "type": "numeric",
+    "value": 60,
   },
   Object {
     "id": 2702,
     "name": "Device Charging History Level 3",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2140,
@@ -821,26 +821,26 @@ Array [
   Object {
     "id": 2389,
     "name": "VF Therapy BCL",
-    "type": "string",
-    "value": "85",
+    "type": "numeric",
+    "value": 85,
   },
   Object {
     "id": 2123,
     "name": "VF No. of Intervals",
-    "type": "string",
-    "value": "12",
+    "type": "numeric",
+    "value": 12,
   },
   Object {
     "id": 2234,
     "name": "Post-Paced Ventricular Threshold Start",
-    "type": "string",
-    "value": "1.0",
+    "type": "numeric",
+    "value": 1,
   },
   Object {
     "id": 2392,
     "name": "VF Therapy No. Bursts",
-    "type": "string",
-    "value": "1",
+    "type": "numeric",
+    "value": 1,
   },
   Object {
     "id": 2304,
@@ -851,14 +851,14 @@ Array [
   Object {
     "id": 102,
     "name": "Programmer Serial Number",
-    "type": "string",
-    "value": "11111111",
+    "type": "numeric",
+    "value": 11111111,
   },
   Object {
     "id": 2062,
     "name": "Arrhythmia Unhiding",
-    "type": "string",
-    "value": "3",
+    "type": "numeric",
+    "value": 3,
   },
   Object {
     "id": 2106,
@@ -869,14 +869,14 @@ Array [
   Object {
     "id": 2630,
     "name": "Total Number of Episodes",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2391,
     "name": "VF Therapy Min. BCL",
-    "type": "string",
-    "value": "170",
+    "type": "numeric",
+    "value": 170,
   },
   Object {
     "id": 2320,
@@ -893,20 +893,20 @@ Array [
   Object {
     "id": 2741,
     "name": "Last Cap Maintenance Voltage",
-    "type": "string",
-    "value": "845",
+    "type": "numeric",
+    "value": 845,
   },
   Object {
     "id": 2043,
     "name": "Post-Shock Duration",
-    "type": "string",
-    "value": "0.5",
+    "type": "numeric",
+    "value": 0.5,
   },
   Object {
     "id": 2298,
     "name": "VT-1 Therapy 1 Scan Step Size",
-    "type": "string",
-    "value": "10",
+    "type": "numeric",
+    "value": 10,
   },
   Object {
     "id": 2295,
@@ -923,8 +923,8 @@ Array [
   Object {
     "id": 2233,
     "name": "Post-Paced Ventricular Decay Delay",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2142,
@@ -935,14 +935,14 @@ Array [
   Object {
     "id": 2722,
     "name": "Ventricular Signal Amplitude",
-    "type": "string",
-    "value": "11.7",
+    "type": "numeric",
+    "value": 11.7,
   },
   Object {
     "id": 2221,
     "name": "Ventricular Sense Refractory",
-    "type": "string",
-    "value": "125",
+    "type": "numeric",
+    "value": 125,
   },
   Object {
     "id": 2040,
@@ -953,14 +953,14 @@ Array [
   Object {
     "id": 2407,
     "name": "VT/VF Pre-Trigger Max Duration",
-    "type": "string",
-    "value": "14",
+    "type": "numeric",
+    "value": 14,
   },
   Object {
     "id": 2709,
     "name": "Ventricular Paced - Lifetime (RVP)",
-    "type": "string",
-    "value": "71.0",
+    "type": "numeric",
+    "value": 71,
   },
   Object {
     "id": 2297,
@@ -983,20 +983,20 @@ Array [
   Object {
     "id": 2293,
     "name": "VT-1 Therapy 1 No. Stimuli",
-    "type": "string",
-    "value": "8",
+    "type": "numeric",
+    "value": 8,
   },
   Object {
     "id": 2701,
     "name": "Device Charging History Level 2",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 2230,
     "name": "Ventricular Defib Max Sensitivity",
-    "type": "string",
-    "value": "0.5",
+    "type": "numeric",
+    "value": 0.5,
   },
   Object {
     "id": 303,
@@ -1013,8 +1013,8 @@ Array [
   Object {
     "id": 2700,
     "name": "Device Charging History Level 1",
-    "type": "string",
-    "value": "0",
+    "type": "numeric",
+    "value": 0,
   },
   Object {
     "id": 401,
@@ -1025,8 +1025,8 @@ Array [
   Object {
     "id": 2046,
     "name": "Post-Shock Ventricular Pulse Amplitude",
-    "type": "string",
-    "value": "7.5",
+    "type": "numeric",
+    "value": 7.5,
   },
   Object {
     "id": 2266,
@@ -1043,14 +1043,14 @@ Array [
   Object {
     "id": 2262,
     "name": "Defib Waveform 1st Phase Tilt",
-    "type": "string",
-    "value": "65",
+    "type": "numeric",
+    "value": 65,
   },
   Object {
     "id": 2264,
     "name": "Defib Waveform 2nd Phase Tilt",
-    "type": "string",
-    "value": "65",
+    "type": "numeric",
+    "value": 65,
   },
   Object {
     "id": 2368,

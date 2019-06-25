@@ -11,17 +11,6 @@ export class StJudeField {
       return undefined;
     }
     let value: any = fields[2];
-    if (type == 'number') {
-      const number = Number(value);
-      if (isNaN(number)) {
-        throw new Error(`Value: "${value}" inside "${line}" is not a number.`);
-      }
-      value = number;
-    }
-
-    // if (type == 'boolean') {
-    //   value = (value || '').toLowerCase() == 'true';
-    // }
     let field = {
       id: parseInt(fields[0]),
       name: fields[1],
