@@ -1,11 +1,11 @@
 import * as path from 'path';
-import {StJude} from '../../src/interrogations';
+import * as interrogations from '../../src/interrogations';
 
-describe('interrogation JtJude class', () => {
-  it('should get structured data from file', async () => {
-    const filePath = path.join(__dirname, '../fixtures/StJude/1000000_01.log');  
-    const stJude = new StJude(filePath);
-    const data = await stJude.getData();
+describe('interrogation StJude class', () => {
+  it('should get structured row from file', async () => {
+    const filePath = path.join(__dirname, '../fixtures/StJude/1000000_01.log');
+    const stJude = new interrogations.StJude(filePath);
+    const data = await stJude.getRow();
     expect(data).toMatchSnapshot();
   });
 });

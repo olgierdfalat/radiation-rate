@@ -1,12 +1,11 @@
-import { Interrogation } from "./interrogation";
+import { Interrogation } from './interrogation';
+import * as parsers from './../parsers';
+import * as models from './../models';
 
 export class StJude extends Interrogation {
-  async getData(): Promise<any> {
-    return {
-      id: 100,
-      name: "Programmer Marketing Name",
-      value: "Merlin",
-      type: "string"
-    };
+  private rowParser = new parsers.StJudeRow();
+  async getRow(): Promise<models.StJudeRowModel> {
+    const content = await this.getContent();
+    return this.rowParser.getRow(content);
   }
 }
