@@ -52,9 +52,9 @@ Array [
   },
   Object {
     "id": 2303,
-    "name": "ATP Pulse Width",
-    "type": "string",
-    "value": "1.1ms",
+    "name": "ATP Pulse Width[ms]",
+    "type": "numeric",
+    "value": 1.1,
   },
   Object {
     "id": 2432,
@@ -64,9 +64,9 @@ Array [
   },
   Object {
     "id": 2047,
-    "name": "Post-Shock Ventricular Pulse Width",
-    "type": "string",
-    "value": "1.4ms",
+    "name": "Post-Shock Ventricular Pulse Width[ms]",
+    "type": "numeric",
+    "value": 1.4,
   },
   Object {
     "id": 2631,
