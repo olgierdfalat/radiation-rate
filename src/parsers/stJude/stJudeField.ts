@@ -7,15 +7,17 @@ export class StJudeField {
   getField(line: string, type = 'string'): models.StJudeFieldModel {
     const fields = line.split(SEPARATOR);
 
-    if (fields.length < 3) {
+    if (fields.length < 4) {
       return undefined;
     }
-    let value: any = fields[2];
-    let field = {
+    const firstValue: any = fields[2];
+    const secondValue: any = fields[3];
+    let field: models.StJudeFieldModel = {
       id: parseInt(fields[0]),
       name: fields[1],
       type,
-      value
+      firstValue,
+      secondValue
     };
 
     converters.forEach(converter => {

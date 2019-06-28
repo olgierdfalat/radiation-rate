@@ -11,7 +11,8 @@ describe('StJude field parser', () => {
       id: 100,
       name: 'Programmer Marketing Name',
       type: 'string',
-      value: 'Merlin'
+      firstValue: 'Merlin',
+      secondValue: ''
     });
   });
 
@@ -23,12 +24,14 @@ describe('StJude field parser', () => {
       id: 2469,
       name: 'RV Lead Serial Number',
       type: 'string',
-      value: ''
+      firstValue: '',
+      secondValue: ''
     });
   });
 
-  it('should return undefined when line doesn\'t contain at least three elements', () => {
-    const line = 'wrong line';
+  it('should return undefined when line doesn\'t contain at least four elements', () => {
+    const SEPARATOR = String.fromCharCode(28);
+    const line =  'field1' + SEPARATOR + 'field2' + SEPARATOR + 'field3';
     expect(parser.getField(line)).toBe(undefined);
   });
 });

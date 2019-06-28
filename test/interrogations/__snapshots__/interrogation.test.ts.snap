@@ -29,7 +29,7 @@ exports[`interrogation base class should load content from file 1`] = `
 2120Post VF/VT-2 Detection IntervalSame as VT
 307Ventricular Sense ConfigurationBipolar
 2902CommittedFalse
-2430Patient NameANONYMOUS NAME
+2430Patient NameANONYMOUS NAME
 2487Stimulus Duration7sec
 2390VF Therapy BCL ModeAdaptive
 321Magnet ResponseNormal
