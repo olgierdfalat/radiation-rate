@@ -15,6 +15,8 @@ import { Day } from './day';
 import { Hours } from './hours';
 import { MicroVolts } from './microVolts';
 import { SerialNumber } from './serialNumber';
+import { DateTime } from './datetime';
+import { Time } from './time';
 
 const converters: Array<Converter> = [
   new Boolean(),
@@ -32,7 +34,9 @@ const converters: Array<Converter> = [
   new Day(),
   new Hours(),
   new MicroVolts(),
-  new SerialNumber()
+  new SerialNumber(),
+  new DateTime(),
+  new Time()
 ];
 
 export default converters;
