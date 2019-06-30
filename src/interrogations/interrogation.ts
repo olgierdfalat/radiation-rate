@@ -1,6 +1,8 @@
 import * as fs from 'fs';
 import * as models from './../models';
 import { promisify } from 'util';
+const yaml = require('js-yaml');
+
 
 const readFile = promisify(fs.readFile);
 
@@ -17,5 +19,9 @@ export class Interrogation {
 
   async getRow(): Promise<models.StJudeRowModel> {
     throw new Error('Not supported');
+  }
+
+  async getRowAsYaml() {
+    return yaml.dump(await this.getRow());
   }
 }
