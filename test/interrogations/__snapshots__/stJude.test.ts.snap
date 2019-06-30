@@ -150,11 +150,11 @@ Array [
     "type": "string",
   },
   Object {
-    "firstValue": "06/07/2015 15:54:15",
+    "firstValue": 2015-06-07T14:54:15.000Z,
     "id": 2743,
     "name": "Last Max Charge Date",
     "secondValue": "",
-    "type": "string",
+    "type": "datetime",
   },
   Object {
     "firstValue": 7.5,
@@ -164,11 +164,11 @@ Array [
     "type": "numeric",
   },
   Object {
-    "firstValue": "07/07/2012 00:00:00",
+    "firstValue": 2012-07-06T23:00:00.000Z,
     "id": 2442,
     "name": "Implant Date: Device",
     "secondValue": "",
-    "type": "string",
+    "type": "datetime",
   },
   Object {
     "firstValue": 0,
@@ -518,7 +518,7 @@ Array [
     "id": 2766,
     "name": "Right Ventricular Pacing Lead Impedance Notification Time Stamp (Time)",
     "secondValue": "",
-    "type": "string",
+    "type": "time",
   },
   Object {
     "firstValue": 0,
@@ -605,18 +605,18 @@ Array [
     "type": "numeric",
   },
   Object {
-    "firstValue": "07/09/2015 15:42:40",
+    "firstValue": 2015-07-09T14:42:40.000Z,
     "id": 203,
     "name": "Device Last Interrogation Date and Time",
     "secondValue": "",
-    "type": "string",
+    "type": "datetime",
   },
   Object {
-    "firstValue": "10/30/2015",
+    "firstValue": 2015-10-30T00:00:00.000Z,
     "id": 2765,
     "name": "Right Ventricular Pacing Lead Impedance Notification Time Stamp (Date)",
     "secondValue": "",
-    "type": "string",
+    "type": "datetime",
   },
   Object {
     "firstValue": 0,
