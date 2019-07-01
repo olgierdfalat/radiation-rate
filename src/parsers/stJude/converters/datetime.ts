@@ -15,10 +15,10 @@ export class DateTime implements Converter {
     const value: string = (field.firstValue || '').toString().toLowerCase();
     const dateFields = ['Last Max Charge Date', 'Implant Date: Device', 'Device Last Interrogation Date and Time',
                         'Right Ventricular Pacing Lead Impedance Notification Time Stamp (Date)'];
-    if(dateFields.indexOf(field.name) != -1) {
-      const dateValue = parse(value, 'dd/MM/yyy');   
+    if (dateFields.indexOf(field.name) != -1) {
+      const dateValue = parse(value, 'dd/MM/yyy');
         field.type = 'datetime';
-        field.firstValue = dateValue;  
+        field.firstValue = dateValue;
     }
     return field;
   }

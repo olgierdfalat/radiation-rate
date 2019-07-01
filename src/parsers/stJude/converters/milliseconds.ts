@@ -5,7 +5,7 @@ export class Milliseconds extends Numeric {
   convert(field: models.StJudeFieldModel): models.StJudeFieldModel {
     const value: string = (field.firstValue || '').toString().toLowerCase();
     const matcher: RegExp = /\d+\.\d+?ms/;
-    if(field.secondValue === 'ms') {
+    if (field.secondValue === 'ms') {
       field.name += '[ms]';
       return super.convert(field);
     }

@@ -2,10 +2,10 @@ import { Numeric } from './numeric';
 import * as models from '../../../models';
 
 export class NumericUnit extends Numeric {
-  private unitName: string
+  private unitName: string;
   constructor(unitName: string) {
     super();
-    this.unitName = unitName
+    this.unitName = unitName;
   }
   convert(field: models.StJudeFieldModel): models.StJudeFieldModel {
     if (field.secondValue === this.unitName) {
