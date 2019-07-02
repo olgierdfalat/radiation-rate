@@ -3,9 +3,9 @@ import * as parsers from './../parsers';
 import * as models from './../models';
 
 export class StJude extends Interrogation {
-  private rowParser = new parsers.StJudeRow();
   async getRow(): Promise<models.StJudeRowModel> {
     const content = await this.getContent();
-    return this.rowParser.getRow(content);
+    const rowParser = new parsers.StJudeRow(content);
+    return rowParser.getRow();
   }
 }
