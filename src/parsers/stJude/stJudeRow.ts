@@ -23,7 +23,7 @@ export class StJudeRow {
   }
   getIdsChecksum() {
     const ids = this.getRow().map(row => row.id);
-    return checksum(ids.join('-'))
+    return checksum(ids.join('-'));
   }
   getChecksum() {
     return checksum(this.content);

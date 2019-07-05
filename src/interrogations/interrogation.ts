@@ -1,8 +1,7 @@
 import * as fs from 'fs';
 import * as models from './../models';
 import { promisify } from 'util';
-const yaml = require('js-yaml');
-
+import yaml from 'js-yaml';
 
 const readFile = promisify(fs.readFile);
 
