@@ -8,12 +8,12 @@ async function getAllFiles(dir: string, filter: FileFilterCallback = undefined, 
   for (const file of files) {
     const filePath = path.join(dir, file);
     const stat = await fs.stat(filePath);
-    const createdTime = stat.birthtime;
+    const dateModified = stat.mtime;
 
     if (stat.isDirectory()) {
       results = await getAllFiles(filePath, filter, results);
     } else {
-      const fileInfo = {file, filePath, createdTime};
+      const fileInfo = {file, filePath, dateModified};
       if (filter) {
         if (filter(fileInfo) === true) {
           results.includedFiles.push(fileInfo);

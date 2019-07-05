@@ -44,11 +44,14 @@ function filterStJudeFiles(device: string, description: string, selector: (resul
       const folderPath = path.join(homedir(), 'Desktop', 'Interrogacje');
       console.log('Getting files from:', folderPath);
       const result = await getAllFiles(folderPath, isStJudeLogFile);
-      const filePaths = selector(result).filter(f => f.file.endsWith('.log')).map(f => {
-        return f.filePath.replace(path.join(homedir(), 'Desktop'), '');
+      const filesInfo = selector(result).filter(f => f.file.endsWith('.log')).map(f => {
+        return {
+          filePath: f.filePath.replace(path.join(homedir(), 'Desktop'), ''),
+          dateModified: f.dateModified
+        };
       });
       const outputPath = path.join(__dirname, '../output', `${description}.yaml`);
-      await fs.writeFile(outputPath, yaml.dump(filePaths));
+      await fs.writeFile(outputPath, yaml.dump(filesInfo));
       console.log('Files saved in:', outputPath);
     }
   });
