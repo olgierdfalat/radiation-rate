@@ -1,19 +1,18 @@
 import path from 'path';
-import yaml from 'js-yaml';
 import { homedir } from 'os';
-import { promises as fs } from 'fs';
 import { FilesResult } from './../io/fileEnumerator';
 import FileInfo from './../io/fileInfo';
 import * as constants from './../util/constants';
 import { isStJudeLogFile } from './../io/fileFilters';
 import getAllFiles from './../io/fileEnumerator';
+import dumpToFile from './../util/dumpToFile';
 
 import execute from './command';
 
 async function dumpFiles(device: string, description: string, filesInfo: Array<FileInfo>) {
   console.log(`Generating ${description} file list for`, device);
   const outputPath = path.join(__dirname, '../../output', `${description}.yaml`);
-  await fs.writeFile(outputPath, yaml.dump(filesInfo));
+  await dumpToFile(outputPath, filesInfo);
   console.log('Files saved in:', outputPath);
 }
 async function filterDeviceFiles(device: string, selector: (result: FilesResult) => Array<FileInfo>): Promise<Array<FileInfo>> {
