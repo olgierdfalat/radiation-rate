@@ -1,6 +1,6 @@
 import * as constants from './../util/constants';
 
-export default function execute(device: string, callback: (device: string) => void)  {
+export default function execute(device: string, callback: (device: string) => void): any  {
   const supportedDevices = [constants.STJUDE, constants.BIOTRONIK, constants.MEDTRONIK];
   const normalizedDevice = device.toLowerCase();
   if (device && supportedDevices.indexOf(normalizedDevice) === -1) {
@@ -8,5 +8,5 @@ export default function execute(device: string, callback: (device: string) => vo
     return;
   }
 
-  callback(normalizedDevice);
+  return callback(normalizedDevice);
 }

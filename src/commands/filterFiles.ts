@@ -10,30 +10,45 @@ import getAllFiles from './../io/fileEnumerator';
 
 import execute from './command';
 
-function filterStJudeFiles(device: string, description: string, selector: (result: FilesResult) => Array<FileInfo>) {
-  execute(device, async normalizedDevice => {
-    console.log(`Generating ${description} file list for`, normalizedDevice);
+async function dumpFiles(device: string, description: string, filesInfo: Array<FileInfo>) {
+  console.log(`Generating ${description} file list for`, device);
+  const outputPath = path.join(__dirname, '../../output', `${description}.yaml`);
+  await fs.writeFile(outputPath, yaml.dump(filesInfo));
+  console.log('Files saved in:', outputPath);
+}
+async function filterDeviceFiles(device: string, selector: (result: FilesResult) => Array<FileInfo>): Promise<Array<FileInfo>> {
+  return execute(device, async normalizedDevice => {
+    const folderPath = path.join(homedir(), 'Desktop', 'Interrogacje');
+    console.log('Getting files from:', folderPath);
+
     if (normalizedDevice === constants.STJUDE) {
-      const folderPath = path.join(homedir(), 'Desktop', 'Interrogacje');
-      console.log('Getting files from:', folderPath);
       const result = await getAllFiles(folderPath, isStJudeLogFile);
-      const filesInfo = selector(result).filter(f => f.file.endsWith('.log')).map(f => {
+      const filesInfo: Array<FileInfo> = selector(result).filter(f => f.file.endsWith('.log')).map(f => {
         return {
+          file: f.file,
           filePath: f.filePath.replace(path.join(homedir(), 'Desktop'), ''),
           dateModified: f.dateModified
+
         };
       });
-      const outputPath = path.join(__dirname, '../../output', `${description}.yaml`);
-      await fs.writeFile(outputPath, yaml.dump(filesInfo));
-      console.log('Files saved in:', outputPath);
+      return filesInfo;
     }
+
+    throw new Error(`Unknown device[${normalizedDevice}]`);
   });
 }
 
-export function excludedFiles(device: string) {
-  filterStJudeFiles(device, 'excluded', result => result.excludedFiles);
+async function filterFiles(device: string, description: string, dump: boolean, selector: (result: FilesResult) => Array<FileInfo>): Promise<Array<FileInfo>> {
+  const filesInfo = await filterDeviceFiles(device, selector);
+  if (dump) {
+    dumpFiles(device, description, filesInfo);
+  }
+  return filesInfo;
+}
+export async function excludedFiles(device: string, dump: boolean = true): Promise<Array<FileInfo>> {
+  return filterFiles(device, 'excluded', dump, result => result.excludedFiles);
 }
 
-export function includedFiles(device: string) {
-  filterStJudeFiles(device, 'included', result => result.includedFiles);
+export async function includedFiles(device: string, dump: boolean = true): Promise<Array<FileInfo>> {
+  return filterFiles(device, 'included', dump, result => result.includedFiles);
 }

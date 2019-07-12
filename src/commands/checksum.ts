@@ -1,7 +1,8 @@
 import execute from './command';
+import { includedFiles } from './filterFiles';
 
 export function checksum(device: string) {
   execute(device, normalizedDevice => {
-    console.log('Generating checksums for', normalizedDevice);
+    const filesInfo = includedFiles(device, false);
   });
 }
