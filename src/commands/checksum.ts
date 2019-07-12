@@ -9,7 +9,7 @@ export async function checksum(device: string) {
 
     const filesChecksum = [];
     filesInfo.forEach(fileInfo => {
-      const interrogation = new interrogations.StJude(fileInfo.filePath); //TODO: implement interrogations factory based on device
+      const interrogation = new interrogations.StJude(fileInfo.filePath); // TODO: implement interrogations factory based on device
       const fieldsChecksum = [];
     });
 

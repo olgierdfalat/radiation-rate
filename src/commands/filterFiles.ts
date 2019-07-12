@@ -22,7 +22,7 @@ async function filterDeviceFiles(device: string, selector: (result: FilesResult)
 
     if (normalizedDevice === constants.STJUDE) {
       const result = await getAllFiles(folderPath, isStJudeLogFile);
-      return selector(result).filter(f => f.file.endsWith('.log'));
+      return selector(result).filter(f => f.fileName.endsWith('.log'));
     }
     throw new Error(`Unknown device[${normalizedDevice}]`);
   });
@@ -33,7 +33,7 @@ async function filterFiles(device: string, description: string, dump: boolean, s
   if (dump) {
     dumpFiles(device, description, filesInfo.map(f => {
       return {
-        file: f.file,
+        fileName: f.fileName,
         filePath: f.filePath.replace(path.join(homedir(), 'Desktop'), ''),
         dateModified: f.dateModified
       };

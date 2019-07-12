@@ -1,5 +1,5 @@
 export default interface FileInfo {
-  file: string;
+  fileName: string;
   filePath: string;
   dateModified: Date;
 }

@@ -28,7 +28,7 @@ describe('file enumerator', () => {
                            '/tmp/radiation-rate/Medtronik/log2.log', '/tmp/radiation-rate/Medtronik/log3.log',
                           '/tmp/radiation-rate/Unity/log4.log']);
     
-    expect(filesInfo.includedFiles.map(f => f.file)).toEqual(['log1.log', 'temp.txt', 'log2.log', 'log3.log', 'log4.log']);
+    expect(filesInfo.includedFiles.map(f => f.fileName)).toEqual(['log1.log', 'temp.txt', 'log2.log', 'log3.log', 'log4.log']);
     expect(filesInfo.excludedFiles).toEqual([]);
     filesInfo.includedFiles.forEach(f => {
       expect(f.dateModified > now).toBe(true);
@@ -37,8 +37,8 @@ describe('file enumerator', () => {
 
   it('filters files', async () => {    
     await createFiles();
-    const filesInfo = await getAllFiles(root, fileInfo => fileInfo.file.endsWith('.txt'));
-    expect(filesInfo.includedFiles.map(f => f.file)).toEqual(['temp.txt']);
-    expect(filesInfo.excludedFiles.map(f => f.file)).toEqual(['log1.log', 'log2.log', 'log3.log', 'log4.log']);
+    const filesInfo = await getAllFiles(root, fileInfo => fileInfo.fileName.endsWith('.txt'));
+    expect(filesInfo.includedFiles.map(f => f.fileName)).toEqual(['temp.txt']);
+    expect(filesInfo.excludedFiles.map(f => f.fileName)).toEqual(['log1.log', 'log2.log', 'log3.log', 'log4.log']);
   });
 });
