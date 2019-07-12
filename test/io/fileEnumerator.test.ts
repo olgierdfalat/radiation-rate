@@ -31,7 +31,7 @@ describe('file enumerator', () => {
     expect(filesInfo.includedFiles.map(f => f.file)).toEqual(['log1.log', 'temp.txt', 'log2.log', 'log3.log', 'log4.log']);
     expect(filesInfo.excludedFiles).toEqual([]);
     filesInfo.includedFiles.forEach(f => {
-      expect(f.createdTime > now).toBe(true);
+      expect(f.dateModified > now).toBe(true);
     });                         
   });
 
