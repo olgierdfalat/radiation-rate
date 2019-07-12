@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import * as models from './../models';
+import * as parsers from './../parsers';
 import { promisify } from 'util';
 import yaml from 'js-yaml';
 
@@ -16,7 +16,7 @@ export class Interrogation {
     return (await readFile(this.fileName)).toString();
   }
 
-  async getData(): Promise<models.StJudeRowModel> {
+  async getData(): Promise<parsers.StJudeData> {
     throw new Error('Not supported');
   }
 
