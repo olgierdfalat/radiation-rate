@@ -1,2 +1,2 @@
 export * from './stJude/stJudeField';
-export * from './stJude/stJudeRow';
+export * from './stJude/stJudeData';

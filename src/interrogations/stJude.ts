@@ -5,7 +5,7 @@ import * as models from './../models';
 export class StJude extends Interrogation {
   async getData(): Promise<models.StJudeRowModel> {
     const content = await this.getContent();
-    const rowParser = new parsers.StJudeRow(content);
+    const rowParser = new parsers.StJudeData(content);
     return rowParser.getRow();
   }
 }

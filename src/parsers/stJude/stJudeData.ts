@@ -1,7 +1,7 @@
-import * as models from './../../models';
-import * as parsers from './../index';
-import checksum from './../../util/checksum';
-export class StJudeRow {
+import * as models from '../../models';
+import * as parsers from '../index';
+import checksum from '../../util/checksum';
+export class StJudeData {
   private fieldParser = new parsers.StJudeField();
   private row: models.StJudeRowModel;
   private content: string;
