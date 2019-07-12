@@ -6,7 +6,6 @@ import * as constants from './../util/constants';
 import { isStJudeLogFile } from './../io/fileFilters';
 import getAllFiles from './../io/fileEnumerator';
 import dumpToFile from './../util/dumpToFile';
-
 import execute from './command';
 
 async function dumpFiles(device: string, description: string, filesInfo: Array<FileInfo>) {
@@ -15,6 +14,7 @@ async function dumpFiles(device: string, description: string, filesInfo: Array<F
   await dumpToFile(outputPath, filesInfo);
   console.log('Files saved in:', outputPath);
 }
+
 async function filterDeviceFiles(device: string, selector: (result: FilesResult) => Array<FileInfo>): Promise<Array<FileInfo>> {
   return execute(device, async normalizedDevice => {
     const folderPath = path.join(homedir(), 'Desktop', 'Interrogacje');
@@ -22,17 +22,8 @@ async function filterDeviceFiles(device: string, selector: (result: FilesResult)
 
     if (normalizedDevice === constants.STJUDE) {
       const result = await getAllFiles(folderPath, isStJudeLogFile);
-      const filesInfo: Array<FileInfo> = selector(result).filter(f => f.file.endsWith('.log')).map(f => {
-        return {
-          file: f.file,
-          filePath: f.filePath.replace(path.join(homedir(), 'Desktop'), ''),
-          dateModified: f.dateModified
-
-        };
-      });
-      return filesInfo;
+      return selector(result).filter(f => f.file.endsWith('.log'));
     }
-
     throw new Error(`Unknown device[${normalizedDevice}]`);
   });
 }
@@ -40,7 +31,13 @@ async function filterDeviceFiles(device: string, selector: (result: FilesResult)
 async function filterFiles(device: string, description: string, dump: boolean, selector: (result: FilesResult) => Array<FileInfo>): Promise<Array<FileInfo>> {
   const filesInfo = await filterDeviceFiles(device, selector);
   if (dump) {
-    dumpFiles(device, description, filesInfo);
+    dumpFiles(device, description, filesInfo.map(f => {
+      return {
+        file: f.file,
+        filePath: f.filePath.replace(path.join(homedir(), 'Desktop'), ''),
+        dateModified: f.dateModified
+      };
+    }));
   }
   return filesInfo;
 }
