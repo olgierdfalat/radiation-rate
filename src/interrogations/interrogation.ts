@@ -16,11 +16,11 @@ export class Interrogation {
     return (await readFile(this.fileName)).toString();
   }
 
-  async getRow(): Promise<models.StJudeRowModel> {
+  async getData(): Promise<models.StJudeRowModel> {
     throw new Error('Not supported');
   }
 
-  async getRowAsYaml() {
-    return yaml.dump(await this.getRow());
+  async getAsYaml() {
+    return yaml.dump(await this.getData());
   }
 }
