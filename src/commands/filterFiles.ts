@@ -6,13 +6,13 @@ import * as constants from './../util/constants';
 import { isStJudeLogFile } from './../io/fileFilters';
 import getAllFiles from './../io/fileEnumerator';
 import dumpToFile from './../util/dumpToFile';
+import sanitiseFilePath from './../util/sanitiseFilePath';
 import execute from './command';
 
 async function dumpFiles(device: string, description: string, filesInfo: Array<FileInfo>) {
   console.log(`Generating ${description} file list for`, device);
   const outputPath = path.join(__dirname, '../../output', `${description}.yaml`);
   await dumpToFile(outputPath, filesInfo);
-  console.log('Files saved in:', outputPath);
 }
 
 async function filterDeviceFiles(device: string, selector: (result: FilesResult) => Array<FileInfo>): Promise<Array<FileInfo>> {
@@ -34,7 +34,7 @@ async function filterFiles(device: string, description: string, dump: boolean, s
     dumpFiles(device, description, filesInfo.map(f => {
       return {
         fileName: f.fileName,
-        filePath: f.filePath.replace(path.join(homedir(), 'Desktop'), ''),
+        filePath: sanitiseFilePath(f.filePath),
         dateModified: f.dateModified
       };
     }));

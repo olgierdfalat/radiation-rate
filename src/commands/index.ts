@@ -1,3 +1,3 @@
 export * from './checksum';
 export * from './filterFiles';
-
+export * from './wrongFiles';
