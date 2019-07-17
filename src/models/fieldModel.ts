@@ -1,4 +1,4 @@
-export interface StJudeFieldModel {
+export interface FieldModel {
   id: number;
   name: string;
   type: string;

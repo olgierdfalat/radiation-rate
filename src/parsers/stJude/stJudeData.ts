@@ -5,7 +5,7 @@ import * as errors from './../../errors';
 
 export class StJudeData {
   private fieldParser = new parsers.StJudeField();
-  private row: models.StJudeRowModel;
+  private row: models.RowModel;
   private content: string;
   constructor(content: string) {
     this.content = content;
@@ -24,10 +24,10 @@ export class StJudeData {
         this.row.push(field);
       }
     });
-    this.row = this.row.sort((a: models.StJudeFieldModel, b: models.StJudeFieldModel) => a.id - b.id);
+    this.row = this.row.sort((a: models.FieldModel, b: models.FieldModel) => a.id - b.id);
     return this.row;
   }
-  getRow(): models.StJudeRowModel {
+  getRow(): models.RowModel {
     return this.row;
   }
   getIdsChecksum() {

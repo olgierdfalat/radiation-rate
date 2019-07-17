@@ -25,6 +25,10 @@ npm run build
 ```
 npm test
 ```
+or specific test
+```
+npm test -- -t "should return StJude data provider"
+```
 
 ## Command line interface(CLI)
 
@@ -32,6 +36,12 @@ List of all available options
 ``` 
 npm start -- -h
 ```
+Generate Excel files for specific device type
+
+```
+npm start -- -x StJude
+```
+
 
 Generate checksum report for specific device type
 

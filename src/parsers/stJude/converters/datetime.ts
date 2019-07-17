@@ -11,7 +11,7 @@ var result = parse(
 */
 
 export class DateTime implements Converter {
-  convert(field: models.StJudeFieldModel): models.StJudeFieldModel {
+  convert(field: models.FieldModel): models.FieldModel {
     const value: string = (field.firstValue || '').toString().toLowerCase();
     const dateFields = ['Last Max Charge Date', 'Implant Date: Device', 'Device Last Interrogation Date and Time',
                         'Right Ventricular Pacing Lead Impedance Notification Time Stamp (Date)'];

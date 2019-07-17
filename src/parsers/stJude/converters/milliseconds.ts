@@ -2,7 +2,7 @@ import { Numeric } from './numeric';
 import * as models from '../../../models';
 
 export class Milliseconds extends Numeric {
-  convert(field: models.StJudeFieldModel): models.StJudeFieldModel {
+  convert(field: models.FieldModel): models.FieldModel {
     const value: string = (field.firstValue || '').toString().toLowerCase();
     const matcher: RegExp = /\d+\.\d+?ms/;
     if (field.secondValue === 'ms') {
