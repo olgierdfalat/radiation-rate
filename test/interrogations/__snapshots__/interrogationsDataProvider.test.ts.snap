@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Interrogations data provider class sanitizes data - removes duplicates and distributes values into correct columns 1`] = `
+Object {
+  "columns": Array [
+    "column1",
+    "column2",
+    "column3",
+    "column4",
+    "column5",
+    "column6",
+    "column7",
+  ],
+  "deviceId": "1234",
+  "rows": Array [
+    Array [
+      Object {
+        "type": "string",
+        "value": "value1",
+      },
+      Object {
+        "type": "string",
+        "value": "value2",
+      },
+      Object {
+        "type": "string",
+        "value": "value3",
+      },
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+    ],
+    Array [
+      undefined,
+      undefined,
+      undefined,
+      Object {
+        "type": "string",
+        "value": "value4",
+      },
+      Object {
+        "type": "string",
+        "value": "value5",
+      },
+      undefined,
+      undefined,
+    ],
+    Array [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      Object {
+        "type": "string",
+        "value": "value6",
+      },
+      undefined,
+    ],
+    Array [
+      Object {
+        "type": "string",
+        "value": "value1",
+      },
+      Object {
+        "type": "string",
+        "value": "value2",
+      },
+      Object {
+        "type": "string",
+        "value": "value3",
+      },
+      undefined,
+      undefined,
+      undefined,
+      Object {
+        "type": "string",
+        "value": "value7",
+      },
+    ],
+    Array [
+      Object {
+        "type": "string",
+        "value": "aaa",
+      },
+      Object {
+        "type": "string",
+        "value": "bbb",
+      },
+      undefined,
+      undefined,
+      Object {
+        "type": "string",
+        "value": "ccc",
+      },
+      undefined,
+      Object {
+        "type": "string",
+        "value": "ddd",
+      },
+    ],
+  ],
+}
+`;

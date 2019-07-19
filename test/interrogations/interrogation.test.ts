@@ -13,7 +13,6 @@ describe('interrogation base class', () => {
   it('should throw not supported exception while calling getData method', async () => {
     const filePath = path.join(__dirname, '../fixtures/StJude/1000000_01.log');
     const interrogation = new interrogations.Interrogation(filePath);
-
     await expect(interrogation.getData()).rejects.toThrow(/Not supported/);
   });
 });

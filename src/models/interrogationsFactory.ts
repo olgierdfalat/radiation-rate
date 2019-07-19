@@ -1,4 +1,4 @@
-import {DeviceDataProvider} from './deviceDataProvider';
+import { DeviceDataProvider } from './deviceDataProvider';
 export interface InterrogationsFactoryInterface {
- getDataProvider(device: string): DeviceDataProvider
+ getDataProvider(device: string): DeviceDataProvider;
 }

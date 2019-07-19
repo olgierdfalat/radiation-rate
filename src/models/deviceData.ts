@@ -1,5 +1,6 @@
-import { RowModel } from './rowModel';
+import { ValueTypePair } from './valueTypePair';
 export interface DeviceData {
   deviceId: string;
-  rows: Array<RowModel>;
+  columns: string[];
+  rows: ValueTypePair[][];
 }
