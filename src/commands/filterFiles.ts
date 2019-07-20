@@ -1,10 +1,10 @@
 import path from 'path';
 import { homedir } from 'os';
-import { FilesResult } from './../io/fileEnumerator';
+import { FilesResult } from '../io/filesEnumerator';
 import FileInfo from './../io/fileInfo';
 import * as constants from './../util/constants';
 import { isStJudeLogFile } from './../io/fileFilters';
-import getAllFiles from './../io/fileEnumerator';
+import getAllFiles from '../io/filesEnumerator';
 import dumpToFile from './../util/dumpToFile';
 import sanitiseFilePath from './../util/sanitiseFilePath';
 import execute from './command';

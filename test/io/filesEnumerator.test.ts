@@ -1,8 +1,8 @@
 import { promises as fs } from 'fs';
 import rimraf from 'rimraf'
-import getAllFiles from './../../src/io/fileEnumerator'
+import getAllFiles from './../../src/io/filesEnumerator'
 
-describe('file enumerator', () => {
+describe('files enumerator', () => {
   const root = '/tmp/radiation-rate';
   afterEach(() => {
     rimraf.sync(root);
