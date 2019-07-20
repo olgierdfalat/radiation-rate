@@ -6,7 +6,7 @@
     "start": "node dist/index.js",
     "build": " npm run tslint && npm run build-ts",
     "build-ts": "tsc",
-    "test": "jest --forceExit --coverage",
+    "test": "jest --forceExit --coverage --watch",
     "tslint": "tslint --fix -c tslint.json -p tsconfig.json"
   },
   "repository": {

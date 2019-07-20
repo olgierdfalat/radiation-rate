@@ -6,7 +6,7 @@ import * as constants from './../util/constants';
 import { isStJudeLogFile } from './../io/fileFilters';
 import getAllFiles from '../io/filesEnumerator';
 import dumpToFile from './../util/dumpToFile';
-import sanitiseFilePath from './../util/sanitiseFilePath';
+import sanitizeFilePath from './../util/sanitiseFilePath';
 import execute from './command';
 
 async function dumpFiles(device: string, description: string, filesInfo: Array<FileInfo>) {
@@ -21,8 +21,8 @@ async function filterDeviceFiles(device: string, selector: (result: FilesResult)
     console.log('Getting files from:', folderPath);
 
     if (normalizedDevice === constants.STJUDE) {
-      const result = await getAllFiles(folderPath, isStJudeLogFile);
-      return selector(result).filter(f => f.fileName.endsWith('.log'));
+      const result = await getAllFiles(folderPath, isStJudeLogFile); // TODO: replace isStJudeLogFile callback with something more generic
+      return selector(result).filter(f => f.fileName.endsWith('.log')); // TODO: also try to make filter dynamic based on device type
     }
     throw new Error(`Unknown device[${normalizedDevice}]`);
   });
@@ -34,7 +34,7 @@ async function filterFiles(device: string, description: string, dump: boolean, s
     dumpFiles(device, description, filesInfo.map(f => {
       return {
         fileName: f.fileName,
-        filePath: sanitiseFilePath(f.filePath),
+        filePath: sanitizeFilePath(f.filePath),
         dateModified: f.dateModified
       };
     }));

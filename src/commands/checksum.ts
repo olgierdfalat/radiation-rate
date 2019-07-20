@@ -2,7 +2,7 @@ import path from 'path';
 import execute from './command';
 import { includedFiles } from './filterFiles';
 import dumpToFile from './../util/dumpToFile';
-import sanitiseFilePath from './../util/sanitiseFilePath';
+import sanitizeFilePath from './../util/sanitiseFilePath';
 import * as interrogations from './../interrogations';
 import * as errors from './../errors';
 
@@ -28,7 +28,7 @@ export async function checksum(device: string) {
           checksumItem = {idsChecksum, files: []};
           devicesChecksums[deviceId].push(checksumItem);
         }
-        checksumItem.files.push(sanitiseFilePath(fileInfo.filePath));
+        checksumItem.files.push(sanitizeFilePath(fileInfo.filePath));
       }
       catch (err) {
         if (err instanceof errors.NoContent) {

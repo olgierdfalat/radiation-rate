@@ -2,7 +2,7 @@ import path from 'path';
 import execute from './command';
 import { includedFiles } from './filterFiles';
 import dumpToFile from '../util/dumpToFile';
-import sanitiseFilePath from '../util/sanitiseFilePath';
+import sanitizeFilePath from '../util/sanitiseFilePath';
 import * as interrogations from '../interrogations';
 import * as errors from '../errors';
 
@@ -19,7 +19,7 @@ export async function invalidFiles(device: string) {
       }
       catch (err) {
         if (err instanceof errors.NoContent) {
-          wrongFiles.push(sanitiseFilePath(currentFilePath));
+          wrongFiles.push(sanitizeFilePath(currentFilePath));
         }
       }
     }
