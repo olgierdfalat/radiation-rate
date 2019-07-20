@@ -24,7 +24,7 @@ export class InterrogationsDataProvider {
         }
       }
 
-      const rowChecksum = checksum(newRow.map(i => (i.value || '')+ ':' + (i.type || '')).join('|'));
+      const rowChecksum = checksum(newRow.map(i => (i.value || '') + ':' + (i.type || '')).join('|'));
       if (!rowsChecksums.includes(rowChecksum)) {
         data.rows.push(newRow);
       }

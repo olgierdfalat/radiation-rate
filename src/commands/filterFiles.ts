@@ -42,9 +42,9 @@ async function filterFiles(device: string, description: string, dump: boolean, s
   return filesInfo;
 }
 export async function excludedFiles(device: string, dump: boolean = true): Promise<Array<FileInfo>> {
-  return filterFiles(device, 'excluded', dump, result => result.excludedFiles);
+  return filterFiles(device, `${device.toLowerCase()}-excluded`, dump, result => result.excludedFiles);
 }
 
 export async function includedFiles(device: string, dump: boolean = true): Promise<Array<FileInfo>> {
-  return filterFiles(device, 'included', dump, result => result.includedFiles);
+  return filterFiles(device, `${device.toLowerCase()}-included`, dump, result => result.includedFiles);
 }
