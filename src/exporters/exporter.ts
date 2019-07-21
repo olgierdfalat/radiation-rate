@@ -20,13 +20,19 @@ export class Exporter {
       try {
         const interrogation = new interrogations.StJude(fileInfo.filePath); // TODO: resolve dynamically
         const data = await interrogation.getData();
+
         const deviceId = data.getDeviceId();
         const findIndex = devicesRows.findIndex(fg => fg.deviceId == deviceId);
+        const deviceRow = data.getRow();
+        // two extra fields at the beginning
+        // const fileDateModifiedField = {id: -1000, name: 'File Date Modified', type: 'string', firstValue: interrogation.dateModified};
+        // const filePathField = {id: -500, name: 'File Path', type: 'string', firstValue: interrogation.sanitizeFilePath};
+        // deviceRow.unshift(fileDateModifiedField, filePathField);
         if (findIndex != -1) {
-          devicesRows[findIndex].rows.push(data.getRow());
+          devicesRows[findIndex].rows.push(deviceRow);
         }
         else {
-          devicesRows.push({deviceId, rows: [data.getRow()]});
+          devicesRows.push({deviceId, rows: [deviceRow]});
         }
       }
       catch (err) {

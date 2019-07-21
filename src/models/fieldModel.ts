@@ -3,5 +3,5 @@ export interface FieldModel {
   name: string;
   type: string;
   firstValue: any;
-  secondValue: any;
+  secondValue?: any;
 }

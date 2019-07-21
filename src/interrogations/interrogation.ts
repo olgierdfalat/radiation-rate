@@ -1,19 +1,26 @@
 import * as fs from 'fs';
-import * as parsers from './../parsers';
 import { promisify } from 'util';
 import yaml from 'js-yaml';
+import * as parsers from './../parsers';
+import sanitizeFilePath from './../util/sanitizeFilePath';
 
 const readFile = promisify(fs.readFile);
-
+const stat = promisify(fs.stat);
 
 export class Interrogation {
-  private fileName: string;
-  constructor(fileName: string) {
-    this.fileName = fileName;
+  private filePath: string;
+  dateModified: Date;
+  sanitizeFilePath: string;
+  constructor(filePath: string) {
+    this.filePath = filePath;
   }
 
   async getContent(): Promise<string> {
-    return (await readFile(this.fileName)).toString();
+    const fileStat = await stat(this.filePath);
+    this.dateModified = fileStat.mtime;
+    this.sanitizeFilePath = sanitizeFilePath(this.filePath);
+
+    return (await readFile(this.filePath)).toString();
   }
 
   async getData(): Promise<parsers.StJudeData> {
