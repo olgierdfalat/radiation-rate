@@ -24,8 +24,6 @@ export class Excel extends Exporter  {
        const worksheet = xlsx.utils.aoa_to_sheet(data, {cellDates: true});
        xlsx.utils.book_append_sheet(workbook, worksheet, workSheetName);
        xlsx.writeFile(workbook, path.join(outputFolder, `${deviceData.deviceId}.xlsx`));
-       fs.writeFileSync(path.join(outputFolder, `${deviceData.deviceId}.data`), JSON.stringify(deviceData, undefined, 2));
-       break; // save one file initially
      }
    }
 }
