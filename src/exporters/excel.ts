@@ -1,7 +1,31 @@
+import fs from 'fs';
+import path from 'path';
+import xlsx from 'xlsx';
 import { Exporter } from './exporter';
 
 export class Excel extends Exporter  {
    constructor(folderPath: string, device: string) {
      super(folderPath, device);
+   }
+
+   async saveTo(outputFolder: string = '/tmp/interrogations') {
+     const exportData = await this.getExportData();
+     if (!fs.existsSync(outputFolder)) {
+         fs.mkdirSync(outputFolder);
+     }
+     const workSheetName = 'interrogations';
+     for (let i = 0; i < exportData.length; i++) {
+       const deviceData = exportData[i];
+       const data: Array<Array<any>> = [deviceData.columns];
+       deviceData.rows.forEach(row => {
+        data.push(row.map(field => field.value));
+       });
+       const workbook = xlsx.utils.book_new();
+       const worksheet = xlsx.utils.aoa_to_sheet(data, {cellDates: true});
+       xlsx.utils.book_append_sheet(workbook, worksheet, workSheetName);
+       xlsx.writeFile(workbook, path.join(outputFolder, `${deviceData.deviceId}.xlsx`));
+       fs.writeFileSync(path.join(outputFolder, `${deviceData.deviceId}.data`), JSON.stringify(deviceData, undefined, 2));
+       break; // save one file initially
+     }
    }
 }
