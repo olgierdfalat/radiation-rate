@@ -1,6 +1,6 @@
-import { DeviceData } from './deviceData';
+import ExportData from './exportData';
 
 
 export interface DeviceDataProvider {
-  getData(folderPath: string): DeviceData;
+  getData(folderPath: string): ExportData;
 }

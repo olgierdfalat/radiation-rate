@@ -1,5 +1,5 @@
 import { ValueTypePair } from './valueTypePair';
-export interface DeviceData {
+export interface ExportData {
   deviceId: string;
   columns: string[];
   rows: ValueTypePair[][];

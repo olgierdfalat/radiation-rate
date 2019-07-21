@@ -6,7 +6,7 @@ import * as constants from './../util/constants';
 import { isStJudeLogFile } from './../io/fileFilters';
 import getAllFiles from '../io/filesEnumerator';
 import dumpToFile from './../util/dumpToFile';
-import sanitizeFilePath from './../util/sanitiseFilePath';
+import sanitizeFilePath from '../util/sanitizeFilePath';
 import execute from './command';
 
 async function dumpFiles(device: string, description: string, filesInfo: Array<FileInfo>) {
@@ -29,7 +29,7 @@ async function filterDeviceFiles(device: string, selector: (result: FilesResult)
 }
 
 async function filterFiles(device: string, description: string, dump: boolean, selector: (result: FilesResult) => Array<FileInfo>): Promise<Array<FileInfo>> {
-  const filesInfo = await filterDeviceFiles(device, selector);
+  const filesInfo = (await filterDeviceFiles(device, selector)).sort((a, b) => a.dateModified.getTime() - b.dateModified.getTime());
   if (dump) {
     dumpFiles(device, description, filesInfo.map(f => {
       return {
@@ -41,6 +41,7 @@ async function filterFiles(device: string, description: string, dump: boolean, s
   }
   return filesInfo;
 }
+
 export async function excludedFiles(device: string, dump: boolean = true): Promise<Array<FileInfo>> {
   return filterFiles(device, `${device.toLowerCase()}-excluded`, dump, result => result.excludedFiles);
 }

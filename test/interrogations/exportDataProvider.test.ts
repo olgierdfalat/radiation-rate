@@ -1,9 +1,9 @@
-import {InterrogationsDataProvider} from './../../src/interrogations/interrogationsDataProvider';
-import * as models from './../../src/models';
+import {ExportDataProvider} from './../../src/exporters/exportDataProvider';
+import * as models from '../../src/models';
 
 describe('Interrogations data provider class', () => {
-  it('sanitizes data - removes duplicates and distributes values into correct columns', () => {
-    const interrogationsDataProvider = new InterrogationsDataProvider();
+  it('gets export data - removes duplicates and distributes values into correct columns', () => {
+    const exportDataProvider = new ExportDataProvider();
     const inputData = [
                         ['column1:value1','column2:value2', 'column3:value3'],
                         ['column3:value3','column2:value2', 'column1:value1'],
@@ -25,6 +25,6 @@ describe('Interrogations data provider class', () => {
         return row;
     });
     
-    expect(interrogationsDataProvider.sanitizeData('1234', rows)).toMatchSnapshot();
+    expect(exportDataProvider.getExportData('1234', rows)).toMatchSnapshot();
   });
 })

@@ -2,7 +2,7 @@ import path from 'path';
 import execute from './command';
 import { includedFiles } from './filterFiles';
 import dumpToFile from './../util/dumpToFile';
-import sanitizeFilePath from './../util/sanitiseFilePath';
+import sanitizeFilePath from '../util/sanitizeFilePath';
 import * as interrogations from './../interrogations';
 import * as errors from './../errors';
 
