@@ -12,7 +12,7 @@ describe('interrogation StJude class', () => {
   });
 
   it('should throw No Content exception for empty log file', async () => {
-    const filePath = path.join(__dirname, '../fixtures/StJude/empty-invalid.log');
+    const filePath = path.join(__dirname, '../fixtures/empty-invalid.log');
     const stJude = new interrogations.StJude(filePath);
 
     await expect(stJude.getData()).rejects.toThrow(errors.NoContent);

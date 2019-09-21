@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biotronik-ieee11073-export creator-version="1.0" creator="BioICSConverter" format-version="4.1">
+	<dataset>
+		<section name="MDC">
+			<section name="IDC">
+				<section name="DEV">
+					<value name="TYPE" type="MDC_IDC_ENUM_DEV_TYPE">ICD</value>
+					<value name="MODEL" type="String">Lumax 340 DR-T</value>
+					<value name="SERIAL" type="String">60485754</value>
+					<value name="MFG" type="MDC_IDC_ENUM_MFG">BIO</value>
+					<value name="IMPLANT_DT" type="DateTime">20101025T000000</value>
+					<value name="IMPLANTER" type="String">Adamowicz E.</value>
+					<value name="IMPLANTING_FACILITY" type="String">SCCS w Zabrzu</value>
+				</section>
+				<section name="SESS">
+					<value name="DTM" type="DateTime">20161223T121313</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_SESS_TYPE">InClinic</value>
+					<value name="DTM_PREVIOUS" type="DateTime">20160727T000000</value>
+				</section>
+				<section name="MSMT">
+					<section name="BATTERY">
+						<value name="DTM" type="DateTime">20161223T121313</value>
+						<value name="STATUS" type="MDC_IDC_ENUM_BATTERY_STATUS">RRT</value>
+						<value name="VOLTAGE" type="Numeric" unit="V">2.85</value>
+						<value name="REMAINING_PERCENTAGE" type="Numeric" unit="%">0</value>
+					</section>
+					<section name="CAP">
+						<value name="CHARGE_DTM" type="DateTime">20160925T000000</value>
+						<value name="CHARGE_TIME" type="Numeric" unit="s">16.6</value>
+						<value name="CHARGE_ENERGY" type="Numeric" unit="J">40</value>
+					</section>
+					<section name="LEADHVCHNL">
+						<value name="DTM_START" type="DateTime">20160727T000000</value>
+						<value name="DTM_END" type="DateTime">20161223T121313</value>
+					</section>
+				</section>
+				<section name="SET">
+					<section name="MAGNET">
+						<value name="RESP" type="String">Therapies inactive</value>
+					</section>
+					<section name="LEADCHNL_RA">
+						<section name="SENSING">
+							<value name="SENSITIVITY" type="Numeric" unit="mV">0.4</value>
+							<value name="POLARITY" type="MDC_IDC_ENUM_POLARITY">BI</value>
+						</section>
+						<section name="PACING">
+							<value name="AMPLITUDE" type="Numeric" unit="V">1.5</value>
+							<value name="PULSEWIDTH" type="Numeric" unit="ms">0.5</value>
+							<value name="POLARITY" type="MDC_IDC_ENUM_POLARITY">BI</value>
+						</section>
+					</section>
+					<section name="LEADCHNL_RV">
+						<section name="SENSING">
+							<value name="SENSITIVITY" type="Numeric" unit="mV">0.8</value>
+							<value name="POLARITY" type="MDC_IDC_ENUM_POLARITY">BI</value>
+						</section>
+						<section name="PACING">
+							<value name="AMPLITUDE" type="Numeric" unit="V">2.2</value>
+							<value name="PULSEWIDTH" type="Numeric" unit="ms">0.5</value>
+							<value name="POLARITY" type="MDC_IDC_ENUM_POLARITY">BI</value>
+						</section>
+					</section>
+					<section name="LEADHVCHNL">
+						<section name="SHOCK_VECTOR">
+							<value name="ANODE_LOCATION_1" type="MDC_IDC_ENUM_ELECTRODE_LOCATION">RV</value>
+							<value name="ANODE_ELECTRODE_1" type="MDC_IDC_ENUM_ELECTRODE_NAME">Coil</value>
+							<value name="CATHODE_LOCATION_1" type="MDC_IDC_ENUM_ELECTRODE_LOCATION">Other</value>
+							<value name="CATHODE_LOCATION_2" type="MDC_IDC_ENUM_ELECTRODE_LOCATION">SVC</value>
+							<value name="CATHODE_ELECTRODE_1" type="MDC_IDC_ENUM_ELECTRODE_NAME">Can</value>
+							<value name="CATHODE_ELECTRODE_2" type="MDC_IDC_ENUM_ELECTRODE_NAME">Coil</value>
+						</section>
+					</section>
+					<section name="BRADY">
+						<value name="MODE" type="MDC_IDC_ENUM_BRADY_MODE">DDD</value>
+						<value name="VENDOR_MODE" type="String">DDD</value>
+						<value name="LOWRATE" type="Numeric" unit="{beats}/min">60</value>
+						<value name="SENSOR_TYPE" type="String">None</value>
+						<value name="MAX_TRACKING_RATE" type="Numeric" unit="{beats}/min">130</value>
+						<value name="SAV_DELAY_HIGH" type="Numeric" unit="ms">190</value>
+						<value name="SAV_DELAY_LOW" type="Numeric" unit="ms">210</value>
+						<value name="PAV_DELAY_HIGH" type="Numeric" unit="ms">220</value>
+						<value name="PAV_DELAY_LOW" type="Numeric" unit="ms">240</value>
+						<value name="AT_MODE_SWITCH_MODE" type="MDC_IDC_ENUM_BRADY_MODE">DDI</value>
+						<value name="AT_MODE_SWITCH_RATE" type="Numeric" unit="{beats}/min">160</value>
+					</section>
+					<section name="TACHYTHERAPY">
+						<value name="VSTAT" type="MDC_IDC_ENUM_THERAPY_STATUS">On</value>
+						<value name="ASTAT" type="MDC_IDC_ENUM_THERAPY_STATUS">Off</value>
+					</section>
+					<section name="ZONE">
+						<value name="TYPE" type="MDC_IDC_ENUM_ZONE_TYPE">Zone_VT</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_ZONE_VENDOR_TYPE">BIO-Zone_VT1</value>
+						<value name="STATUS" type="MDC_IDC_ENUM_ZONE_STATUS">Active</value>
+						<value name="DETECTION_INTERVAL" type="Numeric" unit="ms">360</value>
+						<value name="DETECTION_BEATS_NUMERATOR" type="Numeric" unit="{beats}">26</value>
+						<value name="DETECTION_DETAILS" type="String">Det. counter:26, SMART det.:ON, SMART redet.:ON</value>
+						<value name="TYPE_ATP_1" type="MDC_IDC_ENUM_ATP_TYPE">Burst</value>
+						<value name="TYPE_ATP_2" type="MDC_IDC_ENUM_ATP_TYPE">Ramp</value>
+						<value name="NUM_ATP_SEQS_1" type="Numeric" unit="{seq}">3</value>
+						<value name="NUM_ATP_SEQS_2" type="Numeric" unit="{seq}">2</value>
+						<value name="SHOCK_ENERGY_1" type="Numeric" unit="J">40</value>
+						<value name="SHOCK_ENERGY_2" type="Numeric" unit="J">40</value>
+						<value name="SHOCK_ENERGY_3" type="Numeric" unit="J">40</value>
+						<value name="NUM_SHOCKS_3" type="Numeric" unit="{shocks}">6</value>
+					</section>
+					<section name="ZONE">
+						<value name="TYPE" type="MDC_IDC_ENUM_ZONE_TYPE">Zone_VT</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_ZONE_VENDOR_TYPE">BIO-Zone_VT2</value>
+						<value name="STATUS" type="MDC_IDC_ENUM_ZONE_STATUS">Inactive</value>
+					</section>
+					<section name="ZONE">
+						<value name="TYPE" type="MDC_IDC_ENUM_ZONE_TYPE">Zone_VF</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_ZONE_VENDOR_TYPE">BIO-Zone_VF</value>
+						<value name="STATUS" type="MDC_IDC_ENUM_ZONE_STATUS">Active</value>
+						<value name="DETECTION_INTERVAL" type="Numeric" unit="ms">300</value>
+						<value name="DETECTION_BEATS_NUMERATOR" type="Numeric" unit="{beats}">8</value>
+						<value name="DETECTION_BEATS_DENOMINATOR" type="Numeric" unit="{beats}">12</value>
+						<value name="SHOCK_ENERGY_1" type="Numeric" unit="J">40</value>
+						<value name="SHOCK_ENERGY_2" type="Numeric" unit="J">40</value>
+						<value name="SHOCK_ENERGY_3" type="Numeric" unit="J">40</value>
+						<value name="NUM_SHOCKS_3" type="Numeric" unit="{shocks}">6</value>
+					</section>
+				</section>
+				<section name="STAT">
+					<section name="BRADY">
+						<value name="DTM_START" type="DateTime">20160727T000000</value>
+						<value name="DTM_END" type="DateTime">20161223T121313</value>
+					</section>
+					<section name="AT">
+						<value name="DTM_START" type="DateTime">20160727T000000</value>
+						<value name="DTM_END" type="DateTime">20161223T121313</value>
+					</section>
+					<section name="TACHYTHERAPY">
+						<value name="SHOCKS_DELIVERED_RECENT" type="Numeric" unit="{shocks}">0</value>
+						<value name="SHOCKS_DELIVERED_TOTAL" type="Numeric" unit="{shocks}">0</value>
+						<value name="SHOCKS_ABORTED_RECENT" type="Numeric" unit="{shocks}">0</value>
+						<value name="SHOCKS_ABORTED_TOTAL" type="Numeric" unit="{shocks}">3</value>
+						<value name="ATP_DELIVERED_RECENT" type="Numeric" unit="{seq}">0</value>
+						<value name="ATP_DELIVERED_TOTAL" type="Numeric" unit="{seq}">0</value>
+					</section>
+					<section name="EPISODE">
+						<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_VT</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_VT1</value>
+						<value name="TOTAL_COUNT" type="Numeric">0</value>
+						<value name="TOTAL_COUNT_DTM_START" type="DateTime">20101025T000000</value>
+						<value name="TOTAL_COUNT_DTM_END" type="DateTime">20161223T121313</value>
+					</section>
+					<section name="EPISODE">
+						<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_VT</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_VT2</value>
+						<value name="RECENT_COUNT" type="Numeric">0</value>
+						<value name="RECENT_COUNT_DTM_START" type="DateTime">20160727T000000</value>
+						<value name="RECENT_COUNT_DTM_END" type="DateTime">20161223T121313</value>
+						<value name="TOTAL_COUNT" type="Numeric">0</value>
+						<value name="TOTAL_COUNT_DTM_START" type="DateTime">20101025T000000</value>
+						<value name="TOTAL_COUNT_DTM_END" type="DateTime">20161223T121313</value>
+					</section>
+					<section name="EPISODE">
+						<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_VF</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_VF</value>
+						<value name="RECENT_COUNT" type="Numeric">0</value>
+						<value name="RECENT_COUNT_DTM_START" type="DateTime">20160727T000000</value>
+						<value name="RECENT_COUNT_DTM_END" type="DateTime">20161223T121313</value>
+					</section>
+					<section name="EPISODE">
+						<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_ATAF</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_AMon</value>
+						<value name="RECENT_COUNT" type="Numeric">0</value>
+						<value name="RECENT_COUNT_DTM_START" type="DateTime">20160727T000000</value>
+						<value name="RECENT_COUNT_DTM_END" type="DateTime">20161223T121313</value>
+						<value name="TOTAL_COUNT" type="Numeric">0</value>
+						<value name="TOTAL_COUNT_DTM_START" type="DateTime">20101025T000000</value>
+						<value name="TOTAL_COUNT_DTM_END" type="DateTime">20161223T121313</value>
+					</section>
+					<section name="EPISODE">
+						<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_SVT</value>
+						<value name="TYPE_INDUCED" type="MDC_IDC_ENUM_EPISODE_TYPE_INDUCED">NO</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_SVT</value>
+						<value name="RECENT_COUNT" type="Numeric">0</value>
+						<value name="RECENT_COUNT_DTM_START" type="DateTime">20160727T000000</value>
+						<value name="RECENT_COUNT_DTM_END" type="DateTime">20161223T121313</value>
+						<value name="TOTAL_COUNT" type="Numeric">0</value>
+						<value name="TOTAL_COUNT_DTM_START" type="DateTime">20101025T000000</value>
+						<value name="TOTAL_COUNT_DTM_END" type="DateTime">20161223T121313</value>
+					</section>
+					<section name="EPISODE">
+						<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_VT</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_AMon</value>
+						<value name="RECENT_COUNT" type="Numeric">0</value>
+						<value name="RECENT_COUNT_DTM_START" type="DateTime">20160727T000000</value>
+						<value name="RECENT_COUNT_DTM_END" type="DateTime">20161223T121313</value>
+					</section>
+					<section name="EPISODE">
+						<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PatientActivated</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PAT</value>
+					</section>
+					<section name="EPISODE">
+						<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_Other</value>
+						<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_BRADY</value>
+					</section>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">1</value>
+					<value name="DTM" type="DateTime">20101027T125900</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_VF</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_VF</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">1998</value>
+					<value name="ATRIAL_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">917</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">177</value>
+					<value name="VENTRICULAR_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">923</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">1 Shock, induced</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">2</value>
+					<value name="DTM" type="DateTime">20101027T134200</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_VF</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_VF</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">1998</value>
+					<value name="ATRIAL_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">779</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">146</value>
+					<value name="VENTRICULAR_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">783</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">1 Shock, induced</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">3</value>
+					<value name="DTM" type="DateTime">20101224T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">695</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">690</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">4</value>
+					<value name="DTM" type="DateTime">20110222T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">669</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">664</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">5</value>
+					<value name="DTM" type="DateTime">20110423T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">657</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">652</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">6</value>
+					<value name="DTM" type="DateTime">20110509T113500</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_VF</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_VF</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">502</value>
+					<value name="ATRIAL_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">516</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">377</value>
+					<value name="VENTRICULAR_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">516</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">7</value>
+					<value name="DTM" type="DateTime">20110509T125800</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_VF</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_VF</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">494</value>
+					<value name="ATRIAL_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">515</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">316</value>
+					<value name="VENTRICULAR_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">515</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">8</value>
+					<value name="DTM" type="DateTime">20110622T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">740</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">740</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">9</value>
+					<value name="DTM" type="DateTime">20110821T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">832</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">830</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">10</value>
+					<value name="DTM" type="DateTime">20111020T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">744</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">742</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">11</value>
+					<value name="DTM" type="DateTime">20111219T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">878</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">877</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">12</value>
+					<value name="DTM" type="DateTime">20120217T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">841</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">844</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">13</value>
+					<value name="DTM" type="DateTime">20120417T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">766</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">765</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">14</value>
+					<value name="DTM" type="DateTime">20120616T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">524</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">517</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">15</value>
+					<value name="DTM" type="DateTime">20120815T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">811</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">809</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">16</value>
+					<value name="DTM" type="DateTime">20121014T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">619</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">616</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">17</value>
+					<value name="DTM" type="DateTime">20121213T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">794</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">783</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">18</value>
+					<value name="DTM" type="DateTime">20130211T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">585</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">578</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">19</value>
+					<value name="DTM" type="DateTime">20130412T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">469</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">459</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">20</value>
+					<value name="DTM" type="DateTime">20130611T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">736</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">726</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">21</value>
+					<value name="DTM" type="DateTime">20130810T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">700</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">699</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">22</value>
+					<value name="DTM" type="DateTime">20131009T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">540</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">542</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">23</value>
+					<value name="DTM" type="DateTime">20131208T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">592</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">588</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">24</value>
+					<value name="DTM" type="DateTime">20131216T181200</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_VF</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_VF</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">526</value>
+					<value name="ATRIAL_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">533</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">335</value>
+					<value name="VENTRICULAR_INTERVAL_AT_TERMINATION" type="Numeric" unit="ms">534</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">25</value>
+					<value name="DTM" type="DateTime">20140206T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">579</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">576</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">26</value>
+					<value name="DTM" type="DateTime">20140407T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">773</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">777</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">27</value>
+					<value name="DTM" type="DateTime">20140606T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">684</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">693</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">28</value>
+					<value name="DTM" type="DateTime">20140805T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">626</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">624</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">29</value>
+					<value name="DTM" type="DateTime">20141004T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">569</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">570</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">30</value>
+					<value name="DTM" type="DateTime">20141203T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">706</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">707</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">31</value>
+					<value name="DTM" type="DateTime">20150201T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">496</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">496</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">32</value>
+					<value name="DTM" type="DateTime">20150402T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">554</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">554</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">33</value>
+					<value name="DTM" type="DateTime">20150601T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">736</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">739</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">34</value>
+					<value name="DTM" type="DateTime">20150731T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">669</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">673</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">35</value>
+					<value name="DTM" type="DateTime">20150929T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">36</value>
+					<value name="DTM" type="DateTime">20151128T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">37</value>
+					<value name="DTM" type="DateTime">20160127T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">38</value>
+					<value name="DTM" type="DateTime">20160327T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">39</value>
+					<value name="DTM" type="DateTime">20160526T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">40</value>
+					<value name="DTM" type="DateTime">20160725T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">41</value>
+					<value name="DTM" type="DateTime">20160923T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+				<section name="EPISODE">
+					<value name="ID" type="String">42</value>
+					<value name="DTM" type="DateTime">20161122T004000</value>
+					<value name="TYPE" type="MDC_IDC_ENUM_EPISODE_TYPE">Epis_PeriodicEGM</value>
+					<value name="VENDOR_TYPE" type="MDC_IDC_ENUM_EPISODE_VENDOR_TYPE">BIO-Epis_PIEGM</value>
+					<value name="ATRIAL_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="VENTRICULAR_INTERVAL_AT_DETECTION" type="Numeric" unit="ms">997</value>
+					<value name="DETECTION_THERAPY_DETAILS" type="String">Periodic IEGM</value>
+				</section>
+			</section>
+			<section name="ATTR">
+				<section name="PT">
+					<value name="NAME_GIVEN" type="String">ANONYMOUS</value>
+					<value name="NAME_FAMILY" type="String">ANONYMOUS</value>
+					<value name="SEX" type="String">1</value>
+					<value name="DOB" type="Date">19370805</value>
+				</section>
+			</section>
+		</section>
+		<section name="BIO">
+			<section name="REQUEST">
+				<value name="DATE" type="DateTime">20161223T121531</value>
+				<value name="ID" type="String">46290631   _20161223T121531</value>
+				<section name="PROGRAMMER">
+					<value name="SERIAL" type="String">46290631   </value>
+				</section>
+			</section>
+		</section>
+	</dataset>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>cE6Z6aOuDPcM17mdwuFhzuEZiDY=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>6An6X/AoWMQOHG7MdKz/MrR4UYaHYwRsc/zZKXz+o4u4bn4iCjPMXmsigXYnDIwR 720VeX2VCvsBjHHkFk88WuiotWDPAYP2fcmMrkDymBc9n9GG/cSLB6KhO3EAdR+1 TYqZXxFb56E7z+Ipv7txZ2y0icXubcVt1zG4on2MVLhnJcLBqZEFdujoTIiBN+ul aI0L4jAB59Ti2/mctH0Dlp99nZjZiGPi5XfoZw+nHaDGpMal8wy13jhFjyGNoxiH 7KP7f8M9sHi+Fxst0rMLY4wSGHfPQt2/oV7wjHTJPzrEIu4OjbcupiSsC6u72+Gv VJj/+LfVldbjfFmQ/8p/OYHQ8lJ9rNrw91iOEhUt5M3D0otFiVqwEqJgYljycGGk Hnz04VY1qXwsjaKWVno8ylQbqe/t/TyEHPMozW7GjOWEimj/hwmB4DJ8VDg5Apj1 GVOqv0eogsrKfS1jTWQxLQWNZ8zt5lHnY22n8ezc73Y7pIlROPaSx75XKcow2AxV AisfLCjXwr16en2owpmQEeippHZTJDHtf2rO1kzt8l+4UbgiwEU9mCWtfF0fJod3 ZHxqZXIdbl9Xflz6rdR+KmSCUa6bbq5mQLbjqnk54KDxkFDFIZk9tGGhCVQK8yIN AodZNdtjmU+zF+gQTPtr+UMxfWK3TlzCg0nPqRcr+7o=</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+
+
+				<X509Certificate>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 64aEDdkGx5i+1TvfhdXOQCOXFozPiarsfQ==</X509Certificate>
+				<X509SubjectName>CN=BIOTRONIK ESCA Programmer 1-1,OU=ES,O=BIOTRONIK,C=DE</X509SubjectName>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=BIOTRONIK ESCA Root 1,OU=ES,O=BIOTRONIK,C=DE</X509IssuerName>
+					<X509SerialNumber>13247714922955975125</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+			<KeyValue>
+				<RSAKeyValue>
+					<Modulus>
+90SciyiRYTkiIb+xbSJV8vIuxV6RVmqx2jLrPQuu8KUBX22V/QVrt7Zuk4VfQdRx PiqIFz7eBkxnvpWgXlrFWW63s1fS2qMehV3rI4/f0tUQB/lTWM/8b6Dbp+L9u2sd eyuxPg0m8LaOSeJ3fovIO4H6cAicuLpoHoAy2C1Afd/jBjrrdw+I8HY58L2+og5T 9FkpNjMui7XOABGdRE83Eb6T/YTAx7OURTsNGysZCgjaD9vlYFm/187gb3bScVAN 2RtO5F47JdI6vymtwhKTWYKZ7Bv79TuwAdc++tGhM/rPx1hI/ko14tpQQ/VWRJcY 73V04rEHt5v6LFuNOlmAyJ+UmSudHBiaOJGxE8x0C+vRANBpKXyzR9FLtZgeqh/p 6NgmMy4xhfHDmZ9DqE9mPBEwPsIA5tjXcV/17eQCPmJOnWQtVSAzZvpeV+YEBB6k Vq/rDsbr8YATY03Et0h6KdEGWn3aVgub1JhzMIHvk3OZlSfhhn97KIZjSbZjaOV4 UUSQafvlSfwYlBkrmZJlOc6/lnU+1MAYXxn/Vui4YsL7psL2BMDs490ZiUTmLnAC dZfRDFVFMqy6XcBfynCtDeRhqrgfmFdj39NkJ1F7euzNt8L3eaGoqsBAxZQ6qClj PwXE1XQzZoazr2nfnX9E/lB+fFpgH9q/ULkKHvKj7dE=
+					</Modulus>
+					<Exponent>
+AQAB
+					</Exponent>
+				</RSAKeyValue>
+			</KeyValue>
+		</KeyInfo>
+	</Signature>
+</biotronik-ieee11073-export>

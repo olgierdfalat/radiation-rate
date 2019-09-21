@@ -18,12 +18,12 @@ export class Interrogation {
   async getContent(): Promise<string> {
     const fileStat = await stat(this.filePath);
     this.dateModified = fileStat.mtime;
-    this.sanitizeFilePath = sanitizeFilePath(this.filePath);
+    this.sanitizeFilePath = this.filePath;
 
     return (await readFile(this.filePath)).toString();
   }
 
-  async getData(): Promise<parsers.StJudeData> {
+  async getData(): Promise<any> {
     throw new Error('Not supported');
   }
 
