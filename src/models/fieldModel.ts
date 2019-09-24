@@ -1,7 +1,5 @@
 export interface FieldModel {
-  id: number;
   name: string;
+  value: string;
   type: string;
-  firstValue: any;
-  secondValue?: any;
 }

@@ -7,7 +7,7 @@ export class NumericUnit extends Numeric {
     super();
     this.unitName = unitName;
   }
-  convert(field: models.FieldModel): models.FieldModel {
+  convert(field: models.StJudeFieldModel): models.StJudeFieldModel {
     if (field.secondValue === this.unitName) {
       field.name += `[${this.unitName}]`;
       return super.convert(field);

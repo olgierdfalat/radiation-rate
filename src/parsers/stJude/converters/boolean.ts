@@ -2,7 +2,7 @@ import { Converter } from './converter';
 import * as models from './../../../models';
 
 export class Boolean implements Converter {
-  convert(field: models.FieldModel): models.FieldModel {
+  convert(field: models.StJudeFieldModel): models.StJudeFieldModel {
     const value: string = (field.firstValue || '').toString().toLowerCase();
     if (value === 'true') {
       field.type = 'boolean';

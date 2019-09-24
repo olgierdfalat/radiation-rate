@@ -2,7 +2,7 @@ import * as models from '../models';
 import checksum from '../util/checksum';
 
 export class ExportDataProvider {
-  getExportData(deviceId: string, rows: Array<models.RowModel>): models.ExportData   {
+  getExportData(deviceId: string, rows: Array<models.StJudeRowModel>): models.ExportData   {
     const columnsLength = [...new Set([].concat.apply([], rows.map(x => x.map(f => f.name))))].length;
     const data: models.ExportData = {deviceId, columns: new Array(columnsLength), rows: []};
     const rowsChecksums: string[] = new Array(rows.length);
