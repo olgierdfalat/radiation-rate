@@ -2,6 +2,2006 @@
 
 exports[`interrogation Biotronik STD class should get structured data row from file 1`] = `
 Object {
+  ".[Table=9002:Id=607]": Object {
+    "name": ".[Table=9002:Id=607]",
+    "type": "Char",
+    "value": "3",
+  },
+  ".[Table=9002:Id=611]": Object {
+    "name": ".[Table=9002:Id=611]",
+    "type": "Char",
+    "value": "2",
+  },
+  ".[Table=9002:Id=679]": Object {
+    "name": ".[Table=9002:Id=679]",
+    "type": "Char",
+    "value": "200",
+  },
+  ".[Table=9002:Id=682]": Object {
+    "name": ".[Table=9002:Id=682]",
+    "type": "Char",
+    "value": "%",
+  },
+  ".[Table=9002:Id=699]": Object {
+    "name": ".[Table=9002:Id=699]",
+    "type": "Char",
+    "value": "200",
+  },
+  ".[Table=9002:Id=732]": Object {
+    "name": ".[Table=9002:Id=732]",
+    "type": "Char",
+    "value": "0",
+  },
+  ".[Table=9002:Id=733]": Object {
+    "name": ".[Table=9002:Id=733]",
+    "type": "Char",
+    "value": "0",
+  },
+  ".[Table=9002:Id=836]": Object {
+    "name": ".[Table=9002:Id=836]",
+    "type": "Char",
+    "value": "3",
+  },
+  ".[Table=9002:Id=858]": Object {
+    "name": ".[Table=9002:Id=858]",
+    "type": "Char",
+    "value": "%",
+  },
+  ".[Table=9002:Id=865]": Object {
+    "name": ".[Table=9002:Id=865]",
+    "type": "Char",
+    "value": "150",
+  },
+  ".[Table=9002:Id=866]": Object {
+    "name": ".[Table=9002:Id=866]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  ".[Table=9002:Id=867]": Object {
+    "name": ".[Table=9002:Id=867]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  ".[Table=9002:Id=868]": Object {
+    "name": ".[Table=9002:Id=868]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  ".[Table=9002:Id=939]": Object {
+    "name": ".[Table=9002:Id=939]",
+    "type": "Char",
+    "value": "13",
+  },
+  ".[Table=9006:Id=607]": Object {
+    "name": ".[Table=9006:Id=607]",
+    "type": "Char",
+    "value": "3",
+  },
+  ".[Table=9006:Id=611]": Object {
+    "name": ".[Table=9006:Id=611]",
+    "type": "Char",
+    "value": "2",
+  },
+  ".[Table=9006:Id=679]": Object {
+    "name": ".[Table=9006:Id=679]",
+    "type": "Char",
+    "value": "200",
+  },
+  ".[Table=9006:Id=682]": Object {
+    "name": ".[Table=9006:Id=682]",
+    "type": "Char",
+    "value": "%",
+  },
+  ".[Table=9006:Id=699]": Object {
+    "name": ".[Table=9006:Id=699]",
+    "type": "Char",
+    "value": "200",
+  },
+  ".[Table=9006:Id=732]": Object {
+    "name": ".[Table=9006:Id=732]",
+    "type": "Char",
+    "value": "0",
+  },
+  ".[Table=9006:Id=733]": Object {
+    "name": ".[Table=9006:Id=733]",
+    "type": "Char",
+    "value": "0",
+  },
+  ".[Table=9006:Id=836]": Object {
+    "name": ".[Table=9006:Id=836]",
+    "type": "Char",
+    "value": "3",
+  },
+  ".[Table=9006:Id=858]": Object {
+    "name": ".[Table=9006:Id=858]",
+    "type": "Char",
+    "value": "%",
+  },
+  ".[Table=9006:Id=865]": Object {
+    "name": ".[Table=9006:Id=865]",
+    "type": "Char",
+    "value": "150",
+  },
+  ".[Table=9006:Id=866]": Object {
+    "name": ".[Table=9006:Id=866]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  ".[Table=9006:Id=867]": Object {
+    "name": ".[Table=9006:Id=867]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  ".[Table=9006:Id=868]": Object {
+    "name": ".[Table=9006:Id=868]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  ".[Table=9006:Id=939]": Object {
+    "name": ".[Table=9006:Id=939]",
+    "type": "Char",
+    "value": "13",
+  },
+  ".[Table=9110:Id=1136]": Object {
+    "name": ".[Table=9110:Id=1136]",
+    "type": "Char",
+    "value": "BIPL",
+  },
+  ".[Table=9110:Id=1137]": Object {
+    "name": ".[Table=9110:Id=1137]",
+    "type": "Char",
+    "value": "UNIP",
+  },
+  ".[Table=9110:Id=1144]": Object {
+    "name": ".[Table=9110:Id=1144]",
+    "type": "Char",
+    "value": "65",
+  },
+  ".[Table=9110:Id=1315]": Object {
+    "name": ".[Table=9110:Id=1315]",
+    "type": "Char",
+    "value": "None",
+  },
+  ".[Table=9110:Id=153]": Object {
+    "name": ".[Table=9110:Id=153]",
+    "type": "Char",
+    "value": "60485754",
+  },
+  ".[Table=9110:Id=1]": Object {
+    "name": ".[Table=9110:Id=1]",
+    "type": "Char",
+    "value": "240",
+  },
+  ".[Table=9110:Id=27]": Object {
+    "name": ".[Table=9110:Id=27]",
+    "type": "Char",
+    "value": "225",
+  },
+  ".[Table=9110:Id=2]": Object {
+    "name": ".[Table=9110:Id=2]",
+    "type": "Char",
+    "value": "220",
+  },
+  ".[Table=9110:Id=607]": Object {
+    "name": ".[Table=9110:Id=607]",
+    "type": "Char",
+    "value": "3",
+  },
+  ".[Table=9110:Id=611]": Object {
+    "name": ".[Table=9110:Id=611]",
+    "type": "Char",
+    "value": "2",
+  },
+  ".[Table=9110:Id=621]": Object {
+    "name": ".[Table=9110:Id=621]",
+    "type": "Char",
+    "value": "Burst",
+  },
+  ".[Table=9110:Id=622]": Object {
+    "name": ".[Table=9110:Id=622]",
+    "type": "Char",
+    "value": "Ramp",
+  },
+  ".[Table=9110:Id=661]": Object {
+    "name": ".[Table=9110:Id=661]",
+    "type": "Char",
+    "value": "6",
+  },
+  ".[Table=9110:Id=662]": Object {
+    "name": ".[Table=9110:Id=662]",
+    "type": "Char",
+    "value": "40",
+  },
+  ".[Table=9110:Id=708]": Object {
+    "name": ".[Table=9110:Id=708]",
+    "type": "Char",
+    "value": "6",
+  },
+  ".[Table=9110:Id=709]": Object {
+    "name": ".[Table=9110:Id=709]",
+    "type": "Char",
+    "value": "40",
+  },
+  ".[Table=9110:Id=714]": Object {
+    "name": ".[Table=9110:Id=714]",
+    "type": "Char",
+    "value": "40",
+  },
+  ".[Table=9110:Id=72]": Object {
+    "name": ".[Table=9110:Id=72]",
+    "type": "Char",
+    "value": ".",
+  },
+  ".[Table=9110:Id=73]": Object {
+    "name": ".[Table=9110:Id=73]",
+    "type": "Char",
+    "value": ".",
+  },
+  ".[Table=9110:Id=800]": Object {
+    "name": ".[Table=9110:Id=800]",
+    "type": "Char",
+    "value": "0.000000",
+  },
+  ".[Table=9110:Id=802]": Object {
+    "name": ".[Table=9110:Id=802]",
+    "type": "Char",
+    "value": "769",
+  },
+  ".[Table=9110:Id=803]": Object {
+    "name": ".[Table=9110:Id=803]",
+    "type": "Char",
+    "value": "4.6",
+  },
+  ".[Table=9110:Id=804]": Object {
+    "name": ".[Table=9110:Id=804]",
+    "type": "Char",
+    "value": "0.000000",
+  },
+  ".[Table=9110:Id=806]": Object {
+    "name": ".[Table=9110:Id=806]",
+    "type": "Char",
+    "value": "769",
+  },
+  ".[Table=9110:Id=807]": Object {
+    "name": ".[Table=9110:Id=807]",
+    "type": "Char",
+    "value": "10.9",
+  },
+  ".[Table=9110:Id=808]": Object {
+    "name": ".[Table=9110:Id=808]",
+    "type": "Char",
+    "value": "0.000000",
+  },
+  ".[Table=9110:Id=810]": Object {
+    "name": ".[Table=9110:Id=810]",
+    "type": "Char",
+    "value": "0.000000",
+  },
+  ".[Table=9110:Id=811]": Object {
+    "name": ".[Table=9110:Id=811]",
+    "type": "Char",
+    "value": "0.000000",
+  },
+  ".[Table=9110:Id=813]": Object {
+    "name": ".[Table=9110:Id=813]",
+    "type": "Char",
+    "value": "7.5",
+  },
+  ".[Table=9110:Id=814]": Object {
+    "name": ".[Table=9110:Id=814]",
+    "type": "Char",
+    "value": "1.5",
+  },
+  ".[Table=9110:Id=815]": Object {
+    "name": ".[Table=9110:Id=815]",
+    "type": "Char",
+    "value": "10",
+  },
+  ".[Table=9110:Id=831]": Object {
+    "name": ".[Table=9110:Id=831]",
+    "type": "Char",
+    "value": ".",
+  },
+  ".[Table=9110:Id=832]": Object {
+    "name": ".[Table=9110:Id=832]",
+    "type": "Char",
+    "value": ".",
+  },
+  ".[Table=9110:Id=833]": Object {
+    "name": ".[Table=9110:Id=833]",
+    "type": "Char",
+    "value": ".",
+  },
+  ".[Table=9110:Id=834]": Object {
+    "name": ".[Table=9110:Id=834]",
+    "type": "Char",
+    "value": ".",
+  },
+  ".[Table=9110:Id=835]": Object {
+    "name": ".[Table=9110:Id=835]",
+    "type": "Char",
+    "value": "0",
+  },
+  ".[Table=9110:Id=844]": Object {
+    "name": ".[Table=9110:Id=844]",
+    "type": "Char",
+    "value": "ON",
+  },
+  ".[Table=9110:Id=851]": Object {
+    "name": ".[Table=9110:Id=851]",
+    "type": "Char",
+    "value": ".",
+  },
+  ".[Table=9110:Id=852]": Object {
+    "name": ".[Table=9110:Id=852]",
+    "type": "Char",
+    "value": ".",
+  },
+  ".[Table=9110:Id=869]": Object {
+    "name": ".[Table=9110:Id=869]",
+    "type": "Char",
+    "value": "3",
+  },
+  ".[Table=9110:Id=873]": Object {
+    "name": ".[Table=9110:Id=873]",
+    "type": "Char",
+    "value": "0",
+  },
+  ".[Table=9110:Id=962]": Object {
+    "name": ".[Table=9110:Id=962]",
+    "type": "Char",
+    "value": "RV(-), SVC/Can(+)",
+  },
+  ".[Table=9110:Id=964]": Object {
+    "name": ".[Table=9110:Id=964]",
+    "type": "Char",
+    "value": "RV(-), SVC/Can(+)",
+  },
+  ".[Table=9110:Id=96]": Object {
+    "name": ".[Table=9110:Id=96]",
+    "type": "Char",
+    "value": "Therapies inactive",
+  },
+  "ACTBATTERYVOLTAGE[Table=TBU_DEFI_DATA]": Object {
+    "name": "ACTBATTERYVOLTAGE[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "2.85",
+  },
+  "AGGREGAT[Table=TBU_DEFI_DATA2]": Object {
+    "name": "AGGREGAT[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "BIO",
+  },
+  "AGGREGAT[Table=TBU_DEFI_DATA]": Object {
+    "name": "AGGREGAT[Table=TBU_DEFI_DATA]",
+    "type": "Char",
+    "value": "BIO",
+  },
+  "ALLSINCEDELETIONVF[Table=TBU_DEFI_DATA]": Object {
+    "name": "ALLSINCEDELETIONVF[Table=TBU_DEFI_DATA]",
+    "type": "SmallInt",
+    "value": "0",
+  },
+  "ALLSINCEDELETVT1[Table=TBU_DEFI_DATA]": Object {
+    "name": "ALLSINCEDELETVT1[Table=TBU_DEFI_DATA]",
+    "type": "SmallInt",
+    "value": "0",
+  },
+  "ALLSINCEDELETVT2[Table=TBU_DEFI_DATA]": Object {
+    "name": "ALLSINCEDELETVT2[Table=TBU_DEFI_DATA]",
+    "type": "SmallInt",
+    "value": "0",
+  },
+  "ALLVF[Table=TBU_DEFI_DATA]": Object {
+    "name": "ALLVF[Table=TBU_DEFI_DATA]",
+    "type": "SmallInt",
+    "value": "3",
+  },
+  "ALLVT[Table=TBU_DEFI_DATA]": Object {
+    "name": "ALLVT[Table=TBU_DEFI_DATA]",
+    "type": "SmallInt",
+    "value": "0",
+  },
+  "ATP type[Table=9002:Id=856]": Object {
+    "name": "ATP type[Table=9002:Id=856]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "ATP type[Table=9006:Id=856]": Object {
+    "name": "ATP type[Table=9006:Id=856]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "ATP[Table=9190:Id=735]": Object {
+    "name": "ATP[Table=9190:Id=735]",
+    "type": "Char",
+    "value": "0",
+  },
+  "ATP[Table=9190:Id=736]": Object {
+    "name": "ATP[Table=9190:Id=736]",
+    "type": "Char",
+    "value": "0",
+  },
+  "ATP[Table=9190:Id=877]": Object {
+    "name": "ATP[Table=9190:Id=877]",
+    "type": "Char",
+    "value": "0",
+  },
+  "ATP[Table=9190:Id=878]": Object {
+    "name": "ATP[Table=9190:Id=878]",
+    "type": "Char",
+    "value": "0",
+  },
+  "AV safety window[Table=9002:Id=890]": Object {
+    "name": "AV safety window[Table=9002:Id=890]",
+    "type": "Char",
+    "value": "100",
+  },
+  "AV safety window[Table=9006:Id=890]": Object {
+    "name": "AV safety window[Table=9006:Id=890]",
+    "type": "Char",
+    "value": "100",
+  },
+  "AV_TIME_MAX[Table=TBU_DEFI_DATA2]": Object {
+    "name": "AV_TIME_MAX[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "240",
+  },
+  "AV_TIME_MIN[Table=TBU_DEFI_DATA2]": Object {
+    "name": "AV_TIME_MIN[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "220",
+  },
+  "A_AMPLITUDE[Table=TBU_DEFI_DATA2]": Object {
+    "name": "A_AMPLITUDE[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "1.5",
+  },
+  "A_IMPDAUER[Table=TBU_DEFI_DATA2]": Object {
+    "name": "A_IMPDAUER[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "0.5",
+  },
+  "A_PVARP_VRP[Table=TBU_DEFI_DATA2]": Object {
+    "name": "A_PVARP_VRP[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "250",
+  },
+  "A_SENSE2[Table=TBU_DEFI_DATA2]": Object {
+    "name": "A_SENSE2[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Bipolar",
+  },
+  "A_SENSE[Table=TBU_DEFI_DATA2]": Object {
+    "name": "A_SENSE[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "0.4",
+  },
+  "A_STIMULATION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "A_STIMULATION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Bipolar",
+  },
+  "Add S1[Table=9002:Id=671]": Object {
+    "name": "Add S1[Table=9002:Id=671]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "Add S1[Table=9002:Id=676]": Object {
+    "name": "Add S1[Table=9002:Id=676]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "Add S1[Table=9006:Id=671]": Object {
+    "name": "Add S1[Table=9006:Id=671]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "Add S1[Table=9006:Id=676]": Object {
+    "name": "Add S1[Table=9006:Id=676]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "BATTERYSTATUS[Table=TBU_DEFI_DATA2]": Object {
+    "name": "BATTERYSTATUS[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "ERI",
+  },
+  "BEMERKUNG[Table=TBU_DEFI_DATA2]": Object {
+    "name": "BEMERKUNG[Table=TBU_DEFI_DATA2]",
+    "type": "Varchar",
+    "value": "MSw intervention rate=160bpm;MSw onset criterion X=5;MSw basic rate=70bpm;MSw resolution criterion X=5;MSw onset criterion Y=8;MSw resolution criterion Y=8;MSw mode=DDI;Post ModeSw rate=70bpm;Post ModeSw duration=01:00mm:ss;",
+  },
+  "Basic rate[Table=9002:Id=69]": Object {
+    "name": "Basic rate[Table=9002:Id=69]",
+    "type": "Char",
+    "value": "60",
+  },
+  "Basic rate[Table=9006:Id=69]": Object {
+    "name": "Basic rate[Table=9006:Id=69]",
+    "type": "Char",
+    "value": "60",
+  },
+  "Battery status[Table=9100:Id=31]": Object {
+    "name": "Battery status[Table=9100:Id=31]",
+    "type": "Char",
+    "value": "ERI",
+  },
+  "Battery status[Table=9110:Id=31]": Object {
+    "name": "Battery status[Table=9110:Id=31]",
+    "type": "Char",
+    "value": "ERI",
+  },
+  "Blanking after pace [ms]:[Table=9002:Id=626]": Object {
+    "name": "Blanking after pace [ms]:[Table=9002:Id=626]",
+    "type": "Char",
+    "value": "AUTO",
+  },
+  "Blanking after pace [ms]:[Table=9006:Id=626]": Object {
+    "name": "Blanking after pace [ms]:[Table=9006:Id=626]",
+    "type": "Char",
+    "value": "AUTO",
+  },
+  "CATAGGREGATDESCR[Table=TBU_DEFI_DATA2]": Object {
+    "name": "CATAGGREGATDESCR[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Lumax 340 DR-T",
+  },
+  "CATAGGREGATDESCR[Table=TBU_DEFI_DATA]": Object {
+    "name": "CATAGGREGATDESCR[Table=TBU_DEFI_DATA]",
+    "type": "Char",
+    "value": "Lumax 340 DR-T",
+  },
+  "CATAGGREGAT[Table=TBU_DEFI_DATA2]": Object {
+    "name": "CATAGGREGAT[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "LU340DRT",
+  },
+  "CATAGGREGAT[Table=TBU_DEFI_DATA]": Object {
+    "name": "CATAGGREGAT[Table=TBU_DEFI_DATA]",
+    "type": "Char",
+    "value": "LU340DRT",
+  },
+  "Charge time[Table=9100:Id=712]": Object {
+    "name": "Charge time[Table=9100:Id=712]",
+    "type": "Char",
+    "value": "16.6",
+  },
+  "Charge time[Table=9110:Id=712]": Object {
+    "name": "Charge time[Table=9110:Id=712]",
+    "type": "Char",
+    "value": "16.6",
+  },
+  "Confirmation[Table=9002:Id=933]": Object {
+    "name": "Confirmation[Table=9002:Id=933]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "Confirmation[Table=9002:Id=935]": Object {
+    "name": "Confirmation[Table=9002:Id=935]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "Confirmation[Table=9006:Id=933]": Object {
+    "name": "Confirmation[Table=9006:Id=933]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "Confirmation[Table=9006:Id=935]": Object {
+    "name": "Confirmation[Table=9006:Id=935]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "Counter: Detection VF X[Table=9002:Id=629]": Object {
+    "name": "Counter: Detection VF X[Table=9002:Id=629]",
+    "type": "Char",
+    "value": "8",
+  },
+  "Counter: Detection VF X[Table=9006:Id=629]": Object {
+    "name": "Counter: Detection VF X[Table=9006:Id=629]",
+    "type": "Char",
+    "value": "8",
+  },
+  "Counter: Detection VF Y[Table=9002:Id=630]": Object {
+    "name": "Counter: Detection VF Y[Table=9002:Id=630]",
+    "type": "Char",
+    "value": "12",
+  },
+  "Counter: Detection VF Y[Table=9006:Id=630]": Object {
+    "name": "Counter: Detection VF Y[Table=9006:Id=630]",
+    "type": "Char",
+    "value": "12",
+  },
+  "Counter: Detection VT1[Table=9002:Id=627]": Object {
+    "name": "Counter: Detection VT1[Table=9002:Id=627]",
+    "type": "Char",
+    "value": "26",
+  },
+  "Counter: Detection VT1[Table=9006:Id=627]": Object {
+    "name": "Counter: Detection VT1[Table=9006:Id=627]",
+    "type": "Char",
+    "value": "26",
+  },
+  "Counter: Redetection VT1[Table=9002:Id=632]": Object {
+    "name": "Counter: Redetection VT1[Table=9002:Id=632]",
+    "type": "Char",
+    "value": "20",
+  },
+  "Counter: Redetection VT1[Table=9006:Id=632]": Object {
+    "name": "Counter: Redetection VT1[Table=9006:Id=632]",
+    "type": "Char",
+    "value": "20",
+  },
+  "DATUM[Table=TBU_DEFI_DATA2]": Object {
+    "name": "DATUM[Table=TBU_DEFI_DATA2]",
+    "type": "Date",
+    "value": "2016-12-23",
+  },
+  "DATUM[Table=TBU_DEFI_DATA]": Object {
+    "name": "DATUM[Table=TBU_DEFI_DATA]",
+    "type": "Date",
+    "value": "2016-12-23",
+  },
+  "Date of birth[Table=9002:Id=233]": Object {
+    "name": "Date of birth[Table=9002:Id=233]",
+    "type": "Char",
+    "value": "08/05/1937",
+  },
+  "Date of birth[Table=9006:Id=233]": Object {
+    "name": "Date of birth[Table=9006:Id=233]",
+    "type": "Char",
+    "value": "08/05/1937",
+  },
+  "Date[Table=9100:Id=715]": Object {
+    "name": "Date[Table=9100:Id=715]",
+    "type": "Char",
+    "value": "09/25/2016",
+  },
+  "Date[Table=9110:Id=715]": Object {
+    "name": "Date[Table=9110:Id=715]",
+    "type": "Char",
+    "value": "09/25/2016",
+  },
+  "ECG indication[Table=9002:Id=41]": Object {
+    "name": "ECG indication[Table=9002:Id=41]",
+    "type": "Char",
+    "value": "QRS widening",
+  },
+  "ECG indication[Table=9006:Id=41]": Object {
+    "name": "ECG indication[Table=9006:Id=41]",
+    "type": "Char",
+    "value": "QRS widening",
+  },
+  "Etiology[Table=9002:Id=26]": Object {
+    "name": "Etiology[Table=9002:Id=26]",
+    "type": "Char",
+    "value": "Dilative cardiomyopathy (ischemic)",
+  },
+  "Etiology[Table=9006:Id=26]": Object {
+    "name": "Etiology[Table=9006:Id=26]",
+    "type": "Char",
+    "value": "Dilative cardiomyopathy (ischemic)",
+  },
+  "FREQUENZADAPTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "FREQUENZADAPTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Nein",
+  },
+  "FREQUENZ[Table=TBU_DEFI_DATA2]": Object {
+    "name": "FREQUENZ[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "60",
+  },
+  "FU1BATTERYSTATUS[Table=TBU_DEFI_DATA]": Object {
+    "name": "FU1BATTERYSTATUS[Table=TBU_DEFI_DATA]",
+    "type": "Char",
+    "value": "ERI",
+  },
+  "FU1CHARGEDATE[Table=TBU_DEFI_DATA]": Object {
+    "name": "FU1CHARGEDATE[Table=TBU_DEFI_DATA]",
+    "type": "Date",
+    "value": "2016-09-25",
+  },
+  "FU1CHARGEENERGY[Table=TBU_DEFI_DATA]": Object {
+    "name": "FU1CHARGEENERGY[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "40",
+  },
+  "Far-field protection after Vp[Table=9002:Id=401]": Object {
+    "name": "Far-field protection after Vp[Table=9002:Id=401]",
+    "type": "Char",
+    "value": "75",
+  },
+  "Far-field protection after Vp[Table=9006:Id=401]": Object {
+    "name": "Far-field protection after Vp[Table=9006:Id=401]",
+    "type": "Char",
+    "value": "75",
+  },
+  "First name[Table=9002:Id=444]": Object {
+    "name": "First name[Table=9002:Id=444]",
+    "type": "Char",
+    "value": "ANONYMOUS",
+  },
+  "First name[Table=9006:Id=444]": Object {
+    "name": "First name[Table=9006:Id=444]",
+    "type": "Char",
+    "value": "ANONYMOUS",
+  },
+  "Forced termination[Table=9002:Id=659]": Object {
+    "name": "Forced termination[Table=9002:Id=659]",
+    "type": "Char",
+    "value": "1",
+  },
+  "Forced termination[Table=9006:Id=659]": Object {
+    "name": "Forced termination[Table=9006:Id=659]",
+    "type": "Char",
+    "value": "1",
+  },
+  "Gender[Table=9002:Id=445]": Object {
+    "name": "Gender[Table=9002:Id=445]",
+    "type": "Char",
+    "value": "Male",
+  },
+  "Gender[Table=9006:Id=445]": Object {
+    "name": "Gender[Table=9006:Id=445]",
+    "type": "Char",
+    "value": "Male",
+  },
+  "HOMEMONITORING[Table=TBU_DEFI_DATA2]": Object {
+    "name": "HOMEMONITORING[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "An",
+  },
+  "HYSTERESEPERCENT[Table=TBU_DEFI_DATA2]": Object {
+    "name": "HYSTERESEPERCENT[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "100",
+  },
+  "HYSTERESE[Table=TBU_DEFI_DATA2]": Object {
+    "name": "HYSTERESE[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "60",
+  },
+  "Home Monitoring[Table=9002:Id=343]": Object {
+    "name": "Home Monitoring[Table=9002:Id=343]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "Home Monitoring[Table=9006:Id=343]": Object {
+    "name": "Home Monitoring[Table=9006:Id=343]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "Hospital, City[Table=9002:Id=886]": Object {
+    "name": "Hospital, City[Table=9002:Id=886]",
+    "type": "Char",
+    "value": "SCCS w Zabrzu",
+  },
+  "Hospital, City[Table=9006:Id=886]": Object {
+    "name": "Hospital, City[Table=9006:Id=886]",
+    "type": "Char",
+    "value": "SCCS w Zabrzu",
+  },
+  "ICD[Table=9100:Id=882]": Object {
+    "name": "ICD[Table=9100:Id=882]",
+    "type": "Char",
+    "value": "OK",
+  },
+  "ID[Table=9002:Id=1000]": Object {
+    "name": "ID[Table=9002:Id=1000]",
+    "type": "Char",
+    "value": ".",
+  },
+  "ID[Table=9006:Id=1000]": Object {
+    "name": "ID[Table=9006:Id=1000]",
+    "type": "Char",
+    "value": ".",
+  },
+  "IMPDATUM[Table=TBU_DEFI_DATA]": Object {
+    "name": "IMPDATUM[Table=TBU_DEFI_DATA]",
+    "type": "Date",
+    "value": "2010-10-25",
+  },
+  "IMPEDANCE_LV[Table=TBU_DEFI_DATA]": Object {
+    "name": "IMPEDANCE_LV[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "0",
+  },
+  "IMPEDANCE_RA[Table=TBU_DEFI_DATA]": Object {
+    "name": "IMPEDANCE_RA[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "769",
+  },
+  "IMPEDANCE_RV[Table=TBU_DEFI_DATA]": Object {
+    "name": "IMPEDANCE_RV[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "769",
+  },
+  "Implantation[Table=9002:Id=74]": Object {
+    "name": "Implantation[Table=9002:Id=74]",
+    "type": "Char",
+    "value": "10/25/2010",
+  },
+  "Implantation[Table=9006:Id=74]": Object {
+    "name": "Implantation[Table=9006:Id=74]",
+    "type": "Char",
+    "value": "10/25/2010",
+  },
+  "Implantation[Table=9110:Id=74]": Object {
+    "name": "Implantation[Table=9110:Id=74]",
+    "type": "Char",
+    "value": "10/25/2010",
+  },
+  "Interval: VF[Table=9002:Id=646]": Object {
+    "name": "Interval: VF[Table=9002:Id=646]",
+    "type": "Char",
+    "value": "300",
+  },
+  "Interval: VF[Table=9006:Id=646]": Object {
+    "name": "Interval: VF[Table=9006:Id=646]",
+    "type": "Char",
+    "value": "300",
+  },
+  "Interval: VT1[Table=9002:Id=638]": Object {
+    "name": "Interval: VT1[Table=9002:Id=638]",
+    "type": "Char",
+    "value": "360",
+  },
+  "Interval: VT1[Table=9006:Id=638]": Object {
+    "name": "Interval: VT1[Table=9006:Id=638]",
+    "type": "Char",
+    "value": "360",
+  },
+  "Interval: VT2[Table=9002:Id=642]": Object {
+    "name": "Interval: VT2[Table=9002:Id=642]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Interval: VT2[Table=9006:Id=642]": Object {
+    "name": "Interval: VT2[Table=9006:Id=642]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "LASTCHARGTIME[Table=TBU_DEFI_DATA]": Object {
+    "name": "LASTCHARGTIME[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "16.6",
+  },
+  "LVEF[Table=9002:Id=720]": Object {
+    "name": "LVEF[Table=9002:Id=720]",
+    "type": "Char",
+    "value": "34",
+  },
+  "LVEF[Table=9006:Id=720]": Object {
+    "name": "LVEF[Table=9006:Id=720]",
+    "type": "Char",
+    "value": "34",
+  },
+  "Last follow-up[Table=9110:Id=1051]": Object {
+    "name": "Last follow-up[Table=9110:Id=1051]",
+    "type": "Char",
+    "value": "07/27/2016",
+  },
+  "Lead position[Table=9002:Id=884]": Object {
+    "name": "Lead position[Table=9002:Id=884]",
+    "type": "Char",
+    "value": "Appendage",
+  },
+  "Lead position[Table=9002:Id=888]": Object {
+    "name": "Lead position[Table=9002:Id=888]",
+    "type": "Char",
+    "value": "RV apex",
+  },
+  "Lead position[Table=9006:Id=884]": Object {
+    "name": "Lead position[Table=9006:Id=884]",
+    "type": "Char",
+    "value": "Appendage",
+  },
+  "Lead position[Table=9006:Id=888]": Object {
+    "name": "Lead position[Table=9006:Id=888]",
+    "type": "Char",
+    "value": "RV apex",
+  },
+  "Lower rate for AV delay[Table=9002:Id=853]": Object {
+    "name": "Lower rate for AV delay[Table=9002:Id=853]",
+    "type": "Char",
+    "value": "60",
+  },
+  "Lower rate for AV delay[Table=9006:Id=853]": Object {
+    "name": "Lower rate for AV delay[Table=9006:Id=853]",
+    "type": "Char",
+    "value": "60",
+  },
+  "MANUFACTURERDESCR[Table=TBU_DEFI_DATA2]": Object {
+    "name": "MANUFACTURERDESCR[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Biotronik",
+  },
+  "MANUFACTURERDESCR[Table=TBU_DEFI_DATA]": Object {
+    "name": "MANUFACTURERDESCR[Table=TBU_DEFI_DATA]",
+    "type": "Char",
+    "value": "Biotronik",
+  },
+  "MAXIMALFREQUENZ[Table=TBU_DEFI_DATA2]": Object {
+    "name": "MAXIMALFREQUENZ[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "130",
+  },
+  "MESSGERAET[Table=TBU_DEFI_DATA]": Object {
+    "name": "MESSGERAET[Table=TBU_DEFI_DATA]",
+    "type": "Char",
+    "value": "Implant",
+  },
+  "MODE[Table=TBU_DEFI_DATA2]": Object {
+    "name": "MODE[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "DDD",
+  },
+  "MSw basic rate[Table=9002:Id=819]": Object {
+    "name": "MSw basic rate[Table=9002:Id=819]",
+    "type": "Char",
+    "value": "70",
+  },
+  "MSw basic rate[Table=9006:Id=819]": Object {
+    "name": "MSw basic rate[Table=9006:Id=819]",
+    "type": "Char",
+    "value": "70",
+  },
+  "MSw basic rate[Table=9110:Id=819]": Object {
+    "name": "MSw basic rate[Table=9110:Id=819]",
+    "type": "Char",
+    "value": "70",
+  },
+  "MSw intervention rate[Table=9002:Id=316]": Object {
+    "name": "MSw intervention rate[Table=9002:Id=316]",
+    "type": "Char",
+    "value": "160",
+  },
+  "MSw intervention rate[Table=9006:Id=316]": Object {
+    "name": "MSw intervention rate[Table=9006:Id=316]",
+    "type": "Char",
+    "value": "160",
+  },
+  "MSw mode[Table=9002:Id=317]": Object {
+    "name": "MSw mode[Table=9002:Id=317]",
+    "type": "Char",
+    "value": "DDI",
+  },
+  "MSw mode[Table=9006:Id=317]": Object {
+    "name": "MSw mode[Table=9006:Id=317]",
+    "type": "Char",
+    "value": "DDI",
+  },
+  "MSw onset criterion X[Table=9110:Id=318]": Object {
+    "name": "MSw onset criterion X[Table=9110:Id=318]",
+    "type": "Char",
+    "value": "5",
+  },
+  "MSw onset criterion Y[Table=9110:Id=821]": Object {
+    "name": "MSw onset criterion Y[Table=9110:Id=821]",
+    "type": "Char",
+    "value": "8",
+  },
+  "MSw resolution criterion X[Table=9110:Id=319]": Object {
+    "name": "MSw resolution criterion X[Table=9110:Id=319]",
+    "type": "Char",
+    "value": "5",
+  },
+  "MSw resolution criterion Y[Table=9110:Id=822]": Object {
+    "name": "MSw resolution criterion Y[Table=9110:Id=822]",
+    "type": "Char",
+    "value": "8",
+  },
+  "Minimum threshold A[Table=9002:Id=56]": Object {
+    "name": "Minimum threshold A[Table=9002:Id=56]",
+    "type": "Char",
+    "value": "0.4",
+  },
+  "Minimum threshold A[Table=9006:Id=56]": Object {
+    "name": "Minimum threshold A[Table=9006:Id=56]",
+    "type": "Char",
+    "value": "0.4",
+  },
+  "Minimum threshold RV[Table=9002:Id=57]": Object {
+    "name": "Minimum threshold RV[Table=9002:Id=57]",
+    "type": "Char",
+    "value": "0.8",
+  },
+  "Minimum threshold RV[Table=9006:Id=57]": Object {
+    "name": "Minimum threshold RV[Table=9006:Id=57]",
+    "type": "Char",
+    "value": "0.8",
+  },
+  "Minimum threshold RV[Table=9110:Id=57]": Object {
+    "name": "Minimum threshold RV[Table=9110:Id=57]",
+    "type": "Char",
+    "value": "0.8",
+  },
+  "Mode[Table=9002:Id=99]": Object {
+    "name": "Mode[Table=9002:Id=99]",
+    "type": "Char",
+    "value": "DDD",
+  },
+  "Mode[Table=9006:Id=99]": Object {
+    "name": "Mode[Table=9006:Id=99]",
+    "type": "Char",
+    "value": "DDD",
+  },
+  "NIGHTFREQUENCY[Table=TBU_DEFI_DATA2]": Object {
+    "name": "NIGHTFREQUENCY[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "60",
+  },
+  "NYHA[Table=9002:Id=446]": Object {
+    "name": "NYHA[Table=9002:Id=446]",
+    "type": "Char",
+    "value": "II",
+  },
+  "NYHA[Table=9006:Id=446]": Object {
+    "name": "NYHA[Table=9006:Id=446]",
+    "type": "Char",
+    "value": "II",
+  },
+  "Name[Table=9002:Id=104]": Object {
+    "name": "Name[Table=9002:Id=104]",
+    "type": "Char",
+    "value": "ANONYMOUS",
+  },
+  "Name[Table=9006:Id=104]": Object {
+    "name": "Name[Table=9006:Id=104]",
+    "type": "Char",
+    "value": "ANONYMOUS",
+  },
+  "Name[Table=9110:Id=1341]": Object {
+    "name": "Name[Table=9110:Id=1341]",
+    "type": "Char",
+    "value": "ANONYMOUS, ANONYMOUS",
+  },
+  "Night rate[Table=9002:Id=274]": Object {
+    "name": "Night rate[Table=9002:Id=274]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Night rate[Table=9006:Id=274]": Object {
+    "name": "Night rate[Table=9006:Id=274]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Number S1[Table=9002:Id=670]": Object {
+    "name": "Number S1[Table=9002:Id=670]",
+    "type": "Char",
+    "value": "5",
+  },
+  "Number S1[Table=9002:Id=675]": Object {
+    "name": "Number S1[Table=9002:Id=675]",
+    "type": "Char",
+    "value": "5",
+  },
+  "Number S1[Table=9006:Id=670]": Object {
+    "name": "Number S1[Table=9006:Id=670]",
+    "type": "Char",
+    "value": "5",
+  },
+  "Number S1[Table=9006:Id=675]": Object {
+    "name": "Number S1[Table=9006:Id=675]",
+    "type": "Char",
+    "value": "5",
+  },
+  "Number[Table=9110:Id=870]": Object {
+    "name": "Number[Table=9110:Id=870]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9110:Id=871]": Object {
+    "name": "Number[Table=9110:Id=871]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9110:Id=872]": Object {
+    "name": "Number[Table=9110:Id=872]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=1128]": Object {
+    "name": "Number[Table=9190:Id=1128]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=1129]": Object {
+    "name": "Number[Table=9190:Id=1129]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=870]": Object {
+    "name": "Number[Table=9190:Id=870]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=871]": Object {
+    "name": "Number[Table=9190:Id=871]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=872]": Object {
+    "name": "Number[Table=9190:Id=872]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=876]": Object {
+    "name": "Number[Table=9190:Id=876]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=913]": Object {
+    "name": "Number[Table=9190:Id=913]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=914]": Object {
+    "name": "Number[Table=9190:Id=914]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=915]": Object {
+    "name": "Number[Table=9190:Id=915]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=916]": Object {
+    "name": "Number[Table=9190:Id=916]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=917]": Object {
+    "name": "Number[Table=9190:Id=917]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=918]": Object {
+    "name": "Number[Table=9190:Id=918]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=919]": Object {
+    "name": "Number[Table=9190:Id=919]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=920]": Object {
+    "name": "Number[Table=9190:Id=920]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=921]": Object {
+    "name": "Number[Table=9190:Id=921]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=922]": Object {
+    "name": "Number[Table=9190:Id=922]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Number[Table=9190:Id=928]": Object {
+    "name": "Number[Table=9190:Id=928]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Onset: VT1[Table=9002:Id=636]": Object {
+    "name": "Onset: VT1[Table=9002:Id=636]",
+    "type": "Char",
+    "value": "20",
+  },
+  "Onset: VT1[Table=9006:Id=636]": Object {
+    "name": "Onset: VT1[Table=9006:Id=636]",
+    "type": "Char",
+    "value": "20",
+  },
+  "PMT detection/termination[Table=9002:Id=313]": Object {
+    "name": "PMT detection/termination[Table=9002:Id=313]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "PMT detection/termination[Table=9006:Id=313]": Object {
+    "name": "PMT detection/termination[Table=9006:Id=313]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "POSTSHOCKPACAMPL[Table=TBU_DEFI_DATA2]": Object {
+    "name": "POSTSHOCKPACAMPL[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "7.5",
+  },
+  "POSTSHOCKPACDUR[Table=TBU_DEFI_DATA2]": Object {
+    "name": "POSTSHOCKPACDUR[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "10",
+  },
+  "POSTSHPACFREQUENCY[Table=TBU_DEFI_DATA2]": Object {
+    "name": "POSTSHPACFREQUENCY[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "60",
+  },
+  "POSTSHPACIMPDUR[Table=TBU_DEFI_DATA2]": Object {
+    "name": "POSTSHPACIMPDUR[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "1.5",
+  },
+  "PVARP[Table=9002:Id=331]": Object {
+    "name": "PVARP[Table=9002:Id=331]",
+    "type": "Char",
+    "value": "250",
+  },
+  "PVARP[Table=9006:Id=331]": Object {
+    "name": "PVARP[Table=9006:Id=331]",
+    "type": "Char",
+    "value": "250",
+  },
+  "Phone[Table=9002:Id=887]": Object {
+    "name": "Phone[Table=9002:Id=887]",
+    "type": "Char",
+    "value": ".",
+  },
+  "Phone[Table=9006:Id=887]": Object {
+    "name": "Phone[Table=9006:Id=887]",
+    "type": "Char",
+    "value": ".",
+  },
+  "Physician[Table=9002:Id=885]": Object {
+    "name": "Physician[Table=9002:Id=885]",
+    "type": "Char",
+    "value": "ANONYMOUS E.",
+  },
+  "Physician[Table=9006:Id=885]": Object {
+    "name": "Physician[Table=9006:Id=885]",
+    "type": "Char",
+    "value": "ANONYMOUS E.",
+  },
+  "Polarity[Table=9002:Id=669]": Object {
+    "name": "Polarity[Table=9002:Id=669]",
+    "type": "Char",
+    "value": "Normal",
+  },
+  "Polarity[Table=9002:Id=710]": Object {
+    "name": "Polarity[Table=9002:Id=710]",
+    "type": "Char",
+    "value": "Normal",
+  },
+  "Polarity[Table=9006:Id=669]": Object {
+    "name": "Polarity[Table=9006:Id=669]",
+    "type": "Char",
+    "value": "Normal",
+  },
+  "Polarity[Table=9006:Id=710]": Object {
+    "name": "Polarity[Table=9006:Id=710]",
+    "type": "Char",
+    "value": "Normal",
+  },
+  "Post ModeSw duration[Table=9002:Id=827]": Object {
+    "name": "Post ModeSw duration[Table=9002:Id=827]",
+    "type": "Char",
+    "value": "01:00",
+  },
+  "Post ModeSw duration[Table=9006:Id=827]": Object {
+    "name": "Post ModeSw duration[Table=9006:Id=827]",
+    "type": "Char",
+    "value": "01:00",
+  },
+  "Post ModeSw rate[Table=9110:Id=826]": Object {
+    "name": "Post ModeSw rate[Table=9110:Id=826]",
+    "type": "Char",
+    "value": "70",
+  },
+  "Post shock: AV delay[Table=9002:Id=892]": Object {
+    "name": "Post shock: AV delay[Table=9002:Id=892]",
+    "type": "Char",
+    "value": "180",
+  },
+  "Post shock: AV delay[Table=9006:Id=892]": Object {
+    "name": "Post shock: AV delay[Table=9006:Id=892]",
+    "type": "Char",
+    "value": "180",
+  },
+  "Post shock: Basic rate[Table=9002:Id=816]": Object {
+    "name": "Post shock: Basic rate[Table=9002:Id=816]",
+    "type": "Char",
+    "value": "60",
+  },
+  "Post shock: Basic rate[Table=9006:Id=816]": Object {
+    "name": "Post shock: Basic rate[Table=9006:Id=816]",
+    "type": "Char",
+    "value": "60",
+  },
+  "Post shock: Mode[Table=9002:Id=891]": Object {
+    "name": "Post shock: Mode[Table=9002:Id=891]",
+    "type": "Char",
+    "value": "DDI",
+  },
+  "Post shock: Mode[Table=9006:Id=891]": Object {
+    "name": "Post shock: Mode[Table=9006:Id=891]",
+    "type": "Char",
+    "value": "DDI",
+  },
+  "Post shock: Rate hysteresis[Table=9002:Id=893]": Object {
+    "name": "Post shock: Rate hysteresis[Table=9002:Id=893]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Post shock: Rate hysteresis[Table=9006:Id=893]": Object {
+    "name": "Post shock: Rate hysteresis[Table=9006:Id=893]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Program No.[Table=9110:Id=1184]": Object {
+    "name": "Program No.[Table=9110:Id=1184]",
+    "type": "Char",
+    "value": "28",
+  },
+  "Pulse amplitude[Table=9002:Id=76]": Object {
+    "name": "Pulse amplitude[Table=9002:Id=76]",
+    "type": "Char",
+    "value": "1.5",
+  },
+  "Pulse amplitude[Table=9002:Id=77]": Object {
+    "name": "Pulse amplitude[Table=9002:Id=77]",
+    "type": "Char",
+    "value": "2.2",
+  },
+  "Pulse amplitude[Table=9006:Id=76]": Object {
+    "name": "Pulse amplitude[Table=9006:Id=76]",
+    "type": "Char",
+    "value": "1.5",
+  },
+  "Pulse amplitude[Table=9006:Id=77]": Object {
+    "name": "Pulse amplitude[Table=9006:Id=77]",
+    "type": "Char",
+    "value": "2.2",
+  },
+  "Pulse width[Table=9002:Id=79]": Object {
+    "name": "Pulse width[Table=9002:Id=79]",
+    "type": "Char",
+    "value": "0.5",
+  },
+  "Pulse width[Table=9002:Id=82]": Object {
+    "name": "Pulse width[Table=9002:Id=82]",
+    "type": "Char",
+    "value": "0.5",
+  },
+  "Pulse width[Table=9006:Id=79]": Object {
+    "name": "Pulse width[Table=9006:Id=79]",
+    "type": "Char",
+    "value": "0.5",
+  },
+  "Pulse width[Table=9006:Id=82]": Object {
+    "name": "Pulse width[Table=9006:Id=82]",
+    "type": "Char",
+    "value": "0.5",
+  },
+  "Rate hysteresis[Table=9002:Id=71]": Object {
+    "name": "Rate hysteresis[Table=9002:Id=71]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Rate hysteresis[Table=9006:Id=71]": Object {
+    "name": "Rate hysteresis[Table=9006:Id=71]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Rate: VF[Table=9002:Id=648]": Object {
+    "name": "Rate: VF[Table=9002:Id=648]",
+    "type": "Char",
+    "value": "200",
+  },
+  "Rate: VF[Table=9006:Id=648]": Object {
+    "name": "Rate: VF[Table=9006:Id=648]",
+    "type": "Char",
+    "value": "200",
+  },
+  "Rate: VT1[Table=9002:Id=639]": Object {
+    "name": "Rate: VT1[Table=9002:Id=639]",
+    "type": "Char",
+    "value": "167",
+  },
+  "Rate: VT1[Table=9006:Id=639]": Object {
+    "name": "Rate: VT1[Table=9006:Id=639]",
+    "type": "Char",
+    "value": "167",
+  },
+  "Rate: VT2[Table=9002:Id=643]": Object {
+    "name": "Rate: VT2[Table=9002:Id=643]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Rate: VT2[Table=9006:Id=643]": Object {
+    "name": "Rate: VT2[Table=9006:Id=643]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Remaining battery capacity[Table=9110:Id=880]": Object {
+    "name": "Remaining battery capacity[Table=9110:Id=880]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Remark[Table=9002:Id=923]": Object {
+    "name": "Remark[Table=9002:Id=923]",
+    "type": "Char",
+    "value": ".",
+  },
+  "Remark[Table=9002:Id=924]": Object {
+    "name": "Remark[Table=9002:Id=924]",
+    "type": "Char",
+    "value": ".",
+  },
+  "Remark[Table=9002:Id=925]": Object {
+    "name": "Remark[Table=9002:Id=925]",
+    "type": "Char",
+    "value": ".",
+  },
+  "Remark[Table=9006:Id=923]": Object {
+    "name": "Remark[Table=9006:Id=923]",
+    "type": "Char",
+    "value": ".",
+  },
+  "Remark[Table=9006:Id=924]": Object {
+    "name": "Remark[Table=9006:Id=924]",
+    "type": "Char",
+    "value": ".",
+  },
+  "Remark[Table=9006:Id=925]": Object {
+    "name": "Remark[Table=9006:Id=925]",
+    "type": "Char",
+    "value": ".",
+  },
+  "S1 decrement[Table=9002:Id=677]": Object {
+    "name": "S1 decrement[Table=9002:Id=677]",
+    "type": "Char",
+    "value": "10",
+  },
+  "S1 decrement[Table=9006:Id=677]": Object {
+    "name": "S1 decrement[Table=9006:Id=677]",
+    "type": "Char",
+    "value": "10",
+  },
+  "SENSING_LV[Table=TBU_DEFI_DATA]": Object {
+    "name": "SENSING_LV[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "0",
+  },
+  "SENSING_RA[Table=TBU_DEFI_DATA]": Object {
+    "name": "SENSING_RA[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "4.6",
+  },
+  "SENSING_RV[Table=TBU_DEFI_DATA]": Object {
+    "name": "SENSING_RV[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "10.9",
+  },
+  "SERHSM[Table=TBU_DEFI_DATA2]": Object {
+    "name": "SERHSM[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "60485754",
+  },
+  "SERHSM[Table=TBU_DEFI_DATA]": Object {
+    "name": "SERHSM[Table=TBU_DEFI_DATA]",
+    "type": "Char",
+    "value": "60485754",
+  },
+  "SMART detection: VT1[Table=9002:Id=634]": Object {
+    "name": "SMART detection: VT1[Table=9002:Id=634]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "SMART detection: VT1[Table=9006:Id=634]": Object {
+    "name": "SMART detection: VT1[Table=9006:Id=634]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "SMART redetection VT1[Table=9002:Id=817]": Object {
+    "name": "SMART redetection VT1[Table=9002:Id=817]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "SMART redetection VT1[Table=9006:Id=817]": Object {
+    "name": "SMART redetection VT1[Table=9006:Id=817]",
+    "type": "Char",
+    "value": "ON",
+  },
+  "STATUS[Table=TBU_DEFI_DATA2]": Object {
+    "name": "STATUS[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Kontrol.",
+  },
+  "STATUS[Table=TBU_DEFI_DATA]": Object {
+    "name": "STATUS[Table=TBU_DEFI_DATA]",
+    "type": "Char",
+    "value": "Kontrol.",
+  },
+  "Scan decrement[Table=9002:Id=673]": Object {
+    "name": "Scan decrement[Table=9002:Id=673]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Scan decrement[Table=9002:Id=678]": Object {
+    "name": "Scan decrement[Table=9002:Id=678]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Scan decrement[Table=9006:Id=673]": Object {
+    "name": "Scan decrement[Table=9006:Id=673]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Scan decrement[Table=9006:Id=678]": Object {
+    "name": "Scan decrement[Table=9006:Id=678]",
+    "type": "Char",
+    "value": "OFF",
+  },
+  "Sense compensation[Table=9002:Id=283]": Object {
+    "name": "Sense compensation[Table=9002:Id=283]",
+    "type": "Char",
+    "value": "-30",
+  },
+  "Sense compensation[Table=9006:Id=283]": Object {
+    "name": "Sense compensation[Table=9006:Id=283]",
+    "type": "Char",
+    "value": "-30",
+  },
+  "Sensing A[Table=9002:Id=944]": Object {
+    "name": "Sensing A[Table=9002:Id=944]",
+    "type": "Char",
+    "value": "Std.",
+  },
+  "Sensing A[Table=9006:Id=944]": Object {
+    "name": "Sensing A[Table=9006:Id=944]",
+    "type": "Char",
+    "value": "Std.",
+  },
+  "Shock impedance[Table=9110:Id=713]": Object {
+    "name": "Shock impedance[Table=9110:Id=713]",
+    "type": "Char",
+    "value": ".",
+  },
+  "Shock[Table=9190:Id=845]": Object {
+    "name": "Shock[Table=9190:Id=845]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Shock[Table=9190:Id=846]": Object {
+    "name": "Shock[Table=9190:Id=846]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Shock[Table=9190:Id=847]": Object {
+    "name": "Shock[Table=9190:Id=847]",
+    "type": "Char",
+    "value": "0",
+  },
+  "Software release[Table=9100:Id=881]": Object {
+    "name": "Software release[Table=9100:Id=881]",
+    "type": "Char",
+    "value": "5.2.1",
+  },
+  "Stability: VT1[Table=9110:Id=651]": Object {
+    "name": "Stability: VT1[Table=9110:Id=651]",
+    "type": "Char",
+    "value": "12",
+  },
+  "Symptom[Table=9002:Id=122]": Object {
+    "name": "Symptom[Table=9002:Id=122]",
+    "type": "Char",
+    "value": "Prophylactic indication",
+  },
+  "Symptom[Table=9006:Id=122]": Object {
+    "name": "Symptom[Table=9006:Id=122]",
+    "type": "Char",
+    "value": "Prophylactic indication",
+  },
+  "THER1_VT1_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER1_VT1_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Burst",
+  },
+  "THER1_VT2_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER1_VT2_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Keine Th",
+  },
+  "THER2_VT1_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER2_VT1_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Ramp",
+  },
+  "THER2_VT2_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER2_VT2_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Keine Th",
+  },
+  "THER3_VT1_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER3_VT1_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "CardVers",
+  },
+  "THER3_VT2_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER3_VT2_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Keine Th",
+  },
+  "THER4_VT1_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER4_VT1_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "CardVers",
+  },
+  "THER4_VT2_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER4_VT2_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Keine Th",
+  },
+  "THER5_VT1_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER5_VT1_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "CardVers",
+  },
+  "THER5_VT2_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THER5_VT2_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Keine Th",
+  },
+  "THERAPY1_VF_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY1_VF_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Keine Th",
+  },
+  "THERAPY1_VT1_NUMB[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY1_VT1_NUMB[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "3",
+  },
+  "THERAPY2_VT1_NUMB[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY2_VT1_NUMB[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "2",
+  },
+  "THERAPY3_VF_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY3_VF_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "CardVers",
+  },
+  "THERAPY3_VF_ENERGY[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY3_VF_ENERGY[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "40",
+  },
+  "THERAPY3_VF_NUMBER[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY3_VF_NUMBER[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "1",
+  },
+  "THERAPY3_VT1_ENERG[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY3_VT1_ENERG[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "40",
+  },
+  "THERAPY3_VT1_NUMB[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY3_VT1_NUMB[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "1",
+  },
+  "THERAPY4_VF_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY4_VF_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "CardVers",
+  },
+  "THERAPY4_VF_ENERGY[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY4_VF_ENERGY[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "40",
+  },
+  "THERAPY4_VF_NUMBER[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY4_VF_NUMBER[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "1",
+  },
+  "THERAPY4_VT1_ENERG[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY4_VT1_ENERG[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "40",
+  },
+  "THERAPY4_VT1_NUMB[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY4_VT1_NUMB[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "1",
+  },
+  "THERAPY5_VF_ACTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY5_VF_ACTION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "CardVers",
+  },
+  "THERAPY5_VF_ENERGY[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY5_VF_ENERGY[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "40",
+  },
+  "THERAPY5_VF_NUMBER[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY5_VF_NUMBER[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "6",
+  },
+  "THERAPY5_VT1_ENERG[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY5_VT1_ENERG[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "40",
+  },
+  "THERAPY5_VT1_NUMB[Table=TBU_DEFI_DATA2]": Object {
+    "name": "THERAPY5_VT1_NUMB[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "6",
+  },
+  "THRESHOLD_LV[Table=TBU_DEFI_DATA]": Object {
+    "name": "THRESHOLD_LV[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "0",
+  },
+  "THRESHOLD_RA[Table=TBU_DEFI_DATA]": Object {
+    "name": "THRESHOLD_RA[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "0",
+  },
+  "THRESHOLD_RV[Table=TBU_DEFI_DATA]": Object {
+    "name": "THRESHOLD_RV[Table=TBU_DEFI_DATA]",
+    "type": "Decimal",
+    "value": "0",
+  },
+  "Tachycardia detection[Table=9002:Id=940]": Object {
+    "name": "Tachycardia detection[Table=9002:Id=940]",
+    "type": "Char",
+    "value": "Enabled",
+  },
+  "Tachycardia detection[Table=9006:Id=940]": Object {
+    "name": "Tachycardia detection[Table=9006:Id=940]",
+    "type": "Char",
+    "value": "Enabled",
+  },
+  "Tachycardia detection[Table=9110:Id=940]": Object {
+    "name": "Tachycardia detection[Table=9110:Id=940]",
+    "type": "Char",
+    "value": "Enabled",
+  },
+  "Total number of charges[Table=9100:Id=719]": Object {
+    "name": "Total number of charges[Table=9100:Id=719]",
+    "type": "Char",
+    "value": "31",
+  },
+  "Total number of charges[Table=9170:Id=719]": Object {
+    "name": "Total number of charges[Table=9170:Id=719]",
+    "type": "Char",
+    "value": "31",
+  },
+  "Upper rate for AV delay[Table=9002:Id=854]": Object {
+    "name": "Upper rate for AV delay[Table=9002:Id=854]",
+    "type": "Char",
+    "value": "130",
+  },
+  "Upper rate for AV delay[Table=9006:Id=854]": Object {
+    "name": "Upper rate for AV delay[Table=9006:Id=854]",
+    "type": "Char",
+    "value": "130",
+  },
+  "Upper rate[Table=9002:Id=102]": Object {
+    "name": "Upper rate[Table=9002:Id=102]",
+    "type": "Char",
+    "value": "130",
+  },
+  "Upper rate[Table=9006:Id=102]": Object {
+    "name": "Upper rate[Table=9006:Id=102]",
+    "type": "Char",
+    "value": "130",
+  },
+  "VF: 1st shock[Table=9002:Id=605]": Object {
+    "name": "VF: 1st shock[Table=9002:Id=605]",
+    "type": "Char",
+    "value": "40",
+  },
+  "VF: 1st shock[Table=9006:Id=605]": Object {
+    "name": "VF: 1st shock[Table=9006:Id=605]",
+    "type": "Char",
+    "value": "40",
+  },
+  "VF: 2nd shock[Table=9002:Id=606]": Object {
+    "name": "VF: 2nd shock[Table=9002:Id=606]",
+    "type": "Char",
+    "value": "40",
+  },
+  "VF: 2nd shock[Table=9006:Id=606]": Object {
+    "name": "VF: 2nd shock[Table=9006:Id=606]",
+    "type": "Char",
+    "value": "40",
+  },
+  "VF_DETECTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VF_DETECTION[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "200",
+  },
+  "VF_INTERVAL[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VF_INTERVAL[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "300",
+  },
+  "VF_NOFX[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VF_NOFX[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "08/12",
+  },
+  "VF_REDETECTINTERV[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VF_REDETECTINTERV[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "300",
+  },
+  "VF_REDETECTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VF_REDETECTION[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "200",
+  },
+  "VT1: 1st shock[Table=9002:Id=601]": Object {
+    "name": "VT1: 1st shock[Table=9002:Id=601]",
+    "type": "Char",
+    "value": "40",
+  },
+  "VT1: 1st shock[Table=9006:Id=601]": Object {
+    "name": "VT1: 1st shock[Table=9006:Id=601]",
+    "type": "Char",
+    "value": "40",
+  },
+  "VT1: 2nd shock[Table=9002:Id=602]": Object {
+    "name": "VT1: 2nd shock[Table=9002:Id=602]",
+    "type": "Char",
+    "value": "40",
+  },
+  "VT1: 2nd shock[Table=9006:Id=602]": Object {
+    "name": "VT1: 2nd shock[Table=9006:Id=602]",
+    "type": "Char",
+    "value": "40",
+  },
+  "VT1: ATP1: R-S1 interval[Table=9002:Id=681]": Object {
+    "name": "VT1: ATP1: R-S1 interval[Table=9002:Id=681]",
+    "type": "Char",
+    "value": "80",
+  },
+  "VT1: ATP1: R-S1 interval[Table=9006:Id=681]": Object {
+    "name": "VT1: ATP1: R-S1 interval[Table=9006:Id=681]",
+    "type": "Char",
+    "value": "80",
+  },
+  "VT1: ATP2: R-S1 interval[Table=9002:Id=684]": Object {
+    "name": "VT1: ATP2: R-S1 interval[Table=9002:Id=684]",
+    "type": "Char",
+    "value": "80",
+  },
+  "VT1: ATP2: R-S1 interval[Table=9006:Id=684]": Object {
+    "name": "VT1: ATP2: R-S1 interval[Table=9006:Id=684]",
+    "type": "Char",
+    "value": "80",
+  },
+  "VT1: Minimum interval[Table=9002:Id=674]": Object {
+    "name": "VT1: Minimum interval[Table=9002:Id=674]",
+    "type": "Char",
+    "value": "200",
+  },
+  "VT1: Minimum interval[Table=9006:Id=674]": Object {
+    "name": "VT1: Minimum interval[Table=9006:Id=674]",
+    "type": "Char",
+    "value": "200",
+  },
+  "VT1_DETECTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_DETECTION[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "167",
+  },
+  "VT1_FORCEDTERMINAT[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_FORCEDTERMINAT[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "1min",
+  },
+  "VT1_INTERVAL[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_INTERVAL[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "360",
+  },
+  "VT1_NOFX[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_NOFX[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "26",
+  },
+  "VT1_ONSETPERCENT[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_ONSETPERCENT[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "20",
+  },
+  "VT1_ONSET[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_ONSET[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Ja",
+  },
+  "VT1_REDETECTINTERV[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_REDETECTINTERV[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "360",
+  },
+  "VT1_REDETECTION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_REDETECTION[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "167",
+  },
+  "VT1_REDET_NOFX[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_REDET_NOFX[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "20",
+  },
+  "VT1_STABILITYPERC[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_STABILITYPERC[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "12",
+  },
+  "VT1_STABILITY[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_STABILITY[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Ja",
+  },
+  "VT1_SVT[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT1_SVT[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "SmartRed",
+  },
+  "VT2_FORCEDTERMINAT[Table=TBU_DEFI_DATA2]": Object {
+    "name": "VT2_FORCEDTERMINAT[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "1min",
+  },
+  "V_AMPLITUDE[Table=TBU_DEFI_DATA2]": Object {
+    "name": "V_AMPLITUDE[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "2.2",
+  },
+  "V_IMPDAUER[Table=TBU_DEFI_DATA2]": Object {
+    "name": "V_IMPDAUER[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "0.5",
+  },
+  "V_SENSE2[Table=TBU_DEFI_DATA2]": Object {
+    "name": "V_SENSE2[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Bipolar",
+  },
+  "V_SENSE[Table=TBU_DEFI_DATA2]": Object {
+    "name": "V_SENSE[Table=TBU_DEFI_DATA2]",
+    "type": "Decimal",
+    "value": "0.8",
+  },
+  "V_STIMULATION[Table=TBU_DEFI_DATA2]": Object {
+    "name": "V_STIMULATION[Table=TBU_DEFI_DATA2]",
+    "type": "Char",
+    "value": "Bipolar",
+  },
+  "V_ZEIT[Table=TBU_DEFI_DATA2]": Object {
+    "name": "V_ZEIT[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "210",
+  },
+  "V_ZEIT_PAC[Table=TBU_DEFI_DATA2]": Object {
+    "name": "V_ZEIT_PAC[Table=TBU_DEFI_DATA2]",
+    "type": "SmallInt",
+    "value": "240",
+  },
+  "Voltage[Table=9100:Id=119]": Object {
+    "name": "Voltage[Table=9100:Id=119]",
+    "type": "Char",
+    "value": "2.85",
+  },
+  "Voltage[Table=9110:Id=119]": Object {
+    "name": "Voltage[Table=9110:Id=119]",
+    "type": "Char",
+    "value": "2.85",
+  },
   "admissionDate": Object {
     "name": "AdmissionDate",
     "type": "date",
@@ -12,6 +2012,1397 @@ Object {
     "type": "time",
     "value": "12:12:00",
   },
+  "after atrial pace[Table=9002:Id=895]": Object {
+    "name": "after atrial pace[Table=9002:Id=895]",
+    "type": "Char",
+    "value": "50",
+  },
+  "after atrial pace[Table=9006:Id=895]": Object {
+    "name": "after atrial pace[Table=9006:Id=895]",
+    "type": "Char",
+    "value": "50",
+  },
+  "episodes": Array [
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "42",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2016-11-22T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "41",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2016-09-23T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "40",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2016-07-25T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "39",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2016-05-26T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "38",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2016-03-27T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "37",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2016-01-27T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "36",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2015-11-28T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "35",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2015-09-29T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "997",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "34",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2015-07-31T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "669",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "673",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "33",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2015-06-01T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "736",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "739",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "32",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2015-04-02T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "554",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "554",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "31",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2015-02-01T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "496",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "496",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "30",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2014-12-03T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "706",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "707",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "29",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2014-10-04T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "569",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "570",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "28",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2014-08-05T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "626",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "624",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "27",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2014-06-06T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "684",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "693",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "26",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2014-04-07T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "773",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "777",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "25",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2014-02-06T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "579",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "576",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "24",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2013-12-16T18:12:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "VF",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "526",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "335",
+      },
+      Object {
+        "name": "PP2",
+        "type": "SmallInt",
+        "value": "533",
+      },
+      Object {
+        "name": "RR2",
+        "type": "SmallInt",
+        "value": "534",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "23",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2013-12-08T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "592",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "588",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "22",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2013-10-09T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "540",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "542",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "21",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2013-08-10T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "700",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "699",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "20",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2013-06-11T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "736",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "726",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "19",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2013-04-12T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "469",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "459",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "18",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2013-02-11T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "585",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "578",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "17",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2012-12-13T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "794",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "783",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "16",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2012-10-14T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "619",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "616",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "15",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2012-08-15T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "811",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "809",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "14",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2012-06-16T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "524",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "517",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "13",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2012-04-17T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "766",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "765",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "12",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2012-02-17T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "841",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "844",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "11",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2011-12-19T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "878",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "877",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "10",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2011-10-20T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "744",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "742",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "9",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2011-08-21T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "832",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "830",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "8",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2011-06-22T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "740",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "740",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "7",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2011-05-09T12:58:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "VF",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "494",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "316",
+      },
+      Object {
+        "name": "PP2",
+        "type": "SmallInt",
+        "value": "515",
+      },
+      Object {
+        "name": "RR2",
+        "type": "SmallInt",
+        "value": "515",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "6",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2011-05-09T11:35:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "VF",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "502",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "377",
+      },
+      Object {
+        "name": "PP2",
+        "type": "SmallInt",
+        "value": "516",
+      },
+      Object {
+        "name": "RR2",
+        "type": "SmallInt",
+        "value": "516",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "5",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2011-04-23T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "657",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "652",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "4",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2011-02-22T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "669",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "664",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "3",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2010-12-24T00:40:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "---",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "695",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "690",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "2",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2010-10-27T13:42:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "VF",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "9999",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "146",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "1 Shock, induced",
+      },
+      Object {
+        "name": "PP2",
+        "type": "SmallInt",
+        "value": "779",
+      },
+      Object {
+        "name": "RR2",
+        "type": "SmallInt",
+        "value": "783",
+      },
+    ],
+    Array [
+      Object {
+        "name": "NR",
+        "type": "SmallInt",
+        "value": "1",
+      },
+      Object {
+        "name": "POINTINTIME",
+        "type": "Timestamp",
+        "value": "2010-10-27T12:59:00",
+      },
+      Object {
+        "name": "ZONE",
+        "type": "Char",
+        "value": "VF",
+      },
+      Object {
+        "name": "PP",
+        "type": "SmallInt",
+        "value": "9999",
+      },
+      Object {
+        "name": "RR",
+        "type": "SmallInt",
+        "value": "177",
+      },
+      Object {
+        "name": "DESCRIPTION",
+        "type": "Char",
+        "value": "1 Shock, induced",
+      },
+      Object {
+        "name": "PP2",
+        "type": "SmallInt",
+        "value": "917",
+      },
+      Object {
+        "name": "RR2",
+        "type": "SmallInt",
+        "value": "923",
+      },
+    ],
+  ],
   "examinationDate": Object {
     "name": "ExaminationDate",
     "type": "date",

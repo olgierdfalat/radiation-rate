@@ -9,7 +9,7 @@
 					<value name="SERIAL" type="String">60485754</value>
 					<value name="MFG" type="MDC_IDC_ENUM_MFG">BIO</value>
 					<value name="IMPLANT_DT" type="DateTime">20101025T000000</value>
-					<value name="IMPLANTER" type="String">Adamowicz E.</value>
+					<value name="IMPLANTER" type="String">ANONYMOUS E.</value>
 					<value name="IMPLANTING_FACILITY" type="String">SCCS w Zabrzu</value>
 				</section>
 				<section name="SESS">

@@ -2676,7 +2676,7 @@
 					<carddas:AttributeID>885</carddas:AttributeID>
 					<carddas:AttributeName>Physician</carddas:AttributeName>
 					<carddas:AttributeType>Char</carddas:AttributeType>
-					<carddas:CharValue>Adamowicz E.</carddas:CharValue>
+					<carddas:CharValue>ANONYMOUS E.</carddas:CharValue>
 				</carddas:TableEntry>
 				<carddas:TableEntry>
 					<carddas:AttributeID>887</carddas:AttributeID>
@@ -3555,7 +3555,7 @@
 					<carddas:AttributeID>885</carddas:AttributeID>
 					<carddas:AttributeName>Physician</carddas:AttributeName>
 					<carddas:AttributeType>Char</carddas:AttributeType>
-					<carddas:CharValue>Adamowicz E.</carddas:CharValue>
+					<carddas:CharValue>ANONYMOUS E.</carddas:CharValue>
 				</carddas:TableEntry>
 				<carddas:TableEntry>
 					<carddas:AttributeID>887</carddas:AttributeID>

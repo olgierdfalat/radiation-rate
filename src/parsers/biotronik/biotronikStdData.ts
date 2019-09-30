@@ -1,10 +1,11 @@
 import {DOMParser} from 'xmldom';
-import xpath from 'xpath';
+import xpath, { SelectedValue } from 'xpath';
 import * as errors from './../../errors';
 import checksum from './../../util/checksum';
 import * as models from './../../models';
 
 const ELEMENT_NODE = 1;
+const NR = 'NR';
 
 export class BiotronikStdData {
   private content: string;
@@ -72,6 +73,66 @@ export class BiotronikStdData {
     return this.parseAttribute(selector, 'time');
   }
 
+  private getLastElementValue(childNodes: NodeListOf<Node>) : string {
+    let value = null;
+    let element: Element = null;
+    for(let key in childNodes) {
+      const node = childNodes[key];
+      if(node.nodeType === ELEMENT_NODE) {
+        element = node as Element;
+      }
+    }
+    if(element && element.firstChild) {
+      value = element.firstChild.nodeValue;
+    }
+
+    return value;
+  }
+  private parseTableEntries(selector: string, includeTablePostfix = true, includeTableArgumentPostfix = false) : models.FieldModel[] {
+    function getValue(selector: string, element: Element): string {
+      const childElement = xpath.select1(selector, element) as Element;
+      if(childElement) {
+        if(childElement.firstChild) {
+          return childElement.firstChild.nodeValue;
+        }
+      }
+      return null;
+    }
+    const entires: models.FieldModel[] = [];
+    const entries = xpath.select(selector, this.xmlDoc);
+    
+    entries.forEach(entry => {
+      const element = entry as Element;
+      if(element) {
+        const tableName = getValue('./../TableName', element);
+        let name = includeTablePostfix ? getValue('./AttributeName', element) + `[Table=${tableName}]` : getValue('./AttributeName', element);
+        const type = getValue('./AttributeType', element);
+        const value = this.getLastElementValue(element.childNodes);
+        if(includeTableArgumentPostfix) {
+          const attributeID = getValue('./AttributeID', element);
+          name = `${name}[Table=${tableName}:Id=${attributeID}]`;
+        }
+        entires.push({name, type, value});
+      }      
+    });
+    return entires;
+  }
+
+  private parseEpisodes(selector: string) : models.FieldModel[][] {
+    const entries = this.parseTableEntries(selector, false);
+    const episodes: models.FieldModel[][] = [];
+    let record: models.FieldModel[] = []; 
+    entries.forEach(e => {
+      if(e.name === NR) {
+        record = [];
+        episodes.push(record)
+      }
+
+      record.push(e);
+    });
+    return episodes;
+  }
+
   private parseXml() {
     if (!this.content || this.content.length === 0) {
       throw new errors.NoContent();
@@ -98,6 +159,9 @@ export class BiotronikStdData {
     const examinationDate = this.parseDateElement(`${examinationSelector}/ExaminationDate`);
     const examinationTime = this.parseTimeElement(`${examinationSelector}/ExaminationTime`);
     const examinationFunctionalDomain = this.parseStringElement(`${examinationSelector}/FunctionalDomain`);
+    const measurementsEntries = this.parseTableEntries('//Examination/Measurements/Table/TableEntry');
+    const episodes = this.parseEpisodes('//Examination/Measurements/Table/ForeignKey/TableEntry');
+    const additionalMeasurements = this.parseTableEntries('//Examination/AdditionalMeasurements/Table/TableEntry', false, true);
 
     this.stdData = {
       interfaceDataDestination,
@@ -111,8 +175,12 @@ export class BiotronikStdData {
       admissionTime,
       examinationDate,
       examinationTime,
-      examinationFunctionalDomain
+      examinationFunctionalDomain,
+      episodes
     };    
+    
+    measurementsEntries.forEach(x => this.stdData[x.name] = x);
+    additionalMeasurements.forEach(x => this.stdData[x.name] = x);
   }
 
   getRow() {
