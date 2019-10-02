@@ -7,3 +7,5 @@ export * from './interrogationsFactory';
 export * from './keyValuePair';
 export * from './valueTypePair';
 export * from './fieldModel';
+export * from './worksheetField';
+export * from './worksheetRow';

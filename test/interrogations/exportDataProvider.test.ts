@@ -25,6 +25,6 @@ describe('Interrogations data provider class', () => {
         return row;
     });
     
-    expect(exportDataProvider.getExportData('1234', rows)).toMatchSnapshot();
+    expect(exportDataProvider.getWorksheetData('1234', rows)).toMatchSnapshot();
   });
 })
