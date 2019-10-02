@@ -1,5 +1,5 @@
 import { ValueTypePair } from './valueTypePair';
-export interface ExcelWorksheetData {
+export interface WorksheetData {
   name: string;
   deviceId: string;
   columns: string[];
