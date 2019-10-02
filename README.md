@@ -54,16 +54,19 @@ Generate list of included log files for specific device
 
 ```
 npm start -- -i StJude
+npm start -- -i BiotronikStd
 ```
 
 Generate list of excluded log files for specific device
 
 ```
 npm start -- -e StJude
+npm start -- -e BiotronikStd
 ```
 
 Generate list of wrong log files for specific device
 
 ```
 npm start -- -w StJude
+npm start -- -w BiotronikStd
 ```
