@@ -23,7 +23,7 @@ export class Excel extends Exporter  {
        const workbook = xlsx.utils.book_new();
        const worksheet = xlsx.utils.aoa_to_sheet(data, {cellDates: true});
        xlsx.utils.book_append_sheet(workbook, worksheet, workSheetName);
-       xlsx.writeFile(workbook, path.join(outputFolder, `${deviceData.deviceId}.xlsx`));
+       xlsx.writeFile(workbook, path.join(outputFolder, `${this.device}-${deviceData.deviceId}.xlsx`));
      }
    }
 }

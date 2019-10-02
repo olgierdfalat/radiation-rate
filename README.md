@@ -41,6 +41,7 @@ Generate Excel files for specific device type
 
 ```
 npm start -- -x StJude
+npm start -- -x BiotronikStd
 ```
 
 Generate checksum report for specific device type

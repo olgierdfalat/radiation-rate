@@ -6,7 +6,7 @@ import * as errors from './../errors';
 
 export class Exporter {
   private folderPath: string;
-  private device: string;
+  protected device: string;
   constructor(folderPath: string, device: string) {
     this.folderPath = folderPath;
     this.device = device;
