@@ -37,5 +37,7 @@ export interface FilesResult {
   excludedFiles: Array<FileInfo>;
 }
 
-export interface FileFilterCallback { (fileInfo: FileInfo): boolean; }
+export interface FileFilterCallback {
+  (fileInfo: FileInfo): boolean;
+}
 

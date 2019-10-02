@@ -1,8 +1,7 @@
 import * as fs from 'fs';
 import { promisify } from 'util';
 import yaml from 'js-yaml';
-import * as parsers from './../parsers';
-import sanitizeFilePath from './../util/sanitizeFilePath';
+import { InterrogationData } from './interrogationData';
 
 const readFile = promisify(fs.readFile);
 const stat = promisify(fs.stat);
@@ -23,7 +22,7 @@ export class Interrogation {
     return (await readFile(this.filePath)).toString();
   }
 
-  async getData(): Promise<any> {
+  async getData(): Promise<InterrogationData> {
     throw new Error('Not supported');
   }
 

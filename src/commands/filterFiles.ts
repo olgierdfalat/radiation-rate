@@ -2,8 +2,7 @@ import path from 'path';
 import { homedir } from 'os';
 import { FilesResult } from '../io/filesEnumerator';
 import FileInfo from './../io/fileInfo';
-import * as constants from './../util/constants';
-import { isStJudeLogFile } from './../io/fileFilters';
+import DeviceFileFilters from '../io/deviceFileFilters';
 import getAllFiles from '../io/filesEnumerator';
 import dumpToFile from './../util/dumpToFile';
 import sanitizeFilePath from '../util/sanitizeFilePath';
@@ -19,10 +18,10 @@ async function filterDeviceFiles(device: string, selector: (result: FilesResult)
   return execute(device, async normalizedDevice => {
     const folderPath = path.join(homedir(), 'Desktop', 'Interrogacje');
     console.log('Getting files from:', folderPath);
-
-    if (normalizedDevice === constants.STJUDE) {
-      const result = await getAllFiles(folderPath, isStJudeLogFile); // TODO: replace isStJudeLogFile callback with something more generic
-      return selector(result).filter(f => f.fileName.endsWith('.log')); // TODO: also try to make filter dynamic based on device type
+    const callbackFileFilter = DeviceFileFilters[normalizedDevice];
+    if (callbackFileFilter) {
+      const result = await getAllFiles(folderPath, callbackFileFilter);
+      return selector(result);
     }
     throw new Error(`Unknown device[${normalizedDevice}]`);
   });

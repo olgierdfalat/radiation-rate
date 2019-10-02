@@ -3,7 +3,7 @@ import execute from './command';
 import { includedFiles } from './filterFiles';
 import dumpToFile from './../util/dumpToFile';
 import sanitizeFilePath from '../util/sanitizeFilePath';
-import * as interrogations from './../interrogations';
+import { InterrogationFactory } from './../interrogations';
 import * as errors from './../errors';
 
 export async function checksum(device: string) {
@@ -12,10 +12,15 @@ export async function checksum(device: string) {
 
     const devicesChecksums: any = {};
     let currentFilePath = '';
+    console.log(`Calculating checksum for ${filesInfo.length} files.`);
+    let i = 0;
     for (const fileInfo of filesInfo) {
       currentFilePath = fileInfo.filePath;
+      i++;
       try {
-        const interrogation = new interrogations.StJude(fileInfo.filePath); // TODO: implement interrogations factory based on device, consider creating generic type instead of using StJudeData type
+        console.log(`${i}. Calculating checksum for: ${currentFilePath}`);
+
+        const interrogation = InterrogationFactory.getInterrogation(device, fileInfo.filePath);
         const data = await interrogation.getData();
         const deviceId = data.getDeviceId().toString();
         const idsChecksum = data.getIdsChecksum();

@@ -36,17 +36,18 @@ List of all available options
 ``` 
 npm start -- -h
 ```
+
 Generate Excel files for specific device type
 
 ```
 npm start -- -x StJude
 ```
 
-
 Generate checksum report for specific device type
 
 ```
 npm start -- -c StJude
+npm start -- -c BiotronikStd
 ```
 
 Generate list of included log files for specific device

@@ -1,4 +1,4 @@
-import {DOMParser} from 'xmldom';
+import { DOMParser } from 'xmldom';
 import xpath, { SelectedValue } from 'xpath';
 import * as errors from './../../errors';
 import checksum from './../../util/checksum';
@@ -6,6 +6,8 @@ import * as models from './../../models';
 
 const ELEMENT_NODE = 1;
 const NR = 'NR';
+const SERIAL_NUMBER_DATA = 'SERHSM[Table=TBU_DEFI_DATA]';
+const SERIAL_NUMBER_DATEN = 'SERHSM[Table=TBU_HSM_DATEN]';
 
 export class BiotronikStdData {
   private content: string;
@@ -31,101 +33,101 @@ export class BiotronikStdData {
       name: '',
       value: '',
       type: 'unknown'
-    }
+    };
   }
   private parseStringElement(selector: string): models.FieldModel  {
-    return this.parseElement(selector, 'string')
+    return this.parseElement(selector, 'string');
   }
 
   private parseDateElement(selector: string): models.FieldModel {
-    return this.parseElement(selector, 'date')
-  }
-  
-  private parseTimeElement(selector: string): models.FieldModel {
-    return this.parseElement(selector, 'time')
+    return this.parseElement(selector, 'date');
   }
 
-  private parseAttribute(selector: string, type: string) : models.FieldModel {
+  private parseTimeElement(selector: string): models.FieldModel {
+    return this.parseElement(selector, 'time');
+  }
+
+  private parseAttribute(selector: string, type: string): models.FieldModel {
     const attribute = xpath.select1(selector, this.xmlDoc) as Attr;
-    if(attribute) {
+    if (attribute) {
       return {
         name: attribute.name,
         value: attribute.value,
         type
-      }
+      };
     }
     return {
       name: '',
       value: '',
       type: 'unknown'
-    }
+    };
   }
 
-  private parseStringAttribute(selector: string) : models.FieldModel {
+  private parseStringAttribute(selector: string): models.FieldModel {
     return this.parseAttribute(selector, 'string');
   }
 
-  private parseDateAttribute(selector: string) : models.FieldModel {
+  private parseDateAttribute(selector: string): models.FieldModel {
     return this.parseAttribute(selector, 'date');
   }
 
-  private parseTimeAttribute(selector: string) : models.FieldModel {
+  private parseTimeAttribute(selector: string): models.FieldModel {
     return this.parseAttribute(selector, 'time');
   }
 
-  private getLastElementValue(childNodes: NodeListOf<Node>) : string {
-    let value = null;
-    let element: Element = null;
-    for(let key in childNodes) {
+  private getLastElementValue(childNodes: NodeListOf<Node>): string {
+    let value = undefined;
+    let element: Element = undefined;
+    for (const key in childNodes) {
       const node = childNodes[key];
-      if(node.nodeType === ELEMENT_NODE) {
+      if (node.nodeType === ELEMENT_NODE) {
         element = node as Element;
       }
     }
-    if(element && element.firstChild) {
+    if (element && element.firstChild) {
       value = element.firstChild.nodeValue;
     }
 
     return value;
   }
-  private parseTableEntries(selector: string, includeTablePostfix = true, includeTableArgumentPostfix = false) : models.FieldModel[] {
+  private parseTableEntries(selector: string, includeTablePostfix = true, includeTableArgumentPostfix = false): models.FieldModel[] {
     function getValue(selector: string, element: Element): string {
       const childElement = xpath.select1(selector, element) as Element;
-      if(childElement) {
-        if(childElement.firstChild) {
+      if (childElement) {
+        if (childElement.firstChild) {
           return childElement.firstChild.nodeValue;
         }
       }
-      return null;
+      return undefined;
     }
     const entires: models.FieldModel[] = [];
     const entries = xpath.select(selector, this.xmlDoc);
-    
+
     entries.forEach(entry => {
       const element = entry as Element;
-      if(element) {
+      if (element) {
         const tableName = getValue('./../TableName', element);
         let name = includeTablePostfix ? getValue('./AttributeName', element) + `[Table=${tableName}]` : getValue('./AttributeName', element);
         const type = getValue('./AttributeType', element);
         const value = this.getLastElementValue(element.childNodes);
-        if(includeTableArgumentPostfix) {
+        if (includeTableArgumentPostfix) {
           const attributeID = getValue('./AttributeID', element);
           name = `${name}[Table=${tableName}:Id=${attributeID}]`;
         }
         entires.push({name, type, value});
-      }      
+      }
     });
     return entires;
   }
 
-  private parseEpisodes(selector: string) : models.FieldModel[][] {
+  private parseEpisodes(selector: string): models.FieldModel[][] {
     const entries = this.parseTableEntries(selector, false);
     const episodes: models.FieldModel[][] = [];
-    let record: models.FieldModel[] = []; 
+    let record: models.FieldModel[] = [];
     entries.forEach(e => {
-      if(e.name === NR) {
+      if (e.name === NR) {
         record = [];
-        episodes.push(record)
+        episodes.push(record);
       }
 
       record.push(e);
@@ -154,7 +156,7 @@ export class BiotronikStdData {
     const admissionSelector = '//Admission';
     const admissionDate = this.parseDateElement(`${admissionSelector}/AdmissionDate`);
     const admissionTime = this.parseTimeElement(`${admissionSelector}/AdmissionTime`);
-    
+
     const examinationSelector = '//Examination';
     const examinationDate = this.parseDateElement(`${examinationSelector}/ExaminationDate`);
     const examinationTime = this.parseTimeElement(`${examinationSelector}/ExaminationTime`);
@@ -171,20 +173,28 @@ export class BiotronikStdData {
       personalDataFirstName,
       personalDataLastName,
       personalDataDateOfBirth,
-      admissionDate, 
+      admissionDate,
       admissionTime,
       examinationDate,
       examinationTime,
       examinationFunctionalDomain,
       episodes
-    };    
-    
+    };
+
     measurementsEntries.forEach(x => this.stdData[x.name] = x);
     additionalMeasurements.forEach(x => this.stdData[x.name] = x);
   }
 
   getRow() {
     return this.stdData;
+  }
+
+  getDeviceId(): string {
+    const serialField = this.stdData[SERIAL_NUMBER_DATA] || this.stdData[SERIAL_NUMBER_DATEN];
+    if (serialField) {
+      return serialField.value;
+    }
+    return 'Unknown device id';
   }
 
   getChecksum() {
@@ -198,18 +208,18 @@ export class BiotronikStdData {
   }
 
   private visitXmlDoc(node: any, level: number, output: any) {
-    if(node.nodeType === ELEMENT_NODE) {
+    if (node.nodeType === ELEMENT_NODE) {
       output.fieldNames += node.nodeName + '-';
-      for(let i = 0; i < node.attributes.length; i++) {
+      for (let i = 0; i < node.attributes.length; i++) {
         const attribute = node.attributes[i];
         output.fieldNames += attribute.name + '-';
-      }      
+      }
     }
 
     const childNodes = node.childNodes;
     for (let i = 0; i < childNodes.length; i++) {
       const childNode = childNodes[i];
-      if(childNode.nodeType === ELEMENT_NODE) {
+      if (childNode.nodeType === ELEMENT_NODE) {
         this.visitXmlDoc(childNode, level + 1, output);
       }
     }
