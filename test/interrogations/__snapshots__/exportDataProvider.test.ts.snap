@@ -12,6 +12,7 @@ Object {
     "column7",
   ],
   "deviceId": "1234",
+  "name": "interrogations",
   "rows": Array [
     Array [
       Object {

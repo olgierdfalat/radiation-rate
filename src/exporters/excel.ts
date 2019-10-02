@@ -13,9 +13,10 @@ export class Excel extends Exporter  {
      if (!fs.existsSync(outputFolder)) {
          fs.mkdirSync(outputFolder);
      }
-     const workSheetName = 'interrogations';
+
      for (let i = 0; i < exportData.length; i++) {
        const deviceData = exportData[i];
+       const workSheetName = deviceData.name;
        const data: Array<Array<any>> = [deviceData.columns];
        deviceData.rows.forEach(row => {
         data.push(row.map(field => field.value));

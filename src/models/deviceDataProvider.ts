@@ -1,5 +1,5 @@
-import { ExportData } from './exportData';
+import { ExcelWorksheetData } from './excelWorksheetData';
 
 export interface DeviceDataProvider {
-  getData(folderPath: string): ExportData;
+  getData(folderPath: string): ExcelWorksheetData;
 }

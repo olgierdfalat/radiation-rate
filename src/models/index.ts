@@ -1,6 +1,6 @@
 export * from './stJudeFieldModel';
 export * from './stJudeRowModel';
-export * from './exportData';
+export * from './excelWorksheetData';
 export * from './deviceRows';
 export * from './deviceDataProvider';
 export * from './interrogationsFactory';

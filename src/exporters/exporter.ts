@@ -1,6 +1,6 @@
 import { includedFiles } from './../commands/filterFiles';
 import { DeviceRows } from '../models/deviceRows';
-import { ExportData } from '../models/exportData';
+import { ExcelWorksheetData } from '../models/excelWorksheetData';
 import * as interrogations from './../interrogations';
 import * as errors from './../errors';
 
@@ -48,8 +48,8 @@ export class Exporter {
     return devicesRows;
   }
 
-  protected async getExportData(): Promise<ExportData[]> {
-    const result: ExportData[] = [];
+  protected async getExportData(): Promise<ExcelWorksheetData[]> {
+    const result: ExcelWorksheetData[] = [];
     const devicesRows = await this.getRowsForDevices();
     const dataProvider = new interrogations.ExportDataProvider();
     for (let i = 0; i < devicesRows.length; i++) {
