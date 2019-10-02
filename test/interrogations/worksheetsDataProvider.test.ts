@@ -1,9 +1,9 @@
-import {ExportDataProvider} from './../../src/exporters/exportDataProvider';
+import {WorksheetsDataProvider} from './../../src/exporters/worksheetsDataProvider';
 import * as models from '../../src/models';
 
-describe('Interrogations data provider class', () => {
+describe('Worksheets data provider class', () => {
   it('gets worksheet data - removes duplicates and distributes values into correct columns', () => {
-    const exportDataProvider = new ExportDataProvider();
+    const worksheetsDataProvider = new WorksheetsDataProvider();
     const inputData = [
                         ['column1:value1','column2:value2', 'column3:value3'],
                         ['column3:value3','column2:value2', 'column1:value1'],
@@ -25,6 +25,6 @@ describe('Interrogations data provider class', () => {
         return row;
     });
     
-    expect(exportDataProvider.getWorksheetData('1234', rows)).toMatchSnapshot();
+    expect(worksheetsDataProvider.getWorksheetData('1234', rows)).toMatchSnapshot();
   });
 })

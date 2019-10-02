@@ -51,7 +51,7 @@ export class Exporter {
   protected async getExportData(): Promise<WorksheetData[]> {
     const result: WorksheetData[] = [];
     const devicesRows = await this.getRowsForDevices();
-    const dataProvider = new interrogations.ExportDataProvider();
+    const dataProvider = new interrogations.WorksheetsDataProvider();
     for (let i = 0; i < devicesRows.length; i++) {
       const deviceRows = devicesRows[i];
       // temp solution, converting types

@@ -1,2 +1,2 @@
-export * from './exportDataProvider';
+export * from './worksheetsDataProvider';
 export * from './excel';
