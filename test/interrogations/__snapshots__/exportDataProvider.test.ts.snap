@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Interrogations data provider class gets export data - removes duplicates and distributes values into correct columns 1`] = `
+exports[`Interrogations data provider class gets worksheet data - removes duplicates and distributes values into correct columns 1`] = `
 Object {
   "columns": Array [
     "column1",

@@ -54,7 +54,14 @@ export class Exporter {
     const dataProvider = new interrogations.ExportDataProvider();
     for (let i = 0; i < devicesRows.length; i++) {
       const deviceRows = devicesRows[i];
-      const exportData = dataProvider.getWorksheetData(deviceRows.deviceId, deviceRows.rows);
+      // temp solution, converting types
+      const worksheetRows = deviceRows.rows.map(row => {
+        const fields = row.map(field => {
+          return {name: field.name, type: field.type, value: field.firstValue};
+        });
+        return fields;
+      });
+      const exportData = dataProvider.getWorksheetData(deviceRows.deviceId, worksheetRows);
       result.push(exportData);
     }
     return result;

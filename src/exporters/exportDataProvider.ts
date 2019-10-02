@@ -15,12 +15,12 @@ export class ExportDataProvider {
         const field = row[j];
         const columnIndex = data.columns.indexOf(field.name);
         if (columnIndex != -1) {
-          newRow[columnIndex] = {value: field.firstValue, type: field.type};
+          newRow[columnIndex] = {value: field.value, type: field.type};
         }
         else {
           const firstEmptyColumnIndex = data.columns.findIndex(c => !c);
           data.columns[firstEmptyColumnIndex] = field.name;
-          newRow[firstEmptyColumnIndex] = {value: field.firstValue, type: field.type};
+          newRow[firstEmptyColumnIndex] = {value: field.value, type: field.type};
         }
       }
 
