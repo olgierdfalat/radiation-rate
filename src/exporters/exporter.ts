@@ -48,8 +48,9 @@ export class Exporter {
     return devicesRows;
   }
 
-  protected async getExportData(): Promise<WorksheetData[]> {
-    const result: WorksheetData[] = [];
+  protected async getExportData(): Promise<WorksheetData[][]> {
+    const workBookData: WorksheetData[][] = [];
+
     const devicesRows = await this.getRowsForDevices();
     const dataProvider = new interrogations.WorksheetsDataProvider();
     for (let i = 0; i < devicesRows.length; i++) {
@@ -62,8 +63,17 @@ export class Exporter {
         return fields;
       });
       const exportData = dataProvider.getWorksheetData(deviceRows.deviceId, worksheetRows);
-      result.push(exportData);
+      const worksheetsData: WorksheetData[] = [exportData/*, {
+        name: 'second worksheet',
+        deviceId: exportData.deviceId,
+        columns: [],
+        rows: []
+      }*/];
+
+      if (workBookData.indexOf(worksheetsData) === -1) {
+        workBookData.push(worksheetsData);
+      }
     }
-    return result;
+    return workBookData;
   }
 }

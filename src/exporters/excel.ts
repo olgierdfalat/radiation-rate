@@ -13,18 +13,23 @@ export class Excel extends Exporter  {
      if (!fs.existsSync(outputFolder)) {
          fs.mkdirSync(outputFolder);
      }
-
      for (let i = 0; i < exportData.length; i++) {
-       const deviceData = exportData[i];
-       const workSheetName = deviceData.name;
-       const data: Array<Array<any>> = [deviceData.columns];
-       deviceData.rows.forEach(row => {
-        data.push(row.map(field => field.value));
-       });
-       const workbook = xlsx.utils.book_new();
-       const worksheet = xlsx.utils.aoa_to_sheet(data, {cellDates: true});
-       xlsx.utils.book_append_sheet(workbook, worksheet, workSheetName);
-       xlsx.writeFile(workbook, path.join(outputFolder, `${this.device}-${deviceData.deviceId}.xlsx`));
+      const worksheetsData = exportData[i];
+      const workbook = xlsx.utils.book_new();
+      let deviceId = 'unknown-device-id';
+      for (let j = 0; j < worksheetsData.length; j ++) {
+        const worksheetData = exportData[i][j];
+        const worksheetName = worksheetData.name;
+        deviceId = worksheetData.deviceId;
+        const data: Array<Array<any>> = [worksheetData.columns];
+        worksheetData.rows.forEach(row => {
+         data.push(row.map(field => field.value));
+        });
+        const worksheet = xlsx.utils.aoa_to_sheet(data, {cellDates: true});
+        xlsx.utils.book_append_sheet(workbook, worksheet, worksheetName);
+      }
+
+       xlsx.writeFile(workbook, path.join(outputFolder, `${this.device}-${deviceId}.xlsx`));
      }
    }
 }
