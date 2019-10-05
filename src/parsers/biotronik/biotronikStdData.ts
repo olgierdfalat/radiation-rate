@@ -13,9 +13,11 @@ export class BiotronikStdData {
   private content: string;
   private xmlDoc: any;
   private stdData: any;
+  private filePath: string;
 
-  constructor(content: string) {
+  constructor(content: string, filePath: string) {
     this.content = content;
+    this.filePath = filePath;
     this.parseXml();
   }
 
@@ -139,6 +141,7 @@ export class BiotronikStdData {
     if (!this.content || this.content.length === 0) {
       throw new errors.NoContent();
     }
+    console.log(`Parsing data from ${this.filePath}.`);
     this.content = this.content.replace(/carddas:/g, '');
     this.xmlDoc = new DOMParser().parseFromString(this.content);
 
@@ -205,6 +208,16 @@ export class BiotronikStdData {
     const output = {fieldNames: ''};
     this.visitXmlDoc(this.xmlDoc.documentElement, 0, output);
     return checksum(output.fieldNames);
+  }
+
+  getWorksheetRow(): models.WorksheetRow {
+    const worksheetRow: models.WorksheetRow = [];
+    for (const key in this.stdData) {
+      if (key !== 'episodes') {
+        worksheetRow.push(this.stdData[key] as models.WorksheetField);
+      }
+    }
+    return worksheetRow;
   }
 
   private visitXmlDoc(node: any, level: number, output: any) {

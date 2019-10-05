@@ -7,7 +7,7 @@ const readFile = promisify(fs.readFile);
 const stat = promisify(fs.stat);
 
 export class Interrogation {
-  private filePath: string;
+  protected filePath: string;
   dateModified: Date;
   sanitizeFilePath: string;
   constructor(filePath: string) {

@@ -1,6 +1,7 @@
 import { includedFiles } from './../commands/filterFiles';
-import { DeviceRows } from '../models/deviceRows';
-import { WorksheetData } from '../models/worksheetData';
+import { DeviceRows } from './../models/deviceRows';
+import { WorksheetData } from './../models/worksheetData';
+import { InterrogationFactory } from './../interrogations';
 import * as interrogations from './../interrogations';
 import * as errors from './../errors';
 
@@ -12,13 +13,13 @@ export class Exporter {
     this.device = device;
   }
 
-  protected async getRowsForDevices(): Promise<DeviceRows[][]> {
+  protected async getRowsForDevices(): Promise<DeviceRows[]> {
     const files = await includedFiles(this.device, false);
     const devicesRows: DeviceRows[] = [];
     for (let i = 0; i < files.length; i++) {
       const fileInfo = files[i];
       try {
-        const interrogation = new interrogations.StJude(fileInfo.filePath); // TODO: resolve dynamically
+        const interrogation = InterrogationFactory.getInterrogation(this.device, fileInfo.filePath);
         const data = await interrogation.getData();
 
         const deviceId = data.getDeviceId();
@@ -32,7 +33,7 @@ export class Exporter {
           devicesRows[findIndex].rows.push(deviceRow);
         }
         else {
-          devicesRows.push({deviceId, rows: [deviceRow]});
+          devicesRows.push({deviceId, rows: [deviceRow], extraRows: []});
         }
       }
       catch (err) {
@@ -45,7 +46,7 @@ export class Exporter {
       }
     }
 
-    return [devicesRows];
+    return devicesRows;
   }
 
   protected async getExportData(): Promise<WorksheetData[][]> {
@@ -53,22 +54,17 @@ export class Exporter {
     const devicesRows = await this.getRowsForDevices();
     const dataProvider = new interrogations.WorksheetsDataProvider();
     for (let i = 0; i < devicesRows.length; i++) {
-      const deviceRows = devicesRows[i];
-
-      for (let j = 0; j < deviceRows.length; j++) {
-        const workbookRows = deviceRows[j];
-        const exportData = dataProvider.getWorksheetData(workbookRows.deviceId, workbookRows.rows);
-        const worksheetsData: WorksheetData[] = [exportData/*, {
-          name: 'second worksheet',
-          deviceId: exportData.deviceId,
-          columns: [],
-          rows: []
-        }*/];
+        const workbookRows = devicesRows[i];
+        const worksheetData1 = dataProvider.getWorksheetData(workbookRows.deviceId, workbookRows.rows);
+        const worksheetsData: WorksheetData[] = [worksheetData1];
+        if (workbookRows.extraRows.length > 0) {
+          const worksheetData2 = dataProvider.getWorksheetData(workbookRows.deviceId, workbookRows.extraRows);
+          worksheetsData.push(worksheetData2);
+        }
 
         if (workBookData.indexOf(worksheetsData) === -1) {
           workBookData.push(worksheetsData);
         }
-      }
 
     }
     return workBookData;
