@@ -4,4 +4,5 @@ export interface InterrogationData {
   getIdsChecksum(): string;
   getChecksum(): string;
   getWorksheetRow(): WorksheetRow;
+  getExtraWorksheetRows(index: number): WorksheetRow[];
 }

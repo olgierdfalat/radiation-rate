@@ -36,6 +36,9 @@ export class StJudeData {
     });
     return worksheetRow;
   }
+  getExtraWorksheetRows(index = 0): models.WorksheetRow[] {
+    return undefined;
+  }
   getIdsChecksum() {
     const ids = this.getRow().map(row => row.id);
     return checksum(ids.join('-'));

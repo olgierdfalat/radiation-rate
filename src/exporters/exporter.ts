@@ -25,6 +25,7 @@ export class Exporter {
         const deviceId = data.getDeviceId();
         const findIndex = devicesRows.findIndex(fg => fg.deviceId == deviceId);
         const deviceRow = data.getWorksheetRow();
+        const extraRows = data.getExtraWorksheetRows(0);
         // two extra fields at the beginning
         // const fileDateModifiedField = {id: -1000, name: 'File Date Modified', type: 'string', firstValue: interrogation.dateModified};
         // const filePathField = {id: -500, name: 'File Path', type: 'string', firstValue: interrogation.sanitizeFilePath};
@@ -33,7 +34,7 @@ export class Exporter {
           devicesRows[findIndex].rows.push(deviceRow);
         }
         else {
-          devicesRows.push({deviceId, rows: [deviceRow], extraRows: []});
+          devicesRows.push({deviceId, rows: [deviceRow], extraRows: extraRows});
         }
       }
       catch (err) {
@@ -55,10 +56,10 @@ export class Exporter {
     const dataProvider = new interrogations.WorksheetsDataProvider();
     for (let i = 0; i < devicesRows.length; i++) {
         const workbookRows = devicesRows[i];
-        const worksheetData1 = dataProvider.getWorksheetData(workbookRows.deviceId, workbookRows.rows);
+        const worksheetData1 = dataProvider.getWorksheetData('interrogations', workbookRows.deviceId, workbookRows.rows);
         const worksheetsData: WorksheetData[] = [worksheetData1];
         if (workbookRows.extraRows.length > 0) {
-          const worksheetData2 = dataProvider.getWorksheetData(workbookRows.deviceId, workbookRows.extraRows);
+          const worksheetData2 = dataProvider.getWorksheetData('episodes', workbookRows.deviceId, workbookRows.extraRows);
           worksheetsData.push(worksheetData2);
         }
 

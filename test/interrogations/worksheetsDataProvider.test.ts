@@ -25,6 +25,6 @@ describe('Worksheets data provider class', () => {
         return row;
     });
     
-    expect(worksheetsDataProvider.getWorksheetData('1234', rows)).toMatchSnapshot();
+    expect(worksheetsDataProvider.getWorksheetData('interrogations', '1234', rows)).toMatchSnapshot();
   });
 })

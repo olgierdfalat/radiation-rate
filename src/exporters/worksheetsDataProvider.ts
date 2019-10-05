@@ -2,9 +2,9 @@ import * as models from '../models';
 import checksum from '../util/checksum';
 
 export class WorksheetsDataProvider {
-  getWorksheetData(deviceId: string, rows: Array<models.WorksheetRow>): models.WorksheetData   {
+  getWorksheetData(worksheetName: string, deviceId: string, rows: Array<models.WorksheetRow>): models.WorksheetData   {
     const columnsLength = [...new Set([].concat.apply([], rows.map(x => x.map(f => f.name))))].length;
-    const data: models.WorksheetData = {name: 'interrogations', deviceId, columns: new Array(columnsLength), rows: []};
+    const data: models.WorksheetData = {name: worksheetName, deviceId, columns: new Array(columnsLength), rows: []};
     const rowsChecksums: string[] = new Array(rows.length);
 
     for (let i = 0; i < rows.length; i++) {

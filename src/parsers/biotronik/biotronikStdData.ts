@@ -14,6 +14,7 @@ export class BiotronikStdData {
   private xmlDoc: any;
   private stdData: any;
   private filePath: string;
+  private episodes: models.FieldModel[][];
 
   constructor(content: string, filePath: string) {
     this.content = content;
@@ -186,10 +187,26 @@ export class BiotronikStdData {
 
     measurementsEntries.forEach(x => this.stdData[x.name] = x);
     additionalMeasurements.forEach(x => this.stdData[x.name] = x);
+    this.episodes = episodes;
   }
 
   getRow() {
     return this.stdData;
+  }
+
+  getExtraWorksheetRows(index = 0): models.WorksheetRow[] {
+    if (index === 0) {
+      return this.episodes.map(episode => {
+        return episode.map(field => {
+          return {
+            name: field.name,
+            type: field.type,
+            value: field.value
+          };
+        });
+      });
+    }
+    return undefined;
   }
 
   getDeviceId(): string {
