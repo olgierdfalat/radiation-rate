@@ -12,7 +12,7 @@ export class Exporter {
     this.device = device;
   }
 
-  protected async getRowsForDevices(): Promise<DeviceRows[]> {
+  protected async getRowsForDevices(): Promise<DeviceRows[][]> {
     const files = await includedFiles(this.device, false);
     const devicesRows: DeviceRows[] = [];
     for (let i = 0; i < files.length; i++) {
@@ -45,28 +45,31 @@ export class Exporter {
       }
     }
 
-    return devicesRows;
+    return [devicesRows];
   }
 
   protected async getExportData(): Promise<WorksheetData[][]> {
     const workBookData: WorksheetData[][] = [];
-
     const devicesRows = await this.getRowsForDevices();
     const dataProvider = new interrogations.WorksheetsDataProvider();
     for (let i = 0; i < devicesRows.length; i++) {
       const deviceRows = devicesRows[i];
 
-      const exportData = dataProvider.getWorksheetData(deviceRows.deviceId, deviceRows.rows);
-      const worksheetsData: WorksheetData[] = [exportData/*, {
-        name: 'second worksheet',
-        deviceId: exportData.deviceId,
-        columns: [],
-        rows: []
-      }*/];
+      for (let j = 0; j < deviceRows.length; j++) {
+        const workbookRows = deviceRows[j];
+        const exportData = dataProvider.getWorksheetData(workbookRows.deviceId, workbookRows.rows);
+        const worksheetsData: WorksheetData[] = [exportData/*, {
+          name: 'second worksheet',
+          deviceId: exportData.deviceId,
+          columns: [],
+          rows: []
+        }*/];
 
-      if (workBookData.indexOf(worksheetsData) === -1) {
-        workBookData.push(worksheetsData);
+        if (workBookData.indexOf(worksheetsData) === -1) {
+          workBookData.push(worksheetsData);
+        }
       }
+
     }
     return workBookData;
   }
