@@ -1,6 +1,6 @@
-import { StJudeRowModel } from './stJudeRowModel';
+import { WorksheetRow } from './worksheetRow';
 
 export interface DeviceRows {
   deviceId: string;
-  rows: StJudeRowModel[];
+  rows: WorksheetRow[];
 }

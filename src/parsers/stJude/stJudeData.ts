@@ -30,6 +30,12 @@ export class StJudeData {
   getRow(): models.StJudeRowModel {
     return this.row;
   }
+  getWorksheetRow(): models.WorksheetRow {
+    const worksheetRow: models.WorksheetField[] = this.row.map(r => {
+      return {name: r.name, type: r.type, value: r.firstValue};
+    });
+    return worksheetRow;
+  }
   getIdsChecksum() {
     const ids = this.getRow().map(row => row.id);
     return checksum(ids.join('-'));

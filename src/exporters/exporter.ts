@@ -23,7 +23,7 @@ export class Exporter {
 
         const deviceId = data.getDeviceId();
         const findIndex = devicesRows.findIndex(fg => fg.deviceId == deviceId);
-        const deviceRow = data.getRow();
+        const deviceRow = data.getWorksheetRow();
         // two extra fields at the beginning
         // const fileDateModifiedField = {id: -1000, name: 'File Date Modified', type: 'string', firstValue: interrogation.dateModified};
         // const filePathField = {id: -500, name: 'File Path', type: 'string', firstValue: interrogation.sanitizeFilePath};
@@ -55,14 +55,8 @@ export class Exporter {
     const dataProvider = new interrogations.WorksheetsDataProvider();
     for (let i = 0; i < devicesRows.length; i++) {
       const deviceRows = devicesRows[i];
-      // temp solution, converting types
-      const worksheetRows = deviceRows.rows.map(row => {
-        const fields = row.map(field => {
-          return {name: field.name, type: field.type, value: field.firstValue};
-        });
-        return fields;
-      });
-      const exportData = dataProvider.getWorksheetData(deviceRows.deviceId, worksheetRows);
+
+      const exportData = dataProvider.getWorksheetData(deviceRows.deviceId, deviceRows.rows);
       const worksheetsData: WorksheetData[] = [exportData/*, {
         name: 'second worksheet',
         deviceId: exportData.deviceId,
