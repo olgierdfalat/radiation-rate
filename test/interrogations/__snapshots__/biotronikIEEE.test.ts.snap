@@ -2377,7 +2377,7 @@ Object {
   "IMPLANTER[MDC:IDC:DEV]": Object {
     "name": "IMPLANTER[MDC:IDC:DEV]",
     "type": "String",
-    "value": "TAJSTRA",
+    "value": "IMPLANTER",
   },
   "IMPLANTING_FACILITY[MDC:IDC:DEV]": Object {
     "name": "IMPLANTING_FACILITY[MDC:IDC:DEV]",

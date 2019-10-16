@@ -9,7 +9,7 @@
 					<value name="SERIAL" type="String">60655694</value>
 					<value name="MFG" type="MDC_IDC_ENUM_MFG">BIO</value>
 					<value name="IMPLANT_DT" type="DateTime">20130429T000000</value>
-					<value name="IMPLANTER" type="String">TAJSTRA</value>
+					<value name="IMPLANTER" type="String">IMPLANTER</value>
 					<value name="IMPLANTING_FACILITY" type="String">SCCHS ZABRZE</value>
 				</section>
 				<section name="SESS">
