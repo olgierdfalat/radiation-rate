@@ -1,0 +1,3854 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`interrogation Biotronik IEEE class should get structured data row from file 1`] = `
+Object {
+  "AMPLITUDE[PACING][V]": Object {
+    "name": "AMPLITUDE[PACING][V]",
+    "type": "Numeric",
+    "value": "2.2",
+  },
+  "ANODE_ELECTRODE_1[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "ANODE_ELECTRODE_1[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_NAME",
+    "value": "Coil",
+  },
+  "ANODE_LOCATION_1[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "ANODE_LOCATION_1[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_LOCATION",
+    "value": "RV",
+  },
+  "ASTAT[TACHYTHERAPY]": Object {
+    "name": "ASTAT[TACHYTHERAPY]",
+    "type": "MDC_IDC_ENUM_THERAPY_STATUS",
+    "value": "Off",
+  },
+  "ATP_DELIVERED_RECENT[TACHYTHERAPY][{seq}]": Object {
+    "name": "ATP_DELIVERED_RECENT[TACHYTHERAPY][{seq}]",
+    "type": "Numeric",
+    "value": "0",
+  },
+  "ATP_DELIVERED_TOTAL[TACHYTHERAPY][{seq}]": Object {
+    "name": "ATP_DELIVERED_TOTAL[TACHYTHERAPY][{seq}]",
+    "type": "Numeric",
+    "value": "0",
+  },
+  "AT_MODE_SWITCH_MODE[BRADY]": Object {
+    "name": "AT_MODE_SWITCH_MODE[BRADY]",
+    "type": "MDC_IDC_ENUM_BRADY_MODE",
+    "value": "DDI",
+  },
+  "AT_MODE_SWITCH_RATE[BRADY][{beats}/min]": Object {
+    "name": "AT_MODE_SWITCH_RATE[BRADY][{beats}/min]",
+    "type": "Numeric",
+    "value": "160",
+  },
+  "CATHODE_ELECTRODE_1[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "CATHODE_ELECTRODE_1[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_NAME",
+    "value": "Can",
+  },
+  "CATHODE_ELECTRODE_2[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "CATHODE_ELECTRODE_2[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_NAME",
+    "value": "Coil",
+  },
+  "CATHODE_LOCATION_1[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "CATHODE_LOCATION_1[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_LOCATION",
+    "value": "Other",
+  },
+  "CATHODE_LOCATION_2[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "CATHODE_LOCATION_2[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_LOCATION",
+    "value": "SVC",
+  },
+  "CHARGE_DTM[CAP]": Object {
+    "name": "CHARGE_DTM[CAP]",
+    "type": "DateTime",
+    "value": "20160925T000000",
+  },
+  "CHARGE_ENERGY[CAP][J]": Object {
+    "name": "CHARGE_ENERGY[CAP][J]",
+    "type": "Numeric",
+    "value": "40",
+  },
+  "CHARGE_TIME[CAP][s]": Object {
+    "name": "CHARGE_TIME[CAP][s]",
+    "type": "Numeric",
+    "value": "16.6",
+  },
+  "DATE[BIO:REQUEST]": Object {
+    "name": "DATE[BIO:REQUEST]",
+    "type": "DateTime",
+    "value": "20161223T121531",
+  },
+  "DETECTION_BEATS_DENOMINATOR[ZONE][{beats}]": Object {
+    "name": "DETECTION_BEATS_DENOMINATOR[ZONE][{beats}]",
+    "type": "Numeric",
+    "value": "12",
+  },
+  "DETECTION_BEATS_NUMERATOR[ZONE][{beats}]": Object {
+    "name": "DETECTION_BEATS_NUMERATOR[ZONE][{beats}]",
+    "type": "Numeric",
+    "value": "8",
+  },
+  "DETECTION_DETAILS[ZONE]": Object {
+    "name": "DETECTION_DETAILS[ZONE]",
+    "type": "String",
+    "value": "Det. counter:26, SMART det.:ON, SMART redet.:ON",
+  },
+  "DETECTION_INTERVAL[ZONE][ms]": Object {
+    "name": "DETECTION_INTERVAL[ZONE][ms]",
+    "type": "Numeric",
+    "value": "300",
+  },
+  "DOB[ATTR:PT]": Object {
+    "name": "DOB[ATTR:PT]",
+    "type": "Date",
+    "value": "19370805",
+  },
+  "DTM[MSMT:BATTERY]": Object {
+    "name": "DTM[MSMT:BATTERY]",
+    "type": "DateTime",
+    "value": "20161223T121313",
+  },
+  "DTM[SESS]": Object {
+    "name": "DTM[SESS]",
+    "type": "DateTime",
+    "value": "20161223T121313",
+  },
+  "DTM_END[AT]": Object {
+    "name": "DTM_END[AT]",
+    "type": "DateTime",
+    "value": "20161223T121313",
+  },
+  "DTM_END[LEADHVCHNL]": Object {
+    "name": "DTM_END[LEADHVCHNL]",
+    "type": "DateTime",
+    "value": "20161223T121313",
+  },
+  "DTM_END[STAT:BRADY]": Object {
+    "name": "DTM_END[STAT:BRADY]",
+    "type": "DateTime",
+    "value": "20161223T121313",
+  },
+  "DTM_PREVIOUS[SESS]": Object {
+    "name": "DTM_PREVIOUS[SESS]",
+    "type": "DateTime",
+    "value": "20160727T000000",
+  },
+  "DTM_START[AT]": Object {
+    "name": "DTM_START[AT]",
+    "type": "DateTime",
+    "value": "20160727T000000",
+  },
+  "DTM_START[LEADHVCHNL]": Object {
+    "name": "DTM_START[LEADHVCHNL]",
+    "type": "DateTime",
+    "value": "20160727T000000",
+  },
+  "DTM_START[STAT:BRADY]": Object {
+    "name": "DTM_START[STAT:BRADY]",
+    "type": "DateTime",
+    "value": "20160727T000000",
+  },
+  "ID[BIO:REQUEST]": Object {
+    "name": "ID[BIO:REQUEST]",
+    "type": "String",
+    "value": "46290631   _20161223T121531",
+  },
+  "IMPLANTER[MDC:IDC:DEV]": Object {
+    "name": "IMPLANTER[MDC:IDC:DEV]",
+    "type": "String",
+    "value": "ANONYMOUS E.",
+  },
+  "IMPLANTING_FACILITY[MDC:IDC:DEV]": Object {
+    "name": "IMPLANTING_FACILITY[MDC:IDC:DEV]",
+    "type": "String",
+    "value": "SCCS w Zabrzu",
+  },
+  "IMPLANT_DT[MDC:IDC:DEV]": Object {
+    "name": "IMPLANT_DT[MDC:IDC:DEV]",
+    "type": "DateTime",
+    "value": "20101025T000000",
+  },
+  "LOWRATE[BRADY][{beats}/min]": Object {
+    "name": "LOWRATE[BRADY][{beats}/min]",
+    "type": "Numeric",
+    "value": "60",
+  },
+  "MAX_TRACKING_RATE[BRADY][{beats}/min]": Object {
+    "name": "MAX_TRACKING_RATE[BRADY][{beats}/min]",
+    "type": "Numeric",
+    "value": "130",
+  },
+  "MFG[MDC:IDC:DEV]": Object {
+    "name": "MFG[MDC:IDC:DEV]",
+    "type": "MDC_IDC_ENUM_MFG",
+    "value": "BIO",
+  },
+  "MODEL[MDC:IDC:DEV]": Object {
+    "name": "MODEL[MDC:IDC:DEV]",
+    "type": "String",
+    "value": "Lumax 340 DR-T",
+  },
+  "MODE[BRADY]": Object {
+    "name": "MODE[BRADY]",
+    "type": "MDC_IDC_ENUM_BRADY_MODE",
+    "value": "DDD",
+  },
+  "NAME_FAMILY[ATTR:PT]": Object {
+    "name": "NAME_FAMILY[ATTR:PT]",
+    "type": "String",
+    "value": "ANONYMOUS",
+  },
+  "NAME_GIVEN[ATTR:PT]": Object {
+    "name": "NAME_GIVEN[ATTR:PT]",
+    "type": "String",
+    "value": "ANONYMOUS",
+  },
+  "NUM_ATP_SEQS_1[ZONE][{seq}]": Object {
+    "name": "NUM_ATP_SEQS_1[ZONE][{seq}]",
+    "type": "Numeric",
+    "value": "3",
+  },
+  "NUM_ATP_SEQS_2[ZONE][{seq}]": Object {
+    "name": "NUM_ATP_SEQS_2[ZONE][{seq}]",
+    "type": "Numeric",
+    "value": "2",
+  },
+  "NUM_SHOCKS_3[ZONE][{shocks}]": Object {
+    "name": "NUM_SHOCKS_3[ZONE][{shocks}]",
+    "type": "Numeric",
+    "value": "6",
+  },
+  "PAV_DELAY_HIGH[BRADY][ms]": Object {
+    "name": "PAV_DELAY_HIGH[BRADY][ms]",
+    "type": "Numeric",
+    "value": "220",
+  },
+  "PAV_DELAY_LOW[BRADY][ms]": Object {
+    "name": "PAV_DELAY_LOW[BRADY][ms]",
+    "type": "Numeric",
+    "value": "240",
+  },
+  "POLARITY[LEADCHNL_RA:SENSING]": Object {
+    "name": "POLARITY[LEADCHNL_RA:SENSING]",
+    "type": "MDC_IDC_ENUM_POLARITY",
+    "value": "BI",
+  },
+  "POLARITY[LEADCHNL_RV:SENSING]": Object {
+    "name": "POLARITY[LEADCHNL_RV:SENSING]",
+    "type": "MDC_IDC_ENUM_POLARITY",
+    "value": "BI",
+  },
+  "POLARITY[PACING]": Object {
+    "name": "POLARITY[PACING]",
+    "type": "MDC_IDC_ENUM_POLARITY",
+    "value": "BI",
+  },
+  "PULSEWIDTH[PACING][ms]": Object {
+    "name": "PULSEWIDTH[PACING][ms]",
+    "type": "Numeric",
+    "value": "0.5",
+  },
+  "REMAINING_PERCENTAGE[MSMT:BATTERY][%]": Object {
+    "name": "REMAINING_PERCENTAGE[MSMT:BATTERY][%]",
+    "type": "Numeric",
+    "value": "0",
+  },
+  "RESP[SET:MAGNET]": Object {
+    "name": "RESP[SET:MAGNET]",
+    "type": "String",
+    "value": "Therapies inactive",
+  },
+  "SAV_DELAY_HIGH[BRADY][ms]": Object {
+    "name": "SAV_DELAY_HIGH[BRADY][ms]",
+    "type": "Numeric",
+    "value": "190",
+  },
+  "SAV_DELAY_LOW[BRADY][ms]": Object {
+    "name": "SAV_DELAY_LOW[BRADY][ms]",
+    "type": "Numeric",
+    "value": "210",
+  },
+  "SENSITIVITY[LEADCHNL_RA:SENSING][mV]": Object {
+    "name": "SENSITIVITY[LEADCHNL_RA:SENSING][mV]",
+    "type": "Numeric",
+    "value": "0.4",
+  },
+  "SENSITIVITY[LEADCHNL_RV:SENSING][mV]": Object {
+    "name": "SENSITIVITY[LEADCHNL_RV:SENSING][mV]",
+    "type": "Numeric",
+    "value": "0.8",
+  },
+  "SENSOR_TYPE[BRADY]": Object {
+    "name": "SENSOR_TYPE[BRADY]",
+    "type": "String",
+    "value": "None",
+  },
+  "SERIAL[BIO:REQUEST:PROGRAMMER]": Object {
+    "name": "SERIAL[BIO:REQUEST:PROGRAMMER]",
+    "type": "String",
+    "value": "46290631",
+  },
+  "SERIAL[MDC:IDC:DEV]": Object {
+    "name": "SERIAL[MDC:IDC:DEV]",
+    "type": "String",
+    "value": "60485754",
+  },
+  "SEX[ATTR:PT]": Object {
+    "name": "SEX[ATTR:PT]",
+    "type": "String",
+    "value": "1",
+  },
+  "SHOCKS_ABORTED_RECENT[TACHYTHERAPY][{shocks}]": Object {
+    "name": "SHOCKS_ABORTED_RECENT[TACHYTHERAPY][{shocks}]",
+    "type": "Numeric",
+    "value": "0",
+  },
+  "SHOCKS_ABORTED_TOTAL[TACHYTHERAPY][{shocks}]": Object {
+    "name": "SHOCKS_ABORTED_TOTAL[TACHYTHERAPY][{shocks}]",
+    "type": "Numeric",
+    "value": "3",
+  },
+  "SHOCKS_DELIVERED_RECENT[TACHYTHERAPY][{shocks}]": Object {
+    "name": "SHOCKS_DELIVERED_RECENT[TACHYTHERAPY][{shocks}]",
+    "type": "Numeric",
+    "value": "0",
+  },
+  "SHOCKS_DELIVERED_TOTAL[TACHYTHERAPY][{shocks}]": Object {
+    "name": "SHOCKS_DELIVERED_TOTAL[TACHYTHERAPY][{shocks}]",
+    "type": "Numeric",
+    "value": "0",
+  },
+  "SHOCK_ENERGY_1[ZONE][J]": Object {
+    "name": "SHOCK_ENERGY_1[ZONE][J]",
+    "type": "Numeric",
+    "value": "40",
+  },
+  "SHOCK_ENERGY_2[ZONE][J]": Object {
+    "name": "SHOCK_ENERGY_2[ZONE][J]",
+    "type": "Numeric",
+    "value": "40",
+  },
+  "SHOCK_ENERGY_3[ZONE][J]": Object {
+    "name": "SHOCK_ENERGY_3[ZONE][J]",
+    "type": "Numeric",
+    "value": "40",
+  },
+  "STATUS[MSMT:BATTERY]": Object {
+    "name": "STATUS[MSMT:BATTERY]",
+    "type": "MDC_IDC_ENUM_BATTERY_STATUS",
+    "value": "RRT",
+  },
+  "STATUS[ZONE]": Object {
+    "name": "STATUS[ZONE]",
+    "type": "MDC_IDC_ENUM_ZONE_STATUS",
+    "value": "Active",
+  },
+  "TYPE[MDC:IDC:DEV]": Object {
+    "name": "TYPE[MDC:IDC:DEV]",
+    "type": "MDC_IDC_ENUM_DEV_TYPE",
+    "value": "ICD",
+  },
+  "TYPE[SESS]": Object {
+    "name": "TYPE[SESS]",
+    "type": "MDC_IDC_ENUM_SESS_TYPE",
+    "value": "InClinic",
+  },
+  "TYPE[ZONE]": Object {
+    "name": "TYPE[ZONE]",
+    "type": "MDC_IDC_ENUM_ZONE_TYPE",
+    "value": "Zone_VF",
+  },
+  "TYPE_ATP_1[ZONE]": Object {
+    "name": "TYPE_ATP_1[ZONE]",
+    "type": "MDC_IDC_ENUM_ATP_TYPE",
+    "value": "Burst",
+  },
+  "TYPE_ATP_2[ZONE]": Object {
+    "name": "TYPE_ATP_2[ZONE]",
+    "type": "MDC_IDC_ENUM_ATP_TYPE",
+    "value": "Ramp",
+  },
+  "VENDOR_MODE[BRADY]": Object {
+    "name": "VENDOR_MODE[BRADY]",
+    "type": "String",
+    "value": "DDD",
+  },
+  "VENDOR_TYPE[ZONE]": Object {
+    "name": "VENDOR_TYPE[ZONE]",
+    "type": "MDC_IDC_ENUM_ZONE_VENDOR_TYPE",
+    "value": "BIO-Zone_VF",
+  },
+  "VOLTAGE[MSMT:BATTERY][V]": Object {
+    "name": "VOLTAGE[MSMT:BATTERY][V]",
+    "type": "Numeric",
+    "value": "2.85",
+  },
+  "VSTAT[TACHYTHERAPY]": Object {
+    "name": "VSTAT[TACHYTHERAPY]",
+    "type": "MDC_IDC_ENUM_THERAPY_STATUS",
+    "value": "On",
+  },
+  "episodes": Array [
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VT1",
+      },
+      Object {
+        "name": "TOTAL_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20101025T000000",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20161223T121313",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VT2",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20160727T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20161223T121313",
+      },
+      Object {
+        "name": "TOTAL_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20101025T000000",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20161223T121313",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20160727T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20161223T121313",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_ATAF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_AMon",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20160727T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20161223T121313",
+      },
+      Object {
+        "name": "TOTAL_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20101025T000000",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20161223T121313",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_SVT",
+      },
+      Object {
+        "name": "TYPE_INDUCED",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE_INDUCED",
+        "value": "NO",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_SVT",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20160727T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20161223T121313",
+      },
+      Object {
+        "name": "TOTAL_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20101025T000000",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20161223T121313",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_AMon",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20160727T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20161223T121313",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PatientActivated",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PAT",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_Other",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_BRADY",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "1",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20101027T125900",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "1998",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "917",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "177",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "923",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "1 Shock, induced",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "2",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20101027T134200",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "1998",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "779",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "146",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "783",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "1 Shock, induced",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "3",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20101224T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "695",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "690",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "4",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20110222T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "669",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "664",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "5",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20110423T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "657",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "652",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "6",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20110509T113500",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "502",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "516",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "377",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "516",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "7",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20110509T125800",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "494",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "515",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "316",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "515",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "8",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20110622T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "740",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "740",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "9",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20110821T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "832",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "830",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "10",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20111020T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "744",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "742",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "11",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20111219T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "878",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "877",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "12",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20120217T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "841",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "844",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "13",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20120417T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "766",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "765",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "14",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20120616T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "524",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "517",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "15",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20120815T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "811",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "809",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "16",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20121014T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "619",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "616",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "17",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20121213T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "794",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "783",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "18",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20130211T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "585",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "578",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "19",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20130412T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "469",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "459",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "20",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20130611T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "736",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "726",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "21",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20130810T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "700",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "699",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "22",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20131009T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "540",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "542",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "23",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20131208T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "592",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "588",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "24",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20131216T181200",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "526",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "533",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "335",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "534",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "25",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140206T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "579",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "576",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "26",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140407T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "773",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "777",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "27",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140606T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "684",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "693",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "28",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140805T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "626",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "624",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "29",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20141004T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "569",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "570",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "30",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20141203T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "706",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "707",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "31",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20150201T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "496",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "496",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "32",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20150402T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "554",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "554",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "33",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20150601T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "736",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "739",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "34",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20150731T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "669",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "673",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "35",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20150929T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "36",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20151128T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "37",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20160127T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "38",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20160327T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "39",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20160526T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "40",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20160725T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "41",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20160923T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "42",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20161122T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`interrogation Biotronik IEEE class should get structured data with IMPEDANCE row from file 1`] = `
+Object {
+  "AMPLITUDE[PACING][V]": Object {
+    "name": "AMPLITUDE[PACING][V]",
+    "type": "Numeric",
+    "value": "2.0",
+  },
+  "ANODE_ELECTRODE_1[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "ANODE_ELECTRODE_1[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_NAME",
+    "value": "Coil",
+  },
+  "ANODE_LOCATION_1[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "ANODE_LOCATION_1[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_LOCATION",
+    "value": "RV",
+  },
+  "ASTAT[TACHYTHERAPY]": Object {
+    "name": "ASTAT[TACHYTHERAPY]",
+    "type": "MDC_IDC_ENUM_THERAPY_STATUS",
+    "value": "Off",
+  },
+  "ATP_DELIVERED_RECENT[TACHYTHERAPY][{seq}]": Object {
+    "name": "ATP_DELIVERED_RECENT[TACHYTHERAPY][{seq}]",
+    "type": "Numeric",
+    "value": "0",
+  },
+  "ATP_DELIVERED_TOTAL[TACHYTHERAPY][{seq}]": Object {
+    "name": "ATP_DELIVERED_TOTAL[TACHYTHERAPY][{seq}]",
+    "type": "Numeric",
+    "value": "6",
+  },
+  "AT_MODE_SWITCH_MODE[BRADY]": Object {
+    "name": "AT_MODE_SWITCH_MODE[BRADY]",
+    "type": "MDC_IDC_ENUM_BRADY_MODE",
+    "value": "DDI",
+  },
+  "AT_MODE_SWITCH_RATE[BRADY][{beats}/min]": Object {
+    "name": "AT_MODE_SWITCH_RATE[BRADY][{beats}/min]",
+    "type": "Numeric",
+    "value": "160",
+  },
+  "CAPTURE_MODE[PACING]": Object {
+    "name": "CAPTURE_MODE[PACING]",
+    "type": "MDC_IDC_ENUM_PACING_CAPTURE_MODE",
+    "value": "AdaptiveCapture",
+  },
+  "CATHODE_ELECTRODE_1[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "CATHODE_ELECTRODE_1[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_NAME",
+    "value": "Can",
+  },
+  "CATHODE_LOCATION_1[LEADHVCHNL:SHOCK_VECTOR]": Object {
+    "name": "CATHODE_LOCATION_1[LEADHVCHNL:SHOCK_VECTOR]",
+    "type": "MDC_IDC_ENUM_ELECTRODE_LOCATION",
+    "value": "Other",
+  },
+  "CHARGE_DTM[CAP]": Object {
+    "name": "CHARGE_DTM[CAP]",
+    "type": "DateTime",
+    "value": "20150727T000000",
+  },
+  "CHARGE_ENERGY[CAP][J]": Object {
+    "name": "CHARGE_ENERGY[CAP][J]",
+    "type": "Numeric",
+    "value": "40",
+  },
+  "CHARGE_TIME[CAP][s]": Object {
+    "name": "CHARGE_TIME[CAP][s]",
+    "type": "Numeric",
+    "value": "11.0",
+  },
+  "DATE[BIO:REQUEST]": Object {
+    "name": "DATE[BIO:REQUEST]",
+    "type": "DateTime",
+    "value": "20150820T145134",
+  },
+  "DETECTION_BEATS_DENOMINATOR[ZONE][{beats}]": Object {
+    "name": "DETECTION_BEATS_DENOMINATOR[ZONE][{beats}]",
+    "type": "Numeric",
+    "value": "12",
+  },
+  "DETECTION_BEATS_NUMERATOR[ZONE][{beats}]": Object {
+    "name": "DETECTION_BEATS_NUMERATOR[ZONE][{beats}]",
+    "type": "Numeric",
+    "value": "8",
+  },
+  "DETECTION_DETAILS[ZONE]": Object {
+    "name": "DETECTION_DETAILS[ZONE]",
+    "type": "String",
+    "value": "Det. counter:26, SMART det.:ON, SMART redet.:ON",
+  },
+  "DETECTION_INTERVAL[ZONE][ms]": Object {
+    "name": "DETECTION_INTERVAL[ZONE][ms]",
+    "type": "Numeric",
+    "value": "300",
+  },
+  "DTM[MSMT:BATTERY]": Object {
+    "name": "DTM[MSMT:BATTERY]",
+    "type": "DateTime",
+    "value": "20150820T145045",
+  },
+  "DTM[SESS]": Object {
+    "name": "DTM[SESS]",
+    "type": "DateTime",
+    "value": "20150820T145045",
+  },
+  "DTM_END[AT]": Object {
+    "name": "DTM_END[AT]",
+    "type": "DateTime",
+    "value": "20150820T145045",
+  },
+  "DTM_END[LEADHVCHNL]": Object {
+    "name": "DTM_END[LEADHVCHNL]",
+    "type": "DateTime",
+    "value": "20150820T145045",
+  },
+  "DTM_END[STAT:BRADY]": Object {
+    "name": "DTM_END[STAT:BRADY]",
+    "type": "DateTime",
+    "value": "20150820T145045",
+  },
+  "DTM_PREVIOUS[SESS]": Object {
+    "name": "DTM_PREVIOUS[SESS]",
+    "type": "DateTime",
+    "value": "20150819T000000",
+  },
+  "DTM_START[AT]": Object {
+    "name": "DTM_START[AT]",
+    "type": "DateTime",
+    "value": "20150819T000000",
+  },
+  "DTM_START[LEADHVCHNL]": Object {
+    "name": "DTM_START[LEADHVCHNL]",
+    "type": "DateTime",
+    "value": "20150819T000000",
+  },
+  "DTM_START[STAT:BRADY]": Object {
+    "name": "DTM_START[STAT:BRADY]",
+    "type": "DateTime",
+    "value": "20150819T000000",
+  },
+  "ID[BIO:REQUEST]": Object {
+    "name": "ID[BIO:REQUEST]",
+    "type": "String",
+    "value": "46290631   _20150820T145134",
+  },
+  "IMPEDANCE[LEADHVCHNL][Ohm]": Object {
+    "name": "IMPEDANCE[LEADHVCHNL][Ohm]",
+    "type": "Numeric",
+    "value": "150",
+  },
+  "IMPLANTER[MDC:IDC:DEV]": Object {
+    "name": "IMPLANTER[MDC:IDC:DEV]",
+    "type": "String",
+    "value": "TAJSTRA",
+  },
+  "IMPLANTING_FACILITY[MDC:IDC:DEV]": Object {
+    "name": "IMPLANTING_FACILITY[MDC:IDC:DEV]",
+    "type": "String",
+    "value": "SCCHS ZABRZE",
+  },
+  "IMPLANT_DT[MDC:IDC:DEV]": Object {
+    "name": "IMPLANT_DT[MDC:IDC:DEV]",
+    "type": "DateTime",
+    "value": "20130429T000000",
+  },
+  "LEAD_CHANNEL_STATUS[LEADCHNL_RA]": Object {
+    "name": "LEAD_CHANNEL_STATUS[LEADCHNL_RA]",
+    "type": "MDC_IDC_ENUM_CHANNEL_STATUS",
+    "value": "CheckLead",
+  },
+  "LEAD_CHANNEL_STATUS[LEADCHNL_RV]": Object {
+    "name": "LEAD_CHANNEL_STATUS[LEADCHNL_RV]",
+    "type": "MDC_IDC_ENUM_CHANNEL_STATUS",
+    "value": "CheckLead",
+  },
+  "LOWRATE[BRADY][{beats}/min]": Object {
+    "name": "LOWRATE[BRADY][{beats}/min]",
+    "type": "Numeric",
+    "value": "60",
+  },
+  "MAX_TRACKING_RATE[BRADY][{beats}/min]": Object {
+    "name": "MAX_TRACKING_RATE[BRADY][{beats}/min]",
+    "type": "Numeric",
+    "value": "130",
+  },
+  "MFG[MDC:IDC:DEV]": Object {
+    "name": "MFG[MDC:IDC:DEV]",
+    "type": "MDC_IDC_ENUM_MFG",
+    "value": "BIO",
+  },
+  "MODEL[MDC:IDC:DEV]": Object {
+    "name": "MODEL[MDC:IDC:DEV]",
+    "type": "String",
+    "value": "Lumax 540 DR-T",
+  },
+  "MODE[BRADY]": Object {
+    "name": "MODE[BRADY]",
+    "type": "MDC_IDC_ENUM_BRADY_MODE",
+    "value": "DDD",
+  },
+  "NAME_FAMILY[ATTR:PT]": Object {
+    "name": "NAME_FAMILY[ATTR:PT]",
+    "type": "String",
+    "value": "ANONYMOUS",
+  },
+  "NAME_GIVEN[ATTR:PT]": Object {
+    "name": "NAME_GIVEN[ATTR:PT]",
+    "type": "String",
+    "value": "ANONYMOUS",
+  },
+  "NUM_ATP_SEQS_1[ZONE][{seq}]": Object {
+    "name": "NUM_ATP_SEQS_1[ZONE][{seq}]",
+    "type": "Numeric",
+    "value": "1",
+  },
+  "NUM_ATP_SEQS_2[ZONE][{seq}]": Object {
+    "name": "NUM_ATP_SEQS_2[ZONE][{seq}]",
+    "type": "Numeric",
+    "value": "3",
+  },
+  "NUM_SHOCKS_3[ZONE][{shocks}]": Object {
+    "name": "NUM_SHOCKS_3[ZONE][{shocks}]",
+    "type": "Numeric",
+    "value": "6",
+  },
+  "PAV_DELAY_HIGH[BRADY][ms]": Object {
+    "name": "PAV_DELAY_HIGH[BRADY][ms]",
+    "type": "Numeric",
+    "value": "220",
+  },
+  "PAV_DELAY_LOW[BRADY][ms]": Object {
+    "name": "PAV_DELAY_LOW[BRADY][ms]",
+    "type": "Numeric",
+    "value": "240",
+  },
+  "POLARITY[LEADCHNL_RA:IMPEDANCE]": Object {
+    "name": "POLARITY[LEADCHNL_RA:IMPEDANCE]",
+    "type": "MDC_IDC_ENUM_POLARITY",
+    "value": "BI",
+  },
+  "POLARITY[LEADCHNL_RA:SENSING]": Object {
+    "name": "POLARITY[LEADCHNL_RA:SENSING]",
+    "type": "MDC_IDC_ENUM_POLARITY",
+    "value": "BI",
+  },
+  "POLARITY[LEADCHNL_RV:IMPEDANCE]": Object {
+    "name": "POLARITY[LEADCHNL_RV:IMPEDANCE]",
+    "type": "MDC_IDC_ENUM_POLARITY",
+    "value": "BI",
+  },
+  "POLARITY[LEADCHNL_RV:SENSING]": Object {
+    "name": "POLARITY[LEADCHNL_RV:SENSING]",
+    "type": "MDC_IDC_ENUM_POLARITY",
+    "value": "BI",
+  },
+  "POLARITY[PACING]": Object {
+    "name": "POLARITY[PACING]",
+    "type": "MDC_IDC_ENUM_POLARITY",
+    "value": "BI",
+  },
+  "PULSEWIDTH[PACING][ms]": Object {
+    "name": "PULSEWIDTH[PACING][ms]",
+    "type": "Numeric",
+    "value": "0.4",
+  },
+  "REMAINING_PERCENTAGE[MSMT:BATTERY][%]": Object {
+    "name": "REMAINING_PERCENTAGE[MSMT:BATTERY][%]",
+    "type": "Numeric",
+    "value": "77",
+  },
+  "RESP[SET:MAGNET]": Object {
+    "name": "RESP[SET:MAGNET]",
+    "type": "String",
+    "value": "Therapies inactive",
+  },
+  "SAV_DELAY_HIGH[BRADY][ms]": Object {
+    "name": "SAV_DELAY_HIGH[BRADY][ms]",
+    "type": "Numeric",
+    "value": "190",
+  },
+  "SAV_DELAY_LOW[BRADY][ms]": Object {
+    "name": "SAV_DELAY_LOW[BRADY][ms]",
+    "type": "Numeric",
+    "value": "210",
+  },
+  "SENSITIVITY[LEADCHNL_RA:SENSING][mV]": Object {
+    "name": "SENSITIVITY[LEADCHNL_RA:SENSING][mV]",
+    "type": "Numeric",
+    "value": "0.4",
+  },
+  "SENSITIVITY[LEADCHNL_RV:SENSING][mV]": Object {
+    "name": "SENSITIVITY[LEADCHNL_RV:SENSING][mV]",
+    "type": "Numeric",
+    "value": "0.8",
+  },
+  "SENSOR_TYPE[BRADY]": Object {
+    "name": "SENSOR_TYPE[BRADY]",
+    "type": "String",
+    "value": "None",
+  },
+  "SERIAL[BIO:REQUEST:PROGRAMMER]": Object {
+    "name": "SERIAL[BIO:REQUEST:PROGRAMMER]",
+    "type": "String",
+    "value": "46290631",
+  },
+  "SERIAL[MDC:IDC:DEV]": Object {
+    "name": "SERIAL[MDC:IDC:DEV]",
+    "type": "String",
+    "value": "60655694",
+  },
+  "SEX[ATTR:PT]": Object {
+    "name": "SEX[ATTR:PT]",
+    "type": "String",
+    "value": "1",
+  },
+  "SHOCKS_ABORTED_RECENT[TACHYTHERAPY][{shocks}]": Object {
+    "name": "SHOCKS_ABORTED_RECENT[TACHYTHERAPY][{shocks}]",
+    "type": "Numeric",
+    "value": "0",
+  },
+  "SHOCKS_ABORTED_TOTAL[TACHYTHERAPY][{shocks}]": Object {
+    "name": "SHOCKS_ABORTED_TOTAL[TACHYTHERAPY][{shocks}]",
+    "type": "Numeric",
+    "value": "4",
+  },
+  "SHOCKS_DELIVERED_RECENT[TACHYTHERAPY][{shocks}]": Object {
+    "name": "SHOCKS_DELIVERED_RECENT[TACHYTHERAPY][{shocks}]",
+    "type": "Numeric",
+    "value": "0",
+  },
+  "SHOCKS_DELIVERED_TOTAL[TACHYTHERAPY][{shocks}]": Object {
+    "name": "SHOCKS_DELIVERED_TOTAL[TACHYTHERAPY][{shocks}]",
+    "type": "Numeric",
+    "value": "7",
+  },
+  "SHOCK_ENERGY_1[ZONE][J]": Object {
+    "name": "SHOCK_ENERGY_1[ZONE][J]",
+    "type": "Numeric",
+    "value": "40",
+  },
+  "SHOCK_ENERGY_2[ZONE][J]": Object {
+    "name": "SHOCK_ENERGY_2[ZONE][J]",
+    "type": "Numeric",
+    "value": "40",
+  },
+  "SHOCK_ENERGY_3[ZONE][J]": Object {
+    "name": "SHOCK_ENERGY_3[ZONE][J]",
+    "type": "Numeric",
+    "value": "40",
+  },
+  "STATUS[LEADHVCHNL]": Object {
+    "name": "STATUS[LEADHVCHNL]",
+    "type": "MDC_IDC_ENUM_CHANNEL_STATUS",
+    "value": "CheckLead",
+  },
+  "STATUS[MSMT:BATTERY]": Object {
+    "name": "STATUS[MSMT:BATTERY]",
+    "type": "MDC_IDC_ENUM_BATTERY_STATUS",
+    "value": "MOS",
+  },
+  "STATUS[ZONE]": Object {
+    "name": "STATUS[ZONE]",
+    "type": "MDC_IDC_ENUM_ZONE_STATUS",
+    "value": "Inactive",
+  },
+  "TYPE[MDC:IDC:DEV]": Object {
+    "name": "TYPE[MDC:IDC:DEV]",
+    "type": "MDC_IDC_ENUM_DEV_TYPE",
+    "value": "ICD",
+  },
+  "TYPE[SESS]": Object {
+    "name": "TYPE[SESS]",
+    "type": "MDC_IDC_ENUM_SESS_TYPE",
+    "value": "InClinic",
+  },
+  "TYPE[ZONE]": Object {
+    "name": "TYPE[ZONE]",
+    "type": "MDC_IDC_ENUM_ZONE_TYPE",
+    "value": "Zone_VF",
+  },
+  "TYPE_ATP_1[ZONE]": Object {
+    "name": "TYPE_ATP_1[ZONE]",
+    "type": "MDC_IDC_ENUM_ATP_TYPE",
+    "value": "Burst",
+  },
+  "TYPE_ATP_2[ZONE]": Object {
+    "name": "TYPE_ATP_2[ZONE]",
+    "type": "MDC_IDC_ENUM_ATP_TYPE",
+    "value": "Ramp",
+  },
+  "VALUE[LEADCHNL_RA:IMPEDANCE][Ohm]": Object {
+    "name": "VALUE[LEADCHNL_RA:IMPEDANCE][Ohm]",
+    "type": "Numeric",
+    "value": "3000",
+  },
+  "VALUE[LEADCHNL_RV:IMPEDANCE][Ohm]": Object {
+    "name": "VALUE[LEADCHNL_RV:IMPEDANCE][Ohm]",
+    "type": "Numeric",
+    "value": "3000",
+  },
+  "VENDOR_MODE[BRADY]": Object {
+    "name": "VENDOR_MODE[BRADY]",
+    "type": "String",
+    "value": "DDD",
+  },
+  "VENDOR_TYPE[ZONE]": Object {
+    "name": "VENDOR_TYPE[ZONE]",
+    "type": "MDC_IDC_ENUM_ZONE_VENDOR_TYPE",
+    "value": "BIO-Zone_VF",
+  },
+  "VOLTAGE[MSMT:BATTERY][V]": Object {
+    "name": "VOLTAGE[MSMT:BATTERY][V]",
+    "type": "Numeric",
+    "value": "3.06",
+  },
+  "VSTAT[TACHYTHERAPY]": Object {
+    "name": "VSTAT[TACHYTHERAPY]",
+    "type": "MDC_IDC_ENUM_THERAPY_STATUS",
+    "value": "Off",
+  },
+  "episodes": Array [
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VT1",
+      },
+      Object {
+        "name": "TOTAL_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20130429T000000",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20150820T145045",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VT2",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20150819T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20150820T145045",
+      },
+      Object {
+        "name": "TOTAL_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20130429T000000",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20150820T145045",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20150819T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20150820T145045",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_ATAF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_AMon",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20150819T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20150820T145045",
+      },
+      Object {
+        "name": "TOTAL_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20130429T000000",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20150820T145045",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_SVT",
+      },
+      Object {
+        "name": "TYPE_INDUCED",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE_INDUCED",
+        "value": "NO",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_SVT",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20150819T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20150820T145045",
+      },
+      Object {
+        "name": "TOTAL_COUNT",
+        "type": "Numeric",
+        "value": "4",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20130429T000000",
+      },
+      Object {
+        "name": "TOTAL_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20150820T145045",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_AMon",
+      },
+      Object {
+        "name": "RECENT_COUNT",
+        "type": "Numeric",
+        "value": "0",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_START",
+        "type": "DateTime",
+        "value": "20150819T000000",
+      },
+      Object {
+        "name": "RECENT_COUNT_DTM_END",
+        "type": "DateTime",
+        "value": "20150820T145045",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PatientActivated",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PAT",
+      },
+    ],
+    Array [
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_Other",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_BRADY",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "1",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20130506T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "1051",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "952",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "2",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20130705T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "475",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "474",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "3",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20130903T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "1998",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "805",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "4",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20130927T212300",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "375",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "555",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "242",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "555",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "1 Shock, 1 ATP",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "5",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20131102T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "489",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "489",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "6",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20131216T113500",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "1998",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "489",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "285",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "489",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "1 ATP",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "7",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20131227T211900",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "1998",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "535",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "263",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "534",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "1 ATP",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "8",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140101T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "496",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "497",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "9",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140302T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "434",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "782",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "10",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140422T190500",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_SVT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_SVT",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "337",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "341",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "337",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "341",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "11",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140422T192800",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_SVT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_SVT",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "327",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "342",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "327",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "343",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "12",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140501T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "444",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "444",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "13",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140501T195600",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_SVT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_SVT",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "331",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "342",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "330",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "341",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "14",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140501T195800",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_SVT",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_SVT",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "336",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "340",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "335",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "340",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "15",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140502T102600",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "278",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "464",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "280",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "464",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "1 ATP",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "16",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140630T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "671",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "670",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "17",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140701T203600",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "273",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "511",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "280",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "511",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "1 ATP",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "18",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140801T083600",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_VF",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_VF",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "271",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "974",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "270",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_TERMINATION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "6 Shocks, 1 ATP",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "19",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20140829T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "1998",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "995",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "20",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20141028T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "977",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "21",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20141227T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "977",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "22",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20150225T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "977",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "23",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20150426T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "977",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+    Array [
+      Object {
+        "name": "ID",
+        "type": "String",
+        "value": "24",
+      },
+      Object {
+        "name": "DTM",
+        "type": "DateTime",
+        "value": "20150625T004000",
+      },
+      Object {
+        "name": "TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_TYPE",
+        "value": "Epis_PeriodicEGM",
+      },
+      Object {
+        "name": "VENDOR_TYPE",
+        "type": "MDC_IDC_ENUM_EPISODE_VENDOR_TYPE",
+        "value": "BIO-Epis_PIEGM",
+      },
+      Object {
+        "name": "ATRIAL_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "977",
+      },
+      Object {
+        "name": "VENTRICULAR_INTERVAL_AT_DETECTION[ms]",
+        "type": "Numeric",
+        "value": "997",
+      },
+      Object {
+        "name": "DETECTION_THERAPY_DETAILS",
+        "type": "String",
+        "value": "Periodic IEGM",
+      },
+    ],
+  ],
+}
+`;

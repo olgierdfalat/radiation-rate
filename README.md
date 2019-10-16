@@ -42,6 +42,7 @@ Generate Excel files for specific device type
 ```
 npm start -- -x StJude
 npm start -- -x BiotronikStd
+npm start -- -x BiotronikIEEE
 ```
 
 Generate checksum report for specific device type
@@ -49,6 +50,7 @@ Generate checksum report for specific device type
 ```
 npm start -- -c StJude
 npm start -- -c BiotronikStd
+npm start -- -c BiotronikIEEE
 ```
 
 Generate list of included log files for specific device
@@ -56,6 +58,7 @@ Generate list of included log files for specific device
 ```
 npm start -- -i StJude
 npm start -- -i BiotronikStd
+npm start -- -i BiotronikIEEE
 ```
 
 Generate list of excluded log files for specific device
@@ -63,6 +66,7 @@ Generate list of excluded log files for specific device
 ```
 npm start -- -e StJude
 npm start -- -e BiotronikStd
+npm start -- -e BiotronikIEEE
 ```
 
 Generate list of wrong log files for specific device
@@ -70,4 +74,5 @@ Generate list of wrong log files for specific device
 ```
 npm start -- -w StJude
 npm start -- -w BiotronikStd
+npm start -- -w BiotronikIEEE
 ```

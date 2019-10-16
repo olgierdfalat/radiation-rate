@@ -2,18 +2,31 @@ import { DOMParser } from 'xmldom';
 import xpath from 'xpath';
 import * as errors from './../errors';
 import * as models from './../models';
-const ELEMENT_NODE = 1;
+import checksum from './../util/checksum';
+import * as constants from './../util/constants';
+
 
 export class XmlParser {
   protected content: string;
   protected xmlDoc: any;
-  protected stdData: any;
+  protected data: any;
   protected filePath: string;
 
   constructor(content: string, filePath: string) {
     this.content = content;
     this.filePath = filePath;
+    this.data = {};
     this.parseXml();
+  }
+
+  getChecksum() {
+    return checksum(this.content);
+  }
+
+  getIdsChecksum() {
+    const output = {fieldNames: ''};
+    this.visitXmlDoc(this.xmlDoc.documentElement, output);
+    return checksum(output.fieldNames);
   }
 
   protected parseXml() {
@@ -86,7 +99,7 @@ export class XmlParser {
     let element: Element = undefined;
     for (const key in childNodes) {
       const node = childNodes[key];
-      if (node.nodeType === ELEMENT_NODE) {
+      if (node.nodeType === constants.ELEMENT_NODE) {
         element = node as Element;
       }
     }
@@ -97,8 +110,8 @@ export class XmlParser {
     return value;
   }
 
-  protected visitXmlDoc(node: any, level: number, output: any) {
-    if (node.nodeType === ELEMENT_NODE) {
+  protected visitXmlDoc(node: any, output: any) {
+    if (node.nodeType === constants.ELEMENT_NODE) {
       output.fieldNames += node.nodeName + '-';
       for (let i = 0; i < node.attributes.length; i++) {
         const attribute = node.attributes[i];
@@ -109,8 +122,8 @@ export class XmlParser {
     const childNodes = node.childNodes;
     for (let i = 0; i < childNodes.length; i++) {
       const childNode = childNodes[i];
-      if (childNode.nodeType === ELEMENT_NODE) {
-        this.visitXmlDoc(childNode, level + 1, output);
+      if (childNode.nodeType === constants.ELEMENT_NODE) {
+        this.visitXmlDoc(childNode, output);
       }
     }
   }

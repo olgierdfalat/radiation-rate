@@ -1,4 +1,4 @@
-import { Interrogation, StJude, BiotronikStd } from './index';
+import { Interrogation, StJude, BiotronikStd, BiotronikIEEE } from './index';
 import * as constants from './../util/constants';
 
 
@@ -10,6 +10,8 @@ export abstract class InterrogationFactory {
         return new StJude(filePath);
       case constants.BIOTRONIK_STD:
         return new BiotronikStd(filePath);
+      case constants.Biotronik_IEEE:
+        return new BiotronikIEEE(filePath);
     }
     throw new Error(`Cannot create Interrogation object. The "${device}" is not supported.`);
   }

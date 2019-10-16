@@ -3,6 +3,7 @@ import * as constants from '../util/constants';
 import { FileFilterCallback } from './filesEnumerator';
 const stJudeRegExp = /\d+_?\d+?\.log/i;
 const biotronikStdRegExp = /BIOSTD.*\.xml/i;
+const biotronikIEEERegExp = /BIOIEEE.*\.xml/i;
 
 const DeviceFileFilters: Record<string, FileFilterCallback> = {
   [constants.STJUDE]: function isStJudeLogFile(fileInfo: FileInfo): boolean {
@@ -10,6 +11,9 @@ const DeviceFileFilters: Record<string, FileFilterCallback> = {
   },
   [constants.BIOTRONIK_STD]: function isBiotronikStdXmlFile(fileInfo: FileInfo): boolean {
     return biotronikStdRegExp.test(fileInfo.fileName);
+  },
+  [constants.Biotronik_IEEE]: function isBiotronikStdXmlFile(fileInfo: FileInfo): boolean {
+    return biotronikIEEERegExp.test(fileInfo.fileName);
   }
 };
 export default DeviceFileFilters;

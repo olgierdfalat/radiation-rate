@@ -1,5 +1,4 @@
 import xpath from 'xpath';
-import checksum from './../../util/checksum';
 import * as models from './../../models';
 import { XmlParser } from '../xmlParser';
 
@@ -76,7 +75,7 @@ export class BiotronikStdData extends XmlParser {
     const episodes = this.parseEpisodes('//Examination/Measurements/Table/ForeignKey/TableEntry');
     const additionalMeasurements = this.parseTableEntries('//Examination/AdditionalMeasurements/Table/TableEntry', false, true);
 
-    this.stdData = {
+    this.data = {
       interfaceDataDestination,
       interfaceDataSource,
       interfaceDataCreationDate,
@@ -92,13 +91,13 @@ export class BiotronikStdData extends XmlParser {
       episodes
     };
 
-    measurementsEntries.forEach(x => this.stdData[x.name] = x);
-    additionalMeasurements.forEach(x => this.stdData[x.name] = x);
+    measurementsEntries.forEach(x => this.data[x.name] = x);
+    additionalMeasurements.forEach(x => this.data[x.name] = x);
     this.episodes = episodes;
   }
 
   getRow() {
-    return this.stdData;
+    return this.data;
   }
 
   getExtraWorksheetRows(index = 0): models.WorksheetRow[] {
@@ -117,28 +116,18 @@ export class BiotronikStdData extends XmlParser {
   }
 
   getDeviceId(): string {
-    const serialField = this.stdData[SERIAL_NUMBER_DATA] || this.stdData[SERIAL_NUMBER_DATEN];
+    const serialField = this.data[SERIAL_NUMBER_DATA] || this.data[SERIAL_NUMBER_DATEN];
     if (serialField) {
       return serialField.value;
     }
     return 'Unknown device id';
   }
 
-  getChecksum() {
-    return checksum(this.content);
-  }
-
-  getIdsChecksum() {
-    const output = {fieldNames: ''};
-    this.visitXmlDoc(this.xmlDoc.documentElement, 0, output);
-    return checksum(output.fieldNames);
-  }
-
   getWorksheetRow(): models.WorksheetRow {
     const worksheetRow: models.WorksheetRow = [];
-    for (const key in this.stdData) {
+    for (const key in this.data) {
       if (key !== 'episodes') {
-        worksheetRow.push(this.stdData[key] as models.WorksheetField);
+        worksheetRow.push(this.data[key] as models.WorksheetField);
       }
     }
     return worksheetRow;
