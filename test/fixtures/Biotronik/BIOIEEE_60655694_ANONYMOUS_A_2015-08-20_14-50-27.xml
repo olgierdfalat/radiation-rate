@@ -10,7 +10,7 @@
 					<value name="MFG" type="MDC_IDC_ENUM_MFG">BIO</value>
 					<value name="IMPLANT_DT" type="DateTime">20130429T000000</value>
 					<value name="IMPLANTER" type="String">IMPLANTER</value>
-					<value name="IMPLANTING_FACILITY" type="String">SCCHS ZABRZE</value>
+					<value name="IMPLANTING_FACILITY" type="String">Olimp</value>
 				</section>
 				<section name="SESS">
 					<value name="DTM" type="DateTime">20150820T145045</value>

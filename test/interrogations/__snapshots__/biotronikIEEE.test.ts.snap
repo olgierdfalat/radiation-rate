@@ -2382,7 +2382,7 @@ Object {
   "IMPLANTING_FACILITY[MDC:IDC:DEV]": Object {
     "name": "IMPLANTING_FACILITY[MDC:IDC:DEV]",
     "type": "String",
-    "value": "SCCHS ZABRZE",
+    "value": "Olimp",
   },
   "IMPLANT_DT[MDC:IDC:DEV]": Object {
     "name": "IMPLANT_DT[MDC:IDC:DEV]",
