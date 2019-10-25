@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`interrogation Biotronik class should get structured data row from file 1`] = `
+Object {
+  "birthDate": "1949-07-10",
+  "commentary": "Symptom=Prophylactic indication, Aetiology=Dilative cardiomyopathy (ischemic), ECGIndication=QRS widening",
+  "generationDate": "2016-12-23T12:15:28",
+  "implantDate": "2010-10-25",
+  "institutionName": "BIOTRONIK SE & Co. KG",
+  "manufacturer": "Biotronik",
+  "model": "Lumax 340 DR-T",
+  "nameFirst": "ANONYMOUS",
+  "nameLast": "ANONYMOUS",
+  "schemaVersion": "2.0",
+  "serialNumber": "60485754",
+}
+`;

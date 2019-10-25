@@ -1,4 +1,4 @@
-import { Interrogation, StJude, BiotronikStd, BiotronikIEEE } from './index';
+import { Interrogation, StJude, Biotronik, BiotronikStd, BiotronikIEEE } from './index';
 import * as constants from './../util/constants';
 
 
@@ -8,6 +8,8 @@ export abstract class InterrogationFactory {
     switch (normalizedDevice) {
       case constants.STJUDE:
         return new StJude(filePath);
+      case constants.BIOTRONIK:
+        return new Biotronik(filePath);
       case constants.BIOTRONIK_STD:
         return new BiotronikStd(filePath);
       case constants.Biotronik_IEEE:
