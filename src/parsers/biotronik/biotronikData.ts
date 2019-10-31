@@ -40,14 +40,14 @@ export class BiotronikData extends XmlParser {
     const manufacturer = this.getField(`string(${icdDetailSelector}/@Manufacturer)`, 'manufacturer', 'string');
     const model = this.getField(`string(${icdDetailSelector}/@Model)`, 'model', 'string');
     const implantDate = this.getField(`string(${icdSelector}/ImplantInformation/@Date)`, 'implantDate', 'date');
-    const icdClinic_Date = this.getField(`string(${icdClinicSelector}/@Date)`, 'icdClinic_Date', 'date');
+    const icdClinic_Date = this.getField(`string(${icdClinicSelector}/@Date)`, 'ICDClinic_Date', 'date');
     const icdClinic_Evaluation_BradyProgramming_PacingMode = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PacingMode)`, 'PacingMode[ICDClinic_Evaluation_BradyProgramming]', 'string');
     const icdClinic_Evaluation_BradyProgramming_LowerRate_bpm = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@LowerRate_bpm)`, 'LowerRate_bpm[ICDClinic_Evaluation_BradyProgramming]', 'number');
     const icdClinic_Evaluation_BradyProgramming_HysteresisRate_bpm = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@HysteresisRate_bpm)`, 'HysteresisRate_bpm[ICDClinic_Evaluation_BradyProgramming]', 'number');
     const icdClinic_EvaluationBrady_Programming_TrackingRate_bpm = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@TrackingRate_bpm)`, 'TrackingRate_bpm[ICDClinic_EvaluationBrady_Programming]', 'number');
     const icdClinic_Evaluation_BradyProgramming_PMTIntervention = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PMTIntervention)`, 'PMTIntervention[ICDClinic_Evaluation_BradyProgramming]', 'string');
-    const icdClinic_Evaluation_BradyProgramming_PVCIntervention = this.select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PVCIntervention)`, this.xmlDoc);
-    const icdClinic_Evaluation_BradyProgramming_Notes = this.select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@Notes)`, this.xmlDoc);
+    const icdClinic_Evaluation_BradyProgramming_PVCIntervention = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PVCIntervention)`, 'PVCIntervention[ICDClinic_Evaluation_BradyProgramming]', 'number');
+    const icdClinic_Evaluation_BradyProgramming_Notes = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@Notes)`, 'Notes[ICDClinic_Evaluation_BradyProgramming]', 'string');
 
     this.data = {
       schemaVersion,
@@ -66,11 +66,10 @@ export class BiotronikData extends XmlParser {
       icdClinic_Evaluation_BradyProgramming_LowerRate_bpm,
       icdClinic_Evaluation_BradyProgramming_HysteresisRate_bpm,
       icdClinic_EvaluationBrady_Programming_TrackingRate_bpm,
-      icdClinic_Evaluation_BradyProgramming_PMTIntervention
+      icdClinic_Evaluation_BradyProgramming_PMTIntervention,
+      icdClinic_Evaluation_BradyProgramming_PVCIntervention,
+      icdClinic_Evaluation_BradyProgramming_Notes
     };
-
-    this.data['PVCIntervention[ICDClinic_Evaluation_BradyProgramming]'] = icdClinic_Evaluation_BradyProgramming_PVCIntervention;
-    this.data['Notes[ICDClinic_Evaluation_BradyProgramming]'] = icdClinic_Evaluation_BradyProgramming_Notes;
 
     this.readNodesWithId(`${icdClinicSelector}/Evaluation/BradyProgramming/Sensing`, 'icdClinic_Evaluation_BradyProgramming_Sensing', 'Chamber');
     this.readNodesWithId(`${icdClinicSelector}/Evaluation/BradyProgramming/Pacing`, 'icdClinic_Evaluation_BradyProgramming_Pacing', 'Chamber');
