@@ -71,14 +71,14 @@ export class BiotronikData extends XmlParser {
       icdClinic_Evaluation_BradyProgramming_Notes
     };
 
-    this.readNodesWithId(`${icdClinicSelector}/Evaluation/BradyProgramming/Sensing`, 'icdClinic_Evaluation_BradyProgramming_Sensing', 'Chamber');
-    this.readNodesWithId(`${icdClinicSelector}/Evaluation/BradyProgramming/Pacing`, 'icdClinic_Evaluation_BradyProgramming_Pacing', 'Chamber');
+    this.readNodesWithId(`${icdClinicSelector}/Evaluation/BradyProgramming/Sensing`, 'ICDClinic_Evaluation_BradyProgramming_Sensing', 'Chamber');
+    this.readNodesWithId(`${icdClinicSelector}/Evaluation/BradyProgramming/Pacing`, 'ICDClinic_Evaluation_BradyProgramming_Pacing', 'Chamber');
 
-    this.readNode(`${icdClinicSelector}/Evaluation/BradyProgramming/AVDelay`, 'icdClinic_Evaluation_BradyProgramming');
-    this.readNode(`${icdClinicSelector}/Evaluation/BradyProgramming/AMS`, 'icdClinic_Evaluation_BradyProgramming');
-    this.readNode(`${icdClinicSelector}/Evaluation/ICDTelemetry`, 'icdClinic_Evaluation');
-    this.readNode(`${icdClinicSelector}/Evaluation/ICDTelemetry/Detections_Treatments`, 'icdClinic_Evaluation_ICDTelemetry');
-    this.readNode(`${icdClinicSelector}/Evaluation/ICDTelemetry/Totals`, 'icdClinic_Evaluation_ICDTelemetry');
+    this.readNode(`${icdClinicSelector}/Evaluation/BradyProgramming/AVDelay`, 'ICDClinic_Evaluation_BradyProgramming');
+    this.readNode(`${icdClinicSelector}/Evaluation/BradyProgramming/AMS`, 'ICDClinic_Evaluation_BradyProgramming');
+    this.readNode(`${icdClinicSelector}/Evaluation/ICDTelemetry`, 'ICDClinic_Evaluation');
+    this.readNode(`${icdClinicSelector}/Evaluation/ICDTelemetry/Detections_Treatments`, 'ICDClinic_Evaluation_ICDTelemetry');
+    this.readNode(`${icdClinicSelector}/Evaluation/ICDTelemetry/Totals`, 'ICDClinic_Evaluation_ICDTelemetry');
 
     this.readTachyProgramming();
   }
@@ -142,7 +142,7 @@ export class BiotronikData extends XmlParser {
         }
         const newPrefix = prefix + '_' + id;
         this.readNodeWithAttributes(node, newPrefix, false).forEach(x => {
-            this.data[x.key] = x.value;
+            this.data[x.key] = {name: x.key, value: x.value, type: 'string'};
         });
       }
     });
