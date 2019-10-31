@@ -2,46 +2,52 @@ import xpath from 'xpath';
 import * as models from './../../models';
 import { XmlParser } from '../xmlParser';
 import { KeyValuePair } from './../../models';
+import * as constants from './../../util/constants';
 
-const NR = 'NR';
-const SERIAL_NUMBER_DATA = 'SERHSM[Table=TBU_DEFI_DATA]';
-const SERIAL_NUMBER_DATEN = 'SERHSM[Table=TBU_HSM_DATEN]';
+const icdClinicSelector = '//Paceart/PatientRecords/PatientRecord/Tests/ICDClinic';
+const ICDClinic_Evaluation_TachyProgramming = 'ICDClinic_Evaluation_TachyProgramming';
 
 export class BiotronikData extends XmlParser {
-  private episodes: models.FieldModel[][];
+  private select: xpath.XPathSelect;
 
   constructor(content: string, filePath: string) {
     super(content, filePath);
   }
-
+  private getField(selector: string, name: string, type: string): models.FieldModel {
+    const value = this.select(selector, this.xmlDoc);
+    return {
+      name,
+      value: value.toString(),
+      type
+    };
+  }
   protected parseXml() {
     super.parseXml();
-    const select = xpath.useNamespaces({ 'bio': 'urn:biotronik' });
+    this.select = xpath.useNamespaces({ 'bio': 'urn:biotronik' });
     const fileInformationSelector = '//Paceart/FileInformation';
     const icdSelector = '//Paceart/PatientRecords/PatientRecord/Devices/ICD';
     const icdDetailSelector = `${icdSelector}/ICDLookup/ICDDetail`;
-    const icdClinicSelector = '//Paceart/PatientRecords/PatientRecord/Tests/ICDClinic';
-    const demographicsSelector = '//Paceart/PatientRecords/PatientRecord/Demographics';
-    const schemaVersion = select(`string(${fileInformationSelector}/@SchemaVersion)`, this.xmlDoc);
-    const institutionName = select(`string(${fileInformationSelector}/@InstitutionName)`, this.xmlDoc);
-    const generationDate = select(`string(${fileInformationSelector}/@GenerationDate)`, this.xmlDoc);
-    const nameLast = select(`string(${demographicsSelector}/@nameLast)`, this.xmlDoc);
-    const nameFirst = select(`string(${demographicsSelector}/@nameFirst)`, this.xmlDoc);
-    const birthDate = select(`string(${demographicsSelector}/@BirthDate)`, this.xmlDoc);
-    const commentary = select(`string(${demographicsSelector}/@Commentary)`, this.xmlDoc);
-    const serialNumber = select(`string(${icdSelector}/@SerialNumber)`, this.xmlDoc);
-    const manufacturer = select(`string(${icdDetailSelector}/@Manufacturer)`, this.xmlDoc);
-    const model = select(`string(${icdDetailSelector}/@Model)`, this.xmlDoc);
-    const implantDate = select(`string(${icdSelector}/ImplantInformation/@Date)`, this.xmlDoc);
-    const icdClinicDate = select(`string(${icdClinicSelector}/@Date)`, this.xmlDoc);
-    const icdClinicEvaluationBradyProgramming_PacingMode = select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PacingMode)`, this.xmlDoc);
-    const icdClinicEvaluationBradyProgramming_LowerRate_bpm = select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@LowerRate_bpm)`, this.xmlDoc);
-    const icdClinicEvaluationBradyProgramming_HysteresisRate_bpm = select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@HysteresisRate_bpm)`, this.xmlDoc);
-    const icdClinicEvaluationBradyProgramming_TrackingRate_bpm = select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@TrackingRate_bpm)`, this.xmlDoc);
-    const icdClinicEvaluationBradyProgramming_PMTIntervention = select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PMTIntervention)`, this.xmlDoc);
-    const icdClinicEvaluationBradyProgramming_PVCIntervention = select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PVCIntervention)`, this.xmlDoc);
-    const icdClinicEvaluationBradyProgramming_Notes = select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@Notes)`, this.xmlDoc);
 
+    const demographicsSelector = '//Paceart/PatientRecords/PatientRecord/Demographics';
+    const schemaVersion = this.getField(`string(${fileInformationSelector}/@SchemaVersion)`, 'schemaVersion', 'string');
+    const institutionName = this.getField(`string(${fileInformationSelector}/@InstitutionName)`, 'institutionName', 'string');
+    const generationDate = this.getField(`string(${fileInformationSelector}/@GenerationDate)`, 'generationDate', 'date');
+    const nameLast = this.getField(`string(${demographicsSelector}/@nameLast)`, 'nameLast', 'string');
+    const nameFirst = this.getField(`string(${demographicsSelector}/@nameFirst)`, 'nameFirst', 'string');
+    const birthDate = this.getField(`string(${demographicsSelector}/@BirthDate)`, 'birthDate', 'date');
+    const commentary = this.getField(`string(${demographicsSelector}/@Commentary)`, 'commentary', 'string');
+    const serialNumber = this.getField(`string(${icdSelector}/@SerialNumber)`, 'serialNumber', 'string');
+    const manufacturer = this.getField(`string(${icdDetailSelector}/@Manufacturer)`, 'manufacturer', 'string');
+    const model = this.getField(`string(${icdDetailSelector}/@Model)`, 'model', 'string');
+    const implantDate = this.getField(`string(${icdSelector}/ImplantInformation/@Date)`, 'implantDate', 'date');
+    const icdClinic_Date = this.getField(`string(${icdClinicSelector}/@Date)`, 'icdClinic_Date', 'date');
+    const icdClinic_Evaluation_BradyProgramming_PacingMode = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PacingMode)`, 'PacingMode[ICDClinic_Evaluation_BradyProgramming]', 'string');
+    const icdClinic_Evaluation_BradyProgramming_LowerRate_bpm = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@LowerRate_bpm)`, 'LowerRate_bpm[ICDClinic_Evaluation_BradyProgramming]', 'number');
+    const icdClinic_Evaluation_BradyProgramming_HysteresisRate_bpm = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@HysteresisRate_bpm)`, 'HysteresisRate_bpm[ICDClinic_Evaluation_BradyProgramming]', 'number');
+    const icdClinic_EvaluationBrady_Programming_TrackingRate_bpm = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@TrackingRate_bpm)`, 'TrackingRate_bpm[ICDClinic_EvaluationBrady_Programming]', 'number');
+    const icdClinic_Evaluation_BradyProgramming_PMTIntervention = this.getField(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PMTIntervention)`, 'PMTIntervention[ICDClinic_Evaluation_BradyProgramming]', 'string');
+    const icdClinic_Evaluation_BradyProgramming_PVCIntervention = this.select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@PVCIntervention)`, this.xmlDoc);
+    const icdClinic_Evaluation_BradyProgramming_Notes = this.select(`string(${icdClinicSelector}/Evaluation/BradyProgramming/@Notes)`, this.xmlDoc);
 
     this.data = {
       schemaVersion,
@@ -55,103 +61,115 @@ export class BiotronikData extends XmlParser {
       manufacturer,
       model,
       implantDate,
-      icdClinicDate,
-      icdClinicEvaluationBradyProgramming_PacingMode,
-      icdClinicEvaluationBradyProgramming_LowerRate_bpm,
-      icdClinicEvaluationBradyProgramming_HysteresisRate_bpm,
-      icdClinicEvaluationBradyProgramming_TrackingRate_bpm,
-      icdClinicEvaluationBradyProgramming_PMTIntervention,
-      icdClinicEvaluationBradyProgramming_PVCIntervention,
-      icdClinicEvaluationBradyProgramming_Notes
+      icdClinic_Date,
+      icdClinic_Evaluation_BradyProgramming_PacingMode,
+      icdClinic_Evaluation_BradyProgramming_LowerRate_bpm,
+      icdClinic_Evaluation_BradyProgramming_HysteresisRate_bpm,
+      icdClinic_EvaluationBrady_Programming_TrackingRate_bpm,
+      icdClinic_Evaluation_BradyProgramming_PMTIntervention
     };
-    const sensing = select(`${icdClinicSelector}/Evaluation/BradyProgramming/Sensing`, this.xmlDoc);
-    sensing.forEach(s => {
-      const node = s as Node;
-      const chamberSymbol = select('string(@Chamber)', node);
-      const amplitude_millivolts = select('string(@Amplitude_millivolts)', node);
-      const polarity = select('string(@Polarity)', node);
-      const blankingPeriod_ms = select('string(@BlankingPeriod_ms)', node);
 
-      const sensingChamber = `icdClinicEvaluationBradyProgramming_Sensing_Chamber_${chamberSymbol}`;
-      const sensingChamberAmplitude_millivolts = `icdClinicEvaluationBradyProgramming_Sensing_Chamber_${chamberSymbol}_Amplitude_millivolts`;
-      const sensingChamberPolarity = `icdClinicEvaluationBradyProgramming_Sensing_Chamber_${chamberSymbol}_Polarity`;
-      const sensingChamberBlankingPeriod_ms = `icdClinicEvaluationBradyProgramming_Sensing_Chamber_${chamberSymbol}_BlankingPeriod_ms`;
+    this.data['PVCIntervention[ICDClinic_Evaluation_BradyProgramming]'] = icdClinic_Evaluation_BradyProgramming_PVCIntervention;
+    this.data['Notes[ICDClinic_Evaluation_BradyProgramming]'] = icdClinic_Evaluation_BradyProgramming_Notes;
 
-      this.data[sensingChamber] = chamberSymbol;
-      this.data[sensingChamberAmplitude_millivolts] = amplitude_millivolts;
+    this.readNodesWithId(`${icdClinicSelector}/Evaluation/BradyProgramming/Sensing`, 'icdClinic_Evaluation_BradyProgramming_Sensing', 'Chamber');
+    this.readNodesWithId(`${icdClinicSelector}/Evaluation/BradyProgramming/Pacing`, 'icdClinic_Evaluation_BradyProgramming_Pacing', 'Chamber');
 
-      if (polarity && polarity.length > 0) {
-        this.data[sensingChamberPolarity] = polarity;
+    this.readNode(`${icdClinicSelector}/Evaluation/BradyProgramming/AVDelay`, 'icdClinic_Evaluation_BradyProgramming');
+    this.readNode(`${icdClinicSelector}/Evaluation/BradyProgramming/AMS`, 'icdClinic_Evaluation_BradyProgramming');
+    this.readNode(`${icdClinicSelector}/Evaluation/ICDTelemetry`, 'icdClinic_Evaluation');
+    this.readNode(`${icdClinicSelector}/Evaluation/ICDTelemetry/Detections_Treatments`, 'icdClinic_Evaluation_ICDTelemetry');
+    this.readNode(`${icdClinicSelector}/Evaluation/ICDTelemetry/Totals`, 'icdClinic_Evaluation_ICDTelemetry');
+
+    this.readTachyProgramming();
+  }
+
+  // TODO: revisit method below.
+  private readTachyProgramming() {
+    const nodes = this.select(`${icdClinicSelector}/Evaluation/TachyProgramming`, this.xmlDoc);
+    if (nodes.length > 0) {
+      const tachyProgramming = nodes[0] as Element;
+      if (tachyProgramming) {
+        let zoneIndex = 1;
+        for (let i = 0; i < tachyProgramming.childNodes.length; i++) {
+          const zone = tachyProgramming.childNodes[i];
+          if (zone.nodeType === constants.ELEMENT_NODE) {
+            const zoneName = zone.nodeName;
+            const zoneElement = zone as Element;
+            for (let j = 0;  j < zoneElement.attributes.length; j++) {
+              const attribute = zoneElement.attributes[j] as Attr;
+              const name = attribute.name;
+              const value = attribute.value;
+              this.data[`${name}_${zoneIndex}_[${ICDClinic_Evaluation_TachyProgramming}_${zoneName}]`] = value;
+            }
+            this.readTherapies(zone, zoneName);
+            zoneIndex++;
+          }
+        }
       }
-      if (blankingPeriod_ms && blankingPeriod_ms.length > 0) {
-        this.data[sensingChamberBlankingPeriod_ms] = blankingPeriod_ms;
+    }
+  }
+
+  private readTherapies(zoneNode: ChildNode, zoneName: string) {
+    for (let i = 0; i < zoneNode.childNodes.length; i++) {
+      const therapy = zoneNode.childNodes[i];
+      if (therapy.nodeType === constants.ELEMENT_NODE) {
+        const therapyName = therapy.nodeName;
+        const therapyElement = therapy as Element;
+        const therapyNumber = therapyElement.getAttribute('TherapyNumber');
+        for (let j = 0;  j < therapyElement.attributes.length; j++) {
+          const attribute = therapyElement.attributes[j] as Attr;
+          const name = attribute.name;
+          const value = attribute.value;
+          this.data[`${name}${therapyNumber}_[${ICDClinic_Evaluation_TachyProgramming}_${zoneName}_${therapyName}]`] = value;
+        }
+      }
+    }
+  }
+
+  private readNodesWithId(selector: string, prefix: string, idAttribute: string) {
+    const nodes = this.select(selector, this.xmlDoc);
+    nodes.forEach(item => {
+      const node = item as Node;
+      const element = node as Element;
+      if (element) {
+        const id =  element.getAttribute(idAttribute) || '';
+        if (id.length === 0) {
+          throw `Id attribute not found: "${idAttribute}"`;
+        }
+        const newPrefix = prefix + '_' + id;
+        this.readNodeWithAttributes(node, newPrefix, false).forEach(x => {
+            this.data[x.key] = x.value;
+        });
       }
     });
+  }
+  private readNode(selector: string, prefix: string) {
+    const nodeSelect = this.select(selector, this.xmlDoc);
+    if (nodeSelect.length > 0) {
+      const node = nodeSelect[0] as Node;
 
-    const pacing = select(`${icdClinicSelector}/Evaluation/BradyProgramming/Pacing`, this.xmlDoc);
-    pacing.forEach(p => {
-      const node = p as Node;
-      const chamberSymbol = select('string(@Chamber)', node);
-      const amplitude_volts = select('string(@Amplitude_volts)', node);
-      const pulseWidth_ms = select('string(@PulseWidth_ms)', node);
-      const polarity = select('string(@Polarity)', node);
-
-      const pacingChamber = `icdClinicEvaluationBradyProgramming_Pacing_Chamber_${chamberSymbol}`;
-      const pacingChamberAmplitude_volts = `icdClinicEvaluationBradyProgramming_Pacing_Chamber_${chamberSymbol}_Amplitude_volts`;
-      const pacingChamberPulseWidth_ms = `icdClinicEvaluationBradyProgramming_Pacing_Chamber_${chamberSymbol}_PulseWidth_ms`;
-      const pacingChamberPolarity = `icdClinicEvaluationBradyProgramming_Pacing_Chamber_${chamberSymbol}_Polarity`;
-
-      this.data[pacingChamber] = chamberSymbol;
-      this.data[pacingChamberAmplitude_volts] = amplitude_volts;
-      this.data[pacingChamberPulseWidth_ms] = pulseWidth_ms;
-      this.data[pacingChamberPolarity] = polarity;
-    });
-
-    const avDelaySelect = select(`${icdClinicSelector}/Evaluation/BradyProgramming/AVDelay`, this.xmlDoc);
-    if (avDelaySelect.length > 0) {  
-      const avDelay = avDelaySelect[0] as Node;
-
-      this.readNodeWithAttributes(avDelay, 'icdClinicEvaluationBradyProgramming').forEach(x => {
-        this.data[x.key] = x.value;
-      });
-    }
-    const amsSelect = select(`${icdClinicSelector}/Evaluation/BradyProgramming/AMS`, this.xmlDoc);
-    if (amsSelect.length > 0) {  
-      const ams = amsSelect[0] as Node;
-      this.readNodeWithAttributes(ams, 'icdClinicEvaluationBradyProgramming').forEach(x => {
-        this.data[x.key] = x.value;
-      });
-    }
-    const icdTelemetrySelect = select(`${icdClinicSelector}/Evaluation/ICDTelemetry`, this.xmlDoc);
-    if(icdTelemetrySelect.length > 0) {
-      const icdTelemetry = icdTelemetrySelect[0] as Node;
-      this.readNodeWithAttributes(icdTelemetry, 'icdClinicEvaluation').forEach(x => {
+      this.readNodeWithAttributes(node, prefix).forEach(x => {
         this.data[x.key] = x.value;
       });
     }
   }
-  private readNode(selector: string) {
-    /*
-    const avDelaySelect = select(`${icdClinicSelector}/Evaluation/BradyProgramming/AVDelay`, this.xmlDoc);
-    if (avDelaySelect.length > 0) {  
-      const avDelay = avDelaySelect[0] as Node;
 
-      this.readNodeWithAttributes(avDelay, 'icdClinicEvaluationBradyProgramming').forEach(x => {
-        this.data[x.key] = x.value;
-      });
-    }
-    */   
-  }
-  private readNodeWithAttributes(node: Node, prefix: string): KeyValuePair[] {
+  private readNodeWithAttributes(node: Node, prefix: string, includeName = true): KeyValuePair[] {
     const attributes: KeyValuePair[] = [];
-    const name = node.nodeName;    
+    const name = node.nodeName;
     const element = node as Element;
 
-    if(element) {
+    if (element) {
       for (let i = 0; i < element.attributes.length; i++) {
         const attribute = element.attributes[i];
-        attributes.push({key: `${prefix}_${name}_${attribute.name}`, value: attribute.value});        
-      }        
+        if (includeName) {
+          attributes.push({key: `${attribute.name}[${prefix}_${name}]`, value: attribute.value});
+        }
+        else {
+          attributes.push({key: `${attribute.name}[${prefix}]`, value: attribute.value});
+        }
+      }
     }
     return attributes;
   }
@@ -161,22 +179,11 @@ export class BiotronikData extends XmlParser {
   }
 
   getExtraWorksheetRows(index = 0): models.WorksheetRow[] {
-    if (index === 0) {
-      return this.episodes.map(episode => {
-        return episode.map(field => {
-          return {
-            name: field.name,
-            type: field.type,
-            value: field.value
-          };
-        });
-      });
-    }
     return undefined;
   }
 
   getDeviceId(): string {
-    const serialField = this.data[SERIAL_NUMBER_DATA] || this.data[SERIAL_NUMBER_DATEN];
+    const serialField = this.data.serialNumber;
     if (serialField) {
       return serialField.value;
     }
@@ -186,9 +193,7 @@ export class BiotronikData extends XmlParser {
   getWorksheetRow(): models.WorksheetRow {
     const worksheetRow: models.WorksheetRow = [];
     for (const key in this.data) {
-      if (key !== 'episodes') {
         worksheetRow.push(this.data[key] as models.WorksheetField);
-      }
     }
     return worksheetRow;
   }

@@ -58,7 +58,7 @@ export class Exporter {
         const workbookRows = devicesRows[i];
         const worksheetData1 = dataProvider.getWorksheetData('interrogations', workbookRows.deviceId, workbookRows.rows);
         const worksheetsData: WorksheetData[] = [worksheetData1];
-        if (workbookRows.extraRows.length > 0) {
+        if (workbookRows.extraRows && workbookRows.extraRows.length > 0) {
           const worksheetData2 = dataProvider.getWorksheetData('episodes', workbookRows.deviceId, workbookRows.extraRows);
           worksheetsData.push(worksheetData2);
         }
