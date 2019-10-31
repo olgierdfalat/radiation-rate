@@ -153,7 +153,7 @@ export class BiotronikData extends XmlParser {
       const node = nodeSelect[0] as Node;
 
       this.readNodeWithAttributes(node, prefix).forEach(x => {
-        this.data[x.key] = x.value;
+        this.data[x.key] = {name: x.key, value: x.value, type: 'string'};
       });
     }
   }

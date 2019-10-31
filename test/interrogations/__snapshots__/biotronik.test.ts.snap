@@ -2,17 +2,45 @@
 
 exports[`interrogation Biotronik class should get structured data row from file 1`] = `
 Object {
-  "AMSEpisodes[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": "",
-  "AdaptiveAVDelayStatus[icdClinic_Evaluation_BradyProgramming_AVDelay]": "ON",
-  "AdaptivePacedMinimum_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": "220",
-  "AdaptiveRateMaximum_bpm[icdClinic_Evaluation_BradyProgramming_AVDelay]": "130",
-  "AdaptiveRateMinimum_bpm[icdClinic_Evaluation_BradyProgramming_AVDelay]": "60",
-  "AdaptiveSensedMinimum_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": "190",
+  "AMSEpisodes[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": Object {
+    "name": "AMSEpisodes[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]",
+    "type": "string",
+    "value": "",
+  },
+  "AdaptiveAVDelayStatus[icdClinic_Evaluation_BradyProgramming_AVDelay]": Object {
+    "name": "AdaptiveAVDelayStatus[icdClinic_Evaluation_BradyProgramming_AVDelay]",
+    "type": "string",
+    "value": "ON",
+  },
+  "AdaptivePacedMinimum_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": Object {
+    "name": "AdaptivePacedMinimum_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]",
+    "type": "string",
+    "value": "220",
+  },
+  "AdaptiveRateMaximum_bpm[icdClinic_Evaluation_BradyProgramming_AVDelay]": Object {
+    "name": "AdaptiveRateMaximum_bpm[icdClinic_Evaluation_BradyProgramming_AVDelay]",
+    "type": "string",
+    "value": "130",
+  },
+  "AdaptiveRateMinimum_bpm[icdClinic_Evaluation_BradyProgramming_AVDelay]": Object {
+    "name": "AdaptiveRateMinimum_bpm[icdClinic_Evaluation_BradyProgramming_AVDelay]",
+    "type": "string",
+    "value": "60",
+  },
+  "AdaptiveSensedMinimum_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": Object {
+    "name": "AdaptiveSensedMinimum_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]",
+    "type": "string",
+    "value": "190",
+  },
   "Amplitude_millivolts[icdClinic_Evaluation_BradyProgramming_Sensing_RA]": "0.4",
   "Amplitude_millivolts[icdClinic_Evaluation_BradyProgramming_Sensing_RV]": "0.8",
   "Amplitude_volts[icdClinic_Evaluation_BradyProgramming_Pacing_RA]": "1.5",
   "Amplitude_volts[icdClinic_Evaluation_BradyProgramming_Pacing_RV]": "2.2",
-  "BatteryVoltage_volts[icdClinic_Evaluation_ICDTelemetry]": "2.85",
+  "BatteryVoltage_volts[icdClinic_Evaluation_ICDTelemetry]": Object {
+    "name": "BatteryVoltage_volts[icdClinic_Evaluation_ICDTelemetry]",
+    "type": "string",
+    "value": "2.85",
+  },
   "BlankingPeriod_ms[icdClinic_Evaluation_BradyProgramming_Sensing_RV]": "AUTO",
   "BurstCycleLength1_[ICDClinic_Evaluation_TachyProgramming_Zone_ATPTherapy]": Object {
     "name": "BurstCycleLength1_[ICDClinic_Evaluation_TachyProgramming_Zone_ATPTherapy]",
@@ -158,14 +186,46 @@ Object {
     "type": "string",
     "value": "360",
   },
-  "FallbackRate_bpm[icdClinic_Evaluation_BradyProgramming_AMS]": "DDI",
-  "FastVentricularTachycardia[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": "0",
-  "LastHighVoltageChargeTime_seconds[icdClinic_Evaluation_ICDTelemetry]": "16.6",
-  "LastHighVoltageEnergy[icdClinic_Evaluation_ICDTelemetry]": "40",
-  "LeadImpedanceAtrial[icdClinic_Evaluation_ICDTelemetry]": "",
-  "LeadImpedanceHighVoltage[icdClinic_Evaluation_ICDTelemetry]": "",
-  "LeadImpedanceLeftVentricular[icdClinic_Evaluation_ICDTelemetry]": "",
-  "LeadImpedanceRightVentricular[icdClinic_Evaluation_ICDTelemetry]": "",
+  "FallbackRate_bpm[icdClinic_Evaluation_BradyProgramming_AMS]": Object {
+    "name": "FallbackRate_bpm[icdClinic_Evaluation_BradyProgramming_AMS]",
+    "type": "string",
+    "value": "DDI",
+  },
+  "FastVentricularTachycardia[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": Object {
+    "name": "FastVentricularTachycardia[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]",
+    "type": "string",
+    "value": "0",
+  },
+  "LastHighVoltageChargeTime_seconds[icdClinic_Evaluation_ICDTelemetry]": Object {
+    "name": "LastHighVoltageChargeTime_seconds[icdClinic_Evaluation_ICDTelemetry]",
+    "type": "string",
+    "value": "16.6",
+  },
+  "LastHighVoltageEnergy[icdClinic_Evaluation_ICDTelemetry]": Object {
+    "name": "LastHighVoltageEnergy[icdClinic_Evaluation_ICDTelemetry]",
+    "type": "string",
+    "value": "40",
+  },
+  "LeadImpedanceAtrial[icdClinic_Evaluation_ICDTelemetry]": Object {
+    "name": "LeadImpedanceAtrial[icdClinic_Evaluation_ICDTelemetry]",
+    "type": "string",
+    "value": "",
+  },
+  "LeadImpedanceHighVoltage[icdClinic_Evaluation_ICDTelemetry]": Object {
+    "name": "LeadImpedanceHighVoltage[icdClinic_Evaluation_ICDTelemetry]",
+    "type": "string",
+    "value": "",
+  },
+  "LeadImpedanceLeftVentricular[icdClinic_Evaluation_ICDTelemetry]": Object {
+    "name": "LeadImpedanceLeftVentricular[icdClinic_Evaluation_ICDTelemetry]",
+    "type": "string",
+    "value": "",
+  },
+  "LeadImpedanceRightVentricular[icdClinic_Evaluation_ICDTelemetry]": Object {
+    "name": "LeadImpedanceRightVentricular[icdClinic_Evaluation_ICDTelemetry]",
+    "type": "string",
+    "value": "",
+  },
   "MaximumNumberOfPulses1_[ICDClinic_Evaluation_TachyProgramming_Zone_ATPTherapy]": Object {
     "name": "MaximumNumberOfPulses1_[ICDClinic_Evaluation_TachyProgramming_Zone_ATPTherapy]",
     "type": "string",
@@ -216,7 +276,11 @@ Object {
     "type": "string",
     "value": "1.5",
   },
-  "Paced_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": "240",
+  "Paced_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": Object {
+    "name": "Paced_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]",
+    "type": "string",
+    "value": "240",
+  },
   "Pathway10_[ICDClinic_Evaluation_TachyProgramming_Zone_ShockTherapy]": Object {
     "name": "Pathway10_[ICDClinic_Evaluation_TachyProgramming_Zone_ShockTherapy]",
     "type": "string",
@@ -297,8 +361,16 @@ Object {
     "type": "string",
     "value": "RV(-), SVC/Can(+)",
   },
-  "PercentPacingAtrial[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": "",
-  "PercentPacingVentricular[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": "",
+  "PercentPacingAtrial[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": Object {
+    "name": "PercentPacingAtrial[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]",
+    "type": "string",
+    "value": "",
+  },
+  "PercentPacingVentricular[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": Object {
+    "name": "PercentPacingVentricular[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]",
+    "type": "string",
+    "value": "",
+  },
   "Polarity[icdClinic_Evaluation_BradyProgramming_Pacing_RA]": "B",
   "Polarity[icdClinic_Evaluation_BradyProgramming_Pacing_RV]": "B",
   "Polarity[icdClinic_Evaluation_BradyProgramming_Sensing_RA]": "B",
@@ -490,7 +562,11 @@ Object {
     "type": "string",
     "value": "12%",
   },
-  "Rate_bpm[icdClinic_Evaluation_BradyProgramming_AMS]": "160",
+  "Rate_bpm[icdClinic_Evaluation_BradyProgramming_AMS]": Object {
+    "name": "Rate_bpm[icdClinic_Evaluation_BradyProgramming_AMS]",
+    "type": "string",
+    "value": "160",
+  },
   "RedetectionDuration_2_[ICDClinic_Evaluation_TachyProgramming_Zone]": Object {
     "name": "RedetectionDuration_2_[ICDClinic_Evaluation_TachyProgramming_Zone]",
     "type": "string",
@@ -516,7 +592,11 @@ Object {
     "type": "string",
     "value": "OFF",
   },
-  "Sensed_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": "210",
+  "Sensed_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": Object {
+    "name": "Sensed_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]",
+    "type": "string",
+    "value": "210",
+  },
   "ShockEnergy10_[ICDClinic_Evaluation_TachyProgramming_Zone_ShockTherapy]": Object {
     "name": "ShockEnergy10_[ICDClinic_Evaluation_TachyProgramming_Zone_ShockTherapy]",
     "type": "string",
@@ -677,10 +757,26 @@ Object {
     "type": "string",
     "value": "J",
   },
-  "ShocksAbortedVentricular[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": "0",
-  "ShocksAborted[icdClinic_Evaluation_ICDTelemetry_Totals]": "3",
-  "ShocksDelivered[icdClinic_Evaluation_ICDTelemetry_Totals]": "",
-  "SlowVentricularTachycardia[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": "0",
+  "ShocksAbortedVentricular[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": Object {
+    "name": "ShocksAbortedVentricular[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]",
+    "type": "string",
+    "value": "0",
+  },
+  "ShocksAborted[icdClinic_Evaluation_ICDTelemetry_Totals]": Object {
+    "name": "ShocksAborted[icdClinic_Evaluation_ICDTelemetry_Totals]",
+    "type": "string",
+    "value": "3",
+  },
+  "ShocksDelivered[icdClinic_Evaluation_ICDTelemetry_Totals]": Object {
+    "name": "ShocksDelivered[icdClinic_Evaluation_ICDTelemetry_Totals]",
+    "type": "string",
+    "value": "",
+  },
+  "SlowVentricularTachycardia[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": Object {
+    "name": "SlowVentricularTachycardia[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]",
+    "type": "string",
+    "value": "0",
+  },
   "Status10_[ICDClinic_Evaluation_TachyProgramming_Zone_ShockTherapy]": Object {
     "name": "Status10_[ICDClinic_Evaluation_TachyProgramming_Zone_ShockTherapy]",
     "type": "string",
@@ -906,9 +1002,21 @@ Object {
     "type": "string",
     "value": "Ramp",
   },
-  "TotalCharges[icdClinic_Evaluation_ICDTelemetry_Totals]": "",
-  "VVDelay_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": "",
-  "VentricularFibrillation[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": "0",
+  "TotalCharges[icdClinic_Evaluation_ICDTelemetry_Totals]": Object {
+    "name": "TotalCharges[icdClinic_Evaluation_ICDTelemetry_Totals]",
+    "type": "string",
+    "value": "",
+  },
+  "VVDelay_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]": Object {
+    "name": "VVDelay_ms[icdClinic_Evaluation_BradyProgramming_AVDelay]",
+    "type": "string",
+    "value": "",
+  },
+  "VentricularFibrillation[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]": Object {
+    "name": "VentricularFibrillation[icdClinic_Evaluation_ICDTelemetry_Detections_Treatments]",
+    "type": "string",
+    "value": "0",
+  },
   "Waveform10_[ICDClinic_Evaluation_TachyProgramming_Zone_ShockTherapy]": Object {
     "name": "Waveform10_[ICDClinic_Evaluation_TachyProgramming_Zone_ShockTherapy]",
     "type": "string",
