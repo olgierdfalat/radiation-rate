@@ -99,7 +99,9 @@ export class BiotronikData extends XmlParser {
               const attribute = zoneElement.attributes[j] as Attr;
               const name = attribute.name;
               const value = attribute.value;
-              this.data[`${name}_${zoneIndex}_[${ICDClinic_Evaluation_TachyProgramming}_${zoneName}]`] = value;
+              const fieldName = `${name}_${zoneIndex}_[${ICDClinic_Evaluation_TachyProgramming}_${zoneName}]`;
+              const type = 'string';
+              this.data[fieldName] = {name: fieldName, value, type};
             }
             this.readTherapies(zone, zoneName);
             zoneIndex++;
@@ -120,7 +122,9 @@ export class BiotronikData extends XmlParser {
           const attribute = therapyElement.attributes[j] as Attr;
           const name = attribute.name;
           const value = attribute.value;
-          this.data[`${name}${therapyNumber}_[${ICDClinic_Evaluation_TachyProgramming}_${zoneName}_${therapyName}]`] = value;
+          const key = `${name}${therapyNumber}_[${ICDClinic_Evaluation_TachyProgramming}_${zoneName}_${therapyName}]`;
+          const type = 'string';
+          this.data[key] = {name: key, value, type};
         }
       }
     }
