@@ -5,14 +5,14 @@ import * as errors from '../../src/errors';
 
 describe('interrogation Biotronik IEEE class', () => {
   it('should get structured data row from file', async () => {
-    const filePath = path.join(__dirname, '../fixtures/Biotronik/BIOIEEE_60485754_ANONYMOUS_A_2016-12-23_12-12-56.xml');
+    const filePath = path.join(__dirname, '../../../radiation-rate-data/test/Biotronik/BIOIEEE_60485754_ANONYMOUS_A_2016-12-23_12-12-56.xml');
     const biotronikIEEE = new interrogations.BiotronikIEEE(filePath);
     const data = await biotronikIEEE.getData();
     expect(data.getRow()).toMatchSnapshot();
   });
 
   it('should get structured data with IMPEDANCE row from file', async () => {
-    const filePath = path.join(__dirname, '../fixtures/Biotronik/BIOIEEE_60655694_ANONYMOUS_A_2015-08-20_14-50-27.xml');
+    const filePath = path.join(__dirname, '../../../radiation-rate-data/test/Biotronik/BIOIEEE_60655694_ANONYMOUS_A_2015-08-20_14-50-27.xml');
     const biotronikIEEE = new interrogations.BiotronikIEEE(filePath);
     const data = await biotronikIEEE.getData();
     expect(data.getRow()).toMatchSnapshot();

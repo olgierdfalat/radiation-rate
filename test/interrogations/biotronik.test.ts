@@ -5,7 +5,7 @@ import * as errors from '../../src/errors';
 
 describe('interrogation Biotronik class', () => {
   it('should get structured data row from file', async () => {
-    const filePath = path.join(__dirname, '../fixtures/Biotronik/BIO_2016-12-23_12-12-56_ANONYMOUS_A_60485754.xml');
+    const filePath = path.join(__dirname, '../../../radiation-rate-data/test/Biotronik/BIO_2016-12-23_12-12-56_ANONYMOUS_A_60485754.xml');
     const biotronik = new interrogations.Biotronik(filePath);
     const data = await biotronik.getData();
     expect(data.getRow()).toMatchSnapshot();

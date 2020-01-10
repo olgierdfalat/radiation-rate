@@ -16,7 +16,7 @@ exports[`interrogation base class should load content from file 1`] = `
 2231Post-Sensed Ventricular Decay Delay50ms
 2393VF Therapy No. Stimuli8
 403Measured Average Sensor2.1
-2489Number of Notifications45
+2489Number of Notifications45
 354Rest RateOff
 2154Interval Stability SIH Count2intervals
 2329VT-1 Energy 335.0J
@@ -35,7 +35,7 @@ exports[`interrogation base class should load content from file 1`] = `
 321Magnet ResponseNormal
 2441Indications for Implant: ListAtrial Fibrillation (AF), AV Block, 3rd degree, Dilated Cardiomyopathy (CHF/DCM), Non-Ischemic Cardiomyopathy
 2323VT-1 Therapy 4 TypeCVRT x 2
-202Device Serial Number1111111
+202Device Serial Number1057416
 2662Tach B Episodes Where ATP Delivered0
 874RV Lead Monitoring: Upper Limit2000Ohms
 2681Event Histogram Percent Paced In Ventricle90.0%
@@ -46,7 +46,7 @@ exports[`interrogation base class should load content from file 1`] = `
 2388Max VF Interval for ATP240ms
 305RV Pulse Width0.5ms
 2161Interval Stability Window Size12intervals
-2706Device Charging History Level 75
+2706Device Charging History Level 75
 2322VT-1 Therapy 3 TypeCVRT
 105Session Timestamp07/07/2015 15:42:40
 2151Sudden OnsetOn

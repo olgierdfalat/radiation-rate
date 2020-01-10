@@ -66,7 +66,7 @@ Array [
     "type": "string",
   },
   Object {
-    "firstValue": 1111111,
+    "firstValue": 1057416,
     "id": 202,
     "name": "Device Serial Number",
     "secondValue": "",
@@ -1109,11 +1109,11 @@ Array [
     "type": "numeric",
   },
   Object {
-    "firstValue": "",
+    "firstValue": 5,
     "id": 2706,
-    "name": "Device Charging History Level 75",
+    "name": "Device Charging History Level 7",
     "secondValue": "",
-    "type": "string",
+    "type": "numeric",
   },
   Object {
     "firstValue": 25,
