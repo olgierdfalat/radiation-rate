@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`interrogation Medtronic class should get structured data row from file 1`] = `
+Array [
+  Object {
+    "name": "ToolGenerator",
+    "type": "string",
+    "value": "PDDTOOLS (C) 2007 Medtronic Inc.",
+  },
+  Object {
+    "name": "Version",
+    "type": "string",
+    "value": "Rev. 2.005 23-Aug-13",
+  },
+  Object {
+    "name": "Note",
+    "type": "string",
+    "value": "*** FOR INTERNAL USE ONLY ***",
+  },
+  Object {
+    "name": "LIA RAMware Status",
+    "type": "string",
+    "value": "INSTALLED",
+  },
+  Object {
+    "name": "Model Identification:",
+    "type": "string",
+    "value": "Consulta CRT-D D234TRK",
+  },
+  Object {
+    "name": "Serial Number:",
+    "type": "string",
+    "value": "PYZ626053S",
+  },
+  Object {
+    "name": "Binary File:",
+    "type": "string",
+    "value": "17123650.pdd",
+  },
+  Object {
+    "name": "Binary File Saved on:",
+    "type": "string",
+    "value": "17-Apr-15 12:36:50",
+  },
+  Object {
+    "name": "Open XML-file for more info",
+    "type": "string",
+    "value": "17123650.xml",
+  },
+  Object {
+    "name": "Open Waveform Viewer",
+    "type": "string",
+    "value": "Waveform Viewer",
+  },
+  Object {
+    "name": "Prior to Last Session Timestamp",
+    "type": "date",
+    "value": "15-Apr-2015 14:44:59",
+  },
+  Object {
+    "name": "Last Session Timestamp",
+    "type": "date",
+    "value": "16-Apr-2015 14:56:33",
+  },
+  Object {
+    "name": "Last Clear Timestamp",
+    "type": "date",
+    "value": "23-Jun-2014 14:32:43",
+  },
+  Object {
+    "name": "Last Remote Interrogation Timestamp",
+    "type": "date",
+    "value": "N/A",
+  },
+  Object {
+    "name": "Device Implant Timestamp",
+    "type": "date",
+    "value": "23-Jun-2014 14:32:43",
+  },
+  Object {
+    "name": "Last Interrogated Timestamp",
+    "type": "date",
+    "value": "17-Apr-2015 13:33:08",
+  },
+  Object {
+    "name": "Days Since Last Session",
+    "type": "string",
+    "value": "0.94",
+  },
+  Object {
+    "name": "Days in Previous Session",
+    "type": "string",
+    "value": "1.47",
+  },
+]
+`;

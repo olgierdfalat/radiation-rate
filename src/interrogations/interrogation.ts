@@ -14,7 +14,7 @@ export class Interrogation {
     this.filePath = filePath;
   }
 
-  async getContent(): Promise<string> {
+  async getContent(): Promise<any> {
     const fileStat = await stat(this.filePath);
     this.dateModified = fileStat.mtime;
     this.sanitizeFilePath = this.filePath;
