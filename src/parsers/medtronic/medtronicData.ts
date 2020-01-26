@@ -8,6 +8,7 @@ export class MedtronicData {
   private row: models.WorksheetRow = [];
   private dataSheet: XLSX.WorkSheet;
   private flexSheet: XLSX.WorkSheet;
+  private deviceId: string;
 
   constructor(content: XLSX.WorkBook) {
     this.content = content;
@@ -16,10 +17,10 @@ export class MedtronicData {
   private parseRow() {
     this.dataSheet = this.content.Sheets['Data'];
     this.flexSheet = this.content.Sheets['Flex'];
+    const dateSheet = new DataSheet(this.dataSheet);
+    this.deviceId = dateSheet.getSerialNumber();
     
-
-
-    this.row.push(...new DataSheet(this.dataSheet).parse());
+    this.row.push(...dateSheet.parse());    
   }
 
   getRow() {
@@ -39,8 +40,7 @@ export class MedtronicData {
     const values = this.getRow().map(row => `${row.name}|${row.value}`);
     return checksum(values.join('-'));
   }
-  getDeviceId(): string {
-    throw 'Not implemented';
-    return undefined;
+  getDeviceId(): string {    
+    return this.deviceId;
   }
 }

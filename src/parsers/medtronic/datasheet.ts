@@ -21,6 +21,11 @@ export class DataSheet extends WorkSheet {
     return this.row;
   }
 
+  getSerialNumber(): string {
+    const [rowIndex, columnIndex] = this.findCellIndex('Serial Number:');
+    return this.worksheetRows[rowIndex][columnIndex + 1];
+  }
+
   private addExceptionalRules() {
     const [fromRowIndex] = this.findCellIndex('Ventricular Blanking After Sensed Event:');
     if (fromRowIndex != undefined) {
