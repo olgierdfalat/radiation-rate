@@ -10,8 +10,12 @@ export class FlexSheet extends WorkSheet {
   parse(): models.WorksheetRow {
     for(let i = 0; i < this.worksheetRows.length; i++) {
       const row = this.worksheetRows[i];
-      const [name, value] = row;
+      let [name, value] = row;
       if(name) {
+        name = name.trim();
+        if(value) {
+          value = value.trim();
+        }
         if(name !== 'Energy Table') {
           this.row.push({name, type: 'string', value});
         }
