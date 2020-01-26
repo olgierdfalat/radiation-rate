@@ -16,16 +16,21 @@ export class MedtronicData {
   private parseRow() {
     const dataSheet = this.content.Sheets['Data'];
     this.dataSheetRows = XLSX.utils.sheet_to_json(dataSheet, {header: 1, raw: false});
+    this.addExceptionalRules();
     this.parseManualStuff();
+    this.parseCellsPairs('Model Identification:', 'Audit Rule(s)/Observations:');
+    this.parseAuditRulesObservations();
+    this.parseTimeOfLastBatteryMeasurement();
+    this.parseLastLeadImpedanceMeasurements();
+    this.parseChargeInformation();
+    this.parsePatientProfileImplantDate();
+    this.parsePatientAlerts();
   }
   private parseManualStuff() {
     this.row.push(this.parseCell('ToolGenerator', 1, 'A'));
     this.row.push(this.parseCell('Version', 2, 'A'));
     this.row.push(this.parseCell('Note', 3, 'A'));
     this.row.push(this.parseCell('LIA RAMware Status', 6, 'C'));
-    this.parseCellsPairs('Model Identification:', 'Audit Rule(s)/Observations:');
-    this.parseAuditRulesObservations();
-    this.parseTimeOfLastBatteryMeasurement();
   }
   private parseCell(name: string, lineNumber: number, columnName: string, type = 'string'): models.WorksheetField {
     return {
@@ -34,7 +39,14 @@ export class MedtronicData {
       value: this.findValue(lineNumber, columnName)
     };
   }
-
+  private addExceptionalRules() {
+    const [fromRowIndex] = this.findCellIndex('Ventricular Blanking After Sensed Event:');
+    if(fromRowIndex != null) {
+      //add extra character(-) otherwise the following row will be ignored
+      //Duration (days)	V-SICount	V-SIC First in Session	V-SIC duration	V-SIC Avg/day	A-SICount	A-SIC First in Session	A-SIC duration	A-SIC Avg/day
+      this.dataSheetRows[fromRowIndex + 1].unshift('-'); 
+    }
+  }
   private parseAuditRulesObservations() {
     this.row.push({ name: 'Audit Rule(s)/Observations:', type: 'string', value: null });
     this.parseMergedCells('Audit Rule(s)/Observations:', 'Time Of Last Battery Measurement', 1);
@@ -42,14 +54,46 @@ export class MedtronicData {
 
   private parseTimeOfLastBatteryMeasurement() {
     this.parseMergedCells('Time Of Last Battery Measurement', 'Last Lead Impedance Measurements', 0);
+  }  
+  
+  private parseChargeInformation() {
+    this.parseMergedCells('Charge Information:', 'Patient Profile Implant Date', 0);
   }
 
-  private parseMergedCells(from: string, to: string, cellsStartIndex = 0, trim = true) {
+  private parseLastLeadImpedanceMeasurements() {
+    const fromRowIndex = this.findCellIndex('Last Lead Impedance Measurements')[0];
+    const toRowIndex = this.findCellIndex('Charge Information:')[0] - 2; //two lines gap between Last Lead Impedance Measurements and Charge Information
+    let counter = 1;
+    
+    for(let i = fromRowIndex + 1; i < toRowIndex; i++) {
+      this.dataSheetRows[i].unshift('Last Lead Impedance Measurement ' + counter);
+      counter++;
+    }
+
+    this.parseMergedCells('Last Lead Impedance Measurements', 'Charge Information:', 0);
+  }
+
+  private parsePatientProfileImplantDate() {
+    this.parseMergedCells('Patient Profile Implant Date', 'Patient Alerts:', 0);
+  }
+ 
+  private parsePatientAlerts() {
+    this.parseMergedCells('Patient Alerts:', 'end-of-sheet', 0, 'Patient Alert '); //add prefix to avoid potential uniqueness issues
+  }
+
+  private parseMergedCells(from: string, to: string, cellsStartIndex = 0, namePrefix: string = null) {
     const fields: models.WorksheetField[] = [];
     const [fromRowIndex, fromColumnIndex] = this.findCellIndex(from);
-    const [toRowIndex] = this.findCellIndex(to);
-    for(let i = fromRowIndex; i < toRowIndex - 1; i++) {      
-      const name = this.findValueByIndex(i, fromColumnIndex + cellsStartIndex, true);
+    let [toRowIndex] = this.findCellIndex(to);
+    if(to === 'end-of-sheet') {
+      toRowIndex = this.dataSheetRows.length + 1; //exceptional rule, it reads to the end of sheet
+    }
+    let counter = 0;
+    for(let i = fromRowIndex; i < toRowIndex - 1; i++, counter++) {      
+      let name = this.findValueByIndex(i, fromColumnIndex + cellsStartIndex, true);
+      if(counter > 0 && namePrefix) {
+        name = namePrefix + name;
+      }
       const mergedValues = this.mergeCells(i, fromColumnIndex + 1 + cellsStartIndex);
       const type = 'string'
       if(name) {
@@ -106,7 +150,7 @@ export class MedtronicData {
   }
   private findValueByIndex(rowIndex: number, columnIndex: number, trim = false) {
     const value = this.dataSheetRows[rowIndex][columnIndex];
-    return trim ? value.trim() : value;
+    return trim ? (value || '').trim() : value;
   }
   private findValue(lineNumber: number, columnName: string) {
     return this.dataSheetRows[lineNumber - 1][this.columnToNumber(columnName) - 1];

@@ -162,5 +162,220 @@ Array [
     "type": "string",
     "value": "N/A",
   },
+  Object {
+    "name": "Last Lead Impedance Measurements",
+    "type": "string",
+    "value": "Timestamp, Leadtype, Impedance [Ohms]",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 1",
+    "type": "string",
+    "value": ", 4/17/15 9:00, A Pace  Bipolar, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 2",
+    "type": "string",
+    "value": ", 4/17/15 9:00, V Pace  Bipolar, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 3",
+    "type": "string",
+    "value": ", 4/17/15 9:00, LV Tip LV Ring, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 4",
+    "type": "string",
+    "value": ", 4/17/15 9:00, LV Ring RV Coil, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 5",
+    "type": "string",
+    "value": ", 4/17/15 9:00, LV Tip RV Coil, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 6",
+    "type": "string",
+    "value": ", 4/17/15 9:00, Defib, 254",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 7",
+    "type": "string",
+    "value": ", 4/17/15 9:00, SVC, 254",
+  },
+  Object {
+    "name": "Charge Information:",
+    "type": "string",
+    "value": "Timestamp, Duration [sec], Start [J], Stop [J], Del. [J], Imp. [Ohm], Pathway, Waveform, Can",
+  },
+  Object {
+    "name": "Last Formation",
+    "type": "string",
+    "value": "16-Apr-2015 14:57:34, 7.397, 0, 35",
+  },
+  Object {
+    "name": "Last Charge",
+    "type": "string",
+    "value": "17-Apr-2015 13:34:31, 7.397, 0, 35",
+  },
+  Object {
+    "name": "Last Full Charge",
+    "type": "string",
+    "value": "17-Apr-2015 13:34:31, 7.397, 0, 35",
+  },
+  Object {
+    "name": "Last Charge Greater Or At Formation",
+    "type": "string",
+    "value": "17-Apr-2015 13:34:31, 7.397, 0, 35",
+  },
+  Object {
+    "name": "DevelopmentID,ResearchID,FeatureID",
+    "type": "string",
+    "value": "N/A, 4, 0, 1",
+  },
+  Object {
+    "name": "Total Life Cumulative Charge Time",
+    "type": "string",
+    "value": "127.67, sec",
+  },
+  Object {
+    "name": "Last Session Cumulative Charge Time",
+    "type": "string",
+    "value": "7.4, sec",
+  },
+  Object {
+    "name": "Prior to Last Session Cumulative Charge Time",
+    "type": "string",
+    "value": "7.42, sec",
+  },
+  Object {
+    "name": "Prior to Prior Session Cumulative Charge Time",
+    "type": "string",
+    "value": "112.85, sec",
+  },
+  Object {
+    "name": "Short Interval Counter Data:",
+    "type": "string",
+    "value": "SIC Interval < 140 ms",
+  },
+  Object {
+    "name": "Ventricular Blanking After Sensed Event:",
+    "type": "string",
+    "value": "120  ms",
+  },
+  Object {
+    "name": "-",
+    "type": "string",
+    "value": ", Duration (days), V-SICount, V-SIC First in Session, V-SIC duration, V-SIC Avg/day, A-SICount, A-SIC First in Session, A-SIC duration, A-SIC Avg/day",
+  },
+  Object {
+    "name": "Prior To Last Session",
+    "type": "string",
+    "value": "1.47, 0, N/A, N/A, N/A, 0, N/A, N/A, N/A",
+  },
+  Object {
+    "name": "Since Last Session",
+    "type": "string",
+    "value": "0.94, 0, N/A, N/A, N/A, 0, N/A, N/A, N/A",
+  },
+  Object {
+    "name": "Lifetime",
+    "type": "string",
+    "value": "297.96, 0, N/A, N/A, N/A, 0, N/A, N/A, N/A",
+  },
+  Object {
+    "name": "Patient Profile Implant Date",
+    "type": "string",
+    "value": "N/A",
+  },
+  Object {
+    "name": "Lead Information:",
+    "type": "string",
+    "value": "Model, Manufacturer, Position, Serial, Implant Date",
+  },
+  Object {
+    "name": "Lead 1",
+    "type": "string",
+    "value": ", , , , N/A",
+  },
+  Object {
+    "name": "Lead 2",
+    "type": "string",
+    "value": ", , , , N/A",
+  },
+  Object {
+    "name": "Lead 3",
+    "type": "string",
+    "value": ", , , , N/A",
+  },
+  Object {
+    "name": "Patient Alerts:",
+    "type": "string",
+    "value": "Timestamp, Type",
+  },
+  Object {
+    "name": "Patient Alert 1",
+    "type": "string",
+    "value": "16-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 2",
+    "type": "string",
+    "value": "15-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 3",
+    "type": "string",
+    "value": "14-Apr-2015 21:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 4",
+    "type": "string",
+    "value": "14-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 5",
+    "type": "string",
+    "value": "13-Apr-2015 21:00:22, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 6",
+    "type": "string",
+    "value": "10-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 7",
+    "type": "string",
+    "value": "09-Apr-2015 21:00:22, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 8",
+    "type": "string",
+    "value": "08-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 9",
+    "type": "string",
+    "value": "27-Feb-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 10",
+    "type": "string",
+    "value": "17-Aug-2014 03:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 11",
+    "type": "string",
+    "value": "06-Aug-2014 00:00:00, Asynchronous Pacing Mode Since Midnight",
+  },
+  Object {
+    "name": "Patient Alert 12",
+    "type": "string",
+    "value": "05-Aug-2014 19:55:39, VF Det Or VFFVT Via VF Rx Off",
+  },
+  Object {
+    "name": "Patient Alert 13",
+    "type": "string",
+    "value": "05-Aug-2014 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
 ]
 `;
