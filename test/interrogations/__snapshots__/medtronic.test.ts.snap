@@ -752,5 +752,225 @@ Array [
     "type": "string",
     "value": "Disabled ",
   },
+  Object {
+    "name": "Current Por Index",
+    "type": "string",
+    "value": "2",
+  },
+  Object {
+    "name": "Current Por Count",
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "name": "POR-buffer 1 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:01",
+  },
+  Object {
+    "name": "POR-buffer 1 Reason",
+    "type": "string",
+    "value": "CPU active at fault time, Firmware initiated a Software Interrupt, CPU was master of the bus",
+  },
+  Object {
+    "name": "POR-buffer 2 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:20",
+  },
+  Object {
+    "name": "POR-buffer 2 Reason",
+    "type": "string",
+    "value": "Pulsed Watchdog Reset, CPU active at fault time, CPU was master of the bus",
+  },
+  Object {
+    "name": "POR-buffer 3 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "POR-buffer 3 Reason",
+    "type": "string",
+    "value": "CPU was master of the bus",
+  },
+  Object {
+    "name": "POR-buffer 4 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "POR-buffer 4 Reason",
+    "type": "string",
+    "value": "CPU was master of the bus",
+  },
+  Object {
+    "name": "Parity Error Index",
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "name": "Parity Error Count",
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "name": "ECC-error 1 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 1 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 1 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 1 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 2 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 2 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 2 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 2 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 3 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 3 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 3 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 3 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 4 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 4 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 4 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 4 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 5 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 5 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 5 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 5 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 6 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 6 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 6 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 6 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 7 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 7 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 7 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 7 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 8 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 8 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 8 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 8 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
 ]
 `;

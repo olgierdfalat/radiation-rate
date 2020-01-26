@@ -3,12 +3,14 @@ import checksum from './../../util/checksum';
 import * as XLSX from 'xlsx';
 import { DataSheet } from './dataSheet';
 import { FlexSheet } from './flexSheet';
+import { PORSheet } from './porSheet';
 
 export class MedtronicData {
   private content: XLSX.WorkBook;
   private row: models.WorksheetRow = [];
   private dataSheet: XLSX.WorkSheet;
   private flexSheet: XLSX.WorkSheet;
+  private porSheet: XLSX.WorkSheet;
   private deviceId: string;
 
   constructor(content: XLSX.WorkBook) {
@@ -18,13 +20,16 @@ export class MedtronicData {
   private parseRow() {
     this.dataSheet = this.content.Sheets['Data'];
     this.flexSheet = this.content.Sheets['Flex'];
+    this.porSheet = this.content.Sheets['POR'];
     const dateSheet = new DataSheet(this.dataSheet);
     const flexSheet = new FlexSheet(this.flexSheet);
+    const porSheet = new PORSheet(this.porSheet);
 
     this.deviceId = dateSheet.getSerialNumber();
     
     this.row.push(...dateSheet.parse());    
     this.row.push(...flexSheet.parse());    
+    this.row.push(...porSheet.parse());    
   }
 
   getRow() {
