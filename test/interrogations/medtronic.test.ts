@@ -6,6 +6,7 @@ describe('interrogation Medtronic class', () => {
     const filePath = path.join(__dirname, '../../../radiation-rate-data/test/Medtronic/PYZ626053S_17123650.xls');
     const medtronic = new interrogations.Medtronic(filePath);
     const data = await medtronic.getData();
+    //expect(data.Sheets['Data']).toMatchSnapshot();
     expect(data.getRow()).toMatchSnapshot();
   });
 });

@@ -1,6 +1,5 @@
 import * as XLSX from 'xlsx';
 import * as models from './../../models';
-import { constants } from 'os';
 
 export class WorkSheet {
   protected workSheet: XLSX.WorkSheet
@@ -11,7 +10,7 @@ export class WorkSheet {
     this.worksheetRows = this.parseRows();
   }
 
-  parseRows() {
+  protected parseRows() {
     return XLSX.utils.sheet_to_json(this.workSheet, {header: 1, raw: false});
   }
   private columnToNumber(name: String): number {
