@@ -95,7 +95,7 @@ Array [
   Object {
     "name": "Audit Rule(s)/Observations:",
     "type": "string",
-    "value": null,
+    "value": undefined,
   },
   Object {
     "name": "Vf Dx Off",
