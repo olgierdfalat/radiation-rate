@@ -377,5 +377,380 @@ Array [
     "type": "string",
     "value": "05-Aug-2014 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
   },
+  Object {
+    "name": "Rate Drop Response ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Rate Profile Optimization ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "A Capture Management ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Cardioversion VTFVT",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Device Battery Type ",
+    "type": "string",
+    "value": "highoutput ",
+  },
+  Object {
+    "name": "Primary Function ",
+    "type": "string",
+    "value": "Shock Device ",
+  },
+  Object {
+    "name": "A Rate Stabilization ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "A Preference Pacing ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "V Rate Stabilization ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "VT Detection ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "FVT Detection ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "V Monitor ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "VT Stability ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Onset Criteria ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "PR Logic ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "SVT Discrimination Overrides ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Full Energy Charge ",
+    "type": "string",
+    "value": "35  J",
+  },
+  Object {
+    "name": "HV Capacitance DC",
+    "type": "string",
+    "value": "0.0001285  F",
+  },
+  Object {
+    "name": "HV Load Resistance ",
+    "type": "string",
+    "value": "75  ohms",
+  },
+  Object {
+    "name": "HV Source Resistance ",
+    "type": "string",
+    "value": "3.7  ohms",
+  },
+  Object {
+    "name": "HV Voltage Loss ",
+    "type": "string",
+    "value": "5  V",
+  },
+  Object {
+    "name": "Device Chamber Control ",
+    "type": "string",
+    "value": "Triple Chamber ",
+  },
+  Object {
+    "name": "Extended Rates ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "High Upper Tracking Rates ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "SC Wavelet ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "ATP Therapies VTFVT",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATP During Charging Basic ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Post Therapy Pacing Enhanced ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Atrial Arrhythmia Detection ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Atrial Arrhythmia Monitor ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Cardioversion ATAF",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fifty Hz Burst AF",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATP Therapies AT",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATP Rearming ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Patient Activator Symptom Rx ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATAF Extended Monitoring ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Cardiac Compass ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Flashback Ventricular Episodes ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Flashback Atrial Episodes ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Memory Revision ",
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "name": "Post Mode Switch Overdrive Pacing ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Patient Activator Therapies ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Patient Activator Symptom ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Patient Alert ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Flex Invalid ",
+    "type": "string",
+    "value": "No ",
+  },
+  Object {
+    "name": "Minimum Ventricular Pacing ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Longevity ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "V Capture Management Basic ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Ez ECG Surround ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "EGM Pre Storage Control ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Atrial Lead Polarity Switching ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Ventricular Lead Polarity Switching ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Fifty Hz Burst AF In Office ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "MRI Safe ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Silent Alert With Backup ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATAF Alerts ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "LV Only Pacing ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fluid Alert ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fluid Status ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "LVCM",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Left Ventricular Lead Polarity Switching ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Flex Conducted AF Response ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fluid Status Reference Reset ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fluid Status IPG Threshold Display ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Fluid Alert Suspension ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Hi Fi Patient Activated EGM ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Flex Lead Predictor ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Energy Table",
+    "type": "array",
+    "value": "0.4  J, 0.6  J, 0.8  J, 1  J, 1.2  J, 1.4  J
+1.6  J, 1.8  J, 2  J, 3  J, 4  J, 5  J
+6  J, 7  J, 8  J, 9  J, 10  J, 11  J
+12  J, 13  J, 14  J, 15  J, 16  J, 18  J
+20  J, 22  J, 24  J, 25  J, 26  J, 28  J
+30  J, 32  J, 35  J",
+  },
+  Object {
+    "name": "Field Update Flex ",
+    "type": "string",
+    "value": undefined,
+  },
+  Object {
+    "name": "Field Update Flex A Preference Pacing ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Field Update Flex Fluid Alert ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Field Update Flex Fluid Status Reference Reset ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Field Update Fluid Status Patient Activator ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Field Update Flex Fluid Alert Suspension ",
+    "type": "string",
+    "value": "Disabled ",
+  },
 ]
 `;

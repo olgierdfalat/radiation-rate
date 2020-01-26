@@ -1,5 +1,6 @@
 import * as XLSX from 'xlsx';
 import * as models from './../../models';
+import { constants } from 'os';
 
 export class WorkSheet {
   protected workSheet: XLSX.WorkSheet
@@ -105,5 +106,24 @@ export class WorkSheet {
     else {
       return undefined;
     }
+  }
+
+  protected findNextNotEmptyRowIndex(currentRowIndex: number, columnIndex: number): number {
+    let nextNotEmptyRowIndex = -1;
+    const maxRowIndex = this.worksheetRows.length;
+    let i = currentRowIndex;
+    while((i++) < maxRowIndex) {
+      const row = this.worksheetRows[i];
+      const cells = row[columnIndex];
+      if(cells && cells.length > 0) {
+        const name = cells[columnIndex];
+        if(name) {
+          nextNotEmptyRowIndex = i;
+          break;
+        }
+      }
+    } 
+    
+    return nextNotEmptyRowIndex;
   }
 }

@@ -2,6 +2,7 @@ import * as models from './../../models';
 import checksum from './../../util/checksum';
 import * as XLSX from 'xlsx';
 import { DataSheet } from './dataSheet';
+import { FlexSheet } from './flexSheet';
 
 export class MedtronicData {
   private content: XLSX.WorkBook;
@@ -18,9 +19,12 @@ export class MedtronicData {
     this.dataSheet = this.content.Sheets['Data'];
     this.flexSheet = this.content.Sheets['Flex'];
     const dateSheet = new DataSheet(this.dataSheet);
+    const flexSheet = new FlexSheet(this.flexSheet);
+
     this.deviceId = dateSheet.getSerialNumber();
     
     this.row.push(...dateSheet.parse());    
+    this.row.push(...flexSheet.parse());    
   }
 
   getRow() {
