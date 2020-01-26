@@ -92,5 +92,75 @@ Array [
     "type": "string",
     "value": "1.47",
   },
+  Object {
+    "name": "Audit Rule(s)/Observations:",
+    "type": "string",
+    "value": null,
+  },
+  Object {
+    "name": "Vf Dx Off",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Alert Defib Lead Warning",
+    "type": "string",
+    "value": "Date Time, 16-Apr-2015 15:00:22",
+  },
+  Object {
+    "name": "Alert SVC Lead Warning",
+    "type": "string",
+    "value": "Date Time, 16-Apr-2015 15:00:23",
+  },
+  Object {
+    "name": "Alert V Bipolar Lead Warning",
+    "type": "string",
+    "value": "Date Time, 16-Apr-2015 15:00:10",
+  },
+  Object {
+    "name": "Alert A Bipolar Lead Warning",
+    "type": "string",
+    "value": "Date Time, 16-Apr-2015 15:00:04",
+  },
+  Object {
+    "name": "Alert LV Perm Pacing Polarity Lead Warning",
+    "type": "string",
+    "value": "Polarity, L Vtip To R Vcoil, Date Time, 16-Apr-2015 15:00:18",
+  },
+  Object {
+    "name": "LVCM Cannot Measure LV Threshold Last 7 Days",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "FDI Small",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Vt Dx Off",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "DOOMode",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Time Of Last Battery Measurement",
+    "type": "string",
+    "value": "17-Apr-2015 13:33:04",
+  },
+  Object {
+    "name": "Last Battery Measurement",
+    "type": "string",
+    "value": "3.0187 V, ERI/RRT=2.6251 V, EOL=2.5534 V",
+  },
+  Object {
+    "name": "Time of RRT",
+    "type": "string",
+    "value": "N/A",
+  },
 ]
 `;

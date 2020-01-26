@@ -15,7 +15,7 @@ export class MedtronicData {
   }
   private parseRow() {
     const dataSheet = this.content.Sheets['Data'];
-    this.dataSheetRows = XLSX.utils.sheet_to_json(this.content.Sheets['Data'], {header: 1, raw: false});
+    this.dataSheetRows = XLSX.utils.sheet_to_json(dataSheet, {header: 1, raw: false});
     this.parseManualStuff();
   }
   private parseManualStuff() {
@@ -24,6 +24,8 @@ export class MedtronicData {
     this.row.push(this.parseCell('Note', 3, 'A'));
     this.row.push(this.parseCell('LIA RAMware Status', 6, 'C'));
     this.parseCellsPairs('Model Identification:', 'Audit Rule(s)/Observations:');
+    this.parseAuditRulesObservations();
+    this.parseTimeOfLastBatteryMeasurement();
   }
   private parseCell(name: string, lineNumber: number, columnName: string, type = 'string'): models.WorksheetField {
     return {
@@ -32,6 +34,31 @@ export class MedtronicData {
       value: this.findValue(lineNumber, columnName)
     };
   }
+
+  private parseAuditRulesObservations() {
+    this.row.push({ name: 'Audit Rule(s)/Observations:', type: 'string', value: null });
+    this.parseMergedCells('Audit Rule(s)/Observations:', 'Time Of Last Battery Measurement', 1);
+  }
+
+  private parseTimeOfLastBatteryMeasurement() {
+    this.parseMergedCells('Time Of Last Battery Measurement', 'Last Lead Impedance Measurements', 0);
+  }
+
+  private parseMergedCells(from: string, to: string, cellsStartIndex = 0, trim = true) {
+    const fields: models.WorksheetField[] = [];
+    const [fromRowIndex, fromColumnIndex] = this.findCellIndex(from);
+    const [toRowIndex] = this.findCellIndex(to);
+    for(let i = fromRowIndex; i < toRowIndex - 1; i++) {      
+      const name = this.findValueByIndex(i, fromColumnIndex + cellsStartIndex, true);
+      const mergedValues = this.mergeCells(i, fromColumnIndex + 1 + cellsStartIndex);
+      const type = 'string'
+      if(name) {
+        fields.push( { name, type, value: mergedValues });
+      }
+    }
+    this.row.push(...fields);
+  }
+
   private parseCellsPairs(from: string, to: string) {
     const fields: models.WorksheetField[] = [];
     const [fromRowIndex, fromColumnIndex] = this.findCellIndex(from);
@@ -44,12 +71,27 @@ export class MedtronicData {
         if(name.includes('Timestamp')) {
           type = 'date';
         }
-        fields.push( { name, type, value });
+        fields.push({ name, type, value });
       }
     }
     
     this.row.push(...fields);
   }
+
+  private mergeCells(rowIndex: number, startColumnIndex: number, trim = true, separator = ', '): string {
+    const row = this.dataSheetRows[rowIndex];
+
+    if(row && row.length > 0) {
+      if(trim) {
+        return row.map((item: any) => item ? item.trim(): item).slice(startColumnIndex).join(separator);
+      }
+      return row.slice(startColumnIndex).join(separator);
+    }
+    else {
+      return null;
+    }
+  }
+
   private findCellIndex(value: string): [number, number] {
     for(let i = 0; i < this.dataSheetRows.length; i++) {
         const row = this.dataSheetRows[i];
@@ -62,8 +104,9 @@ export class MedtronicData {
     }
     return [-1, -1];
   }
-  private findValueByIndex(rowIndex: number, columnIndex: number) {
-    return this.dataSheetRows[rowIndex][columnIndex];
+  private findValueByIndex(rowIndex: number, columnIndex: number, trim = false) {
+    const value = this.dataSheetRows[rowIndex][columnIndex];
+    return trim ? value.trim() : value;
   }
   private findValue(lineNumber: number, columnName: string) {
     return this.dataSheetRows[lineNumber - 1][this.columnToNumber(columnName) - 1];
