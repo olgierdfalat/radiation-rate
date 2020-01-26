@@ -4,7 +4,7 @@ import * as XLSX from 'xlsx';
 
 export class Medtronic extends Interrogation {
   async getContent(): Promise<XLSX.WorkBook> {
-    return XLSX.readFile(this.filePath, {});
+    return XLSX.readFile(this.filePath, {cellDates: true});
   }
   async getData(): Promise<parsers.MedtronicData> {
     const content = await this.getContent();

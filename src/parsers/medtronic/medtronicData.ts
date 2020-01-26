@@ -7,6 +7,7 @@ import * as XLSX from 'xlsx';
 export class MedtronicData {
   private content: XLSX.WorkBook;
   private row: models.WorksheetRow = [];
+  private dataSheet: XLSX.WorkSheet;
   private dataSheetRows : any;
   
   constructor(content: XLSX.WorkBook) {
@@ -14,8 +15,8 @@ export class MedtronicData {
     this.parseRow();
   }
   private parseRow() {
-    const dataSheet = this.content.Sheets['Data'];
-    this.dataSheetRows = XLSX.utils.sheet_to_json(dataSheet, {header: 1, raw: false});
+    this.dataSheet = this.content.Sheets['Data'];
+    this.dataSheetRows = XLSX.utils.sheet_to_json(this.dataSheet, {header: 1, raw: false});
     this.addExceptionalRules();
     this.parseManualStuff();
     this.parseCellsPairs('Model Identification:', 'Audit Rule(s)/Observations:');
@@ -60,7 +61,7 @@ export class MedtronicData {
     this.parseMergedCells('Charge Information:', 'Patient Profile Implant Date', 0);
   }
 
-  private parseLastLeadImpedanceMeasurements() {
+  private parseLastLeadImpedanceMeasurements() {   
     const fromRowIndex = this.findCellIndex('Last Lead Impedance Measurements')[0];
     const toRowIndex = this.findCellIndex('Charge Information:')[0] - 2; //two lines gap between Last Lead Impedance Measurements and Charge Information
     let counter = 1;
@@ -69,7 +70,6 @@ export class MedtronicData {
       this.dataSheetRows[i].unshift('Last Lead Impedance Measurement ' + counter);
       counter++;
     }
-
     this.parseMergedCells('Last Lead Impedance Measurements', 'Charge Information:', 0);
   }
 
