@@ -5,8 +5,12 @@ import { DataSheet } from './dataSheet';
 import { FlexSheet } from './flexSheet';
 import { PORSheet } from './porSheet';
 import { ParametersSheet } from './parametersSheet';
+import { throws } from 'assert';
 
 export const DATA = 'Data';
+export const FLEX = 'Flex';
+export const POR = 'POR';
+export const PARAMETERS = 'Parameters';
 
 export class MedtronicData {
   private content: XLSX.WorkBook;
@@ -16,34 +20,43 @@ export class MedtronicData {
   private porWorkSheet: XLSX.WorkSheet;
   private parametersSheet: XLSX.WorkSheet;
   private deviceId: string;
-  private dataSheetRows: models.WorksheetRow;
 
   constructor(content: XLSX.WorkBook) {
     this.content = content;
     this.parseRow();
   }
   private parseRow() {
-    //this.Sheets = {};
-    this.dataWorkSheet = this.content.Sheets['Data'];
-    this.flexWorkSheet = this.content.Sheets['Flex'];
-    this.porWorkSheet = this.content.Sheets['POR'];
-    this.parametersSheet = this.content.Sheets['Parameters'];
+    this.Sheets = {};
+    this.dataWorkSheet = this.content.Sheets[DATA];
+    this.flexWorkSheet = this.content.Sheets[FLEX];
+    this.porWorkSheet = this.content.Sheets[POR];    
+    this.parametersSheet = this.content.Sheets[PARAMETERS];
+    
     const dateSheet = new DataSheet(this.dataWorkSheet);
-    this.dataSheetRows = dateSheet.parse();
-    //this.Sheets[DATA] = this.dataSheetRows;
+    const dataSheetRows = dateSheet.parse();
+    this.Sheets[DATA] = dataSheetRows;
+
     const flexSheet = new FlexSheet(this.flexWorkSheet);
+    const flexSheetRows = flexSheet.parse();
+    this.Sheets[FLEX] = flexSheetRows;
+
     const porSheet = new PORSheet(this.porWorkSheet);
+    const porSheetRows = porSheet.parse();
+    this.Sheets[POR] = porSheetRows;
+
     const parametersSheet = new ParametersSheet(this.parametersSheet);
+    const parametersSheetRows = parametersSheet.parse();
+    this.Sheets[PARAMETERS] = parametersSheetRows;
 
     this.deviceId = dateSheet.getSerialNumber();
     
-    this.row.push(...this.dataSheetRows);
-    this.row.push(...flexSheet.parse());    
-    this.row.push(...porSheet.parse());    
-    //this.row.push(...parametersSheet.parse());    
+    this.row.push(...dataSheetRows);
+    this.row.push(...flexSheetRows);    
+    this.row.push(...porSheetRows);    
+    this.row.push(...parametersSheetRows);    
   }
 
-  //Sheets: { [sheet: string]: models.WorksheetRow };
+  Sheets: { [sheet: string]: models.WorksheetRow };
 
   getRow() {
     return this.row;

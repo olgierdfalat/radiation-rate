@@ -972,5 +972,2915 @@ Array [
     "type": "string",
     "value": "No ECC-error",
   },
+  Object {
+    "name": "Automatic Therapy Ventricular Blanking After Ventricular Pace",
+    "type": "string",
+    "value": "240 ms",
+  },
+  Object {
+    "name": "Automatic Therapy Ventricular Pacing Amplitude",
+    "type": "string",
+    "value": "8 V",
+  },
+  Object {
+    "name": "Automatic Therapy Ventricular Pacing Minimum Interval",
+    "type": "string",
+    "value": "200 ms",
+  },
+  Object {
+    "name": "Automatic Therapy Ventricular Pacing Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Atrial Post Shock ATP Pacing Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Auto Cap Formation Interval",
+    "type": "string",
+    "value": "Auto",
+  },
+  Object {
+    "name": "ATAF Detection",
+    "type": "string",
+    "value": "Monitor",
+  },
+  Object {
+    "name": "ATP While Charging Charge Saver Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Monitor Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Daily Atrial Lead Position Check",
+    "type": "string",
+    "value": "No",
+  },
+  Object {
+    "name": "Minimum CVRR Interval",
+    "type": "string",
+    "value": "500 ms",
+  },
+  Object {
+    "name": "Atrial Therapy Minimum Pacing Interval",
+    "type": "string",
+    "value": "150 ms",
+  },
+  Object {
+    "name": "Ventricular Pacing Enable During Atrial ATP",
+    "type": "string",
+    "value": "Auto",
+  },
+  Object {
+    "name": "Atrial Post Shock ATP Pacing Amplitude",
+    "type": "string",
+    "value": "6 V",
+  },
+  Object {
+    "name": "ATP While Charging Minimum Interval",
+    "type": "string",
+    "value": "240 ms",
+  },
+  Object {
+    "name": "High Voltage Atrial Amplitude",
+    "type": "string",
+    "value": "4 V",
+  },
+  Object {
+    "name": "High Voltage Atrial Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Atrial Amplitude",
+    "type": "string",
+    "value": "3.5 V",
+  },
+  Object {
+    "name": "A Fib A Flutter Rejection Rule Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Atrial Pulse Width",
+    "type": "string",
+    "value": "0.4 ms",
+  },
+  Object {
+    "name": "ATAF Detection Interval",
+    "type": "string",
+    "value": "350 ms",
+  },
+  Object {
+    "name": "A Pacing Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Current Real Time Clock",
+    "type": "string",
+    "value": "2015-04-17T13:34:34",
+  },
+  Object {
+    "name": "Daily Alarm Time",
+    "type": "string",
+    "value": "8:00:00",
+  },
+  Object {
+    "name": "Deliveryof N Shocks Alert Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Atrial Pace Polarity",
+    "type": "string",
+    "value": "Bipolar",
+  },
+  Object {
+    "name": "Ventricular Pace Polarity",
+    "type": "string",
+    "value": "Bipolar",
+  },
+  Object {
+    "name": "Excessive Charge Time Alert Enable",
+    "type": "string",
+    "value": "OnHigh",
+  },
+  Object {
+    "name": "Exhaustionof Therapy Set Alert Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Detection Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Detection Interval",
+    "type": "string",
+    "value": "Blank",
+  },
+  Object {
+    "name": "High Rate Timeout Duration",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Monitor NID",
+    "type": "string",
+    "value": "20",
+  },
+  Object {
+    "name": "Monitor Interval",
+    "type": "string",
+    "value": "450 ms",
+  },
+  Object {
+    "name": "High Voltage Ventricular Amplitude",
+    "type": "string",
+    "value": "6 V",
+  },
+  Object {
+    "name": "High Voltage Ventricular Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Low Battery Alert Enable",
+    "type": "string",
+    "value": "OnHigh",
+  },
+  Object {
+    "name": "Lower Rate Interval",
+    "type": "string",
+    "value": "710 ms",
+  },
+  Object {
+    "name": "Progressive Episodes Therapies",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Numberof Intervalsto Detect VFVFNID",
+    "type": "string",
+    "value": "24Of32",
+  },
+  Object {
+    "name": "Numberof Intervalsto Detect VTVTNID",
+    "type": "string",
+    "value": "36",
+  },
+  Object {
+    "name": "Numberof Intervalsto Redetect VFVFRNID",
+    "type": "string",
+    "value": "12Of16",
+  },
+  Object {
+    "name": "Numberof Intervalsto Redetect VTVTRNID",
+    "type": "string",
+    "value": "12",
+  },
+  Object {
+    "name": "Onset Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Other 11 SV Ts AVNRT Rejection Rule Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Out of Tolerance Impedance Alert Urgency",
+    "type": "string",
+    "value": "High",
+  },
+  Object {
+    "name": "Pacing Mode",
+    "type": "string",
+    "value": "DOO",
+  },
+  Object {
+    "name": "PAV",
+    "type": "string",
+    "value": "130 ms",
+  },
+  Object {
+    "name": "Permanent Telemetry Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Programmable Maximum A Pacing Lead Impedance",
+    "type": "string",
+    "value": "3000 ohms",
+  },
+  Object {
+    "name": "Programmable Maximum SVCHVX Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Programmable Maximum V Defib Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Programmable Maximum V Pacing Lead Impedance",
+    "type": "string",
+    "value": "3000 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum A Pacing Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum SVCHVX Lead Impedance",
+    "type": "string",
+    "value": "20 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum V Defib Lead Impedance",
+    "type": "string",
+    "value": "20 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum V Pacing Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Sinus Tachycardia Rejection Rule Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "SVCHVX Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "SVT Minimum Cycle Length",
+    "type": "string",
+    "value": "320 ms",
+  },
+  Object {
+    "name": "V Defib Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "V Pacing Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Ventricular Amplitude",
+    "type": "string",
+    "value": "5 V",
+  },
+  Object {
+    "name": "Integer With Unit is Pertinent=\\"false\\" unit=\\"ms\\"",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Ventricular Pulse Width",
+    "type": "string",
+    "value": "0.4 ms",
+  },
+  Object {
+    "name": "VF Detection Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VF Detection Interval",
+    "type": "string",
+    "value": "270 ms",
+  },
+  Object {
+    "name": "VT Detection Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VT Detection Interval",
+    "type": "string",
+    "value": "360 ms",
+  },
+  Object {
+    "name": "VT Interval Stability Criterion",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VF Det Or VFRX Off Alert Enable",
+    "type": "string",
+    "value": "OnHigh",
+  },
+  Object {
+    "name": "ATP While Charging Charge Saver Switch Value",
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "name": "PS Pacing Mode",
+    "type": "string",
+    "value": "DOO",
+  },
+  Object {
+    "name": "Device Switched From VFATP During Chargingto Before Charging",
+    "type": "string",
+    "value": "No",
+  },
+  Object {
+    "name": "Device Switched From VFATP Before Chargingto During Charging",
+    "type": "string",
+    "value": "No",
+  },
+  Object {
+    "name": "SLS Pacing Mode",
+    "type": "string",
+    "value": "DOO",
+  },
+  Object {
+    "name": "Pre Onset EGM",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Timestamp Lead Position Test",
+    "type": "string",
+    "value": "1994-01-01T00:00:00",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Timestamp V Episode During A Episode",
+    "type": "string",
+    "value": "1994-01-01T00:00:00",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Timestamp Rapid Conduction Check",
+    "type": "string",
+    "value": "1994-01-01T00:00:00",
+  },
+  Object {
+    "name": "Most Recent Daily Atrial Lead Position Check Status",
+    "type": "string",
+    "value": "Failed",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Lead Position Test",
+    "type": "string",
+    "value": "NotDisabled",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Rapid Conduction Check",
+    "type": "string",
+    "value": "NotDisabled",
+  },
+  Object {
+    "name": "Atrial Therapy Disable V Episode During A Episode",
+    "type": "string",
+    "value": "NotDisabled",
+  },
+  Object {
+    "name": "Status Byte Atrial Therapy Disabled",
+    "type": "string",
+    "value": "NotDisabled",
+  },
+  Object {
+    "name": "EGM 2 Range",
+    "type": "string",
+    "value": "plusMinus8 mV",
+  },
+  Object {
+    "name": "EGM 2 Source",
+    "type": "string",
+    "value": "RVtipToRVring",
+  },
+  Object {
+    "name": "EGM 1 Range",
+    "type": "string",
+    "value": "plusMinus8 mV",
+  },
+  Object {
+    "name": "EGM 1 Source",
+    "type": "string",
+    "value": "AtipToAring",
+  },
+  Object {
+    "name": "EGM 3 Source",
+    "type": "string",
+    "value": "LVtipToRVcoil",
+  },
+  Object {
+    "name": "EGM 4 Source",
+    "type": "string",
+    "value": "CanToSVC",
+  },
+  Object {
+    "name": "EGM 3 Range",
+    "type": "string",
+    "value": "plusMinus8 mV",
+  },
+  Object {
+    "name": "EGM 4 Range",
+    "type": "string",
+    "value": "plusMinus2 mV",
+  },
+  Object {
+    "name": "Stored Channels",
+    "type": "string",
+    "value": "egm1egm2",
+  },
+  Object {
+    "name": "Rate Drop Response Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Sleep",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Burden Threshold",
+    "type": "string",
+    "value": "6 hoursPerDay",
+  },
+  Object {
+    "name": "Fast V Response Threshold",
+    "type": "string",
+    "value": "600 ms",
+  },
+  Object {
+    "name": "Ventricular Pacing Configuration",
+    "type": "string",
+    "value": "LVToRV",
+  },
+  Object {
+    "name": "Left Ventricular Amplitude",
+    "type": "string",
+    "value": "5 V",
+  },
+  Object {
+    "name": "Left Ventricular Pulse Width",
+    "type": "string",
+    "value": "0.4 ms",
+  },
+  Object {
+    "name": "Fast V Response Min Time In ATAF",
+    "type": "string",
+    "value": "6 hoursPerDay",
+  },
+  Object {
+    "name": "VSE Detection Beats",
+    "type": "string",
+    "value": "10 senses",
+  },
+  Object {
+    "name": "VSE Termination Beats",
+    "type": "string",
+    "value": "3 paces",
+  },
+  Object {
+    "name": "Left Ventricular Pace Polarity",
+    "type": "string",
+    "value": "LVtipToRVcoil",
+  },
+  Object {
+    "name": "Paced VV Delay",
+    "type": "string",
+    "value": "40 ms",
+  },
+  Object {
+    "name": "Automatic Therapy LV Pacing Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Automatic Therapy Ventricular Pacing Configuration",
+    "type": "string",
+    "value": "RV",
+  },
+  Object {
+    "name": "Fluid Status Threshold",
+    "type": "string",
+    "value": "60 ohmDays",
+  },
+  Object {
+    "name": "LV Pacing Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Programmable Maximum LV Pacing Lead Impedance",
+    "type": "string",
+    "value": "3000 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum LV Pacing Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Patient Home Monitor",
+    "type": "string",
+    "value": "No",
+  },
+  Object {
+    "name": "ATAF Burden Alert Enable",
+    "type": "string",
+    "value": "OffObservationOnly",
+  },
+  Object {
+    "name": "Fast V Response Alert Enable",
+    "type": "string",
+    "value": "OffObservationOnly",
+  },
+  Object {
+    "name": "Fluid Status Observation Enable",
+    "type": "string",
+    "value": "Yes",
+  },
+  Object {
+    "name": "Opti Vol Alert Enable",
+    "type": "string",
+    "value": "OffObservationOnly",
+  },
+  Object {
+    "name": "EGM p 7hp",
+    "type": "string",
+    "value": "0.6524 Hz",
+  },
+  Object {
+    "name": "EGM 2p 5hp",
+    "type": "string",
+    "value": "2.6162 Hz",
+  },
+  Object {
+    "name": "Programmer Active Can SVC Control",
+    "type": "string",
+    "value": "CanSVCOn",
+  },
+  Object {
+    "name": "Lead Failure V Oversensing Episodes Detection Interval Threshold",
+    "type": "string",
+    "value": "220 ms",
+  },
+  Object {
+    "name": "Lead Failure Predictor Alert Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  1",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  2",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  3",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  4",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  5",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  11",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VT Therapy  1",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "Burst",
+  },
+  Object {
+    "name": "Initial Pulses",
+    "type": "string",
+    "value": "8",
+  },
+  Object {
+    "name": "RS1 Interval",
+    "type": "string",
+    "value": "88 percent",
+  },
+  Object {
+    "name": "Interval Decrement",
+    "type": "string",
+    "value": "10 ms",
+  },
+  Object {
+    "name": "Number Of Sequences",
+    "type": "string",
+    "value": "3",
+  },
+  Object {
+    "name": "Smart Mode",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VT Therapy  2",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "20 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VT Therapy  3",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VT Therapy  4",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VT Therapy  5",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "AXToB",
+  },
+  Object {
+    "name": "VT Therapy  6",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "AXToB",
+  },
+  Object {
+    "name": "VF Therapy  1",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  2",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  3",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  4",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  5",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  6",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "FVT Therapy  1",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  2",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  3",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  4",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  5",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  6",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATP While Charging Therapy",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "RS1 Interval",
+    "type": "string",
+    "value": "88 percent",
+  },
+  Object {
+    "name": "Interval Decrement",
+    "type": "string",
+    "value": "10 ms",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "DuringCharging",
+  },
+  Object {
+    "name": "Initial Pulses",
+    "type": "string",
+    "value": "8",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "DefibATPBurst",
+  },
+  Object {
+    "name": "Smart Mode",
+    "type": "string",
+    "value": "On",
+  },
+]
+`;
+
+exports[`interrogation Medtronic class should get structured data row from file 2`] = `
+Array [
+  Object {
+    "name": "ToolGenerator",
+    "type": "string",
+    "value": "PDDTOOLS (C) 2007 Medtronic Inc.",
+  },
+  Object {
+    "name": "Version",
+    "type": "string",
+    "value": "Rev. 2.005 23-Aug-13",
+  },
+  Object {
+    "name": "Note",
+    "type": "string",
+    "value": "*** FOR INTERNAL USE ONLY ***",
+  },
+  Object {
+    "name": "LIA RAMware Status",
+    "type": "string",
+    "value": "INSTALLED",
+  },
+  Object {
+    "name": "Model Identification:",
+    "type": "string",
+    "value": "Consulta CRT-D D234TRK",
+  },
+  Object {
+    "name": "Serial Number:",
+    "type": "string",
+    "value": "PYZ626053S",
+  },
+  Object {
+    "name": "Binary File:",
+    "type": "string",
+    "value": "17123650.pdd",
+  },
+  Object {
+    "name": "Binary File Saved on:",
+    "type": "string",
+    "value": "17-Apr-15 12:36:50",
+  },
+  Object {
+    "name": "Open XML-file for more info",
+    "type": "string",
+    "value": "17123650.xml",
+  },
+  Object {
+    "name": "Open Waveform Viewer",
+    "type": "string",
+    "value": "Waveform Viewer",
+  },
+  Object {
+    "name": "Prior to Last Session Timestamp",
+    "type": "date",
+    "value": "15-Apr-2015 14:44:59",
+  },
+  Object {
+    "name": "Last Session Timestamp",
+    "type": "date",
+    "value": "16-Apr-2015 14:56:33",
+  },
+  Object {
+    "name": "Last Clear Timestamp",
+    "type": "date",
+    "value": "23-Jun-2014 14:32:43",
+  },
+  Object {
+    "name": "Last Remote Interrogation Timestamp",
+    "type": "date",
+    "value": "N/A",
+  },
+  Object {
+    "name": "Device Implant Timestamp",
+    "type": "date",
+    "value": "23-Jun-2014 14:32:43",
+  },
+  Object {
+    "name": "Last Interrogated Timestamp",
+    "type": "date",
+    "value": "17-Apr-2015 13:33:08",
+  },
+  Object {
+    "name": "Days Since Last Session",
+    "type": "string",
+    "value": "0.94",
+  },
+  Object {
+    "name": "Days in Previous Session",
+    "type": "string",
+    "value": "1.47",
+  },
+  Object {
+    "name": "Audit Rule(s)/Observations:",
+    "type": "string",
+    "value": undefined,
+  },
+  Object {
+    "name": "Vf Dx Off",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Alert Defib Lead Warning",
+    "type": "string",
+    "value": "Date Time, 16-Apr-2015 15:00:22",
+  },
+  Object {
+    "name": "Alert SVC Lead Warning",
+    "type": "string",
+    "value": "Date Time, 16-Apr-2015 15:00:23",
+  },
+  Object {
+    "name": "Alert V Bipolar Lead Warning",
+    "type": "string",
+    "value": "Date Time, 16-Apr-2015 15:00:10",
+  },
+  Object {
+    "name": "Alert A Bipolar Lead Warning",
+    "type": "string",
+    "value": "Date Time, 16-Apr-2015 15:00:04",
+  },
+  Object {
+    "name": "Alert LV Perm Pacing Polarity Lead Warning",
+    "type": "string",
+    "value": "Polarity, L Vtip To R Vcoil, Date Time, 16-Apr-2015 15:00:18",
+  },
+  Object {
+    "name": "LVCM Cannot Measure LV Threshold Last 7 Days",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "FDI Small",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Vt Dx Off",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "DOOMode",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Time Of Last Battery Measurement",
+    "type": "string",
+    "value": "17-Apr-2015 13:33:04",
+  },
+  Object {
+    "name": "Last Battery Measurement",
+    "type": "string",
+    "value": "3.0187 V, ERI/RRT=2.6251 V, EOL=2.5534 V",
+  },
+  Object {
+    "name": "Time of RRT",
+    "type": "string",
+    "value": "N/A",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurements",
+    "type": "string",
+    "value": "Timestamp, Leadtype, Impedance [Ohms]",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 1",
+    "type": "string",
+    "value": ", 4/17/15 9:00, A Pace  Bipolar, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 2",
+    "type": "string",
+    "value": ", 4/17/15 9:00, V Pace  Bipolar, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 3",
+    "type": "string",
+    "value": ", 4/17/15 9:00, LV Tip LV Ring, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 4",
+    "type": "string",
+    "value": ", 4/17/15 9:00, LV Ring RV Coil, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 5",
+    "type": "string",
+    "value": ", 4/17/15 9:00, LV Tip RV Coil, 4047",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 6",
+    "type": "string",
+    "value": ", 4/17/15 9:00, Defib, 254",
+  },
+  Object {
+    "name": "Last Lead Impedance Measurement 7",
+    "type": "string",
+    "value": ", 4/17/15 9:00, SVC, 254",
+  },
+  Object {
+    "name": "Charge Information:",
+    "type": "string",
+    "value": "Timestamp, Duration [sec], Start [J], Stop [J], Del. [J], Imp. [Ohm], Pathway, Waveform, Can",
+  },
+  Object {
+    "name": "Last Formation",
+    "type": "string",
+    "value": "16-Apr-2015 14:57:34, 7.397, 0, 35",
+  },
+  Object {
+    "name": "Last Charge",
+    "type": "string",
+    "value": "17-Apr-2015 13:34:31, 7.397, 0, 35",
+  },
+  Object {
+    "name": "Last Full Charge",
+    "type": "string",
+    "value": "17-Apr-2015 13:34:31, 7.397, 0, 35",
+  },
+  Object {
+    "name": "Last Charge Greater Or At Formation",
+    "type": "string",
+    "value": "17-Apr-2015 13:34:31, 7.397, 0, 35",
+  },
+  Object {
+    "name": "DevelopmentID,ResearchID,FeatureID",
+    "type": "string",
+    "value": "N/A, 4, 0, 1",
+  },
+  Object {
+    "name": "Total Life Cumulative Charge Time",
+    "type": "string",
+    "value": "127.67, sec",
+  },
+  Object {
+    "name": "Last Session Cumulative Charge Time",
+    "type": "string",
+    "value": "7.4, sec",
+  },
+  Object {
+    "name": "Prior to Last Session Cumulative Charge Time",
+    "type": "string",
+    "value": "7.42, sec",
+  },
+  Object {
+    "name": "Prior to Prior Session Cumulative Charge Time",
+    "type": "string",
+    "value": "112.85, sec",
+  },
+  Object {
+    "name": "Short Interval Counter Data:",
+    "type": "string",
+    "value": "SIC Interval < 140 ms",
+  },
+  Object {
+    "name": "Ventricular Blanking After Sensed Event:",
+    "type": "string",
+    "value": "120  ms",
+  },
+  Object {
+    "name": "-",
+    "type": "string",
+    "value": ", Duration (days), V-SICount, V-SIC First in Session, V-SIC duration, V-SIC Avg/day, A-SICount, A-SIC First in Session, A-SIC duration, A-SIC Avg/day",
+  },
+  Object {
+    "name": "Prior To Last Session",
+    "type": "string",
+    "value": "1.47, 0, N/A, N/A, N/A, 0, N/A, N/A, N/A",
+  },
+  Object {
+    "name": "Since Last Session",
+    "type": "string",
+    "value": "0.94, 0, N/A, N/A, N/A, 0, N/A, N/A, N/A",
+  },
+  Object {
+    "name": "Lifetime",
+    "type": "string",
+    "value": "297.96, 0, N/A, N/A, N/A, 0, N/A, N/A, N/A",
+  },
+  Object {
+    "name": "Patient Profile Implant Date",
+    "type": "string",
+    "value": "N/A",
+  },
+  Object {
+    "name": "Lead Information:",
+    "type": "string",
+    "value": "Model, Manufacturer, Position, Serial, Implant Date",
+  },
+  Object {
+    "name": "Lead 1",
+    "type": "string",
+    "value": ", , , , N/A",
+  },
+  Object {
+    "name": "Lead 2",
+    "type": "string",
+    "value": ", , , , N/A",
+  },
+  Object {
+    "name": "Lead 3",
+    "type": "string",
+    "value": ", , , , N/A",
+  },
+  Object {
+    "name": "Patient Alerts:",
+    "type": "string",
+    "value": "Timestamp, Type",
+  },
+  Object {
+    "name": "Patient Alert 1",
+    "type": "string",
+    "value": "16-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 2",
+    "type": "string",
+    "value": "15-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 3",
+    "type": "string",
+    "value": "14-Apr-2015 21:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 4",
+    "type": "string",
+    "value": "14-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 5",
+    "type": "string",
+    "value": "13-Apr-2015 21:00:22, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 6",
+    "type": "string",
+    "value": "10-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 7",
+    "type": "string",
+    "value": "09-Apr-2015 21:00:22, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 8",
+    "type": "string",
+    "value": "08-Apr-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 9",
+    "type": "string",
+    "value": "27-Feb-2015 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 10",
+    "type": "string",
+    "value": "17-Aug-2014 03:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+  Object {
+    "name": "Patient Alert 11",
+    "type": "string",
+    "value": "06-Aug-2014 00:00:00, Asynchronous Pacing Mode Since Midnight",
+  },
+  Object {
+    "name": "Patient Alert 12",
+    "type": "string",
+    "value": "05-Aug-2014 19:55:39, VF Det Or VFFVT Via VF Rx Off",
+  },
+  Object {
+    "name": "Patient Alert 13",
+    "type": "string",
+    "value": "05-Aug-2014 15:00:23, Out of Tolerance Subthreshold Lead Impedance",
+  },
+]
+`;
+
+exports[`interrogation Medtronic class should get structured data row from file 3`] = `
+Array [
+  Object {
+    "name": "Rate Drop Response ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Rate Profile Optimization ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "A Capture Management ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Cardioversion VTFVT",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Device Battery Type ",
+    "type": "string",
+    "value": "highoutput ",
+  },
+  Object {
+    "name": "Primary Function ",
+    "type": "string",
+    "value": "Shock Device ",
+  },
+  Object {
+    "name": "A Rate Stabilization ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "A Preference Pacing ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "V Rate Stabilization ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "VT Detection ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "FVT Detection ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "V Monitor ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "VT Stability ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Onset Criteria ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "PR Logic ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "SVT Discrimination Overrides ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Full Energy Charge ",
+    "type": "string",
+    "value": "35  J",
+  },
+  Object {
+    "name": "HV Capacitance DC",
+    "type": "string",
+    "value": "0.0001285  F",
+  },
+  Object {
+    "name": "HV Load Resistance ",
+    "type": "string",
+    "value": "75  ohms",
+  },
+  Object {
+    "name": "HV Source Resistance ",
+    "type": "string",
+    "value": "3.7  ohms",
+  },
+  Object {
+    "name": "HV Voltage Loss ",
+    "type": "string",
+    "value": "5  V",
+  },
+  Object {
+    "name": "Device Chamber Control ",
+    "type": "string",
+    "value": "Triple Chamber ",
+  },
+  Object {
+    "name": "Extended Rates ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "High Upper Tracking Rates ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "SC Wavelet ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "ATP Therapies VTFVT",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATP During Charging Basic ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Post Therapy Pacing Enhanced ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Atrial Arrhythmia Detection ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Atrial Arrhythmia Monitor ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Cardioversion ATAF",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fifty Hz Burst AF",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATP Therapies AT",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATP Rearming ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Patient Activator Symptom Rx ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATAF Extended Monitoring ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Cardiac Compass ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Flashback Ventricular Episodes ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Flashback Atrial Episodes ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Memory Revision ",
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "name": "Post Mode Switch Overdrive Pacing ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Patient Activator Therapies ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Patient Activator Symptom ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Patient Alert ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Flex Invalid ",
+    "type": "string",
+    "value": "No ",
+  },
+  Object {
+    "name": "Minimum Ventricular Pacing ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Longevity ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "V Capture Management Basic ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Ez ECG Surround ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "EGM Pre Storage Control ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Atrial Lead Polarity Switching ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Ventricular Lead Polarity Switching ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Fifty Hz Burst AF In Office ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "MRI Safe ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Silent Alert With Backup ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "ATAF Alerts ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "LV Only Pacing ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fluid Alert ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fluid Status ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "LVCM",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Left Ventricular Lead Polarity Switching ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Flex Conducted AF Response ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fluid Status Reference Reset ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Fluid Status IPG Threshold Display ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Fluid Alert Suspension ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Hi Fi Patient Activated EGM ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Flex Lead Predictor ",
+    "type": "string",
+    "value": "Enabled ",
+  },
+  Object {
+    "name": "Energy Table",
+    "type": "array",
+    "value": "0.4  J, 0.6  J, 0.8  J, 1  J, 1.2  J, 1.4  J
+1.6  J, 1.8  J, 2  J, 3  J, 4  J, 5  J
+6  J, 7  J, 8  J, 9  J, 10  J, 11  J
+12  J, 13  J, 14  J, 15  J, 16  J, 18  J
+20  J, 22  J, 24  J, 25  J, 26  J, 28  J
+30  J, 32  J, 35  J",
+  },
+  Object {
+    "name": "Field Update Flex ",
+    "type": "string",
+    "value": undefined,
+  },
+  Object {
+    "name": "Field Update Flex A Preference Pacing ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Field Update Flex Fluid Alert ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Field Update Flex Fluid Status Reference Reset ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Field Update Fluid Status Patient Activator ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+  Object {
+    "name": "Field Update Flex Fluid Alert Suspension ",
+    "type": "string",
+    "value": "Disabled ",
+  },
+]
+`;
+
+exports[`interrogation Medtronic class should get structured data row from file 4`] = `
+Array [
+  Object {
+    "name": "Current Por Index",
+    "type": "string",
+    "value": "2",
+  },
+  Object {
+    "name": "Current Por Count",
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "name": "POR-buffer 1 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:01",
+  },
+  Object {
+    "name": "POR-buffer 1 Reason",
+    "type": "string",
+    "value": "CPU active at fault time, Firmware initiated a Software Interrupt, CPU was master of the bus",
+  },
+  Object {
+    "name": "POR-buffer 2 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:20",
+  },
+  Object {
+    "name": "POR-buffer 2 Reason",
+    "type": "string",
+    "value": "Pulsed Watchdog Reset, CPU active at fault time, CPU was master of the bus",
+  },
+  Object {
+    "name": "POR-buffer 3 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "POR-buffer 3 Reason",
+    "type": "string",
+    "value": "CPU was master of the bus",
+  },
+  Object {
+    "name": "POR-buffer 4 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "POR-buffer 4 Reason",
+    "type": "string",
+    "value": "CPU was master of the bus",
+  },
+  Object {
+    "name": "Parity Error Index",
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "name": "Parity Error Count",
+    "type": "string",
+    "value": "0",
+  },
+  Object {
+    "name": "ECC-error 1 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 1 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 1 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 1 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 2 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 2 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 2 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 2 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 3 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 3 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 3 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 3 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 4 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 4 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 4 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 4 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 5 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 5 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 5 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 5 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 6 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 6 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 6 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 6 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 7 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 7 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 7 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 7 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+  Object {
+    "name": "ECC-error 8 Timestap",
+    "type": "string",
+    "value": "01-Jan-1994 00:00:00",
+  },
+  Object {
+    "name": "ECC-error 8 Address",
+    "type": "string",
+    "value": "00 00",
+  },
+  Object {
+    "name": "ECC-error 8 Data",
+    "type": "string",
+    "value": "00",
+  },
+  Object {
+    "name": "ECC-error 8 Status",
+    "type": "string",
+    "value": "No ECC-error",
+  },
+]
+`;
+
+exports[`interrogation Medtronic class should get structured data row from file 5`] = `
+Array [
+  Object {
+    "name": "Automatic Therapy Ventricular Blanking After Ventricular Pace",
+    "type": "string",
+    "value": "240 ms",
+  },
+  Object {
+    "name": "Automatic Therapy Ventricular Pacing Amplitude",
+    "type": "string",
+    "value": "8 V",
+  },
+  Object {
+    "name": "Automatic Therapy Ventricular Pacing Minimum Interval",
+    "type": "string",
+    "value": "200 ms",
+  },
+  Object {
+    "name": "Automatic Therapy Ventricular Pacing Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Atrial Post Shock ATP Pacing Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Auto Cap Formation Interval",
+    "type": "string",
+    "value": "Auto",
+  },
+  Object {
+    "name": "ATAF Detection",
+    "type": "string",
+    "value": "Monitor",
+  },
+  Object {
+    "name": "ATP While Charging Charge Saver Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Monitor Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Daily Atrial Lead Position Check",
+    "type": "string",
+    "value": "No",
+  },
+  Object {
+    "name": "Minimum CVRR Interval",
+    "type": "string",
+    "value": "500 ms",
+  },
+  Object {
+    "name": "Atrial Therapy Minimum Pacing Interval",
+    "type": "string",
+    "value": "150 ms",
+  },
+  Object {
+    "name": "Ventricular Pacing Enable During Atrial ATP",
+    "type": "string",
+    "value": "Auto",
+  },
+  Object {
+    "name": "Atrial Post Shock ATP Pacing Amplitude",
+    "type": "string",
+    "value": "6 V",
+  },
+  Object {
+    "name": "ATP While Charging Minimum Interval",
+    "type": "string",
+    "value": "240 ms",
+  },
+  Object {
+    "name": "High Voltage Atrial Amplitude",
+    "type": "string",
+    "value": "4 V",
+  },
+  Object {
+    "name": "High Voltage Atrial Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Atrial Amplitude",
+    "type": "string",
+    "value": "3.5 V",
+  },
+  Object {
+    "name": "A Fib A Flutter Rejection Rule Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Atrial Pulse Width",
+    "type": "string",
+    "value": "0.4 ms",
+  },
+  Object {
+    "name": "ATAF Detection Interval",
+    "type": "string",
+    "value": "350 ms",
+  },
+  Object {
+    "name": "A Pacing Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Current Real Time Clock",
+    "type": "string",
+    "value": "2015-04-17T13:34:34",
+  },
+  Object {
+    "name": "Daily Alarm Time",
+    "type": "string",
+    "value": "8:00:00",
+  },
+  Object {
+    "name": "Deliveryof N Shocks Alert Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Atrial Pace Polarity",
+    "type": "string",
+    "value": "Bipolar",
+  },
+  Object {
+    "name": "Ventricular Pace Polarity",
+    "type": "string",
+    "value": "Bipolar",
+  },
+  Object {
+    "name": "Excessive Charge Time Alert Enable",
+    "type": "string",
+    "value": "OnHigh",
+  },
+  Object {
+    "name": "Exhaustionof Therapy Set Alert Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Detection Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Detection Interval",
+    "type": "string",
+    "value": "Blank",
+  },
+  Object {
+    "name": "High Rate Timeout Duration",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Monitor NID",
+    "type": "string",
+    "value": "20",
+  },
+  Object {
+    "name": "Monitor Interval",
+    "type": "string",
+    "value": "450 ms",
+  },
+  Object {
+    "name": "High Voltage Ventricular Amplitude",
+    "type": "string",
+    "value": "6 V",
+  },
+  Object {
+    "name": "High Voltage Ventricular Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Low Battery Alert Enable",
+    "type": "string",
+    "value": "OnHigh",
+  },
+  Object {
+    "name": "Lower Rate Interval",
+    "type": "string",
+    "value": "710 ms",
+  },
+  Object {
+    "name": "Progressive Episodes Therapies",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Numberof Intervalsto Detect VFVFNID",
+    "type": "string",
+    "value": "24Of32",
+  },
+  Object {
+    "name": "Numberof Intervalsto Detect VTVTNID",
+    "type": "string",
+    "value": "36",
+  },
+  Object {
+    "name": "Numberof Intervalsto Redetect VFVFRNID",
+    "type": "string",
+    "value": "12Of16",
+  },
+  Object {
+    "name": "Numberof Intervalsto Redetect VTVTRNID",
+    "type": "string",
+    "value": "12",
+  },
+  Object {
+    "name": "Onset Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Other 11 SV Ts AVNRT Rejection Rule Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Out of Tolerance Impedance Alert Urgency",
+    "type": "string",
+    "value": "High",
+  },
+  Object {
+    "name": "Pacing Mode",
+    "type": "string",
+    "value": "DOO",
+  },
+  Object {
+    "name": "PAV",
+    "type": "string",
+    "value": "130 ms",
+  },
+  Object {
+    "name": "Permanent Telemetry Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Programmable Maximum A Pacing Lead Impedance",
+    "type": "string",
+    "value": "3000 ohms",
+  },
+  Object {
+    "name": "Programmable Maximum SVCHVX Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Programmable Maximum V Defib Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Programmable Maximum V Pacing Lead Impedance",
+    "type": "string",
+    "value": "3000 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum A Pacing Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum SVCHVX Lead Impedance",
+    "type": "string",
+    "value": "20 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum V Defib Lead Impedance",
+    "type": "string",
+    "value": "20 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum V Pacing Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Sinus Tachycardia Rejection Rule Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "SVCHVX Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "SVT Minimum Cycle Length",
+    "type": "string",
+    "value": "320 ms",
+  },
+  Object {
+    "name": "V Defib Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "V Pacing Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Ventricular Amplitude",
+    "type": "string",
+    "value": "5 V",
+  },
+  Object {
+    "name": "Integer With Unit is Pertinent=\\"false\\" unit=\\"ms\\"",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Ventricular Pulse Width",
+    "type": "string",
+    "value": "0.4 ms",
+  },
+  Object {
+    "name": "VF Detection Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VF Detection Interval",
+    "type": "string",
+    "value": "270 ms",
+  },
+  Object {
+    "name": "VT Detection Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VT Detection Interval",
+    "type": "string",
+    "value": "360 ms",
+  },
+  Object {
+    "name": "VT Interval Stability Criterion",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VF Det Or VFRX Off Alert Enable",
+    "type": "string",
+    "value": "OnHigh",
+  },
+  Object {
+    "name": "ATP While Charging Charge Saver Switch Value",
+    "type": "string",
+    "value": "1",
+  },
+  Object {
+    "name": "PS Pacing Mode",
+    "type": "string",
+    "value": "DOO",
+  },
+  Object {
+    "name": "Device Switched From VFATP During Chargingto Before Charging",
+    "type": "string",
+    "value": "No",
+  },
+  Object {
+    "name": "Device Switched From VFATP Before Chargingto During Charging",
+    "type": "string",
+    "value": "No",
+  },
+  Object {
+    "name": "SLS Pacing Mode",
+    "type": "string",
+    "value": "DOO",
+  },
+  Object {
+    "name": "Pre Onset EGM",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Timestamp Lead Position Test",
+    "type": "string",
+    "value": "1994-01-01T00:00:00",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Timestamp V Episode During A Episode",
+    "type": "string",
+    "value": "1994-01-01T00:00:00",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Timestamp Rapid Conduction Check",
+    "type": "string",
+    "value": "1994-01-01T00:00:00",
+  },
+  Object {
+    "name": "Most Recent Daily Atrial Lead Position Check Status",
+    "type": "string",
+    "value": "Failed",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Lead Position Test",
+    "type": "string",
+    "value": "NotDisabled",
+  },
+  Object {
+    "name": "Atrial Therapy Disable Rapid Conduction Check",
+    "type": "string",
+    "value": "NotDisabled",
+  },
+  Object {
+    "name": "Atrial Therapy Disable V Episode During A Episode",
+    "type": "string",
+    "value": "NotDisabled",
+  },
+  Object {
+    "name": "Status Byte Atrial Therapy Disabled",
+    "type": "string",
+    "value": "NotDisabled",
+  },
+  Object {
+    "name": "EGM 2 Range",
+    "type": "string",
+    "value": "plusMinus8 mV",
+  },
+  Object {
+    "name": "EGM 2 Source",
+    "type": "string",
+    "value": "RVtipToRVring",
+  },
+  Object {
+    "name": "EGM 1 Range",
+    "type": "string",
+    "value": "plusMinus8 mV",
+  },
+  Object {
+    "name": "EGM 1 Source",
+    "type": "string",
+    "value": "AtipToAring",
+  },
+  Object {
+    "name": "EGM 3 Source",
+    "type": "string",
+    "value": "LVtipToRVcoil",
+  },
+  Object {
+    "name": "EGM 4 Source",
+    "type": "string",
+    "value": "CanToSVC",
+  },
+  Object {
+    "name": "EGM 3 Range",
+    "type": "string",
+    "value": "plusMinus8 mV",
+  },
+  Object {
+    "name": "EGM 4 Range",
+    "type": "string",
+    "value": "plusMinus2 mV",
+  },
+  Object {
+    "name": "Stored Channels",
+    "type": "string",
+    "value": "egm1egm2",
+  },
+  Object {
+    "name": "Rate Drop Response Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Sleep",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Burden Threshold",
+    "type": "string",
+    "value": "6 hoursPerDay",
+  },
+  Object {
+    "name": "Fast V Response Threshold",
+    "type": "string",
+    "value": "600 ms",
+  },
+  Object {
+    "name": "Ventricular Pacing Configuration",
+    "type": "string",
+    "value": "LVToRV",
+  },
+  Object {
+    "name": "Left Ventricular Amplitude",
+    "type": "string",
+    "value": "5 V",
+  },
+  Object {
+    "name": "Left Ventricular Pulse Width",
+    "type": "string",
+    "value": "0.4 ms",
+  },
+  Object {
+    "name": "Fast V Response Min Time In ATAF",
+    "type": "string",
+    "value": "6 hoursPerDay",
+  },
+  Object {
+    "name": "VSE Detection Beats",
+    "type": "string",
+    "value": "10 senses",
+  },
+  Object {
+    "name": "VSE Termination Beats",
+    "type": "string",
+    "value": "3 paces",
+  },
+  Object {
+    "name": "Left Ventricular Pace Polarity",
+    "type": "string",
+    "value": "LVtipToRVcoil",
+  },
+  Object {
+    "name": "Paced VV Delay",
+    "type": "string",
+    "value": "40 ms",
+  },
+  Object {
+    "name": "Automatic Therapy LV Pacing Pulse Width",
+    "type": "string",
+    "value": "1.5 ms",
+  },
+  Object {
+    "name": "Automatic Therapy Ventricular Pacing Configuration",
+    "type": "string",
+    "value": "RV",
+  },
+  Object {
+    "name": "Fluid Status Threshold",
+    "type": "string",
+    "value": "60 ohmDays",
+  },
+  Object {
+    "name": "LV Pacing Lead Impedance Alert Enable",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Programmable Maximum LV Pacing Lead Impedance",
+    "type": "string",
+    "value": "3000 ohms",
+  },
+  Object {
+    "name": "Programmable Minimum LV Pacing Lead Impedance",
+    "type": "string",
+    "value": "200 ohms",
+  },
+  Object {
+    "name": "Patient Home Monitor",
+    "type": "string",
+    "value": "No",
+  },
+  Object {
+    "name": "ATAF Burden Alert Enable",
+    "type": "string",
+    "value": "OffObservationOnly",
+  },
+  Object {
+    "name": "Fast V Response Alert Enable",
+    "type": "string",
+    "value": "OffObservationOnly",
+  },
+  Object {
+    "name": "Fluid Status Observation Enable",
+    "type": "string",
+    "value": "Yes",
+  },
+  Object {
+    "name": "Opti Vol Alert Enable",
+    "type": "string",
+    "value": "OffObservationOnly",
+  },
+  Object {
+    "name": "EGM p 7hp",
+    "type": "string",
+    "value": "0.6524 Hz",
+  },
+  Object {
+    "name": "EGM 2p 5hp",
+    "type": "string",
+    "value": "2.6162 Hz",
+  },
+  Object {
+    "name": "Programmer Active Can SVC Control",
+    "type": "string",
+    "value": "CanSVCOn",
+  },
+  Object {
+    "name": "Lead Failure V Oversensing Episodes Detection Interval Threshold",
+    "type": "string",
+    "value": "220 ms",
+  },
+  Object {
+    "name": "Lead Failure Predictor Alert Enable",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  1",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  2",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  3",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  4",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  5",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATAF Therapy  11",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VT Therapy  1",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "Burst",
+  },
+  Object {
+    "name": "Initial Pulses",
+    "type": "string",
+    "value": "8",
+  },
+  Object {
+    "name": "RS1 Interval",
+    "type": "string",
+    "value": "88 percent",
+  },
+  Object {
+    "name": "Interval Decrement",
+    "type": "string",
+    "value": "10 ms",
+  },
+  Object {
+    "name": "Number Of Sequences",
+    "type": "string",
+    "value": "3",
+  },
+  Object {
+    "name": "Smart Mode",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "VT Therapy  2",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "20 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VT Therapy  3",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VT Therapy  4",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VT Therapy  5",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "AXToB",
+  },
+  Object {
+    "name": "VT Therapy  6",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "CV",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "AXToB",
+  },
+  Object {
+    "name": "VF Therapy  1",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  2",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  3",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  4",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  5",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "VF Therapy  6",
+    "type": "string",
+    "value": "Defib",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "On",
+  },
+  Object {
+    "name": "Energy",
+    "type": "string",
+    "value": "35 J",
+  },
+  Object {
+    "name": "Pathway",
+    "type": "string",
+    "value": "BToAX",
+  },
+  Object {
+    "name": "FVT Therapy  1",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  2",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  3",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  4",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  5",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "FVT Therapy  6",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "ATP While Charging Therapy",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "RS1 Interval",
+    "type": "string",
+    "value": "88 percent",
+  },
+  Object {
+    "name": "Interval Decrement",
+    "type": "string",
+    "value": "10 ms",
+  },
+  Object {
+    "name": "Status",
+    "type": "string",
+    "value": "DuringCharging",
+  },
+  Object {
+    "name": "Initial Pulses",
+    "type": "string",
+    "value": "8",
+  },
+  Object {
+    "name": "Therapy Type",
+    "type": "string",
+    "value": "DefibATPBurst",
+  },
+  Object {
+    "name": "Smart Mode",
+    "type": "string",
+    "value": "On",
+  },
 ]
 `;

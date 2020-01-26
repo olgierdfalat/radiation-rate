@@ -12,8 +12,9 @@ export class ParametersSheet extends WorkSheet {
       const row = this.worksheetRows[i];
       if(row && row.length > 0) {
         const name = row[0];
+        const values = row.splice(1).map((value: any) => (value || '').trim());
         if(name) {
-          this.row.push({name: name.trim(), type: 'string', value: row.splice(1).join(', ')});
+          this.row.push({name: name.trim(), type: 'string', value: values.join(', ')});
         }
       }
     }
