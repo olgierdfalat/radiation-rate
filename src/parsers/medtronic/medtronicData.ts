@@ -1,14 +1,13 @@
 import * as models from './../../models';
-import * as parsers from './../index';
 import checksum from './../../util/checksum';
-import * as errors from './../../errors';
 import * as XLSX from 'xlsx';
-import { Datasheet } from './dataSheet';
+import { DataSheet } from './dataSheet';
 
 export class MedtronicData {
   private content: XLSX.WorkBook;
   private row: models.WorksheetRow = [];
   private dataSheet: XLSX.WorkSheet;
+  private flexSheet: XLSX.WorkSheet;
 
   constructor(content: XLSX.WorkBook) {
     this.content = content;
@@ -16,8 +15,11 @@ export class MedtronicData {
   }
   private parseRow() {
     this.dataSheet = this.content.Sheets['Data'];
-    const dataSheetRows = XLSX.utils.sheet_to_json(this.dataSheet, {header: 1, raw: false});
-    this.row.push(...new Datasheet(dataSheetRows).parse());
+    this.flexSheet = this.content.Sheets['Flex'];
+    
+
+
+    this.row.push(...new DataSheet(this.dataSheet).parse());
   }
 
   getRow() {

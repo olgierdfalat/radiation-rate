@@ -1,14 +1,13 @@
+import * as XLSX from 'xlsx';
 import * as models from './../../models';
-import { Worksheet } from './worksheet';
+import { WorkSheet } from './worksheet';
 
-export class Datasheet extends Worksheet {
-
-  constructor(worksheetRows: any) {
-    super(worksheetRows);
+export class DataSheet extends WorkSheet {
+  constructor(workSheet: XLSX.WorkSheet) {
+    super(workSheet);
   }
 
   parse(): models.WorksheetRow {
-
     this.addExceptionalRules();
     this.parseManualStuff();
     this.parseCellsPairs('Model Identification:', 'Audit Rule(s)/Observations:');

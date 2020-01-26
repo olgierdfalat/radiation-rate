@@ -1,12 +1,18 @@
+import * as XLSX from 'xlsx';
 import * as models from './../../models';
 
-export class Worksheet {
+export class WorkSheet {
+  protected workSheet: XLSX.WorkSheet
   protected worksheetRows: any;
   protected row: models.WorksheetRow = [];
-  constructor(worksheetRows: any) {
-    this.worksheetRows = worksheetRows;
+  constructor(workSheet: XLSX.WorkSheet) {
+    this.workSheet = workSheet;
+    this.worksheetRows = this.parseRows();
   }
 
+  parseRows() {
+    return XLSX.utils.sheet_to_json(this.workSheet, {header: 1, raw: false});
+  }
   private columnToNumber(name: String): number {
     const base = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let i = 0, j = 0, result = 0;
