@@ -1653,7 +1653,7 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙",
     "type": "string",
     "value": "CV",
   },
@@ -1673,17 +1673,17 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙",
     "type": "string",
     "value": "CV",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -1693,17 +1693,17 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙∙",
     "type": "string",
     "value": "CV",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -1713,17 +1713,17 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙∙∙",
     "type": "string",
     "value": "CV",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙",
     "type": "string",
     "value": "AXToB",
   },
@@ -1733,17 +1733,17 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙∙∙∙",
     "type": "string",
     "value": "CV",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙",
     "type": "string",
     "value": "AXToB",
   },
@@ -1758,12 +1758,12 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -1773,17 +1773,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -1793,17 +1793,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -1813,17 +1813,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -1833,17 +1833,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙∙∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -1853,17 +1853,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙∙∙∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -1903,34 +1903,204 @@ Array [
     "value": "",
   },
   Object {
-    "name": "RS1 Interval",
+    "name": "RS1 Interval∙",
     "type": "string",
     "value": "88 percent",
   },
   Object {
-    "name": "Interval Decrement",
+    "name": "Interval Decrement∙",
     "type": "string",
     "value": "10 ms",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙∙∙∙∙",
     "type": "string",
     "value": "DuringCharging",
   },
   Object {
-    "name": "Initial Pulses",
+    "name": "Initial Pulses∙",
     "type": "string",
     "value": "8",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙∙∙∙∙",
     "type": "string",
     "value": "DefibATPBurst",
   },
   Object {
-    "name": "Smart Mode",
+    "name": "Smart Mode∙",
     "type": "string",
     "value": "On",
+  },
+  Object {
+    "name": "Device",
+    "type": "string",
+    "value": "Consulta CRT-D D234TRK, PYZ626053S",
+  },
+  Object {
+    "name": "EGM-prestorage",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Pacing Mode, Lower Rate",
+    "type": "string",
+    "value": "DOO, 85, LVToRV",
+  },
+  Object {
+    "name": "-->",
+    "type": "string",
+    "value": "Pulse Width [ms], Amplitude [V], Impedance [Ohm], Percentage Pacing [%]",
+  },
+  Object {
+    "name": "Atrial",
+    "type": "string",
+    "value": "0.4, 3.5, 585, 89",
+  },
+  Object {
+    "name": "Right Ventricular",
+    "type": "string",
+    "value": "0.4, 5, 497, 100",
+  },
+  Object {
+    "name": "Left Ventricular",
+    "type": "string",
+    "value": "0.4, 5, 414, 100",
+  },
+  Object {
+    "name": "Average Daily Rate",
+    "type": "string",
+    "value": "85.06",
+  },
+  Object {
+    "name": "Average Night Rate",
+    "type": "string",
+    "value": "85.10",
+  },
+  Object {
+    "name": "Average Estimated Rate",
+    "type": "string",
+    "value": "85.07",
+  },
+  Object {
+    "name": "Percentage in AT/AF",
+    "type": "string",
+    "value": "1, Extra current [µA], 0.02",
+  },
+  Object {
+    "name": "Implant Date",
+    "type": "string",
+    "value": "23-Jun-2014",
+  },
+  Object {
+    "name": "Interrogation Date",
+    "type": "string",
+    "value": "17-Apr-2015",
+  },
+  Object {
+    "name": "Implant time until interrogation [months]",
+    "type": "string",
+    "value": "9.79",
+  },
+  Object {
+    "name": "Cumulative Charge Time",
+    "type": "string",
+    "value": "127.67, Max Charge Time, 7.40",
+  },
+  Object {
+    "name": "BOL Full Charge Time",
+    "type": "string",
+    "value": "8.00",
+  },
+  Object {
+    "name": "Last Full Charge Time",
+    "type": "string",
+    "value": "8.00",
+  },
+  Object {
+    "name": "Average Full Charge Time",
+    "type": "string",
+    "value": "8.00",
+  },
+  Object {
+    "name": "Estimated Total Number of Charges",
+    "type": "string",
+    "value": "15.96",
+  },
+  Object {
+    "name": "Estimated full charges a year including cap formation",
+    "type": "string",
+    "value": "19.56",
+  },
+  Object {
+    "name": "--->",
+    "type": "string",
+    "value": "Mean [months], Min [months]",
+  },
+  Object {
+    "name": "Estimated expected mean full service lifetime longevity",
+    "type": "string",
+    "value": "19.7, 18.7",
+  },
+  Object {
+    "name": "Estimated remaining mean longevity",
+    "type": "string",
+    "value": "9.9, 8.9",
+  },
+  Object {
+    "name": "Estimated remaining mean when continued with 4 full charges a year",
+    "type": "string",
+    "value": "13.3, 11.9",
+  },
+  Object {
+    "name": "Estimated expected capacity used [%]",
+    "type": "string",
+    "value": "50, 52",
+  },
+  Object {
+    "name": "Estimated average mean current drain [µA]",
+    "type": "string",
+    "value": "68.25",
+  },
+  Object {
+    "name": "Estimated average current draw by available battery trend [µA]",
+    "type": "string",
+    "value": "25.74",
+  },
+  Object {
+    "name": "Estimated average mean current drain with 4 full charges a year [µA]",
+    "type": "string",
+    "value": "50.88",
+  },
+  Object {
+    "name": "Longevity estimation based on battery curve fit analysis:",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Last measured battery voltage [V]",
+    "type": "string",
+    "value": "3.02",
+  },
+  Object {
+    "name": "Remaining battery capacity based on last measured battery voltage [%]",
+    "type": "string",
+    "value": "33.2",
+  },
+  Object {
+    "name": "Remaining Longevity Based on battery voltage Mean [months]",
+    "type": "string",
+    "value": "4.9",
+  },
+  Object {
+    "name": "Remaining Longevity Based on battery voltage Min [months]",
+    "type": "string",
+    "value": "1.9",
+  },
+  Object {
+    "name": "Note: Less accurate for battery voltages greater than 2.90V",
+    "type": "string",
+    "value": "",
   },
 ]
 `;
@@ -3603,7 +3773,7 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙",
     "type": "string",
     "value": "CV",
   },
@@ -3623,17 +3793,17 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙",
     "type": "string",
     "value": "CV",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -3643,17 +3813,17 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙∙",
     "type": "string",
     "value": "CV",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -3663,17 +3833,17 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙∙∙",
     "type": "string",
     "value": "CV",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙",
     "type": "string",
     "value": "AXToB",
   },
@@ -3683,17 +3853,17 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙∙∙∙",
     "type": "string",
     "value": "CV",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙",
     "type": "string",
     "value": "AXToB",
   },
@@ -3708,12 +3878,12 @@ Array [
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -3723,17 +3893,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -3743,17 +3913,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -3763,17 +3933,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -3783,17 +3953,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙∙∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -3803,17 +3973,17 @@ Array [
     "value": "Defib",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙∙∙∙",
     "type": "string",
     "value": "On",
   },
   Object {
-    "name": "Energy",
+    "name": "Energy∙∙∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "35 J",
   },
   Object {
-    "name": "Pathway",
+    "name": "Pathway∙∙∙∙∙∙∙∙∙∙",
     "type": "string",
     "value": "BToAX",
   },
@@ -3853,34 +4023,209 @@ Array [
     "value": "",
   },
   Object {
-    "name": "RS1 Interval",
+    "name": "RS1 Interval∙",
     "type": "string",
     "value": "88 percent",
   },
   Object {
-    "name": "Interval Decrement",
+    "name": "Interval Decrement∙",
     "type": "string",
     "value": "10 ms",
   },
   Object {
-    "name": "Status",
+    "name": "Status∙∙∙∙∙∙",
     "type": "string",
     "value": "DuringCharging",
   },
   Object {
-    "name": "Initial Pulses",
+    "name": "Initial Pulses∙",
     "type": "string",
     "value": "8",
   },
   Object {
-    "name": "Therapy Type",
+    "name": "Therapy Type∙∙∙∙∙∙",
     "type": "string",
     "value": "DefibATPBurst",
   },
   Object {
-    "name": "Smart Mode",
+    "name": "Smart Mode∙",
     "type": "string",
     "value": "On",
+  },
+]
+`;
+
+exports[`interrogation Medtronic class should get structured data row from file 6`] = `
+Array [
+  Object {
+    "name": "Device",
+    "type": "string",
+    "value": "Consulta CRT-D D234TRK, PYZ626053S",
+  },
+  Object {
+    "name": "EGM-prestorage",
+    "type": "string",
+    "value": "Off",
+  },
+  Object {
+    "name": "Pacing Mode, Lower Rate",
+    "type": "string",
+    "value": "DOO, 85, LVToRV",
+  },
+  Object {
+    "name": "-->",
+    "type": "string",
+    "value": "Pulse Width [ms], Amplitude [V], Impedance [Ohm], Percentage Pacing [%]",
+  },
+  Object {
+    "name": "Atrial",
+    "type": "string",
+    "value": "0.4, 3.5, 585, 89",
+  },
+  Object {
+    "name": "Right Ventricular",
+    "type": "string",
+    "value": "0.4, 5, 497, 100",
+  },
+  Object {
+    "name": "Left Ventricular",
+    "type": "string",
+    "value": "0.4, 5, 414, 100",
+  },
+  Object {
+    "name": "Average Daily Rate",
+    "type": "string",
+    "value": "85.06",
+  },
+  Object {
+    "name": "Average Night Rate",
+    "type": "string",
+    "value": "85.10",
+  },
+  Object {
+    "name": "Average Estimated Rate",
+    "type": "string",
+    "value": "85.07",
+  },
+  Object {
+    "name": "Percentage in AT/AF",
+    "type": "string",
+    "value": "1, Extra current [µA], 0.02",
+  },
+  Object {
+    "name": "Implant Date",
+    "type": "string",
+    "value": "23-Jun-2014",
+  },
+  Object {
+    "name": "Interrogation Date",
+    "type": "string",
+    "value": "17-Apr-2015",
+  },
+  Object {
+    "name": "Implant time until interrogation [months]",
+    "type": "string",
+    "value": "9.79",
+  },
+  Object {
+    "name": "Cumulative Charge Time",
+    "type": "string",
+    "value": "127.67, Max Charge Time, 7.40",
+  },
+  Object {
+    "name": "BOL Full Charge Time",
+    "type": "string",
+    "value": "8.00",
+  },
+  Object {
+    "name": "Last Full Charge Time",
+    "type": "string",
+    "value": "8.00",
+  },
+  Object {
+    "name": "Average Full Charge Time",
+    "type": "string",
+    "value": "8.00",
+  },
+  Object {
+    "name": "Estimated Total Number of Charges",
+    "type": "string",
+    "value": "15.96",
+  },
+  Object {
+    "name": "Estimated full charges a year including cap formation",
+    "type": "string",
+    "value": "19.56",
+  },
+  Object {
+    "name": "--->",
+    "type": "string",
+    "value": "Mean [months], Min [months]",
+  },
+  Object {
+    "name": "Estimated expected mean full service lifetime longevity",
+    "type": "string",
+    "value": "19.7, 18.7",
+  },
+  Object {
+    "name": "Estimated remaining mean longevity",
+    "type": "string",
+    "value": "9.9, 8.9",
+  },
+  Object {
+    "name": "Estimated remaining mean when continued with 4 full charges a year",
+    "type": "string",
+    "value": "13.3, 11.9",
+  },
+  Object {
+    "name": "Estimated expected capacity used [%]",
+    "type": "string",
+    "value": "50, 52",
+  },
+  Object {
+    "name": "Estimated average mean current drain [µA]",
+    "type": "string",
+    "value": "68.25",
+  },
+  Object {
+    "name": "Estimated average current draw by available battery trend [µA]",
+    "type": "string",
+    "value": "25.74",
+  },
+  Object {
+    "name": "Estimated average mean current drain with 4 full charges a year [µA]",
+    "type": "string",
+    "value": "50.88",
+  },
+  Object {
+    "name": "Longevity estimation based on battery curve fit analysis:",
+    "type": "string",
+    "value": "",
+  },
+  Object {
+    "name": "Last measured battery voltage [V]",
+    "type": "string",
+    "value": "3.02",
+  },
+  Object {
+    "name": "Remaining battery capacity based on last measured battery voltage [%]",
+    "type": "string",
+    "value": "33.2",
+  },
+  Object {
+    "name": "Remaining Longevity Based on battery voltage Mean [months]",
+    "type": "string",
+    "value": "4.9",
+  },
+  Object {
+    "name": "Remaining Longevity Based on battery voltage Min [months]",
+    "type": "string",
+    "value": "1.9",
+  },
+  Object {
+    "name": "Note: Less accurate for battery voltages greater than 2.90V",
+    "type": "string",
+    "value": "",
   },
 ]
 `;

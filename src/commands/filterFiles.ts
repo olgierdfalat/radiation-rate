@@ -1,3 +1,4 @@
+import fs from 'fs';
 import path from 'path';
 import { homedir } from 'os';
 import { FilesResult } from '../io/filesEnumerator';
@@ -10,6 +11,10 @@ import execute from './command';
 
 async function dumpFiles(device: string, description: string, filesInfo: Array<FileInfo>) {
   console.log(`Generating ${description} file list for`, device);
+  const outputDirectory = path.join(__dirname, '../../output');
+  if (!fs.existsSync(outputDirectory)) {
+    fs.mkdirSync(outputDirectory);
+  }
   const outputPath = path.join(__dirname, '../../output', `${description}.yaml`);
   await dumpToFile(outputPath, filesInfo);
 }

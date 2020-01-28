@@ -11,5 +11,6 @@ describe('interrogation Medtronic class', () => {
     expect(data.Sheets['Flex']).toMatchSnapshot();
     expect(data.Sheets['POR']).toMatchSnapshot();
     expect(data.Sheets['Parameters']).toMatchSnapshot();
+    expect(data.Sheets['Longevity']).toMatchSnapshot();
   });
 });

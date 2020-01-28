@@ -8,26 +8,26 @@ export class FlexSheet extends WorkSheet {
   }
 
   parse(): models.WorksheetRow {
-    for(let i = 0; i < this.worksheetRows.length; i++) {
+    for (let i = 0; i < this.worksheetRows.length; i++) {
       const row = this.worksheetRows[i];
       let [name, value] = row;
-      if(name) {
+      if (name) {
         name = name.trim();
-        if(value) {
+        if (value) {
           value = value.trim();
         }
-        if(name !== 'Energy Table') {
+        if (name !== 'Energy Table') {
           this.row.push({name, type: 'string', value});
         }
         else {
           const energyTableRowEndIndex = this.findNextNotEmptyRowIndex(i, 1);
           const energyTable = [];
-          for(let j = i; j < energyTableRowEndIndex; j++) {
+          for (let j = i; j < energyTableRowEndIndex; j++) {
             const energyRow = this.worksheetRows[j];
             energyTable.push(energyRow.slice(2));
-          }  
+          }
           this.row.push({name, type: 'array', value: energyTable.map(item => item.join(', ')).join('\n')});
-        }        
+        }
       }
     }
     return this.row;

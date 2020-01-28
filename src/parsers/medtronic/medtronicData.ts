@@ -5,12 +5,13 @@ import { DataSheet } from './dataSheet';
 import { FlexSheet } from './flexSheet';
 import { PORSheet } from './porSheet';
 import { ParametersSheet } from './parametersSheet';
-import { throws } from 'assert';
+import { LongevitySheet } from './longevitySheet';
 
 export const DATA = 'Data';
 export const FLEX = 'Flex';
 export const POR = 'POR';
 export const PARAMETERS = 'Parameters';
+export const LONGEVITY = 'Longevity';
 
 export class MedtronicData {
   private content: XLSX.WorkBook;
@@ -19,6 +20,7 @@ export class MedtronicData {
   private flexWorkSheet: XLSX.WorkSheet;
   private porWorkSheet: XLSX.WorkSheet;
   private parametersSheet: XLSX.WorkSheet;
+  private longevitySheet: XLSX.WorkSheet;
   private deviceId: string;
 
   constructor(content: XLSX.WorkBook) {
@@ -29,9 +31,10 @@ export class MedtronicData {
     this.Sheets = {};
     this.dataWorkSheet = this.content.Sheets[DATA];
     this.flexWorkSheet = this.content.Sheets[FLEX];
-    this.porWorkSheet = this.content.Sheets[POR];    
+    this.porWorkSheet = this.content.Sheets[POR];
     this.parametersSheet = this.content.Sheets[PARAMETERS];
-    
+    this.longevitySheet = this.content.Sheets[LONGEVITY];
+
     const dateSheet = new DataSheet(this.dataWorkSheet);
     const dataSheetRows = dateSheet.parse();
     this.Sheets[DATA] = dataSheetRows;
@@ -48,12 +51,17 @@ export class MedtronicData {
     const parametersSheetRows = parametersSheet.parse();
     this.Sheets[PARAMETERS] = parametersSheetRows;
 
+    const longevitySheet = new LongevitySheet(this.longevitySheet);
+    const longevitySheetRows = longevitySheet.parse();
+    this.Sheets[LONGEVITY] = longevitySheetRows;
+
     this.deviceId = dateSheet.getSerialNumber();
-    
+
     this.row.push(...dataSheetRows);
-    this.row.push(...flexSheetRows);    
-    this.row.push(...porSheetRows);    
-    this.row.push(...parametersSheetRows);    
+    this.row.push(...flexSheetRows);
+    this.row.push(...porSheetRows);
+    this.row.push(...parametersSheetRows);
+    this.row.push(...longevitySheetRows);
   }
 
   Sheets: { [sheet: string]: models.WorksheetRow };
@@ -75,7 +83,7 @@ export class MedtronicData {
     const values = this.getRow().map(row => `${row.name}|${row.value}`);
     return checksum(values.join('-'));
   }
-  getDeviceId(): string {    
+  getDeviceId(): string {
     return this.deviceId;
   }
 }

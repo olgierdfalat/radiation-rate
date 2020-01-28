@@ -5,6 +5,7 @@ const stJudeRegExp = /\d+_?\d+?\.log/i;
 const biotronikRegExp = /BIO_.*\.xml/i;
 const biotronikStdRegExp = /BIOSTD.*\.xml/i;
 const biotronikIEEERegExp = /BIOIEEE.*\.xml/i;
+const medtronicRegExp = /\w+\d+S_\d+\.xls/i;
 
 const DeviceFileFilters: Record<string, FileFilterCallback> = {
   [constants.STJUDE]: function isStJudeLogFile(fileInfo: FileInfo): boolean {
@@ -18,6 +19,9 @@ const DeviceFileFilters: Record<string, FileFilterCallback> = {
   },
   [constants.Biotronik_IEEE]: function isBiotronikStdXmlFile(fileInfo: FileInfo): boolean {
     return biotronikIEEERegExp.test(fileInfo.fileName);
+  },
+  [constants.MEDTRONIC]: function isMedtronicXlsFile(fileInfo: FileInfo): boolean {
+    return medtronicRegExp.test(fileInfo.fileName);
   }
 };
 export default DeviceFileFilters;

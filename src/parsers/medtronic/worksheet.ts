@@ -2,7 +2,7 @@ import * as XLSX from 'xlsx';
 import * as models from './../../models';
 
 export class WorkSheet {
-  protected workSheet: XLSX.WorkSheet
+  protected workSheet: XLSX.WorkSheet;
   protected worksheetRows: any;
   protected row: models.WorksheetRow = [];
   constructor(workSheet: XLSX.WorkSheet) {
@@ -111,18 +111,39 @@ export class WorkSheet {
     let nextNotEmptyRowIndex = -1;
     const maxRowIndex = this.worksheetRows.length;
     let i = currentRowIndex;
-    while((i++) < maxRowIndex) {
+    while ((i++) < maxRowIndex) {
       const row = this.worksheetRows[i];
       const cells = row[columnIndex];
-      if(cells && cells.length > 0) {
+      if (cells && cells.length > 0) {
         const name = cells[columnIndex];
-        if(name) {
+        if (name) {
           nextNotEmptyRowIndex = i;
           break;
         }
       }
-    } 
-    
+    }
+
     return nextNotEmptyRowIndex;
+  }
+
+  fixEmptyName(nearestName: string, newName: string) {
+    const [rowIndex, columnIndex] = this.findCellIndex(nearestName);
+    if (rowIndex != -1 && columnIndex > 0) {
+      this.worksheetRows[rowIndex][columnIndex - 1] = newName; // new name to solve uniqueness issue
+    }
+  }
+
+  parse(): models.WorksheetRow {
+    for (let i = 0; i < this.worksheetRows.length; i++) {
+      const row = this.worksheetRows[i];
+      if (row && row.length > 0) {
+        const name = row[0];
+        const values = row.splice(1).map((value: any) => (value || '').trim());
+        if (name) {
+          this.row.push({name: name.trim(), type: 'string', value: values.join(', ')});
+        }
+      }
+    }
+    return this.row;
   }
 }

@@ -9,18 +9,18 @@ export class PORSheet extends WorkSheet {
 
   parse(): models.WorksheetRow {
     const porRows = Array<[string, string[]]>();
-    for(let i = 0; i < this.worksheetRows.length; i++) {
+    for (let i = 0; i < this.worksheetRows.length; i++) {
       const row = this.worksheetRows[i];
       const [name, value] = row;
-      if(name) {
+      if (name) {
         porRows.push([name, [value]]);
       }
       else {
         const prevRow = porRows[porRows.length - 1];
-        if(prevRow && value) {          
+        if (prevRow && value) {
           prevRow[1].push(value);
         }
-      }      
+      }
     }
     porRows.forEach(row => {
       const [name, values] = row;

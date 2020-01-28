@@ -44,6 +44,7 @@ npm start -- -x StJude
 npm start -- -x Biotronik
 npm start -- -x BiotronikStd
 npm start -- -x BiotronikIEEE
+npm start -- -x Medtronic
 ```
 
 Generate checksum report for specific device type
@@ -53,6 +54,7 @@ npm start -- -c StJude
 npm start -- -c Biotronik
 npm start -- -c BiotronikStd
 npm start -- -c BiotronikIEEE
+npm start -- -c Medtronic
 ```
 
 Generate list of included log files for specific device
@@ -62,6 +64,7 @@ npm start -- -i StJude
 npm start -- -i Biotronik
 npm start -- -i BiotronikStd
 npm start -- -i BiotronikIEEE
+npm start -- -i Medtronic
 ```
 
 Generate list of excluded log files for specific device
@@ -71,6 +74,7 @@ npm start -- -e StJude
 npm start -- -e Biotronik
 npm start -- -e BiotronikStd
 npm start -- -e BiotronikIEEE
+npm start -- -e Medtronic
 ```
 
 Generate list of wrong log files for specific device
@@ -80,4 +84,5 @@ npm start -- -w StJude
 npm start -- -w Biotronik
 npm start -- -w BiotronikStd
 npm start -- -w BiotronikIEEE
+npm start -- -w Medtronic
 ```
