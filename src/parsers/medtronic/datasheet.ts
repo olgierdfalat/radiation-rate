@@ -3,8 +3,10 @@ import * as models from './../../models';
 import { WorkSheet } from './worksheet';
 
 export class DataSheet extends WorkSheet {
-  constructor(workSheet: XLSX.WorkSheet) {
+  private fileName: string;
+  constructor(workSheet: XLSX.WorkSheet, fileName: string) {
     super(workSheet);
+    this.fileName = fileName;
   }
 
   parse(): models.WorksheetRow {
@@ -36,6 +38,7 @@ export class DataSheet extends WorkSheet {
   }
 
   private parseManualStuff() {
+    this.row.push({name: 'Source File', type: 'string', value: this.fileName});
     this.row.push(this.parseCell('ToolGenerator', 1, 'A'));
     this.row.push(this.parseCell('Version', 2, 'A'));
     this.row.push(this.parseCell('Note', 3, 'A'));

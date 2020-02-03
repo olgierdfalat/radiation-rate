@@ -6,6 +6,7 @@ import { FlexSheet } from './flexSheet';
 import { PORSheet } from './porSheet';
 import { ParametersSheet } from './parametersSheet';
 import { LongevitySheet } from './longevitySheet';
+import path from 'path';
 
 export const DATA = 'Data';
 export const FLEX = 'Flex';
@@ -22,9 +23,11 @@ export class MedtronicData {
   private parametersSheet: XLSX.WorkSheet;
   private longevitySheet: XLSX.WorkSheet;
   private deviceId: string;
+  private fileName: string;
 
-  constructor(content: XLSX.WorkBook) {
+  constructor(content: XLSX.WorkBook, filePath: string) {
     this.content = content;
+    this.fileName = path.basename(filePath);
     this.parseRow();
   }
   private parseRow() {
@@ -35,7 +38,7 @@ export class MedtronicData {
     this.parametersSheet = this.content.Sheets[PARAMETERS];
     this.longevitySheet = this.content.Sheets[LONGEVITY];
 
-    const dateSheet = new DataSheet(this.dataWorkSheet);
+    const dateSheet = new DataSheet(this.dataWorkSheet, this.fileName);
     const dataSheetRows = dateSheet.parse();
     this.Sheets[DATA] = dataSheetRows;
 

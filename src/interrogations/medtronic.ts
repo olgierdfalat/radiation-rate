@@ -8,6 +8,6 @@ export class Medtronic extends Interrogation {
   }
   async getData(): Promise<parsers.MedtronicData> {
     const content = await this.getContent();
-    return new parsers.MedtronicData(content);
+    return new parsers.MedtronicData(content, this.filePath);
   }
 }

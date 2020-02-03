@@ -3,6 +3,11 @@
 exports[`interrogation Medtronic class should get structured data row from file 1`] = `
 Array [
   Object {
+    "name": "Source File",
+    "type": "string",
+    "value": "PYZ626053S_17123650.xls",
+  },
+  Object {
     "name": "ToolGenerator",
     "type": "string",
     "value": "PDDTOOLS (C) 2007 Medtronic Inc.",
@@ -2107,6 +2112,11 @@ Array [
 
 exports[`interrogation Medtronic class should get structured data row from file 2`] = `
 Array [
+  Object {
+    "name": "Source File",
+    "type": "string",
+    "value": "PYZ626053S_17123650.xls",
+  },
   Object {
     "name": "ToolGenerator",
     "type": "string",
