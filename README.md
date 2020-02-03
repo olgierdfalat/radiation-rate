@@ -47,6 +47,17 @@ npm start -- -x BiotronikIEEE
 npm start -- -x Medtronic
 ```
 
+Copy unique source files for specific device type
+
+```
+npm start -- -u StJude
+npm start -- -u Biotronik
+npm start -- -u BiotronikStd
+npm start -- -u BiotronikIEEE
+npm start -- -u Medtronic
+```
+
+
 Generate checksum report for specific device type
 
 ```
