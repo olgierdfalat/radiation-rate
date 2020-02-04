@@ -21,12 +21,19 @@ export class FlexSheet extends WorkSheet {
         }
         else {
           const energyTableRowEndIndex = this.findNextNotEmptyRowIndex(i, 1);
-          const energyTable = [];
+          const energyTable: any[][] = [];
+
           for (let j = i; j < energyTableRowEndIndex; j++) {
-            const energyRow = this.worksheetRows[j];
-            energyTable.push(energyRow.slice(2));
+            const energyRow: [] = this.worksheetRows[j];
+
+            energyTable.push(energyRow.filter((row, index) => index > 1));
           }
-          this.row.push({name, type: 'array', value: energyTable.map(item => item.join(', ')).join('\n')});
+          energyTable.forEach((row, rowIndex) => {
+            row.forEach((value, columnIndex)  => {
+              const cellName = `Energy Table[${rowIndex + 1},${columnIndex + 1}]`;
+              this.row.push({name: cellName, type: 'string', value});
+            });
+          });
         }
       }
     }

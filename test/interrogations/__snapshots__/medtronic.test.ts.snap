@@ -718,14 +718,169 @@ Array [
     "value": "Enabled",
   },
   Object {
-    "name": "Energy Table",
-    "type": "array",
-    "value": "0.4  J, 0.6  J, 0.8  J, 1  J, 1.2  J, 1.4  J
-1.6  J, 1.8  J, 2  J, 3  J, 4  J, 5  J
-6  J, 7  J, 8  J, 9  J, 10  J, 11  J
-12  J, 13  J, 14  J, 15  J, 16  J, 18  J
-20  J, 22  J, 24  J, 25  J, 26  J, 28  J
-30  J, 32  J, 35  J",
+    "name": "Energy Table[1,1]",
+    "type": "string",
+    "value": "0.4  J",
+  },
+  Object {
+    "name": "Energy Table[1,2]",
+    "type": "string",
+    "value": "0.6  J",
+  },
+  Object {
+    "name": "Energy Table[1,3]",
+    "type": "string",
+    "value": "0.8  J",
+  },
+  Object {
+    "name": "Energy Table[1,4]",
+    "type": "string",
+    "value": "1  J",
+  },
+  Object {
+    "name": "Energy Table[1,5]",
+    "type": "string",
+    "value": "1.2  J",
+  },
+  Object {
+    "name": "Energy Table[1,6]",
+    "type": "string",
+    "value": "1.4  J",
+  },
+  Object {
+    "name": "Energy Table[2,1]",
+    "type": "string",
+    "value": "1.6  J",
+  },
+  Object {
+    "name": "Energy Table[2,2]",
+    "type": "string",
+    "value": "1.8  J",
+  },
+  Object {
+    "name": "Energy Table[2,3]",
+    "type": "string",
+    "value": "2  J",
+  },
+  Object {
+    "name": "Energy Table[2,4]",
+    "type": "string",
+    "value": "3  J",
+  },
+  Object {
+    "name": "Energy Table[2,5]",
+    "type": "string",
+    "value": "4  J",
+  },
+  Object {
+    "name": "Energy Table[2,6]",
+    "type": "string",
+    "value": "5  J",
+  },
+  Object {
+    "name": "Energy Table[3,1]",
+    "type": "string",
+    "value": "6  J",
+  },
+  Object {
+    "name": "Energy Table[3,2]",
+    "type": "string",
+    "value": "7  J",
+  },
+  Object {
+    "name": "Energy Table[3,3]",
+    "type": "string",
+    "value": "8  J",
+  },
+  Object {
+    "name": "Energy Table[3,4]",
+    "type": "string",
+    "value": "9  J",
+  },
+  Object {
+    "name": "Energy Table[3,5]",
+    "type": "string",
+    "value": "10  J",
+  },
+  Object {
+    "name": "Energy Table[3,6]",
+    "type": "string",
+    "value": "11  J",
+  },
+  Object {
+    "name": "Energy Table[4,1]",
+    "type": "string",
+    "value": "12  J",
+  },
+  Object {
+    "name": "Energy Table[4,2]",
+    "type": "string",
+    "value": "13  J",
+  },
+  Object {
+    "name": "Energy Table[4,3]",
+    "type": "string",
+    "value": "14  J",
+  },
+  Object {
+    "name": "Energy Table[4,4]",
+    "type": "string",
+    "value": "15  J",
+  },
+  Object {
+    "name": "Energy Table[4,5]",
+    "type": "string",
+    "value": "16  J",
+  },
+  Object {
+    "name": "Energy Table[4,6]",
+    "type": "string",
+    "value": "18  J",
+  },
+  Object {
+    "name": "Energy Table[5,1]",
+    "type": "string",
+    "value": "20  J",
+  },
+  Object {
+    "name": "Energy Table[5,2]",
+    "type": "string",
+    "value": "22  J",
+  },
+  Object {
+    "name": "Energy Table[5,3]",
+    "type": "string",
+    "value": "24  J",
+  },
+  Object {
+    "name": "Energy Table[5,4]",
+    "type": "string",
+    "value": "25  J",
+  },
+  Object {
+    "name": "Energy Table[5,5]",
+    "type": "string",
+    "value": "26  J",
+  },
+  Object {
+    "name": "Energy Table[5,6]",
+    "type": "string",
+    "value": "28  J",
+  },
+  Object {
+    "name": "Energy Table[6,1]",
+    "type": "string",
+    "value": "30  J",
+  },
+  Object {
+    "name": "Energy Table[6,2]",
+    "type": "string",
+    "value": "32  J",
+  },
+  Object {
+    "name": "Energy Table[6,3]",
+    "type": "string",
+    "value": "35  J",
   },
   Object {
     "name": "Field Update Flex",
@@ -1948,29 +2103,79 @@ Array [
     "value": "Off",
   },
   Object {
-    "name": "Pacing Mode, Lower Rate",
+    "name": "Pacing Mode, Lower Rate[col. 1]",
     "type": "string",
-    "value": "DOO, 85, LVToRV",
+    "value": "DOO",
   },
   Object {
-    "name": "-->",
+    "name": "Pacing Mode, Lower Rate[col. 2]",
     "type": "string",
-    "value": "Pulse Width [ms], Amplitude [V], Impedance [Ohm], Percentage Pacing [%]",
+    "value": "85",
   },
   Object {
-    "name": "Atrial",
+    "name": "Pacing Mode, Lower Rate[col. 3]",
     "type": "string",
-    "value": "0.4, 3.5, 585, 89",
+    "value": "LVToRV",
   },
   Object {
-    "name": "Right Ventricular",
+    "name": "Atrial Pulse Width [ms]",
     "type": "string",
-    "value": "0.4, 5, 497, 100",
+    "value": "0.4",
   },
   Object {
-    "name": "Left Ventricular",
+    "name": "Atrial Amplitude [V]",
     "type": "string",
-    "value": "0.4, 5, 414, 100",
+    "value": "3.5",
+  },
+  Object {
+    "name": "Atrial Impedance [Ohm]",
+    "type": "string",
+    "value": "585",
+  },
+  Object {
+    "name": "Atrial Percentage Pacing [%]",
+    "type": "string",
+    "value": "89",
+  },
+  Object {
+    "name": "Right Ventricular Pulse Width [ms]",
+    "type": "string",
+    "value": "0.4",
+  },
+  Object {
+    "name": "Right Ventricular Amplitude [V]",
+    "type": "string",
+    "value": "5",
+  },
+  Object {
+    "name": "Right Ventricular Impedance [Ohm]",
+    "type": "string",
+    "value": "497",
+  },
+  Object {
+    "name": "Right Ventricular Percentage Pacing [%]",
+    "type": "string",
+    "value": "100",
+  },
+  Object {
+    "name": "Left Ventricular Pulse Width [ms]",
+    "type": "string",
+    "value": "0.4",
+  },
+  Object {
+    "name": "Left Ventricular Amplitude [V]",
+    "type": "string",
+    "value": "5",
+  },
+  Object {
+    "name": "Left Ventricular Impedance [Ohm]",
+    "type": "string",
+    "value": "414",
+  },
+  Object {
+    "name": "Left Ventricular Percentage Pacing [%]",
+    "type": "string",
+    "value": "100",
   },
   Object {
     "name": "Average Daily Rate",
@@ -1988,9 +2193,19 @@ Array [
     "value": "85.07",
   },
   Object {
-    "name": "Percentage in AT/AF",
+    "name": "Percentage in AT/AF[col. 1]",
     "type": "string",
-    "value": "1, Extra current [µA], 0.02",
+    "value": "1",
+  },
+  Object {
+    "name": "Percentage in AT/AF[col. 2]",
+    "type": "string",
+    "value": "Extra current [µA]",
+  },
+  Object {
+    "name": "Percentage in AT/AF[col. 3]",
+    "type": "string",
+    "value": "0.02",
   },
   Object {
     "name": "Implant Date",
@@ -2008,9 +2223,19 @@ Array [
     "value": "9.79",
   },
   Object {
-    "name": "Cumulative Charge Time",
+    "name": "Cumulative Charge Time[col. 1]",
     "type": "string",
-    "value": "127.67, Max Charge Time, 7.40",
+    "value": "127.67",
+  },
+  Object {
+    "name": "Cumulative Charge Time[col. 2]",
+    "type": "string",
+    "value": "Max Charge Time",
+  },
+  Object {
+    "name": "Cumulative Charge Time[col. 3]",
+    "type": "string",
+    "value": "7.40",
   },
   Object {
     "name": "BOL Full Charge Time",
@@ -2038,29 +2263,44 @@ Array [
     "value": "19.56",
   },
   Object {
-    "name": "--->",
+    "name": "Estimated expected mean full service lifetime longevity Mean [months]",
     "type": "string",
-    "value": "Mean [months], Min [months]",
+    "value": "19.7",
   },
   Object {
-    "name": "Estimated expected mean full service lifetime longevity",
+    "name": "Estimated expected mean full service lifetime longevity Min [months]",
     "type": "string",
-    "value": "19.7, 18.7",
+    "value": "18.7",
   },
   Object {
-    "name": "Estimated remaining mean longevity",
+    "name": "Estimated remaining mean longevity Mean [months]",
     "type": "string",
-    "value": "9.9, 8.9",
+    "value": "9.9",
   },
   Object {
-    "name": "Estimated remaining mean when continued with 4 full charges a year",
+    "name": "Estimated remaining mean longevity Min [months]",
     "type": "string",
-    "value": "13.3, 11.9",
+    "value": "8.9",
   },
   Object {
-    "name": "Estimated expected capacity used [%]",
+    "name": "Estimated remaining mean when continued with 4 full charges a year Mean [months]",
     "type": "string",
-    "value": "50, 52",
+    "value": "13.3",
+  },
+  Object {
+    "name": "Estimated remaining mean when continued with 4 full charges a year Min [months]",
+    "type": "string",
+    "value": "11.9",
+  },
+  Object {
+    "name": "Estimated expected capacity used [%] Mean [months]",
+    "type": "string",
+    "value": "50",
+  },
+  Object {
+    "name": "Estimated expected capacity used [%] Min [months]",
+    "type": "string",
+    "value": "52",
   },
   Object {
     "name": "Estimated average mean current drain [µA]",
@@ -2080,7 +2320,7 @@ Array [
   Object {
     "name": "Longevity estimation based on battery curve fit analysis:",
     "type": "string",
-    "value": "",
+    "value": undefined,
   },
   Object {
     "name": "Last measured battery voltage [V]",
@@ -2105,7 +2345,7 @@ Array [
   Object {
     "name": "Note: Less accurate for battery voltages greater than 2.90V",
     "type": "string",
-    "value": "",
+    "value": undefined,
   },
 ]
 `;
@@ -2833,14 +3073,169 @@ Array [
     "value": "Enabled",
   },
   Object {
-    "name": "Energy Table",
-    "type": "array",
-    "value": "0.4  J, 0.6  J, 0.8  J, 1  J, 1.2  J, 1.4  J
-1.6  J, 1.8  J, 2  J, 3  J, 4  J, 5  J
-6  J, 7  J, 8  J, 9  J, 10  J, 11  J
-12  J, 13  J, 14  J, 15  J, 16  J, 18  J
-20  J, 22  J, 24  J, 25  J, 26  J, 28  J
-30  J, 32  J, 35  J",
+    "name": "Energy Table[1,1]",
+    "type": "string",
+    "value": "0.4  J",
+  },
+  Object {
+    "name": "Energy Table[1,2]",
+    "type": "string",
+    "value": "0.6  J",
+  },
+  Object {
+    "name": "Energy Table[1,3]",
+    "type": "string",
+    "value": "0.8  J",
+  },
+  Object {
+    "name": "Energy Table[1,4]",
+    "type": "string",
+    "value": "1  J",
+  },
+  Object {
+    "name": "Energy Table[1,5]",
+    "type": "string",
+    "value": "1.2  J",
+  },
+  Object {
+    "name": "Energy Table[1,6]",
+    "type": "string",
+    "value": "1.4  J",
+  },
+  Object {
+    "name": "Energy Table[2,1]",
+    "type": "string",
+    "value": "1.6  J",
+  },
+  Object {
+    "name": "Energy Table[2,2]",
+    "type": "string",
+    "value": "1.8  J",
+  },
+  Object {
+    "name": "Energy Table[2,3]",
+    "type": "string",
+    "value": "2  J",
+  },
+  Object {
+    "name": "Energy Table[2,4]",
+    "type": "string",
+    "value": "3  J",
+  },
+  Object {
+    "name": "Energy Table[2,5]",
+    "type": "string",
+    "value": "4  J",
+  },
+  Object {
+    "name": "Energy Table[2,6]",
+    "type": "string",
+    "value": "5  J",
+  },
+  Object {
+    "name": "Energy Table[3,1]",
+    "type": "string",
+    "value": "6  J",
+  },
+  Object {
+    "name": "Energy Table[3,2]",
+    "type": "string",
+    "value": "7  J",
+  },
+  Object {
+    "name": "Energy Table[3,3]",
+    "type": "string",
+    "value": "8  J",
+  },
+  Object {
+    "name": "Energy Table[3,4]",
+    "type": "string",
+    "value": "9  J",
+  },
+  Object {
+    "name": "Energy Table[3,5]",
+    "type": "string",
+    "value": "10  J",
+  },
+  Object {
+    "name": "Energy Table[3,6]",
+    "type": "string",
+    "value": "11  J",
+  },
+  Object {
+    "name": "Energy Table[4,1]",
+    "type": "string",
+    "value": "12  J",
+  },
+  Object {
+    "name": "Energy Table[4,2]",
+    "type": "string",
+    "value": "13  J",
+  },
+  Object {
+    "name": "Energy Table[4,3]",
+    "type": "string",
+    "value": "14  J",
+  },
+  Object {
+    "name": "Energy Table[4,4]",
+    "type": "string",
+    "value": "15  J",
+  },
+  Object {
+    "name": "Energy Table[4,5]",
+    "type": "string",
+    "value": "16  J",
+  },
+  Object {
+    "name": "Energy Table[4,6]",
+    "type": "string",
+    "value": "18  J",
+  },
+  Object {
+    "name": "Energy Table[5,1]",
+    "type": "string",
+    "value": "20  J",
+  },
+  Object {
+    "name": "Energy Table[5,2]",
+    "type": "string",
+    "value": "22  J",
+  },
+  Object {
+    "name": "Energy Table[5,3]",
+    "type": "string",
+    "value": "24  J",
+  },
+  Object {
+    "name": "Energy Table[5,4]",
+    "type": "string",
+    "value": "25  J",
+  },
+  Object {
+    "name": "Energy Table[5,5]",
+    "type": "string",
+    "value": "26  J",
+  },
+  Object {
+    "name": "Energy Table[5,6]",
+    "type": "string",
+    "value": "28  J",
+  },
+  Object {
+    "name": "Energy Table[6,1]",
+    "type": "string",
+    "value": "30  J",
+  },
+  Object {
+    "name": "Energy Table[6,2]",
+    "type": "string",
+    "value": "32  J",
+  },
+  Object {
+    "name": "Energy Table[6,3]",
+    "type": "string",
+    "value": "35  J",
   },
   Object {
     "name": "Field Update Flex",
@@ -4078,29 +4473,79 @@ Array [
     "value": "Off",
   },
   Object {
-    "name": "Pacing Mode, Lower Rate",
+    "name": "Pacing Mode, Lower Rate[col. 1]",
     "type": "string",
-    "value": "DOO, 85, LVToRV",
+    "value": "DOO",
   },
   Object {
-    "name": "-->",
+    "name": "Pacing Mode, Lower Rate[col. 2]",
     "type": "string",
-    "value": "Pulse Width [ms], Amplitude [V], Impedance [Ohm], Percentage Pacing [%]",
+    "value": "85",
   },
   Object {
-    "name": "Atrial",
+    "name": "Pacing Mode, Lower Rate[col. 3]",
     "type": "string",
-    "value": "0.4, 3.5, 585, 89",
+    "value": "LVToRV",
   },
   Object {
-    "name": "Right Ventricular",
+    "name": "Atrial Pulse Width [ms]",
     "type": "string",
-    "value": "0.4, 5, 497, 100",
+    "value": "0.4",
   },
   Object {
-    "name": "Left Ventricular",
+    "name": "Atrial Amplitude [V]",
     "type": "string",
-    "value": "0.4, 5, 414, 100",
+    "value": "3.5",
+  },
+  Object {
+    "name": "Atrial Impedance [Ohm]",
+    "type": "string",
+    "value": "585",
+  },
+  Object {
+    "name": "Atrial Percentage Pacing [%]",
+    "type": "string",
+    "value": "89",
+  },
+  Object {
+    "name": "Right Ventricular Pulse Width [ms]",
+    "type": "string",
+    "value": "0.4",
+  },
+  Object {
+    "name": "Right Ventricular Amplitude [V]",
+    "type": "string",
+    "value": "5",
+  },
+  Object {
+    "name": "Right Ventricular Impedance [Ohm]",
+    "type": "string",
+    "value": "497",
+  },
+  Object {
+    "name": "Right Ventricular Percentage Pacing [%]",
+    "type": "string",
+    "value": "100",
+  },
+  Object {
+    "name": "Left Ventricular Pulse Width [ms]",
+    "type": "string",
+    "value": "0.4",
+  },
+  Object {
+    "name": "Left Ventricular Amplitude [V]",
+    "type": "string",
+    "value": "5",
+  },
+  Object {
+    "name": "Left Ventricular Impedance [Ohm]",
+    "type": "string",
+    "value": "414",
+  },
+  Object {
+    "name": "Left Ventricular Percentage Pacing [%]",
+    "type": "string",
+    "value": "100",
   },
   Object {
     "name": "Average Daily Rate",
@@ -4118,9 +4563,19 @@ Array [
     "value": "85.07",
   },
   Object {
-    "name": "Percentage in AT/AF",
+    "name": "Percentage in AT/AF[col. 1]",
     "type": "string",
-    "value": "1, Extra current [µA], 0.02",
+    "value": "1",
+  },
+  Object {
+    "name": "Percentage in AT/AF[col. 2]",
+    "type": "string",
+    "value": "Extra current [µA]",
+  },
+  Object {
+    "name": "Percentage in AT/AF[col. 3]",
+    "type": "string",
+    "value": "0.02",
   },
   Object {
     "name": "Implant Date",
@@ -4138,9 +4593,19 @@ Array [
     "value": "9.79",
   },
   Object {
-    "name": "Cumulative Charge Time",
+    "name": "Cumulative Charge Time[col. 1]",
     "type": "string",
-    "value": "127.67, Max Charge Time, 7.40",
+    "value": "127.67",
+  },
+  Object {
+    "name": "Cumulative Charge Time[col. 2]",
+    "type": "string",
+    "value": "Max Charge Time",
+  },
+  Object {
+    "name": "Cumulative Charge Time[col. 3]",
+    "type": "string",
+    "value": "7.40",
   },
   Object {
     "name": "BOL Full Charge Time",
@@ -4168,29 +4633,44 @@ Array [
     "value": "19.56",
   },
   Object {
-    "name": "--->",
+    "name": "Estimated expected mean full service lifetime longevity Mean [months]",
     "type": "string",
-    "value": "Mean [months], Min [months]",
+    "value": "19.7",
   },
   Object {
-    "name": "Estimated expected mean full service lifetime longevity",
+    "name": "Estimated expected mean full service lifetime longevity Min [months]",
     "type": "string",
-    "value": "19.7, 18.7",
+    "value": "18.7",
   },
   Object {
-    "name": "Estimated remaining mean longevity",
+    "name": "Estimated remaining mean longevity Mean [months]",
     "type": "string",
-    "value": "9.9, 8.9",
+    "value": "9.9",
   },
   Object {
-    "name": "Estimated remaining mean when continued with 4 full charges a year",
+    "name": "Estimated remaining mean longevity Min [months]",
     "type": "string",
-    "value": "13.3, 11.9",
+    "value": "8.9",
   },
   Object {
-    "name": "Estimated expected capacity used [%]",
+    "name": "Estimated remaining mean when continued with 4 full charges a year Mean [months]",
     "type": "string",
-    "value": "50, 52",
+    "value": "13.3",
+  },
+  Object {
+    "name": "Estimated remaining mean when continued with 4 full charges a year Min [months]",
+    "type": "string",
+    "value": "11.9",
+  },
+  Object {
+    "name": "Estimated expected capacity used [%] Mean [months]",
+    "type": "string",
+    "value": "50",
+  },
+  Object {
+    "name": "Estimated expected capacity used [%] Min [months]",
+    "type": "string",
+    "value": "52",
   },
   Object {
     "name": "Estimated average mean current drain [µA]",
@@ -4210,7 +4690,7 @@ Array [
   Object {
     "name": "Longevity estimation based on battery curve fit analysis:",
     "type": "string",
-    "value": "",
+    "value": undefined,
   },
   Object {
     "name": "Last measured battery voltage [V]",
@@ -4235,7 +4715,7 @@ Array [
   Object {
     "name": "Note: Less accurate for battery voltages greater than 2.90V",
     "type": "string",
-    "value": "",
+    "value": undefined,
   },
 ]
 `;
